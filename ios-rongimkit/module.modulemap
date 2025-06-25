@@ -1,0 +1,6 @@
+framework module RongIMKit [system] {
+  umbrella header "RongIMKit.h"
+
+  export *
+  module * { export * }
+}
