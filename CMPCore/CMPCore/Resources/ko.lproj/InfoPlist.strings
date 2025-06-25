@@ -1,0 +1,18 @@
+/*
+ InfoPlist.strings
+ CMPCore
+ 
+ Created by youlin on 2017/3/11.
+ 
+ */
+CFBundleName="그룹웨어";
+CFBundleDisplayName="그룹웨어";
+NSLocationWhenInUseUsageDescription = "“그룹웨어”가 귀하의 위치에 접근 허용하십시오, 허용되지 않는 경우 위치 정보 전달, 체크인 및 기타 기능을 사용할 수 없습니다.";
+NSLocationAlwaysAndWhenInUseUsageDescription = "“그룹웨어”에서 내 위치에 접근 허용하십시오. 허용되지 않으면 위치 정보 전송, 체크인 및 기타 기능을 사용할 수 없습니다.";
+NSCalendarsUsageDescription = "“그룹웨어”가 귀하의 캘린더에 접근 허용하십시오. 허용되지 않으면 캘린더 동기화와 같은 기능을 사용할 수 없습니다.";
+NSContactsUsageDescription = "“그룹웨어”가 귀하의 연락처에 접근 허용하십시오, 허용되지 않으면 귀하는 연락처를 사용하거나, 지역 연락처 등을 추가할 수 없습니다";
+NSPhotoLibraryUsageDescription = "“그룹웨어”가 귀하의 사진 앨범에 접근 허용하십시오. 허용되지 않으면 동료에게 사진을 보내거나 첨부 파일에 로컬 앨범 이미지를 업로드할 수 없습니다.";
+NSCameraUsageDescription = "“그룹웨어”에서 카메라에 접근 허용하십시오. 허용되지 않으면 스윕을 사용하거나 사진 및 기타 기능을 사용할 수 없습니다.";
+NSPhotoLibraryAddUsageDescription = "“그룹웨어”가 귀하의 사진 앨범에 접근 허용하십시오. 허용되지 않으면 동료에게 사진을 보내거나 첨부 파일에 로컬 앨범 이미지를 업로드할 수 없습니다.";
+NSMicrophoneUsageDescription = "“그룹웨어”가 마이크에 접근 허용하고 그렇지 않은 경우 음성 메시징, 화상 회의 및 기타 기능을 사용할 수 없습니다.";
+NSFaceIDUsageDescription = "“그룹웨어”가 귀하의 얼굴 ID에 접근 허용하십시오. 허용되지 않으면 얼굴 잠금 해제와 같은 기능을 사용할 수 없습니다。";

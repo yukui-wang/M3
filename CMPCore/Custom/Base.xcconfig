@@ -1,0 +1,12 @@
+//
+//  Base.xcconfig
+//  M3
+//
+//  Created by SeeyonMobileM3MacMini2 on 2022/12/12.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+MOBAppKey = "17fe9d51b75b0"
+MOBAppSecret = "ac1c911624af870e74ea574ae095540b"

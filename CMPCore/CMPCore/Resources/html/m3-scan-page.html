@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="Cache-Control" content="max-age">
+        <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+        <meta content="yes" name="apple-mobile-web-app-capable">
+        <meta content="yes" name="apple-touch-fullscreen">
+        <meta content="telephone=no,email=no" name="format-detection">
+        <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    </head>
+    <body>
+<!--        <input type="file" style="margin-top: 100px;"/>html input调用系统附件-->
+        <script src="http://todo.m3.cmp/v1.0.0/i18n/todo_zh_CN.js"></script>
+        <script src="http://cmp/v1.0.0/js/cmp-i18n.js"></script>
+        <script>
+            cmp.i18n.init("http://todo.m3.cmp/v1.0.0/i18n/", "todo");
+        </script>
+        <script src="http://cmp/v1.0.0/js/cordova/__CMPSHELL_PLATFORM__/cordova.js"></script>
+        <script src="http://cmp/v1.0.0/js/cordova/cordova-plugins.js"></script>
+        <script src="http://cmp/v1.0.0/js/cmp.js"></script>
+        <script src="http://cmp/v1.0.0/js/cmp-app.js"></script>
+        <script src="http://cmp/v1.0.0/js/cmp-telmail.js"></script>
+        <script src="http://cmp/v1.0.0/js/cmp-barcode.js"></script>
+        <script src="http://commons.m3.cmp/v1.0.0/js/m3.js"></script>
+        <script src="http://commons.m3.cmp/v1.0.0/js/m3Route.s3js"></script>
+        <script src="http://commons.m3.cmp/v1.0.0/js/m3i18n.js"></script>
+        <script src="http://commons.m3.cmp/v1.0.0/js/m3DB.js"></script>
+        <script src="http://commons.m3.cmp/v1.0.0/js/zepto-1.2.0.js"></script>
+        <script src="http://commons.m3.cmp/v1.0.0/js/m3Ajax.js"></script>
+        <script>
+            cmp.ready(function() {
+                m3.holdScan();
+                document.addEventListener("closeHoldScan",function(){
+                    setTimeout(function(){
+                        cmp.href.back();//延时关闭，避免数据还没有存入localStorage，就关闭webview
+                    },1000);
+
+                });
+            });
+        </script>
+    </body>
+</html>

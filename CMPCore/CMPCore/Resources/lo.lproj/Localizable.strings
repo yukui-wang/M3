@@ -1,0 +1,851 @@
+/*
+ Localizable.strings
+ M1IPhone
+ 
+ Created by admin on 12-10-29.
+ Copyright (c) 2012年 北京致远协创软件有限公司. All rights reserved.
+ */
+
+
+/**************************************登陆与菜单   start********************************************/
+"GestureLogin_Skip_Confirm" = "ກະ​ໂດດ​ຂ້າມ";
+"GestureLogin_Titile_Set" = "ຕັ້ງລະຫັດຜ່ານທີ່ໃຊ້ທ່າທາງ";
+"GestureLogin_DrawUnlock" = "ແຕ້ມຮູບແບບປົດລັອກ";
+"GestureLogin_ResetGesture" = "ຕັ້ງຄືນທ່າທາງ";
+"GestureLogin_ForgetGesture" = "ລືມລະຫັດຜ່ານທີ່ໃຊ້ທ່າທາງ";
+"GestureLogin_OtherWayLogin" = "ເຂົ້າສູ່ລະບົບບັນຊີອື່ນ";
+"GestureLogin_Inputpassword" = "ໃສ່ລະຫັດຜ່ານ";
+"GestureLogin_Input_MoreThan4" = "ກະລຸນາແຕ້ມຢ່າງ ໜ້ອຍ 4 ຈຸດຕິດຕໍ່ກັນ";
+"GestureLogin_Input_Again" = "ກະລຸນາໃສ່ລະຫັດຜ່ານຂອງການສະແດງອີກເທື່ອ ໜຶ່ງ";
+"GestureLogin_Set_Success" = "ຕັ້ງລະຫັດຜ່ານ ສຳ ເລັດແລ້ວ";
+"GestureLogin_Input_SameToPre" = "ບໍ່ສອດຄ່ອງກັບຮູບແຕ້ມ ທຳ ອິດ, ກະລຸນາແຕ້ມອີກຄັ້ງ";
+"GestureLogin_Input_Right" = "ໄດ້ຢັ້ງຢືນຢ່າງ ສຳ ເລັດຜົນ";
+"GestureLogin_Input_WrongCountTip" = "ລະຫັດຜ່ານຖືກໃສ່ບໍ່ຖືກຕ້ອງ, ທ່ານຍັງສາມາດໃສ່% ld ເທື່ອ";
+
+"coll_nosignature" = "ບໍ່ມີລາຍເຊັນ.";
+"coll_all_clean" = "ລ້າງທຸກຢ່າງ";
+"Setting_Clean_Finished" = "ຫຼັງຈາກ ທຳ ຄວາມສະອາດ, ປ່ອຍພື້ນທີ່ຈັດເກັບຂໍ້ມູນ:";
+"Setting_Cleaning..." = "ກຳ ລັງລຶບລ້າງຖານຄວາມ ຈຳ, ກະລຸນາລໍຖ້າ ...";
+
+"Email_Send_Cancel" = "ສົ່ງຈົດ ໝາຍ";
+"Email_Save_Success" = "ອີເມວປະສົບຜົນ ສຳ ເລັດແລ້ວ";
+"Email_Send_Success" = "ສົ່ງອີເມວ ສຳ ເລັດແລ້ວ";
+"Email_Send_Fail" = "ການສົ່ງຈົດ ໝາຍ ລົ້ມເຫລວ";
+"Email_NO_Config_Mailbox" = "ກະລຸນາກົງກັບອີເມວໂທລະສັບຂອງທ່ານ";
+"QRCode_Scan" = "ສະແກນມັນ";
+"QRCode_Album" = "ອັນລະບັ້ມຮູບພາບ";
+"QRCode_AutoScan" = "ໃສ່ລະຫັດ QR ໃສ່ໃນປ່ອງແລະມັນຈະສະແກນໂດຍອັດຕະໂນມັດ";
+"QRCode_Message" = "ສະແກນ ຄຳ ແນະ ນຳ:";
+"QRCode_NotAddressCode" = "ລະຫັດ QR ນີ້ບໍ່ສາມາດຖືກຮັບຮູ້ວ່າເປັນບັດທຸລະກິດ";
+
+"Sign_markInMap" = "ໝາຍ ເຫດແຜນທີ່";
+"Sign_location_servicesSet_m3" = "ບໍລິການສະຖານທີ່ຖືກປິດແລ້ວ. ກະລຸນາເຂົ້າເບິ່ງລະບົບ \"ການຕັ້ງຄ່າ\" - \"ຄວາມເປັນສ່ວນຕົວ\" - \"ບໍລິການສະຖານທີ່\" - \"%@\" ແລະເປີດໃຊ້ບໍລິການສະຖານທີ່";
+"Sign_location_servicesSet" = "ບໍລິການສະຖານທີ່ຖືກປິດແລ້ວ. ກະລຸນາເຂົ້າເບິ່ງລະບົບ \"ການຕັ້ງຄ່າ\" - \"ຄວາມເປັນສ່ວນຕົວ\" - \"ບໍລິການສະຖານທີ່\" ແລະເປີດໃຊ້ບໍລິການສະຖານທີ່";
+"Sign_Local_locat_data_unavailable" = "ຂໍ້ມູນການຈັດຕໍາ ແໜ່ງ ໃນທ້ອງຖິ່ນບໍ່ສາມາດໃຊ້ໄດ້!";
+"Sign_Local_locat_data_waiting" = "ໄດ້ຮັບຂໍ້ມູນສະຖານທີ່";
+"common_save" = "ປະຢັດ";
+
+"touchid_unavailable" = "Touch ID ບໍ່ໄດ້ຖືກ ກຳ ນົດ, ກະລຸນາເພີ່ມລາຍນິ້ວມືໃນ \"ລະບົບຕັ້ງຄ່າ - ລະຫັດ ສຳ ຜັດແລະລະຫັດຜ່ານ\"";
+"faceid_unavailable" = "ລະຫັດໃບ ໜ້າ ບໍ່ໄດ້ຖືກ ກຳ ນົດ, ກະລຸນາເພີ່ມໃບ ໜ້າ ໃນ \"ລະບົບຕັ້ງຄ່າ - ລະຫັດໃບ ໜ້າ ແລະລະຫັດຜ່ານ\"";
+"touchid_verify_reason" = "ກວດສອບການປົດລັອກ Touch ID";
+"faceid_verify_reason" = "ຢືນຢັນການປົດລັອກລະຫັດ Face Face";
+"common_goto_setting" = "ໄປຕັ້ງ";
+"touchid_lock" = "ເກີນຄວາມ ຈຳ ເປັນຂອງ Touch ID";
+"faceid_lock" = "ເກີນຄວາມພະຍາຍາມຂອງໃບ ໜ້າ";
+"localauth_touchID_button" = "ກົດເພື່ອປົດລັອກດ້ວຍ Touch ID";
+"localauth_faceID_button" = "ກົດເພື່ອປົດລັອກ Face ID";
+"localauth_gesture" = "ການປົດລັອກແບບ Gesture";
+"localauth_openFaceToUnlock_button" = "ເປີດໃຊ້ປົດລັອກໃບ ໜ້າ";
+"localauth_openFingerprintToUnlock_button" = "ເປີດລະຫັດປົດລັອກນິ້ວມື";
+
+"WiFiClockIn_clockInTime" = "ຊົ່ວ​ໂມງ​ເຮັດ​ວຽກ";
+"WiFiClockIn_clockOffTime" = "ຊົ່ວໂມງພັກ";
+"WiFiClockIn_illegal" = "ປະຈຸບັນບໍ່ໄດ້ເຊື່ອມຕໍ່ກັບ WiFi ທີ່ລະບຸ";
+"WiFiClockIn_button" = "punch ບັດ";
+
+/**************************************common   start********************************************/
+"Common_Yesterday" = "ມື້ວານນີ້";
+"Common_Tomorrow" = "ມື້ອື່ນ";
+"Common_MustUpdateVersion" = "ການກວດສອບຊອບແວໄດ້ຖືກກວດພົບ. ສຳ ລັບການ ນຳ ໃຊ້ປົກກະຕິ, ກະລຸນາອັບເດດໃຫ້% @.";
+"Common_LatestVersion" = "ສະບັບລ້າສຸດ";
+"Common_UpdateNow" = "ດາວ​ໂຫຼດ​ດຽວ​ນີ້";
+"Common_Alert" = "ເຕືອນ";
+"Common_Update_Download" = "ມີການກວດພົບໂປແກຼມອັບເດດ, ດາວໂຫລດແລະປະສົບກັບລຸ້ນ ໃໝ່.";
+"Common_DownloadNow" = "ດາວ​ໂຫຼດ​ດຽວ​ນີ້";
+"Common_DownloadLater" = "ບໍ່ສົນໃຈສະບັບນີ້";
+"Common_Already_the_recently_Version" = "ແມ່ນລຸ້ນລ້າສຸດ";
+"Common_To" = "ເຖິງ";
+
+"Common_Pic1" = "ຮູບພາບ%@.";
+"Common_Voc1" = "ສຽງ%@. ຄາເຟ";
+"Common_Mov1" = "ວິດີໂອ%@. mov";
+
+"common_delete" = "ລົບ";
+"common_prompt" = "ວ່ອງໄວ";
+"common_cancel" = "ຍົກເລີກ";
+"common_ok" = "ກຳ ນົດ";
+"common_confirm" = "ຢືນຢັນ";
+"common_rename" = "ປ່ຽນຊື່";
+"common_rename_placeholder" = "ກະລຸນາໃສ່ຊື່ແຟ້ມ ໃໝ່";
+
+"common_close" = "ປິດ​ເຄື່ອງ";
+"common_return" = "ກັບຄືນ";
+"common_back" = "ກັບຄືນ";
+"common_search" = "ຄົ້ນຫາ";
+"common_table_loading" = "ການໂຫຼດ";
+"common_no_record" = "ບໍ່ໄດ້ບັນທຶກ";
+"common_no_paly" = "ບໍ່ໄດ້ຫຼີ້ນ";
+"common_inputName_canNotEmpty_againInput" = "ຊື່ບໍ່ສາມາດຫວ່າງໄດ້, ກະລຸນາປ້ອນອີກຄັ້ງ";
+"common_not_record" = "ບໍ່ມີການບັນທຶກສຽງ";
+"common_nameExist_againInput" = "ຊື່ດັ່ງກ່າວມີຢູ່ແລ້ວ, ກະລຸນາປ້ອນອີກຄັ້ງ";
+"common_stop_paly" = "ການຢຸດການຫຼີ້ນຄືນ";
+"common_paly_stop" = "ຫຼີ້ນ / ພັກໄວ້";
+"common_thisDoc_isNotExist" = "ບໍ່ມີເອກະສານ!";
+"common_record_paly" = "ການບັນທຶກຢຸດ";
+"common_playing" = "ດຽວນີ້ ກຳ ລັງຫຼີ້ນ";
+
+"common_attName_theMostInput_40Words" = "ຊື່ແນບສາມາດມີໄດ້ເຖິງ 40 ຕົວອັກສອນ.";
+"common_inputCharacter_notInclude_XX" = "ຕົວອັກສອນທີ່ປ້ອນເຂົ້າບໍ່ສາມາດມີຕົວອັກສອນ * / <>? :: ｜|";
+"common_save_success" = "ບັນທຶກໄດ້ ສຳ ເລັດແລ້ວ";
+"common_save_fail" = "ບັນທຶກລົ້ມເຫລວ";
+"common_norecord" = "ບໍ່ສາມາດບັນທຶກໄດ້";
+"common_norecordalert" = "ກະລຸນາອະນຸຍາດໃຫ້%@ ເຂົ້າໃຊ້ໄມໂຄຣໂຟນຂອງທ່ານໃນຕົວເລືອກ \"Settings-Privacy-Microphone\" ຂອງອຸປະກອນຂອງທ່ານ";
+"common_nocameraalert" = "ກະລຸນາອະນຸຍາດໃຫ້%@ ເຂົ້າເຖິງກ້ອງຖ່າຍຮູບຂອງທ່ານໃນຕົວເລືອກ \"Settings-Privacy-Camera\" ຂອງອຸປະກອນ";
+"common_nophotostitle" = "ອັລບັມບໍ່ສາມາດໃຊ້ໄດ້";
+"common_nophotos" = "ກະລຸນາອະນຸຍາດໃຫ້%@ ເຂົ້າເຖິງຮູບຂອງທ່ານໃນຕົວເລືອກ \"Settings-Privacy-Photos\" ຂອງອຸປະກອນຂອງທ່ານ";
+"common_uploadAttachmentLimit" = "ໄຟລ໌ທີ່ອັບໂຫລດບໍ່ສາມາດໃຫຍ່ກວ່າ 50M.";
+"common_nodata" = "ບໍ່​ມີ​ຂໍ້​ມູນ";
+"common_language" = "";
+"common_search_subject" = "ຫົວຂໍ້";
+"common_Nothing" = "ຍັງບໍ່ມີເນື້ອຫາເທື່ອ";
+"common_Nothing_sorry" = "ຂໍໂທດ! ບໍ່ມີຫຍັງຕໍ່ທ້ານ";
+"common_search_pleaseEnterKeywords" = "ກະລຸນາໃສ່ ຄຳ ທີ່ ສຳ ຄັນ";
+"common_camera_unavailable" = "ກ້ອງບໍ່ສາມາດໃຊ້ໄດ້";
+"common_read" = "ເບິ່ງ";
+"common_finshed" = "ປະຕິບັດ";
+"common_repeal" = "ຖອນຄືນ";
+
+"common_proxyAlert" = "ຕົວແທນໄດ້ຖືກເປີດໃຊ້ໃນອຸປະກອນປັດຈຸບັນ, ແລະມີຄວາມສ່ຽງດ້ານຄວາມປອດໄພຖ້າທ່ານຍັງສືບຕໍ່ໃຊ້ມັນຢູ່!";
+"common_jailbreakAlert" = "ອຸປະກອນປະຈຸບັນໄດ້ຖືກກັກຂັງ, ມັນຈະມີຄວາມສ່ຽງດ້ານຄວາມປອດໄພຖ້າທ່ານຍັງສືບຕໍ່ໃຊ້ມັນຢູ່!";
+"common_loadAppFail" = "ແອັບພລິເຄຊັນລົ້ມເຫລວໃນການໂຫລດ, ກະລຸນາຕັ້ງທີ່ຢູ່ເຊີບເວີ ໃໝ່.";
+"common_noAppDownloadAddress" = "ບໍ່ມີທີ່ຢູ່ດາວໂຫລດແອັບພລິເຄຊັນຫລືຮູບແບບທີ່ຢູ່ທີ່ບໍ່ຖືກຕ້ອງ \ n%@";
+"common_noPermissionCamera" = "ບໍ່ສາມາດໃຊ້ກ້ອງໄດ້";
+"common_downloadFileFailed" = "ການດາວໂຫລດໄຟລ໌ລົ້ມເຫລວ.";
+"common_fileCopyError" = "ຂໍ້ຜິດພາດໃນການຄັດລອກແຟ້ມເອກະສານເກັບມ້ຽນ.";
+"common_locationDetail" = "ລາຍລະອຽດສະຖານທີ່";
+"common_failToFormatLocation" = "ການແປງຮູບແບບສະຖານທີ່ລົ້ມເຫລວ";
+"common_unkownError" = "ຄວາມຜິດພາດທີ່ບໍ່ຮູ້ຈັກ";
+"common_appDownloadFail" = "ການດາວໂຫລດແພັກເກດຊຸດລົ້ມເຫລວ, ກົດ";
+"common_unzipAppPackageFail" = "ມີຂໍ້ຜິດພາດໃນການຖອນຊຸດຂອງແອັບພລິເຄຊັນ.";
+"common_downloadAddressEmpty" = "URL ດາວໂຫລດບໍ່ສາມາດຫວ່າງໄດ້";
+"common_noAppInformation" = "ບໍ່ພົບຂໍ້ມູນການສະ ໝັກ";
+"common_mobileAlbums" = "ເວັບບອດໂທລະສັບ";
+"common_videoPreview" = "ເບິ່ງຕົວຢ່າງວິດີໂອ";
+"common_usePhoto" = "ໃຊ້ຮູບ";
+"common_takePhotoAgain" = "ລະວັງ";
+"common_noFreeSpace" = "ພື້ນທີ່ຈັດເກັບຂອງອຸປະກອນນ້ອຍກວ່າ 200M, ກະລຸນາອະນາໄມພື້ນທີ່ກ່ອນທີ່ຈະດາວໂຫລດ.";
+"common_uploadServerEmpty" = "ທີ່ຢູ່ຂອງເຄື່ອງແມ່ຂ່າຍທີ່ອັບໂຫລດບໍ່ສາມາດຫວ່າງໄດ້";
+"common_deleteCacheFail" = "ລົ້ມເຫລວໃນການລຶບ cache";
+"common_cancelSending" = "ຍົກເລີກການສົ່ງ";
+"common_cancelLabeling" = "ບໍ່ ໝາຍ";
+"common_turnOnLocation" = "ກະລຸນາເປີດໃຊ້ ຕຳ ແໜ່ງ ສະຫຼັບສັບຊ້ອນໃນການຕັ້ງຄ່າລະບົບ.";
+"common_pleaseSelectLocation" = "ກະລຸນາເລືອກທີ່ຢູ່";
+"common_cancelPhotography" = "ຍົກເລີກຮູບພາບ";
+"common_noPermissionAlbums" = "ບໍ່ມີການອະນຸຍາດອະລະບ້ ຳ";
+
+"common_reload_tabbar" = "ການ ນຳ ທາງດ້ານລຸ່ມຖືກດັດແກ້ແລະ ໜ້າ ເວັບຕ້ອງໄດ້ຮັບການປັບປຸງ ໃໝ່.";
+"common_load_success" = "ສຳ ເລັດ";
+"common_reload_language" = "ພາສາທີ່ທ່ານຕ້ອງການໃຊ້ໃນປະຈຸບັນບໍ່ໄດ້ຮັບການສະ ໜັບ ສະ ໜູນ, ທ່ານ ຈຳ ເປັນຕ້ອງໂຫຼດ ໜ້າ ຈໍຄືນ";
+"common_or" = "ຫຼື";
+"common_exit" = "ອອກໂຮງຮຽນ";
+"common_Connecting" = "ກຳ ລັງເຊື່ອມຕໍ່ ...";
+"common_dept"="ພະແນກ";
+/**************************************common   end********************************************/
+
+/**************************************OfflineFiles   start********************************************/
+"offlineFiles_unknownFiles" = "ເອກະສານຮູບແບບນີ້ບໍ່ໄດ້ສະ ໜັບ ສະ ໜູນ ການເບິ່ງທ້ອງຖິ່ນໃນເວລານີ້, ກະລຸນາໃຊ້ໂປແກຼມອື່ນເພື່ອເປີດມັນ.";
+"offlineFiles_offlineFiles" = "ເອກະສານອອບໄລ";
+"offlineFiles_myfile" = "ແຟ້ມຂອງຂ້ອຍ";
+"offlineFiles_haveBeenSelect_xx" = "ເລືອກ% D";
+"offlineFiles_unzipFail" = "ການໂຫລດໄຟລ໌ແມ່ນຜິດປົກກະຕິຫລືເສຍຫາຍ";
+/**************************************OfflineFiles    end********************************************/
+
+/*************************** 更新包 start *******************************/
+"UpdatePackage_TipTitle" = "ວ່ອງໄວ";
+"UpdatePackage_TipTitle_IsDownload" = "ດາວໂຫລດແອັບ for ສຳ ລັບທ່ານ";
+"UpdatePackage_CloseApp" = "ປິດແອັບ";
+"UpdatePackage_Download" = "ດາວໂຫລດ";
+"UpdatePackage_TipNotWifi" = "ສະພາບແວດລ້ອມຂອງເຄືອຂ່າຍຂອງທ່ານໃນປະຈຸບັນບໍ່ແມ່ນ Wi-Fi ຖ້າທ່ານສືບຕໍ່ດາວໂຫລດ, ມັນຈະສ້າງການຈະລາຈອນ, ທ່ານຕ້ອງການດາວໂຫລດບໍ່?";
+"UpdatePackage_ReDownload" = "ດາວໂຫລດອີກຄັ້ງ";
+"UpdatePackage_updating" = "ແອັບ is ກຳ ລັງດາວໂຫລດ ສຳ ລັບທ່ານ, ກະລຸນາກົດເພື່ອເບິ່ງຫລັງຈາກສິ້ນສຸດ";
+"UpdatePackage_progress" = "ກຳ ລັງດາວໂຫລດແອັບ for ສຳ ລັບທ່ານ (% d% s)";
+"UpdatePackage_updateFail" = "ການດາວໂຫລດລົ້ມເຫລວ, ກະລຸນາດາວໂຫລດອີກຄັ້ງ";
+/*************************** 更新包 end *******************************/
+
+/*************************** 离线通讯录 start *******************************/
+"contacts" = "ປື້ມ​ທີ່​ຢູ່";
+"contacts_org" = "ການຈັດຕັ້ງ";
+"contacts_team" = "ທີມງານໂຄງການ";
+"contacts_groupchat" = "ກຸ່ມສົນທະນາຂອງຂ້ອຍ";
+"contacts_frequent" = "ຕິດຕໍ່ພົວພັນເລື້ອຍໆ";
+"contacts_related" = "ຕິດຕາມຜູ້ຄົນ";
+"contacts_downloadFail" = "ການດາວໂຫລດປື້ມທີ່ຢູ່ນອກລົ້ມເຫລວ!";
+"contacts_retry" = "ດາວໂຫລດອີກຄັ້ງ";
+"contacts_downloading" = "ກຳ ລັງດາວໂຫລດປື້ມທີ່ຢູ່ນອກ ສຳ ລັບທ່ານ ...";
+"contacts_searchkey_old" = "ກະລຸນາໃສ່ຊື່ / ເບີໂທລະສັບຂອງທ່ານ";
+"contacts_searchkey_new" = "ກະລຸນາໃສ່ຊື່ / ເບີໂທລະສັບ / ເບື້ອງຕົ້ນຂອງພິນອິນ";
+"contacts_getData" = "ອ່ານປື້ມທີ່ຢູ່ອອບໄລນ໌ ສຳ ລັບທ່ານ ...";
+/*************************** 离线通讯录 end *******************************/
+
+/*************************** 相册 start *******************************/
+"photo" = "ຮູບພາບ";
+"Common_Preview" = "ເບິ່ງຕົວຢ່າງ";
+"photo_original" = "ຮູບພາບຕົ້ນສະບັບ";
+"photo_download_iCloud" = "ກະລຸນາລອງ ໃໝ່ ອີກຄັ້ງຫລັງຈາກດາວໂຫລດຮູບພາບ iCloud ໃນເວັບບອດຂອງລະບົບ.";
+"photo_limit" = "ກະລຸນາອັບໂຫລດຮູບນ້ອຍກວ່າ% ldM.";
+"photo_countlimit" = "ທ່ານສາມາດເລືອກໄດ້ໃນຮູບ% zd ເທົ່ານັ້ນ";
+"photo_setting" = "ກະລຸນາທີ່ \"设置-隐私-照片\"选项中，\r允许%@访问你的手机相册。";
+
+"scan_fail" = "ລະຫັດ QR ບໍ່ຖືກຮັບຮູ້";
+"scan_picfail" = "ລະຫັດ QR ບໍ່ໄດ້ຖືກຮັບຮູ້ໃນຮູບ";
+"common_isee" = "ຂ້ອຍ​ຮູ້";
+"atta_limitsize" = "ກະລຸນາອັບໂຫລດໄຟລ໌ນ້ອຍກວ່າ% ldM.";
+"common_weakpassword" = "ບໍ່ຕອບສະ ໜອງ ກັບຄວາມຕ້ອງການດ້ານລະຫັດຜ່ານຫຼືລະຫັດຜ່ານໄດ້ ໝົດ ອາຍຸແລ້ວ. ເພື່ອຄວາມປອດໄພຂອງບັນຊີຂອງທ່ານ, ກະລຸນາປ່ຽນລະຫັດລັບ";
+"scan_joingroup_error" = "ການເຂົ້າຮ່ວມກຸ່ມສົນທະນາລົ້ມເຫລວ";
+/*************************** 相册 end *******************************/
+
+/*************************** 消息列表 start *******************************/
+"msg_image" = "[ຮູບພາບ]";
+"msg_voice" = "[ສຽງ]";
+"msg_file" = "[ແຟ້ມ]";
+"msg_vcard" = "[ນາມ​ບັດ]";
+"msg_personal_card" = "ນາມ​ບັດ";
+"mjRefresh_just" = "ປັບປຸງ ໃໝ່ ສຸດທ້າຍ: ພຽງແຕ່";
+"mjRefresh_fewSecond" = "ອັບເດດຫຼ້າສຸດ:% d ວິນາທີກ່ອນ";
+"msg_clearGroupNotification" = "ບັນທຶກຂໍ້ຄວາມຂອງລະບົບກຸ່ມບໍ່ສາມາດກູ້ຄືນໄດ້ຫຼັງຈາກຖືກລຶບແລ້ວທ່ານແນ່ໃຈບໍ່ວ່າທ່ານຕ້ອງການລຶບຂໍ້ຄວາມທັງ ໝົດ?";
+"msg_recall" = "ຖອນຂໍ້ຄວາມ";
+"msg_recall_me" = "ທ່ານໄດ້ຖອດຖອນຂໍ້ຄວາມ";
+"msg_metioned" = "[ບາງຄົນ @ 我]";
+"msg_fileHaveDelete" = "ບໍ່ສາມາດດາວໂຫລດໄດ້, ເອກະສານເຊີຟເວີໄດ້ຖືກລຶບອອກແລ້ວ";
+"msg_userListTitle" = "ເລືອກສະມາຊິກກຸ່ມ";
+"msg_reedit" = "ແກ້ໄຂ ໃໝ່";
+"msg_createGroup" = "ເລີ່ມການສົນທະນາເປັນກຸ່ມ";
+"msg_joinGroup" = "ທ່ານໄດ້ເຂົ້າຮ່ວມການສົນທະນາເປັນກຸ່ມ";
+"msg_quitGroup" = "ອອກຈາກການສົນທະນາກຸ່ມ";
+"msg_kickedGroup" = "ທ່ານໄດ້ຖືກລຶບອອກຈາກການສົນທະນາກຸ່ມແລ້ວ";
+"msg_dismissGroup" = "ການສົນທະນາກຸ່ມ \"%@\" ໄດ້ຖືກຖອດອອກ.";
+"msg_changeGroupManager" = "ທ່ານໄດ້ກາຍເປັນເຈົ້າຂອງການສົນທະນາກຸ່ມ \"%@\".";
+"msg_rebulletin" = "ການປະກາດປ່ຽນກຸ່ມ";
+"msg_operator" = "ຜູ້ປະຕິບັດງານ";
+"msg_replacement" = "ເຈົ້າຂອງຖືກໂອນເຂົ້າ%@";
+"msg_msgTitle" = "ຂ່າວ";
+"msg_coll" = "ການຮ່ວມມື";
+"msg_edoc" = "ເອກະສານທາງການ";
+"msg_plan" = "ແບບແຜນການເຮັດວຽກ";
+"msg_bul" = "ການປະກາດ";
+"msg_news" = "ຂ່າວ";
+"msg_inquire" = "ການ ສຳ ຫຼວດ";
+"msg_meeting" = "ກອງປະຊຸມ";
+"msg_doc" =  "ເອກະສານ";
+"msg_wages" = "ຈ່າຍໃບເລື່ອນ";
+"msg_BehaviorPerformance" = "ການປະຕິບັດພຶດຕິ ກຳ";
+"msg_bbs" = "ສົນທະນາ";
+"msg_queyreport" = "ສະຖິຕິການສອບຖາມ";
+"msg_zhixin" = "ຈົດ ໝາຍ";
+"msg_offlineDoc" = "ເອກະສານອອບໄລ";
+"msg_MyCollection" = "ການລວບລວມຂອງຂ້ອຍ";
+"msg_attendance" = "ເຂົ້າ​ສູ່​ລະ​ບົບ";
+"msg_task" = "ວຽກງານການເຮັດວຽກ";
+"msg_schedule" = "ຕາຕະລາງ";
+"msg_show" = "ແບ່ງປັນພື້ນທີ່";
+"msg_ReportShow" = "ການວິເຄາະລາຍງານ";
+"msg_SystemMsg" = "ຂໍ້ມູນຂອງລະບົບ";
+"msg_form" = "ແບບຟອມ";
+"msg_IntegratedOffice" = "ຫ້ອງການທີ່ສົມບູນແບບ";
+"msg_project" = "ໂຄງການ";
+"msg_noMsg" = "ບໍ່​ມີ​ຂໍ້​ມູນ";
+"msg_noAssMsg" = "ບໍ່ມີຂ່າວ ໃໝ່";
+"msg_delete" = "ລົບ";
+"msg_remove" = "ການຖອດຖອນ";
+"msg_top" = "ທາງເທີງ";
+"msg_canceltop" = "ຍົກເລີກ";
+"msg_markRead" = "ໝາຍ ວ່າອ່ານແລ້ວ";
+"msg_outMsg" = "ລະບົບພາຍນອກ";
+"msg_reportCenter" = "ສູນລາຍງານຂ່າວ";
+"msg_groupNotification" = "ຂໍ້ຄວາມຂອງລະບົບກຸ່ມ";
+"msg_xiaoguangbo" = "ກະຈາຍສຽງຂະ ໜາດ ນ້ອຍ";
+"msg_xgbnewtip" = "ເລີ່ມການອອກອາກາດຂະ ໜາດ ນ້ອຍ";
+"msg_xgbnewMessage" = "ທ່ານມີຂໍ້ຄວາມອອກອາກາດເລັກໆນ້ອຍໆ";
+"msg_xgbrecalltip" = "ຖອນຂໍ້ຄວາມອອກອາກາດ";
+"msg_fileass" = "ຜູ້ຊ່ວຍເອກະສານ";
+"msg_zhixinInitError" = "ຈົດ ໝາຍ ເຖິງ uninitialized";
+"msg_app" = "ຂໍ້ຄວາມສະ ໝັກ";
+"msg_push" = "ເຕືອນການຊຸກຍູ້ແບບອັດສະລິຍະ";
+"msg_leader" = "ຂ່າວຄວາມເປັນຜູ້ ນຳ ຂອງຂ້ອຍ";
+"msg_track" = "ຕິດຕາມບັນຫາຕ່າງໆ";
+"msg_mention" = "@ 我的信息";
+"msg_requestingFilePrivilege" = "ການຂໍຂໍ້ມູນ, ກະລຸນາລອງ ໃໝ່ ໃນພາຍຫຼັງ.";
+"msg_noFilePrivilege" = "ທ່ານບໍ່ໄດ້ຮັບອະນຸຍາດໃຫ້ ດຳ ເນີນການນີ້, ສຳ ລັບລາຍລະອຽດ, ກະລຸນາປຶກສາຜູ້ບໍລິຫານລະບົບ ໜ່ວຍ ງານຫລືເຈົ້າຂອງກຸ່ມ!";
+"msg_zhixin_notHasPermission" = "ຈົດ ໝາຍ ຍັງບໍ່ທັນໄດ້ເປີດເທື່ອ, ກະລຸນາຕິດຕໍ່ຫາຜູ້ບໍລິຫານ";
+"msg_zhixin_notAvailable" = "ຈົດ ໝາຍ ເຖິງການບໍລິການແມ່ນບໍ່ມີ";
+"msg_set_admin" = "%@ ຕັ້ງທ່ານເປັນກຸ່ມສົນທະນາ \"%@\"的管理员。";
+"msg_unset_admin" = "%@ ຍົກເລີກການສົນທະນາກຸ່ມຂອງທ່ານ \"%@\"的管理员权限。";
+"msg_mark_unread" = "ໝາຍ ວ່າຍັງບໍ່ໄດ້ອ່ານ";
+"msg_you_set_admin" = "ທ່ານໄດ້ ກຳ ນົດ%@ ເປັນຜູ້ເບິ່ງແຍງລະບົບ";
+"msg_you_unset_admin" = "ທ່ານໄດ້ຍົກເລີກ%@ ເປັນຜູ້ບໍລິຫານ";
+"msg_someone_set_admin" = "%@ ກຳ ນົດ%@ ເປັນຜູ້ເບິ່ງແຍງລະບົບ";
+"msg_someone_unset_admin" = "%@ຍົກເລີກ%@ ເປັນຜູ້ບໍລິຫານ";
+"msg_content_sensitive_notsend" = "ຂໍ້ຄວາມມີຂໍ້ມູນທີ່ລະອຽດອ່ອນ ແລະບໍ່ສາມາດສົ່ງໄດ້";
+"msg_content_sensitive_hascleared" = "ຂໍ້ຄວາມມີຂໍ້ມູນທີ່ລະອຽດອ່ອນ, ຖືກລຶບລ້າງແລ້ວ";
+/*************************** 消息列表 end *******************************/
+
+/*************************** 融云 *******************************/
+"rc_PluginBoardPicture" = "ຮູບພາບ";
+"rc_PluginBoardCamera" = "ຖ່າຍ​ຮູບ";
+"rc_PluginBoardLocation" = "ຕຳ ແໜ່ງ";
+"rc_PluginBoardFile" = "ແຟ້ມ";
+"rc_PluginBoard_VoIPAudioCall"="ການໂທດ້ວຍສຽງ";
+"rc_PluginBoard_VoIPVideoCall"="ໂທວີດີໂອ";
+"rc_PluginBoard_VoIPAudioAndVideoCall"="ການໂທດ້ວຍສຽງແລະວີດີໂອ";
+"rc_RedPacket" = "ຊອງຈົດ ໝາຍ ສີແດງ";
+"view_RedPacket" = "ເບິ່ງຊອງຈົດ ໝາຍ ສີແດງ";
+"redPacket_Expired" = "ຊອງຈົດ ໝາຍ ສີແດງ ໝົດ ອາຍຸແລ້ວ";
+"rc_OpenRedPacket" = "ໄດ້ຮັບຊອງຈົດ ໝາຍ ສີແດງ";
+"yourself_Open"  ="ທ່ານໄດ້ຮັບຊອງຈົດ ໝາຍ ສີແດງຂອງທ່ານແລ້ວ";
+"rc_M3RedPacket" = "ຊອງຈົດ ໝາຍ ສີແດງ";
+"redPacket_received" = "ໄດ້ຮັບຊອງຈົດ ໝາຍ ສີແດງ";
+"redPacket_over" = "ຊອງຈົດ ໝາຍ ສີແດງໄດ້ຮັບ";
+"redPacket_receive_info" = "ທ່ານໄດ້ຮັບຊອງຈົດ ໝາຍ ສີແດງຈາກ%@";
+"redPacket_receive_info2"= "%@ ໄດ້ຮັບຊອງຈົດ ໝາຍ ສີແດງຂອງທ່ານ";
+"you" = "ເຈົ້າ";
+"ass_doc" = "ເອກະສານທີ່ກ່ຽວຂ້ອງ";
+"view_details" = "ເບິ່ງລາຍລະອຽດ";
+"Launch_time" = "ເວລາເລີ່ມຕົ້ນ:";
+"doc_sponsors" = "ຜູ້ໃຫ້ທຶນ:";
+"rc_task_principal" = "ອໍານວຍການ:";
+"rc_scan_code_join_group" = "ເຂົ້າຮ່ວມການສົນທະນາແບບກຸ່ມໂດຍການສະແກນລະຫັດ QR";
+"GroupReplacement"="ເຈົ້າຂອງຖືກໂອນເຂົ້າ%@";
+"GroupReplacement_who_changed_owner_to"="%@ ໂອນເຈົ້າຂອງກຸ່ມໄປ %@";
+"GroupRebulletin"="ການປະກາດປ່ຽນກຸ່ມ";
+"ConvertMission"="ວຽກໂອນ";
+"You sent a window jitter"="ທ່ານໄດ້ສົ່ງກະແຈປ່ອງຢ້ຽມ";
+"sent you a window jitter"="ໄດ້ສົ່ງຂໍ້ຄວາມໄປຫາທ່ານແບບປ່ອງຢ້ຽມ";
+"rc_group_chat_record" = "ປະຫວັດສາດສົນທະນາກຸ່ມ";
+"rc_single_messages_forward" = "ສົ່ງຕໍ່ໄປເທື່ອລະອັນ";
+"rc_merge_message_forward" = "ຮວມຕົວກັນ";
+"rc_transfer_opinoin" = "ຄວາມຄິດເຫັນຂອງການໂອນເງິນ";
+"rc_msg_business_card" = "[ບັດທຸລະກິດສ່ວນຕົວ]";
+"rc_msg_business_card_name" = "ບັດທຸລະກິດສ່ວນຕົວ";
+"rc_msg_general_business" = "[%@ ຂ່າວ]";
+"rc_msg_general_business_handel_success" = "ປະມວນຜົນ ສຳ ເລັດ";
+"rc_msg_general_business_handel_fail" = "ການປະມວນຜົນລົ້ມເຫລວ";
+"rc_msg_collection_handel_success" = "ຜົນ ສຳ ເລັດຂອງການເກັບ ກຳ ຂໍ້ມູນ";
+"rc_msg_collection_handel_fail" = "ການເກັບ ກຳ ຂໍ້ມູນລົ້ມເຫລວ";
+"rc_msg_collection_handel_already_collect" = "ທ່ານໄດ້ຈອງເອກະສານນີ້ແລ້ວ";
+"rc_msg_single_forward_tip" = "ສົ່ງຕໍ່ຂໍ້ຄວາມທີ່ບໍ່ສະ ໜັບ ສະ ໜູນ ຊອງຈົດ ໝາຍ ສີແດງແລະບັດປະເພດຂອງບັດ";
+"rc_msg_combine_forward_tip" = "ຮວມເຂົ້າກັນແລະສົ່ງຕໍ່ສະ ໜັບ ສະ ໜູນ ຂໍ້ຄວາມ, ຮູບພາບ, ຂໍ້ຄວາມປະເພດເອກະສານ";
+"rc_msg_turn_on_opinione_tip" = "ສະ ໜັບ ສະ ໜູນ ຂໍ້ຄວາມ, ຮູບພາບແລະປະເພດເອກະສານເທົ່ານັ້ນ";
+"rc_msg_collection_chat_record_tip" = "ການເກັບ ກຳ ສະ ໜັບ ສະ ໜູນ ຂໍ້ຄວາມ, ຮູບພາບແລະປະເພດເອກະສານເທົ່ານັ້ນ";
+"rc_msg_combine_vard" = "[ບັນທຶກການສົນທະນາ]";
+"rc_msg_unknown_folder_tip" = "ສະຖານີໂທລະສັບມືຖືບໍ່ຮອງຮັບການເບິ່ງຂໍ້ມູນປະເພດຂອງໂຟນເດີ";
+"rc_group_kanban_chat" = "ຕິດຕໍ່ສື່ສານກັບ";
+"rc_msg_resend" = "ສົ່ງຄືນ";
+"msg_at_all" = "ທັງໝົດ";
+"rc_msg_quote" = "ວົງຢືມ";
+"rc_msg_unknown_tip" = "ສະຖານີມືຖືບໍ່ຮອງຮັບການເບິ່ງຂໍ້ມູນປະເພດນີ້ຊົ່ວຄາວ";
+"rc_msg_unknown_msgtype" = "[ປະເພດຂໍ້ຄວາມທີ່ບໍ່ຮູ້ຈັກ]";
+"zx_loginstatus_mobile" = "ໂທລະສັບມືຖືອອນໄລນ໌";
+"zx_loginstatus_client" = "ລູກຄ້າອອນໄລນ໌";
+"zx_loginstatus_web" = "Web online";
+"zx_loginstatus_offline" = "Offline";
+
+"meeting_join" = "Join Now";
+"meeting_copyAndJoin" = "Join Now";
+"meeting_pwdCopied" = "Password Copied";
+"meeting_insNumb" = "ເລກປະຊຸມ";
+"meeting_insPwd" = "ລະຫັດປະຊຸມ";
+
+"rc_remote_del_confirm_text" = "ປະຫວັດການສົນທະນາບໍ່ສາມາດຟື້ນຕົວໄດ້ຫຼັງຈາກການລຶບ, ມັນແນ່ນອນວ່າຈະຖືກລຶບບໍ?";
+"rc_remote_clear_confirm_text" = "ປະຫວັດ ການ ສົນທະນາ ບໍ່ສາມາດ ກູ້ ຄືນ ໄດ້ ຫ ຼ ັ ງ ຈາກ ທີ່ ຖືກ ລຶບລ້າງ ແລ້ວ. ທ່ານ ແນ່ໃຈ ບໍ່ວ່າ ຈະ ຖືກ ລຶບລ້າງ ບໍ?";
+/*************************** 融云 *******************************/
+
+/*************************** 新建快捷 *******************************/
+"quick_coll" = "ການຮ່ວມມືແບບບໍ່ເສຍຄ່າ";
+"quick_form" = "ແມ່ແບບແບບຟອມ";
+"quick_scan" = "ສະແກນມັນ";
+"quick_groupchat" = "ເລີ່ມຕົ້ນການແລກປ່ຽນກຸ່ມ";
+"quick_chat" = "ເລີ່ມສົນທະນາ";
+"quick_task" = "ວຽກງານ ໃໝ່";
+"quick_meeting" = "ກອງປະຊຸມ ໃໝ່";
+"quick_attendance" = "ເຂົ້າ​ສູ່​ລະ​ບົບ";
+"quick_schedule" = "ກຳ ນົດເວລາ ໃໝ່";
+"quick_zhumu_meeting" = "ກອງປະຊຸມຈັບຕາ";
+"quick_ontimemeet" = "ກອງປະຊຸມທັນທີ";
+/*************************** 新建快捷 *******************************/
+
+/*************************** cordova插件 start *******************************/
+"Calendar_LoadFail" = "ຂໍ້ຜິດພາດໃນການໂຫລດສ່ວນປະຕິທິນ";
+"Calendar_NoAccess" = "ບໍ່ມີການເຂົ້າເຖິງປະຕິທິນ";
+/*************************** cordova插件 end *******************************/
+
+/*************************** 日历权限设置 start *******************************/
+"Calendar_Permisson_Setting" = "ກະລຸນາອະນຸຍາດໃຫ້ %@ ເຂົ້າເຖິງປະຕິທິນໃນອຸປະກອນຂອງທ່ານ\" Settings-Privacy-calendar\"ຕົວເລືອກ";
+"Calendar_Unavailable_title" = "ປະຕິທິນບໍ່ສາມາດໃຊ້ໄດ້";
+/*************************** 日历权限设置 end *******************************/
+
+/*************************** 通讯录权限设置 start *******************************/
+"Contact_Permisson_Setting" = "ກະລຸນາອະນຸຍາດໃຫ້ %@ ເຂົ້າເຖິງປື້ມທີ່ຢູ່ໃນອຸປະກອນຂອງທ່ານ\" Settings-Privacy-Address Book\"ຕົວເລືອກ";
+"Contact_Unavailable_title" = "ປຶ້ມທີ່ຢູ່ບໍ່ສາມາດໃຊ້ໄດ້";
+/*************************** 通讯录权限设置 end *******************************/
+
+/*************************** 网络错误 start *******************************/
+"Common_Network_Unavailable" = "ເຄືອຂ່າຍປັດຈຸບັນບໍ່ສາມາດໃຊ້ງານໄດ້, ກະລຸນາກວດສອບການຕັ້ງຄ່າເຄືອຂ່າຍຂອງທ່ານ";
+"Common_Server_CannotConnect" = "ບໍ່ສາມາດເຊື່ອມຕໍ່ກັບເຊີບເວີ, ກະລຸນາລອງ ໃໝ່ ໃນພາຍຫຼັງ";
+"Common_Server_DataError" = "ຂໍ້ມູນການຮ້ອງຂໍລົ້ມເຫລວ";
+/*************************** 网络错误 end *******************************/
+
+"Common_HandWrite" = "ລົງຊື່ເຂົ້າໃຊ້";
+"Common_PlisInput" = "ກະລຸນາໃສ່ເນື້ອຫາ";
+"Common_InputSealPassWord" = "ກະລຸນາໃສ່ລະຫັດລັບຂອງລາຍເຊັນ";
+"Common_PassWordNONull" = "ລະຫັດຜ່ານບໍ່ສາມາດເປົ່າ";
+"Common_PasswordWrong" = "ໃສ່ຂໍ້ຜິດພາດລະຫັດຜ່ານລາຍເຊັນ";
+"Common_InputLimit" = "ຂີດ ຈຳ ກັດດ້ານເທິງປ້ອນຂໍ້ມູນບັນລຸໄດ້ແລະບໍ່ມີການອະນຸຍາດເພີ່ມເຕີມ.";
+
+"commom_ok" = "ຕົກ​ລົງ";
+"commom_setting" = "ຕັ້ງ​ຄ່າ";
+"common_kikedByOther" = "ບັນຊີຂອງທ່ານເຂົ້າສູ່ລະບົບຢູ່ສະຖານທີ່ອື່ນແລະທ່ານຖືກບັງຄັບໃຫ້ໄປທາງອອຟໄລ";
+"common_backLogin" = "ກັບໄປທີ່ ໜ້າ ເຂົ້າສູ່ລະບົບ";
+
+"updates_check_failed" = "ກວດເບິ່ງການອັບເດດລົ້ມເຫລວ";
+"loadApp_fail" = "ການໂຫລດແອັບພລິເຄຊັນລົ້ມເຫລວ";
+"desktop_errorParameter" = "ຮັບຂໍ້ຜິດພາດພາລາມິເຕີຂອງ ຄຳ ຮ້ອງສະ ໝັກ ໜຶ່ງ ຄັ້ງ";
+"wrong_local_resource_path" = "ຮັບຂໍ້ຜິດພາດຂອງເສັ້ນທາງຊັບພະຍາກອນທ້ອງຖິ່ນ";
+"device_no_data" = "ອຸປະກອນດັ່ງກ່າວບໍ່ໄດ້ກວດພົບໂປແກຼມທີ່ ເໝາະ ສົມເພື່ອເປີດຂໍ້ມູນ";
+"device_not_sms" = "ອຸປະກອນນີ້ບໍ່ຮອງຮັບການສົ່ງຂໍ້ຄວາມ";
+"device_not_telephone" = "ອຸປະກອນບໍ່ຮອງຮັບການໂທ";
+"attach_path_empty" = "ເສັ້ນທາງແນບບໍ່ສາມາດຫວ່າງໄດ້";
+"common_send_fail" = "ການ​ສົ່ງ​ລົ້ມ​ເຫຼວ";
+"common_send_success" = "ສົ່ງຢ່າງ ສຳ ເລັດແລ້ວ";
+"read_manifest_error" =  "ຜິດພາດໃນການອ່ານ manifest.json.";
+"gesture_clicked_forgot" = "ກົດທີ່ລະຫັດລັບທີ່ຖືກລືມທີ່ຢູ່ເບື້ອງຊ້າຍ";
+"gesture_clicked_right" = "ກົດທີ່ບັນຊີອື່ນຢູ່ເບື້ອງຂວາເພື່ອເຂົ້າສູ່ລະບົບ";
+"gesture_clicked_skip" = "ປຸ່ມຂ້າມທີ່ກົດປຸ່ມ";
+"gesture_clicked_return" = "ກົດປຸ່ມກັບຄືນ";
+"open_app_download_adress" = "ເປີດທີ່ຢູ່ດາວໂຫລດໃບສະ ໝັກ";
+"url_empty" = "ທີ່ຢູ່ url ບໍ່ຫວ່າງ";
+"parameters_error" = "ຕົວ ກຳ ນົດທີ່ບໍ່ຖືກຕ້ອງຜ່ານໄປ";
+"database_inser_error" = "ຂໍ້ຜິດພາດໃນການປ້ອນຂໍ້ມູນເຂົ້າຖານຂໍ້ມູນ.";
+"data_fail_local" = "ຂໍ້ມູນທີ່ສອດຄ້ອງກັນບໍ່ພົບໃນທ້ອງຖິ່ນ";
+"viewController_unsupported " = "viewController ບໍ່ຮອງຮັບ";
+"memberid_nil"  = "ສະມາຊິກບໍ່ສາມາດເປົ່າ";
+"jsapi_error" = "jsapi ແລະຄຸນລັກສະນະ openAppMethod ບໍ່ສາມາດປ່ອຍໃຫ້ຫວ່າງ, ກະລຸນາກວດເບິ່ງໄຟລ໌ manifest.json";
+"device_ios_low" = "ລຸ້ນ IOS ແມ່ນຕໍ່າເກີນໄປ";
+"please_install_wps" = "ກະລຸນາຕິດຕັ້ງ WPS";
+"iAppOffice_unauthorization" = "ເບີໂທລະສັບມືຖືຂອງຫ້ອງການເຄື່ອນທີ່ແມ່ນບໍ່ຖືກຕ້ອງ, ກະລຸນາຕິດຕໍ່ຜູ້ເບິ່ງແຍງລະບົບເພື່ອຕັ້ງ / ປັບປຸງເລກ ລຳ ດັບຫ້ອງການເຄື່ອນທີ່!";
+"reopen_wps" = "WPS ຖືກຄອບຄອງ, ກະລຸນາເລີ່ມ ໃໝ່ WPS";
+
+/*************************** 来电提醒 *******************************/
+"call_identification_setting_alert" = "ເພື່ອ ນຳ ໃຊ້ຟັງຊັນການເຕືອນການໂທໂດຍປົກກະຕິ, ກະລຸນາໄປທີ່ \"ການປິດກັ້ນໂທລະສັບແລະການລະບຸຕົວຕົນເອງ\" ເພື່ອເປີດສິດໃນລະບົບ";
+"call_identification_unkown_error" = "ເກີດຂໍ້ຜິດພາດທີ່ບໍ່ຮູ້ຕົວ";
+"call_identification_to_setting" = "ໄປຕັ້ງ";
+"call_identification_low_system" = "ຟັງຊັນເຕືອນການໂທພຽງແຕ່ຮອງຮັບລະບົບ iOS 10 ຂຶ້ນໄປ";
+"call_identification_contacts_error" = "ລົ້ມເຫລວໃນການໄດ້ຮັບປື້ມທີ່ຢູ່, ກະລຸນາລໍຖ້າການດາວໂຫລດປື້ມທີ່ຢູ່ເພື່ອໃຫ້ ສຳ ເລັດແລະລອງ ໃໝ່ ອີກຄັ້ງ";
+"call_identification_open_success" = "ເປີດການແຈ້ງເຕືອນການໂທ ສຳ ເລັດແລ້ວ";
+"call_identification_open_fail" = "ລົ້ມເຫລວໃນການເປີດໃຊ້ການເຕືອນການໂທ";
+"call_identification_close_success" = "ປິດເຕືອນການໂທດ້ວຍຄວາມ ສຳ ເລັດ";
+"call_identification_close_fail" = "ລົ້ມເຫລວໃນການປິດການແຈ້ງເຕືອນການໂທ";
+"call_identification_guide_title" = "ເປີດໃຊ້ງານເຕືອນການໂທ M3";
+"call_identification_guide_1" = "ຂັ້ນຕອນທີ 1: ໄປທີ່ [ການຕັ້ງຄ່າໂທລະສັບ] ເພື່ອຊອກຫາ [ການໂທເຂົ້າແລະການກໍານົດການໂທເຂົ້າ]";
+"call_identification_guide_2" = "ຂັ້ນຕອນທີ 2: ເປີດ [ຫ້ອງການເຄື່ອນທີ່]";
+/*************************** 来电提醒 end *******************************/
+
+/*************************** 登录 *******************************/
+"login_login" = "ເຂົ້າ​ສູ່​ລະ​ບົບ";
+"login_login_ing" = "ເຂົ້າສູ່ລະບົບ ...";
+"login_bindtip" = "ລະດັບຄວາມປອດໄພຂອງບັນຊີນີ້ສູງ, ທ່ານສາມາດເຂົ້າສູ່ລະບົບຫຼັງຈາກຜູກມັດອຸປະກອນນີ້, ທ່ານຕ້ອງການສົ່ງ ຄຳ ຮ້ອງຂໍທີ່ຖືກຜູກມັດບໍ?";
+"login_input_empty" = "ຊື່ຜູ້ໃຊ້ຫລືລະຫັດຜ່ານບໍ່ສາມາດຫວ່າງໄດ້";
+"login_input_empty2" = "ເບີໂທລະສັບມືຖືຫຼືລະຫັດຜ່ານບໍ່ສາມາດຫວ່າງໄດ້";
+"login_forget_password" = "ລືມລະຫັດຜ່ານ";
+"login_username" = "ຊື່ຜູ້ໃຊ້";
+"login_password" = "ລະຫັດຜ່ານ";
+"login_forget_alert" = "ກະລຸນາໄປທີ່ ໜ້າ ເຂົ້າສູ່ລະບົບຂອງຄອມພິວເຕີຂອງທ່ານເພື່ອເອົາລະຫັດຜ່ານຂອງທ່ານ";
+"login_server_add" = "ຕື່ມໃສ່";
+"login_server_list_title" = "ເລືອກທີ່ຢູ່ຂອງເຊີບເວີ";
+"login_server_list_add" = "ຕັ້ງທີ່ຢູ່ຂອງເຊີບເວີ";
+"login_server_list_edit" = "ແກ້ໄຂທີ່ຢູ່ຂອງເຊີບເວີ";
+"login_no_note" = "ບໍ່ມີຂໍ້ສັງເກດ";
+"login_server_host" = "ທີ່ຢູ່ຂອງເຄື່ອງແມ່ຂ່າຍ (ຕ້ອງການ)";
+"login_server_port" = "Port (ຕ້ອງການ)";
+"login_server_note" = "ຂໍ້ສັງເກດ (ບໍ່ເກີນ 15 ຕົວອັກສອນ, ບໍ່ ຈຳ ເປັນ)";
+"login_server_host1" = "ທີ່ຢູ່ຂອງເຄື່ອງແມ່ຂ່າຍ";
+"login_server_port1" = "ທ່າເຮືອ";
+"login_server_note1" = "ຂໍ້ສັງເກດ (ເຖິງ 15 ຄຳ)";
+"login_server_delete_message" = "ທ່ານແນ່ໃຈບໍ່ທີ່ຈະລຶບທີ່ຢູ່ເຊີບເວີນີ້ບໍ?";
+"login_server_no_address" = "ກະລຸນາໃສ່ທີ່ຢູ່ຂອງເຊີບເວີ";
+"login_server_no_port" = "ກະລຸນາໃສ່ເລກທີ່ Port";
+"login_server_address_error" = "ຮູບແບບທີ່ຢູ່ຂອງເຊີບເວີບໍ່ຖືກຕ້ອງ";
+"login_scan_err" = "ລະຫັດ QR ທີ່ຖືກຕ້ອງແມ່ນບໍ່ຖືກຮັບຮູ້ໃນຮູບ";
+"login_server_exist" = "ທີ່ຢູ່ຂອງເຄື່ອງແມ່ຂ່າຍແລະພອດມີຢູ່ແລ້ວ";
+"login_scan_button" = "ສະແກນລະຫັດເພື່ອເພີ່ມ";
+"login_server_ass" = "ຕື່ມຜ່ານບັນຊີທີ່ກ່ຽວຂ້ອງ";
+"login_policy_agree" = "ໄດ້ອ່ານແລະຕົກລົງເຫັນດີ";
+"login_policy_detail" = "\"ສັນຍາປົກປ້ອງຄວາມເປັນສ່ວນຕົວ\"";
+"login_server_manual" = "ຕື່ມການ manully";
+"login_server_cloud" = "ຕື່ມຜ່ານ Cloud Union Center";
+"login_server_setting" = "ຕັ້ງຄ່າເຊີບເວີ";
+"login_phone" = "ເບີ​ໂທລະ​ສັບ";
+"login_server_uninit" = "ກະລຸນາ ກຳ ນົດທີ່ຢູ່ຂອງເຊີບເວີກ່ອນ";
+"login_server_uninit2" = "ລາຍຊື່ທີ່ຢູ່ຂອງເຊີບເວີຂອງວິສາຫະກິດບໍ່ໄດ້ຮັບ";
+"login_verification" = "ລະຫັດຢືນຢັນ";
+"login_tag_legacy" = "ເຂົ້າສູ່ລະບົບບັນຊີ";
+"login_tag_phone" = "ເຂົ້າລະບົບເບີໂທລະສັບມືຖື";
+"login_server_note_prefix" = "ຂໍ້ສັງເກດ";
+"login_cloud_error_2001" = "ຄຳ ຂໍທີ່ບໍ່ຖືກຕ້ອງ!";
+"login_cloud_error_2002" = "ທ່ານຍັງບໍ່ໄດ້ຜູກມັດເບີໂທລະສັບຂອງທ່ານ, ກະລຸນາເຂົ້າສູ່ລະບົບດ້ວຍບັນຊີຂອງທ່ານ";
+"login_cloud_error_2003" = "ເບີໂທລະສັບມືຖືຖືກຜູກມັດກັບຫລາຍໆຄົນ, ກະລຸນາໃຊ້ບັນຊີເພື່ອເຂົ້າສູ່ລະບົບ";
+"login_cloud_error_default" = "ເຊີບເວີມີຄວາມຜິດປົກກະຕິ, ກະລຸນາລອງ ໃໝ່ ໃນພາຍຫຼັງ!";
+"login_policy_not_agree" = "ບໍ່ເຫັນດີແລະອອກຈາກການ";
+"login_policy_pop_agree" = "ໄດ້ອ່ານ, ຕົກລົງເຫັນດີ";
+"login_fail" = "ການເຂົ້າລະບົບລົ້ມເຫລວ";
+"login_current_bind_device_numb" = "ໝາຍ ເລກອຸປະກອນປັດຈຸບັນ";
+
+"login_sms_send_tips" = "ລະຫັດຢືນຢັນຖືກສົ່ງໄປແລ້ວ";
+"login_sms_login_phone_error" = "ກະລຸນາໃສ່ເບີໂທລະສັບທີ່ຖືກຕ້ອງ";
+"login_sms_area_code_title" = "ເລືອກປະເທດ ແລະພາກພື້ນ";
+"login_sms_area_code_hot_title" = "#ປະເທດແລະພາກພື້ນຍອດນິຍົມ";
+"login_sms_graph_ver_tips" = "ການກວດສອບຄວາມປອດໄພ";
+"login_sms_graph_ver_input_error" = "ລະຫັດຢືນຢັນບໍ່ຖືກຕ້ອງ ຫຼືໝົດເວລາ, ກະລຸນາໃສ່ໃໝ່";
+"login_sms_phone_unbinding_account" = "ເບີໂທລະສັບມືຖືປະຈຸບັນບໍ່ໄດ້ຜູກມັດກັບບັນຊີຫ້ອງການ";
+"login_sms_phone_binding_multi_account" = "ເບີໂທລະສັບມືຖືປະຈຸບັນກົງກັບຫຼາຍບັນຊີຫ້ອງການ, ກະລຸນາປ່ຽນວິທີການເຂົ້າສູ່ລະບົບ";
+"login_sms_unit_sms_unauthorized" = "ການຈັດການ SMS ຂອງຫນ່ວຍງານບໍ່ໄດ້ຮັບອະນຸຍາດ";
+"login_sms_get_code_reach_ceiling" = "ຈໍາ​ນວນ​ເວ​ລາ​ທີ່​ຈະ​ໄດ້​ຮັບ​ລະ​ຫັດ​ກວດ​ສອບ​ສໍາ​ລັບ​ເບີ​ໂທລະ​ສັບ​ນີ້​ໄດ້​ເຖິງ​ກໍາ​ນົດ​ສູງ​ສຸດ​, ກະ​ລຸ​ນາ​ລອງ​ໃຫມ່​ໃນ​ມື້​ອື່ນ​";
+"login_sms_get_code_after_seconds" = "ກະລຸນາໄດ້ຮັບລະຫັດການຢັ້ງຢືນ SMS ຫຼັງຈາກ %@s";
+
+"login_mutilauth_refetchsms" = "Re-get SMS verification code";
+"login_mutilauth_refetch" = "reacquire";
+"login_mutilauth_pleaseinputsms" = "Please enter SMS verification code";
+"login_mutilauth_smshassendto" = "Captcha ຖືກສົ່ງໄປ";
+"login_mutilauth_seconds" = "ວິນາທີ";
+
+/*************************** 登录end *******************************/
+
+/******************************重要消息提醒************************************/
+"imp_msg_loadimage" = "ຮູບກໍາລັງຖືກສ້າງຂື້ນ";
+/******************************重要消息提醒end************************************/
+
+/*************************** 关联账号 *******************************/
+"ass_edit_top_tip" = "ກະລຸນາໃສ່ຂໍ້ມູນທີ່ກ່ຽວຂ້ອງທີ່ຈະພົວພັນ";
+"ass_server_host" = "ທີ່ຢູ່ຂອງເຄື່ອງແມ່ຂ່າຍ";
+"ass_username" = "ຊື່ຜູ້ໃຊ້";
+"ass_server_note" = "ຂໍ້ສັງເກດ";
+"ass_title" = "ບັນຊີເຊື່ອມໂຍງ";
+"ass_add" = "ຕື່ມໃສ່";
+"ass_button" = "ທີ່ກ່ຽວຂ້ອງ";
+"ass_add_title" = "ເພີ່ມບັນຊີທີ່ກ່ຽວຂ້ອງ";
+"ass_edit_title" = "ແກ້ໄຂບັນຊີທີ່ກ່ຽວຂ້ອງ";
+"ass_edit_delete_hint" = "ທ່ານຕ້ອງການຍົກເລີກບັນຊີນີ້ບໍ່";
+"ass_switch_title" = "ປ່ຽນວິສາຫະກິດ";
+"ass_add_err1" = "ທີ່ຢູ່ເຊີບເວີນີ້ຖືກເພີ່ມເຂົ້າແລ້ວແລະບໍ່ສາມາດເຊື່ອມໂຍງໄດ້";
+"ass_add_err2" = "ເຊີບເວີໄດ້ຖືກເພີ່ມເຂົ້າຜ່ານບັນຊີທີ່ກ່ຽວຂ້ອງ, ກະລຸນາຢ່າຕື່ມອີກເທື່ອ ໜຶ່ງ";
+"ass_add_err3" = "ເຊີບເວີໄດ້ຖືກເພີ່ມຜ່ານສູນ Yunlian, ກະລຸນາຢ່າຕື່ມອີກເທື່ອ ໜຶ່ງ";
+"ass_edit_err" = "ບັນຊີທີ່ເພີ່ມໂດຍສະມາຄົມບໍ່ສາມາດແກ້ໄຂໄດ້, ກະລຸນາປ່ຽນໄປໃຊ້ງານບັນຊີຕົ້ນຕໍ";
+"msg_associate" = "ຂ່າວບໍລິສັດອື່ນໆ";
+"ass_switch_ass_title" = "ຫົວ ໜ່ວຍ ທຸລະກິດຂ້າມຊາດ";
+"ass_switch_parttime_title" = "ໜ່ວຍ ງານຍ່ອຍ";
+/*************************** 关联账号end *******************************/
+
+/*************************** 转发 *******************************/
+"forward_sendto" = "ສົ່ງ​ເຖິງ";
+"forward_create_new_chat" = "ສ້າງການສົນທະນາ ໃໝ່";
+"forward_choose_group" = "ເລືອກກຸ່ມ";
+"forward_recent_contact" = "ຕິດຕໍ່ຫຼ້າສຸດ";
+"forward_send_to" = "ສົ່ງ​ເຖິງ";
+"forward_leave_message" = "ຝາກຂໍ້ຄວາມຫາເພື່ອນຮ່ວມງານ";
+"forward_message_list_info" = "[ທ່ານໄດ້ຮັບຂໍ້ຄວາມສົ່ງຕໍ່]";
+"forward_fileHaveDelete" = "ບໍ່ສາມາດສົ່ງຕໍ່ໄດ້, ໄຟລ໌ເຊີບເວີໄດ້ຖືກລຶບອອກແລ້ວ";
+"forward_leaveMsgLimit" = "ບໍ່ສາມາດເກີນ 100 ຕົວອັກສອນຈີນ";
+/*************************** 转发end *******************************/
+
+/*************************** 相册 *******************************/
+"pic_handling" = "ກຳ ລັງປະມວນຜົນ ...";
+"pic_open" = "ເປີດ";
+"pic_close" = "ປິດ​ເຄື່ອງ";
+"pic_automatic" = "ອັດຕະໂນມັດ";
+/*************************** 相册end *******************************/
+
+/*************************** 日期 *******************************/
+"week_one" = "ວັນຈັນ";
+"week_two" = "ວັນອັງຄານ";
+"week_three" = "ວັນພຸດ";
+"week_four" = "ວັນພະຫັດ";
+"week_five" = "ວັນ​ສຸກ";
+"week_six" = "ໃນ​ວັນ​ເສົາ";
+"week_seven" = "ວັນອາທິດ";
+/*************************** 日期end *******************************/
+
+/*************************** 引导页 *******************************/
+"guide_start" = "ເລີ່ມຕົ້ນການເດີນທາງ M3";
+/*************************** 引导页end *******************************/
+
+/*************************** 打印 *******************************/
+"print_action" = "ພິມ";
+"print_more_than_size" = "ຂະ ໜາດ ຂອງເອກະສານທີ່ພິມອອກເກີນຂອບເຂດ ກຳ ນົດ";
+/*************************** 打印end *******************************/
+
+/*************************** 图片查看组件 *******************************/
+"review_image_videoIsInvalid" = "ວິດີໂອບໍ່ຖືກຕ້ອງ";
+"review_image_videoError" = "ຂໍ້ຜິດພາດທາງວິດີໂອ";
+"review_image_unableToSave" = "ບໍ່ສາມາດບັນທຶກ";
+"review_image_imageIsInvalid" = "ຮູບບໍ່ຖືກຕ້ອງ";
+"review_image_downloadImageFailed" = "ການດາວໂຫລດຮູບພາບລົ້ມເຫລວ";
+"review_image_getPhotoAlbumAuthorizationFailed" = "ລົ້ມເຫລວໃນການຂໍອະນຸຍາດອະລະບ້ ຳ";
+"review_image_saveToPhotoAlbumSuccess" = "ບັນທຶກໄວ້ໃນອັລບັມລະບົບ";
+"review_image_saveToPhotoAlbumFailed" = "ບັນທຶກລົ້ມເຫລວ";
+"review_image_viewOriginalPhoto" = "ເບິ່ງຮູບຕົ້ນສະບັບ";
+"review_image_viewOriginalPhoto_tip" = "ຮູບພາບຕົ້ນສະບັບຖືກສະແດງ";
+"review_image_recognizeQRCode" = "ລະບຸລະຫັດ QR";
+"review_image_recognizeQRCode_in_pic" = "ລະບຸລະຫັດ QR ໃນຮູບ";
+"review_image_upload_failed" = "ການອັບໂຫລດລົ້ມເຫລວ";
+"review_image_downloading" = "ກຳ ລັງດາວໂຫລດ ...";
+"review_image_network_cannot_connect" = "ເຄືອຂ່າຍປັດຈຸບັນບໍ່ສາມາດໃຊ້ງານໄດ້, ກະລຸນາກວດສອບການຕັ້ງຄ່າເຄືອຂ່າຍຂອງທ່ານ";
+/*************************** 图片查看组件end *******************************/
+
+/*************************** 页面锁提示 *******************************/
+"pad_lock_hint" = "ໃນລະຫວ່າງການເບິ່ງ, ບໍ່ວ່າຈະອອກຈາກຂໍ້ມູນປະຈຸບັນບໍ?";
+/*************************** 页面锁提示end *******************************/
+
+/*************************** 多端登录提示 *******************************/
+"mu_login_web" = "Website logged in";
+"mu_login_zhixin" = "ZhiXin logged in";
+"mu_login_weChat" = "WeChat logged in";
+"mu_login_web_zhixin" = "Website、ZhiXin logged in";
+"mu_login_web_weChat" = "Website、WeChat logged in";
+"mu_login_zhixin_weChat" = "ZhiXin、ZhiXin logged in";
+"mu_login_web_zhixin_weChat" = "Website、ZhiXin and WeChat logged in";
+"mu_login_exit_web" = "ອອກຈາກເວັບ";
+"mu_login_exit_zhixin" = "ອອກຈາກຈົດ ໝາຍ";
+"mu_login_exit_weChat" = "ອອກຈາກ WeChat";
+"mu_login_alreadyMute" = "Mobile notification is off";
+"muj_login_exit_success" = "ອອກຈາກໄດ້";
+/*************************** 多端登录提示end *******************************/
+
+/*************************** MJRefresh *******************************/
+"MJRefreshHeaderIdleText" = "ດຶງລົງມາເພື່ອເຮັດໃຫ້ສົດຊື່ນ";
+"MJRefreshHeaderPullingText" = "ປ່ອຍສົດຊື່ນ";
+"MJRefreshHeaderRefreshingText" = "ສົດຊື່ນ";
+"MJRefreshAutoFooterIdleText" = "ກົດຫລືດຶງຂຶ້ນເພື່ອໂຫລດຫຼາຍ";
+"MJRefreshAutoFooterRefreshingText" = "ກຳ ລັງໂຫລດຂໍ້ມູນເພີ່ມເຕີມ ...";
+"MJRefreshAutoFooterNoMoreDataText" = "ໂຫລດທັງ ໝົດ";
+"MJRefreshBackFooterIdleText" = "ດຶງຂຶ້ນມາເພື່ອໂຫຼດຫຼາຍ";
+"MJRefreshBackFooterPullingText" = "ປ່ອຍໃຫ້ໂຫລດໄດ້ທັນທີ";
+"MJRefreshBackFooterRefreshingText" = "ກຳ ລັງໂຫລດຂໍ້ມູນເພີ່ມເຕີມ ...";
+"MJRefreshBackFooterNoMoreDataText" = "ໂຫລດທັງ ໝົດ";
+"MJRefreshHeaderLastTimeText" = "ການປັບປຸງລ້າສຸດ:";
+"MJRefreshHeaderDateTodayText" = "ປະຈຸບັນ";
+"MJRefreshHeaderNoneLastDateText" = "ບໍ່ມີບັນທຶກ";
+/*************************** MJRefresh *******************************/
+
+/*************************** 多端登录 *******************************/
+"mutil_login_mute" = "ປິດໂທລະສັບ";
+"mutil_login_already_mute" = "ໂທລະສັບຖືກປິດສຽງ";
+"mutil_login_exit_other_client" = "ອອກຈາກປາຍອື່ນໆ";
+"mutil_login_recovery_notification" = "ຟື້ນຟູການແຈ້ງເຕືອນໂທລະສັບ";
+"mutil_login_unmute_hint" = "ຫລັງຈາກປິດ \"Phone Mute\", ການແຈ້ງເຕືອນຂໍ້ຄວາມ ໃໝ່ ໃນໂທລະສັບກໍ່ຈະກັບມາເປັນປົກກະຕິ";
+"mutil_login_stop_notification" = "ຢຸດການແຈ້ງເຕືອນທາງໂທລະສັບ";
+"mutil_login_mute_hint" = "ຫຼັງຈາກເປີດໃຊ້ \"Phone Mute\", ໂທລະສັບຈະບໍ່ໄດ້ຮັບການແຈ້ງເຕືອນຂໍ້ຄວາມ ໃໝ່ ອີກຕໍ່ໄປ";
+/*************************** 多端登录 *******************************/
+
+/*************************** 手机盾相关 *******************************/
+"login_tag_mokey" = "ໂທລະສັບປ້ອງກັນເຂົ້າສູ່ລະບົບ";
+"login_mokeyUsername" = "ຊື່ຜູ້ໃຊ້ໄສ້ມືຖື";
+"login_mokey_NoKeyId" = "ບໍ່ມີ KeyId, ກະລຸນາອະນຸຍາດປ້ອງກັນໂທລະສັບ ໃໝ່ ໃນເວທີການຄຸ້ມຄອງ";
+"login_mokey_NoBind" = "ທ່ານຍັງບໍ່ໄດ້ຜູກມັດໂທລະສັບ, ກະລຸນາຜູກມັດມັນໄວ້ໃນເວທີການຄຸ້ມຄອງ";
+"login_mokey_error_getkeyid" = "ລົ້ມເຫລວໃນການໄດ້ຮັບ keyId ໄສ້ໂທລະສັບ";
+"login_mokey_error_nocertorurl" = "ເຄື່ອງປ້ອງກັນໂທລະສັບບໍ່ໄດ້ຖືກຕັ້ງຄ່າດ້ວຍທີ່ຢູ່ SDK ແລະໃບຢັ້ງຢືນ";
+"login_mokey_error_username" = "ເກີດຄວາມຜິດພາດໃນການຮ້ອງຂໍຊື່ຜູ້ໃຊ້ເຂົ້າສູ່ລະບົບ";
+"login_mokey_error_getInfo" = "ການຂໍຂໍ້ມູນປ້ອງກັນໂທລະສັບລົ້ມເຫລວ";
+"login_mokey_error_geteventdata" = "ລົ້ມເຫລວທີ່ຈະໄດ້ຮັບເຫດການເຂົ້າສູ່ລະບົບຂອງໄສ້ມືຖື";
+"login_mokey_error_certexpire" = "ໃບຢັ້ງຢືນຂອງທ່ານ ຈຳ ເປັນຕ້ອງມີການປັບປຸງ ໃໝ່";
+"login_input_empty3" = "ບັນຊີໄສ້ມືຖືບໍ່ສາມາດຫວ່າງໄດ້";
+"mokey_updateCert_success" = "ສຳ ເລັດການປັບປຸງໃບຢັ້ງຢືນໄສ້ໂທລະສັບ";
+"mokey_userReset_success" = "ຕັ້ງໄສ້ໂທລະສັບ ສຳ ເລັດແລ້ວ";
+"login_mokey_scan" = "ສະແກນມັນ";
+"login_mokey_NoUserName" = "ກະລຸນາໃສ່ບັນຊີ";
+"login_mokey_scan_login" = "ກະລຸນາສະແກນລະຫັດຫຼັງຈາກເຂົ້າສູ່ລະບົບ M3";
+"login_mokey_scan_nosupport" = "ຢ່າຮູ້ລະຫັດ QR ອື່ນໆຂອງ Mokey";
+"login_mokey_error_beenbound" = "ເຄື່ອງປ້ອງກັນໂທລະສັບໄດ້ຖືກຜູກໄວ້ກັບອຸປະກອນອື່ນ, ກະລຸນາຕິດຕໍ່ຜູ້ເບິ່ງແຍງລະບົບ";
+"login_mokey_error_qrcodefailure" = "ລະຫັດ QR ບໍ່ຖືກຕ້ອງ";
+"reset_mokey_error_account_atypism" = "ບັນຊີປະຈຸບັນ ສຳ ລັບການຕັ້ງລະຫັດຜ່ານແມ່ນບໍ່ສອດຄ່ອງກັບບັນຊີການເຂົ້າລະບົບມືຖື";
+/*************************** 手机盾end *******************************/
+
+/*************************** 投屏组件start *******************************/
+"screen_mirror_btn_title" = "ການຄາດຄະເນແບບໄຮ້ສາຍ";
+"screen_mirror_tips_title" = "ຄຳ ແນະ ນຳ";
+"screen_mirror_checkout_btn" = "ເບິ່ງ tutorial";
+"screen_mirror_tips" = "iPhone ຕ້ອງການໃຊ້ລະບົບ \"ໜ້າ ຈໍສະທ້ອນຫນ້າຈໍ\" ໃນ ໜ້າ ຈໍ, ກະລຸນາເປີດ ໜ້າ ຈໍຢູ່ສູນຄວບຄຸມ";
+/*************************** 投屏组件end *******************************/
+
+/*************************** 新文件管理组件start *******************************/
+"file_management_send_btn" = "ສົ່ງ";
+"file_management_localfile" = "ແຟ້ມໂທລະສັບ";
+"file_management_from_comefrom_m3" = "ຈາກ:";
+"file_management_from_comefrom_third" = "ຈາກ:";
+"file_management_from_comefrom" = "ຈາກ:";
+"file_management_from_sendto" = "ສົ່ງ​ເຖິງ:";
+"file_management_from_comefrom_group" = "ຈາກການສົນທະນາເປັນກຸ່ມ:";
+"file_management_from_sendto_group" = "ສົ່ງໄປທີ່ກຸ່ມສົນທະນາ:";
+"file_management_save_ro_file_success_from_other_tips" = "ບັນທຶກປະສົບຜົນ ສຳ ເລັດ! ກະລຸນາໄປທີ່ເອກະສານຂອງຂ້ອຍເພື່ອເບິ່ງເນື້ອຫາທີ່ບັນທຶກໄວ້";
+/*************************** 新文件管理组件end *******************************/
+
+/*************************** 分享组件start *******************************/
+"share_share_to_innner_title" = "ຫ້ອງການເຄື່ອນທີ່";
+"share_btn_new_chat" = "ເລີ່ມສົນທະນາ";
+"share_btn_new_coopa" = "ການຮ່ວມມື ໃໝ່";
+"share_btn_new_conf" = "ກອງປະຊຸມ ໃໝ່";
+"share_btn_doc_center" = "ສູນເອກະສານ";
+"share_btn_new_task" = "ວຽກງານ ໃໝ່";
+"share_btn_new_sche" = "ກຳ ນົດເວລາ ໃໝ່";
+"share_btn_forward_coopa" = "ການຮ່ວມມືສົ່ງຕໍ່";
+"share_btn_download" = "ດາວໂຫລດ";
+"share_btn_collect" = "ສິ່ງທີ່ມັກ";
+"share_btn_share" = "ແບ່ງ​ປັນ​ມັນ";
+"share_btn_print" = "ພິມ";
+"share_btn_wechat" = "WeChat";
+"share_btn_qq" = "ຖາມ";
+"share_btn_other_app" = "ກິດອື່ນໆ";
+"share_btn_my_colleague" = "ຈົດ ໝາຍ";
+"share_btn_wwechat" = "ວິສາຫະກິດ WeChat";
+"share_btn_dingtalk" = "ລົ້ມເຫລວ";
+"share_btn_screen_mirrioring" = "ການຄາດຄະເນແບບໄຮ້ສາຍ";
+"share_btn_generate_qrcode" = "ສ້າງລະຫັດ QR";
+"share_btn_tel_confe" = "ການປະຊຸມທາງໂທລະສັບ";
+"share_auth_tips_string" = "ບໍ່ວ່າຈະເປັນທີ່ຈະອະນຸຍາດໃຫ້ຄົນຂ້າງນອກຂະບວນການເບິ່ງ";
+"share_auth_btn_allow" = "ອະນຸຍາດ";
+"share_auth_btn_notallow" = "ບໍ່​ອະ​ນຸ​ຍາດ";
+"share_component_save_to_my_doc" = "ບັນທຶກໄວ້ໃນເອກະສານຂອງຂ້ອຍ";
+"share_component_save_to_other_doc" = "ບັນທຶກໃສ່ສູນເອກະສານ";
+"share_component_share_finished_tips" = "ໄດ້​ຖືກ​ສົ່ງ​ໄປ​ແລ້ວ";
+"share_component_share_finished_back_former_view" = "ກັບໄປທີ່ ໜ້າ ສຸດທ້າຍ";
+"share_component_share_finished_stay_curr_view" = "ຢູ່ປະຈຸບັນ";
+"share_component_file_share_count_tips" = "% Ld ທັງ ໝົດ";
+"share_wechat_limit_10M" = "ໄຟລ໌ເກີນ 10M, ບໍ່ຮອງຮັບ";
+"share_wechat_failed" = "ການຄູ່ສົນທະນາ ບໍ່ສຳເລັດ";
+/*************************** 分享组件end *******************************/
+
+/*************************** 登录新界面 *******************************/
+"login_please_login_tips" = "ກະລຸນາເຂົ້າສູ່ລະບົບ";
+"login_please_org_tips" = "ສຳ ລັບຜູ້ໃຊ້ຟັງເທົ່ານັ້ນ";
+"login_first_login_tips" = "ກະລຸນາຕັ້ງຄ່າເຊີບເວີເຂົ້າສູ່ລະບົບກ່ອນ";
+"login_account_placeholder" = "ເລກບັນຊີ";
+"login_account_login" = "ເຂົ້າສູ່ລະບົບບັນຊີ";
+"login_account_phone_num" = "ບັນຊີ / ເບີໂທລະສັບ";
+"login_account_phone_num_login" = "ບັນຊີ / ເບີໂທລະສັບເຂົ້າສູ່ລະບົບ";
+"login_sms_login_btn" = "ລະຫັດຢືນຢັນ SMS ເຂົ້າສູ່ລະບົບ";
+"login_mokey_login_btn" = "ໂທລະສັບປ້ອງກັນເຂົ້າສູ່ລະບົບ";
+"login_sms_login_tips" = "ລະຫັດຢືນຢັນ SMS";
+"login_mokey_login_tips" = "ໄສ້ໂທລະສັບ";
+"login_get_sms_code_error" = "ລົ້ມເຫລວໃນການຮັບລະຫັດຢືນຢັນ SMS";
+"login_get_sms_verification_code" = "ໄດ້ຮັບລະຫັດຢືນຢັນ";
+"login_reget_sms_verification_code" = "ສົ່ງຄືນຫຼັງ 02ldວິ";
+"login_resend_sms_verification_code" = "ສົ່ງຄືນ";
+"login_account_null_tips" = "ກະລຸນາໃສ່ບັນຊີ";
+"login_phone_null_tips" = "ກະລຸນາໃສ່ເບີໂທລະສັບ";
+"login_password_null_tips" = "ກະລຸນາໃສ່ລະຫັດຜ່ານ";
+"login_verification_code_null_tips" = "ລະຫັດຢືນຢັນຕ້ອງຖືກຕື່ມ";
+"login_first_login_set_server_tips" = "ກະລຸນາຕັ້ງຄ່າເຊີບເວີກ່ອນ";
+"login_policy_select_policy_detail" = "ກະລຸນາ ໝາຍ ຕິກແລະເຫັນດີກັບ \"ສັນຍາປົກປ້ອງຄວາມເປັນສ່ວນຕົວ\"";
+"login_first_login_select_server" = "ເລືອກທີ່ຢູ່ຂອງເຊີບເວີ";
+"login_first_login_edit_server" = "ແກ້ໄຂທີ່ຢູ່ຂອງເຊີບເວີ";
+"login_server_can_not_be_null" = "ເຊີບເວີບໍ່ສາມາດຫວ່າງໄດ້";
+"login_port_can_not_be_null" = "ພອດບໍ່ສາມາດເປົ່າໄດ້";
+"login_verification_code_can_not_be_null" = "ກະລຸນາໃສ່ລະຫັດຢືນຢັນ";
+"login_orgcode" = "ລະຫັດອົງກອນ";
+"login_orgcode_login" = "ເຂົ້າລະຫັດຂອງອົງກອນ";
+"login_other_login" = "ວິທີການເຂົ້າສູ່ລະບົບອື່ນໆ";
+"login_orgcode_no_null" = "ລະຫັດຂອງອົງກອນບໍ່ສາມາດປ່ອຍໃຫ້ຫວ່າງໄດ້";
+/*************************** 登录新界面end *******************************/
+
+/*************************** vpn设置 start *******************************/
+"vpn_setpwd" = "ຕັ້ງລະຫັດຜ່ານ";
+"vpn_inputnewpwd" = "ເຂົ້າລະຫັດຜ່ານໃຫມ່";
+"vpn_inputnewpwdagain" = "ເຂົ້າລະຫັດໃຫມ່ອີກ";
+"vpn_inputnewpwd_notsame" = "ລະຫັດເຂົ້າສອງຄັ້ງແມ່ນບໍ່ສອດຄ່ອງກັນ";
+"vpn_inputnewpwd_over5minitus" = "ລະຫັດໄດ້ມີການປ່ຽນແປງມາໄດ້ຫຼາຍກວ່າ 5 ນາທີ, ກະລຸນາເຂົ້າສູ່ການປ່ຽນແປງຄືນໃຫມ່";
+"vpn_renewpwd_success" = "Password changed successfully";
+"vpn_renewpwd_overtime" = "Change password more than 5 minutes，please return and enter again";
+"vpn_set_toplevel" = "Advanced Settings";
+"vpn_set_btntitle" = "VPN settings";
+"vpn_set_btntitledone" = "VPN is set";
+"vpn_set_enteraddress" = "Please enter a VPN address";
+"vpn_set_pwdverify" = "Password Authentication";
+"vpn_set_entername" = "Please enter a username";
+"vpn_set_enterpwd" = "Please enter a password";
+"vpn_set_spaverify" = "SPA Verification";
+"vpn_set_spaentercode" = "Please enter SPA verification code";
+"vpn_set_description" = "Configuration Description (Only supports Sangfor VPN)\n1、Enter the VPN address and configure the authentication information \n2、If you need to change the VPN password, please go to Sangfor client to modify";
+"vpn_set_agreedes" = "Submission is deemed to be convincing with consent";
+"vpn_set_privacy" = "Privacy Agreement";
+"vpn_set_submit" = "submit";
+"vpn_set_blanktip" = "There are unfilled fields";
+
+"vpn_connect_ing" = "ການເຊື່ອມຕໍ່ຫຼັງ VPN";
+"vpn_connect_fail" = "ການເຊື່ອມຕໍ່ຫຼັງ VPN ລົ້ມມວງ";
+"vpn_connect_nohand" = "ບໍ່ສາມາດເຊື່ອມຕໍ່ຫຼັງ VPN ດ້ວຍຈີນ";
+"vpn_connect_reset" = "ກະລຸນາຕັ້ງຄ່າໃໝ່";
+/*************************** vpn设置 end *******************************/
+
+/*************************** 截屏控制start *******************************/
+"screenshot_control_tips" = "ການຄວບຄຸມການຈັບພາບ ໜ້າ ຈໍໄດ້ຖືກເປີດໃຊ້ງານ, ແລະການປະຕິບັດງານຖືກບັນທຶກລົງໃນບັນທຶກພື້ນຫລັງ";
+"screeenshot_control_iknow_btn" = "ເຂົ້າໃຈ";
+"screeenshot_page_title_multi_login" = "ໜ້າ ເຂົ້າສູ່ລະບົບຫຼາຍປາຍທາງ";
+"screeenshot_page_title_camera" = "ກ້ອງ​ຖ່າຍ​ຮູບ";
+"screeenshot_page_title_empty" = "ຫນ້າເປົ່າ";
+"screeenshot_page_title_image_browser" = "ເບິ່ງຮູບ";
+"screeenshot_page_title_AVPlayer" = "ເຄື່ອງຫຼີ້ນສຽງແລະເຄື່ອງສຽງ";
+/*************************** 截屏控制end *******************************/
+
+/*************************** 图片组件新增start *******************************/
+"picture_forward_text" = "ສົ່ງຕໍ່";
+"picture_photo_text" = "ຮູບພາບ";
+"picture_video_text" = "ວິດີໂອ";
+"picture_check_pics_title" = "ຮູບ / ວິດີໂອ";
+"picture_multi_select_btn_title" = "ຫລາຍທາງເລືອກ";
+"picture_pic_selected_empty_tips" = "ກະລຸນາເລືອກຮູບ";
+"photo_preview_nav_title" = "ຍ້າຍແລະຂະຫຍາຍໃຫຍ່ຂື້ນ";
+/*************************** 图片组件新增end *******************************/
+
+/*************************** 视频组件start *******************************/
+"video_component_retake_title" = "ລະວັງ";
+"video_component_use_title" = "ການນໍາໃຊ້";
+"video_component_select_from_album" = "ເລືອກຈາກອັນລະບັ້ມ";
+"video_component_take_photo" = "ຖ່າຍ​ຮູບ";
+"video_component_no_permission" = "ບໍ່ສາມາດຍິງໄດ້, ກະລຸນາເປີດໄມໂຄຣໂຟນແລະກ້ອງຖ່າຍຮູບສິດໃນການຕັ້ງຄ່າລະບົບໂທລະສັບ";
+"audio_component_no_permission" = "ບໍ່ສາມາດບັນທຶກໄດ້, ກະລຸນາອະນຸຍາດໄມໂຄຣໂຟນໃນການຕັ້ງຄ່າລະບົບໂທລະສັບ";
+"video_component_data_loading_failed" = "ການໂຫລດສຽງແລະວີດີໂອລົ້ມເຫລວ, ກະລຸນາຕິດຕໍ່ຜູ້ເບິ່ງແຍງລະບົບ";
+"video_compress" = "ການບີບອັດ";
+/*************************** 视频组件end *******************************/
+
+/*************************** 推送开关设置start *******************************/
+"user_notification_not_open_tip" = "ມັນຖືກກວດພົບວ່າທ່ານບໍ່ໄດ້ເປີດແຈ້ງການຊຸກຍູ້. ເພື່ອໃຫ້ໄດ້ຮັບການແຈ້ງເຕືອນໃນເວລາ, ຄວນແນະ ນຳ ໃຫ້ທ່ານເປີດໃຊ້";
+"user_notification_ignore" = "ບໍ່ສົນໃຈ";
+/*************************** 推送开关设置end *******************************/
+
+/*************************** 低版本系统可能出现空白页面的提示start *******************************/
+"low_system_blank_tip" = "ມີການກວດພົບວ່າລະບົບ iOS ຂອງທ່ານຍັງຕໍ່າ, ແລະ ໜ້າ ເວັບອາດຈະຫວ່າງຫລືເຮັດ ໃໝ່ ສົດຊື່ນຍ້ອນການໃຊ້ຫນ່ວຍຄວາມ ຈຳ ຫຼາຍເກີນໄປ. ອຸປະກອນ";
+/*************************** 低版本系统可能出现空白页面的提示end *******************************/
+"select_multiple_chats" = "ເລີ່ມການສົນທະນາ";
+"excess_quantity" = "ກຳລັງອອກຈາກບັນທີ 10 ທີ່ເປັນໄປໄດ້";
+"send_separately_to" = "ຍ້າຍໄປທົ່ວໄປທົ່ວໄປ";
+"total_message" = "%lu  ຂໍ້ມູນລະຫວ່າງ";
+/*************************** 负一屏start *******************************/
+"slide_to_top_screen" = "ຂະບວນການຍ່າຍໄປທີ່, ເພື່ອກວດດ້ວຍສະຖານທີ່ມີຢູ່";
+"add_to_top_screen" = "ເພີ້ມລະບົບທຳອິດ";
+"cancel_to_top_screen" = "ລຶບບ່ຽງເບທຳອິນ";
+"recently_title" = "ຍ່າຍໄຫດ";
+"common_entry" = "ພົນສຸດງ່າງປະທ້ວໄປ";
+"my_second_floor" = "ປ້ອນໃຕ້ດິນ";
+"top_screen_recently_tip" = "ໂປຣເເກຣມ ທີ່ຫາຍໃຈ, ຊ່ວຍເຫລືອນ, ແລະອື່ນ. ຈະເຮັດໃຫ້ເກີດຂໍ້ມູນ";
+"add_top_screen_success" = "ເພີ່ມສົມມຸນ";
+"remove_top_screen_success" = "ຍ້າຍສົມມຸນ";
+/*************************** 负一屏end *******************************/
+"more_operations" = "ການດຳເນີນການຕ່າງໆ";

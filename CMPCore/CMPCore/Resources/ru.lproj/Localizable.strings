@@ -1,0 +1,859 @@
+/*
+ Localizable.strings
+ M1IPhone
+ 
+ Created by admin on 12-10-29.
+ Copyright (c) 2012年 北京致远协创软件有限公司. All rights reserved.
+ */
+
+
+/**************************************登陆与菜单   start********************************************/
+"GestureLogin_Skip_Confirm"  = "пропустить";
+"GestureLogin_Titile_Set"  = "установить код жеста";
+"GestureLogin_DrawUnlock"  = "нарисовать рисунок разблокирования";
+"GestureLogin_ResetGesture"  = "изменить жест";
+"GestureLogin_ForgetGesture"  = "забыть код жеста";
+"GestureLogin_OtherWayLogin"  = "регистрация на другие счета";
+"GestureLogin_Inputpassword"  = "Введите пароль";
+"GestureLogin_Input_MoreThan4"  = "представьте, пожалуйста, как минимум четыре точки подряд";
+"GestureLogin_Input_Again"  = "пожалуйста, введите снова код жеста";
+"GestureLogin_Set_Success"  = "Пароль успешно установлен";
+"GestureLogin_Input_SameToPre"  = "не совпадает с первым рисунком, повторите его";
+"GestureLogin_Input_Right"  = "проверка прошла успешно";
+"GestureLogin_Input_WrongCountTip"  = "Ошибка при вводе пароля, вы также можете ввести %ld раз";
+
+"coll_nosignature"  = "без подписи.";
+"coll_all_clean"  = "Полная очистка";
+"Setting_Clean_Finished"  = "очистка, освобождение места хранения:";
+"Setting_Cleaning..."  = "Очищает кэш, пожалуйста, подождите...";
+
+"Email_Send_Cancel"  = "отмена отправки почты";
+"Email_Save_Success"  = "Сохранить сообщение успешно";
+"Email_Send_Success"  = "Отправить сообщение успешно";
+"Email_Send_Fail"  = "Ошибка отправки почты";
+"Email_NO_Config_Mailbox" = "первый пожалуйста";
+"QRCode_Scan"  = "подметать";
+"QRCode_Album"  = "альбом";
+"QRCode_AutoScan"  = "Включить двухмерный код в рамку, с тем чтобы можно было автоматически сканировать";
+"QRCode_Message"  = "Очистить подсказку:";
+"QRCode_NotAddressCode"  = "этот двухмерный код не может быть идентифицирован как визитная карточка";
+
+"Sign_markInMap"  = "обозначение карты";
+"Sign_location_servicesSet_m3"  = "служба локализации закрыта.Пожалуйста, посетите систему Настройка - приватность - служба определения местоположения - %@ и включите локализацию";
+"Sign_location_servicesSet"  = "служба локализации закрыта.Пожалуйста, посетите систему Настройка - конфиденциальность - служба определения местоположения и включите службу определения местоположения ";
+"Sign_Local_locat_data_unavailable"  = "данные локализации недоступны!";
+"Sign_Local_locat_data_waiting"  = "получение информации о местоположении";
+"common_save"  = "сохранение";
+
+"touchid_unavailable"  = "не установлен идентификатор Touch, пожалуйста, добавьте отпечатки пальцев в системные настройки - touch ID с паролем ";
+"faceid_unavailable"  = "без идентификатора Face, пожалуйста, добавьте маску в системные настройки - Face ID с паролем";
+"touchid_verify_reason"  = "проверка трогать ID разблокирование";
+"faceid_verify_reason"  = "проверка лицо ID разблокирование";
+"common_goto_setting"  = "перейти к настройке";
+"touchid_lock"  = "превышать трогать ID Число попыток";
+"faceid_lock"  = "превышать лицо ID Число попыток";
+"localauth_touchID_button"  = "щёлкнуть  трогать ID разблокирование";
+"localauth_faceID_button"  = "щёлкнуть  лицо ID разблокирование";
+"localauth_gesture"  = "жест разблокирован";
+"localauth_openFaceToUnlock_button"  = "открыть лицо для разблокирования";
+"localauth_openFingerprintToUnlock_button"  = "вскрытие отпечатков пальцев";
+
+"WiFiClockIn_clockInTime"  = "рабочее время";
+"WiFiClockIn_clockOffTime" = "Нерабочее время";
+"WiFiClockIn_illegal"  = "не подключен к указанному WiFi";
+"WiFiClockIn_button"  = "пропуск на работу";
+
+/**************************************common   start********************************************/
+"Common_Yesterday"  = "вчера";
+"Common_Tomorrow"  = "завтра";
+"Common_MustUpdateVersion"  = "обнаружено обновление программного обеспечения, которое необходимо обновить до% для его нормального использования.";
+"Common_LatestVersion"  = "Update version";
+"Common_UpdateNow"  = "загружается сейчас";
+"Common_Alert"  = "напоминание";
+"Common_Update_Download"  = "обнаружено обновление программного обеспечения, загрузка новых версий.";
+"Common_DownloadNow"  = "загружается сейчас";
+"Common_DownloadLater"  = "игнорировать эту версию";
+"Common_Already_the_recently_Version"  = "является последней версией";
+"Common_To"  = "до";
+
+"Common_Pic1" = "图片%@.";
+"Common_Voc1" = "语音%@.caf";
+"Common_Mov1" = "视频%@.mov";
+
+"common_delete"  = "исключить";
+"common_prompt"  = "подсказка";
+"common_cancel"  = "Отмена";
+"common_ok"  = "определение";
+"common_confirm"  = "подтверждает";
+"common_rename"  = "Переименование";
+"common_rename_placeholder"  = "Введите новое имя файла";
+
+"common_close"  = "Закрыть";
+"common_return"  = "возвращение";
+"common_back"  = "возвращение";
+"common_search"  = "поиск";
+"common_table_loading"  = "при загрузке данных";
+"common_no_record"  = "без записи";
+"common_no_paly"  = "не воспроизведен";
+"common_inputName_canNotEmpty_againInput"  = "имя не может быть пустым, пожалуйста, введите его снова";
+"common_not_record"  = "без звукозаписи";
+"common_nameExist_againInput"  = "имя уже существует, пожалуйста, введите его снова";
+"common_stop_paly"  = "остановка воспроизведения";
+"common_paly_stop"  = "остановка воспроизведения";
+"common_thisDoc_isNotExist"  = "файл не существует!";
+"common_record_paly"  = "остановка записи";
+"common_playing"  = "воспроизведение";
+
+"common_attName_theMostInput_40Words"  = "название вложения не должно превышать 40 слов.";
+"common_inputCharacter_notInclude_XX"  = "входной символ не может содержать символ */<>?:：｜|";
+"common_save_success"  = "успешно сохранён";
+"common_save_fail" = "Ошибка сохранения";
+"common_norecord"  = "не может быть записано";
+"common_norecordalert"  = "пожалуйста, разреши в параметрах устройства Настройка - приватность - микрофон %@ доступ к микрофону";
+"common_nocameraalert"  = "пожалуйста, предоставьте %@ доступ к вашей камере в параметрах устройства Настройка - частная жизнь - камера";
+"common_nophotostitle"  = "альбом недоступен";
+"common_nophotos"  = "пожалуйста, в установке Настройка - частная жизнь - фото опция %@ доступ к вашей фотографии";
+"common_uploadAttachmentLimit"  = "загруженные файлы не могут быть больше 50м.";
+"common_nodata"  = "данных пока нет";
+"common_language"  = "_en";
+"common_search_subject"  = "заголовок";
+"common_Nothing"  = "пока нет содержания";
+"common_Nothing_sorry" = "Извините! Здесь ничего нет.";
+"common_search_pleaseEnterKeywords"  = "пожалуйста, введите ключевое слово";
+"common_camera_unavailable"  = "камеры не доступны";
+"common_read"  = "Просмотр";
+"common_finshed"  = "завершение";
+"common_repeal"  = "Отмена";
+
+"common_proxyAlert"  = "в настоящее время оборудование уже открыто, дальнейшее использование будет сопряжено с риском для безопасности!";
+"common_jailbreakAlert"  = "в настоящее время оборудование уже вышло из тюрьмы, дальнейшее использование будет сопряжено с риском для безопасности!";
+"common_loadAppFail"  = "Ошибка загрузки приложения, измените адрес сервера.";
+"common_noAppDownloadAddress"  = "нет приложения для загрузки адреса или неправильного формата \n%@";
+"common_noPermissionCamera"  = "невозможно использовать камеру";
+"common_downloadFileFailed"  = "Ошибка загрузки файла.";
+"common_fileCopyError"  = "Ошибка копирования файла в каталог хранения.";
+"common_locationDetail"  = "Сведения о местоположении";
+"common_failToFormatLocation"  = "Ошибка преобразования формата расположения";
+"common_unkownError"  = "Неизвестная ошибка";
+"common_appDownloadFail" = "Невозможно загрузить пакет, нажмите кнопку";
+"common_unzipAppPackageFail"  = "ошибка распаковки пакета.";
+"common_downloadAddressEmpty"  = "загруженный адрес не может быть пустым";
+"common_noAppInformation"  = "не найдена прикладная информация";
+"common_mobileAlbums"  = "мобильный альбом";
+"common_videoPreview"  = "Просмотр видео";
+"common_usePhoto"  = "использование фотографий";
+"common_takePhotoAgain"  = "биение";
+"common_noFreeSpace"  = "устройства недостаточно места для хранения в 200M, пожалуйста, очистите место после загрузки.";
+"common_uploadServerEmpty"  = "адрес сервера загрузки не может быть пустым";
+"common_deleteCacheFail"  = "Ошибка удаления кэша";
+"common_cancelSending"  = "отмена отправки";
+"common_cancelLabeling"  = "Снять отметку";
+"common_turnOnLocation"  = "пожалуйста, откройте позиционный переключатель в настройках системы.";
+"common_pleaseSelectLocation"  = "пожалуйста, выберите расположение";
+"common_cancelPhotography"  = "фотографирование отменено";
+"common_noPermissionAlbums"  = "нет прав на альбом";
+
+"common_reload_tabbar" = "необходимо обновить страницу，необходимо обновить страницу。";
+"common_load_success" = "акончено";
+"common_reload_language" = "Ваш выбранный язык уже не поддерживается，необходимо обновить страницу";
+"common_or" = "или";
+"common_exit" = "выход";
+"common_Connecting" = "при соединении...";
+"common_dept" = "отдел";
+/**************************************common   end********************************************/
+
+/**************************************OfflineFiles   start********************************************/
+"offlineFiles_unknownFiles"  = "файл формата пока не поддерживает локальный просмотр, откройте его другими приложениями.";
+"offlineFiles_offlineFiles"  = "автономный документ";
+"offlineFiles_myfile"  = "мой файл";
+"offlineFiles_haveBeenSelect_xx"  = "выделенная статья %d";
+"offlineFiles_unzipFail" = "Ошибка при загрузке файла";
+/**************************************OfflineFiles    end********************************************/
+
+/*************************** 更新包 start *******************************/
+"UpdatePackage_TipTitle"  = "подсказка";
+"UpdatePackage_TipTitle_IsDownload"  = "загружает приложения для вас";
+"UpdatePackage_CloseApp"  = "Закрыть приложение";
+"UpdatePackage_Download"  = "загрузка";
+"UpdatePackage_TipNotWifi"  = "Ваша текущая сетевая среда не является Wi-Fi, продолжение загрузки приведет к потоку или нет?";
+"UpdatePackage_ReDownload"  = "перезагрузить";
+"UpdatePackage_updating"  = "для загрузки приложения, пожалуйста, нажмите после завершения просмотра";
+"UpdatePackage_progress"  = "загружает приложения (%d%s)";
+"UpdatePackage_updateFail" = "Ошибка загрузки, повторите загрузку";
+/*************************** 更新包 end *******************************/
+
+/*************************** 离线通讯录 start *******************************/
+"contacts"  = "справочник";
+"contacts_org"  = "организационная структура";
+"contacts_team"  = "группа проектов";
+"contacts_groupchat"  = "мой чат";
+"contacts_frequent"  = "часто используемые контакты";
+"contacts_related"  = "подмандатные лица";
+"contacts_downloadFail"  = "Ошибка загрузки автономной адресной книги!";
+"contacts_retry"  = "перезагрузить";
+"contacts_downloading"  = "загрузка автономного справочника для вас...";
+"contacts_searchkey_old"  = "Введите имя / номер мобильного телефона";
+"contacts_searchkey_new"  = "Введите имя / номер мобильного телефона / инициалы фонетического алфавита";
+"contacts_getData"  = "чтение справочника отключено...";
+/*************************** 离线通讯录 end *******************************/
+
+/*************************** 相册 start *******************************/
+"photo"  = "фотографии";
+"Common_Preview"  = "Предварительный просмотр";
+"photo_original"  = "оригинал карты";
+"photo_download_iCloud"  = "пожалуйста, попробуйте снова после загрузки изображений iCloud в системный альбом.";
+"photo_limit"  = "пожалуйста, загрузите изображение меньше %ldm.";
+"photo_countlimit"  = "Вы можете выбрать максимум% zd фотографии";
+"photo_setting"  = "пожалуйста, настройку \"Настройка - уединение - фотография\", \r разрешает доступ к альбому с мобильным телефоном.";
+
+"scan_fail"  = "не идентифицировано до двухмерного кода";
+"scan_picfail"  = "в фотографиях нет двухмерного кода";
+"common_isee"  = "Понял";
+"atta_limitsize"  = "пожалуйста, загружайте файлы меньше% ldm.";
+"common_weakpassword"  = "не соответствует требованиям прочности пароля или срок действия пароля истек, чтобы ваш номер счёта был безопасным, измените пароль";
+"scan_joingroup_error"  = "не удалось подключиться к групповой дискуссии";
+/*************************** 相册 end *******************************/
+
+/*************************** 消息列表 *******************************/
+"msg_image"  = "[рисунок]";
+"msg_voice"  = "[речь]";
+"msg_file"  = "[файл]";
+"msg_vcard"  = "[визитная карточка]";
+"msg_personal_card" = "визитная карточка";
+"mjRefresh_just"  = "Последнее обновление: только что";
+"mjRefresh_fewSecond"  = "Последнее обновление:%d секунд до начала";
+"msg_clearGroupNotification"  = "запись системного сообщения группы была очищена после того, как не удалось восстановить сообщение, чтобы очистить все сообщения?";
+"msg_recall"  = "отзыв сообщения";
+"msg_recall_me"  = "вы отозвали сообщение";
+"msg_metioned"  = "[меня]";
+"msg_fileHaveDelete"  = "Невозможно загрузить, файл сервера удален";
+"msg_userListTitle"  = "выбор членов группы";
+"msg_reedit"  = "изменить";
+"msg_createGroup"  = "Начать групповую дискуссию";
+"msg_joinGroup"  = "вы присоединились к групповому разговору";
+"msg_quitGroup"  = "выйти из группового разговора";
+"msg_kickedGroup"  = "Вы были удалены из чата разговоров";
+"msg_dismissGroup"  = "групповая беседа %@ была расформирована.";
+"msg_changeGroupManager"  = "вы стали хозяином чат%@";
+"msg_rebulletin"  = "изменение группового объявления";
+"msg_operator"  = "оператор";
+"msg_replacement"  = "кластер переместился в%@ label";
+"msg_msgTitle"  = "сообщение";
+"msg_coll"  = "синергия";
+"msg_edoc"  = "грамота";
+"msg_plan"  = "план работы";
+"msg_bul"  = "объявление";
+"msg_news"  = "Новости";
+"msg_inquire"  = "расследования";
+"msg_meeting"  = "конференция";
+"msg_doc"  = "Документация";
+"msg_wages"  = "заработная плата";
+"msg_BehaviorPerformance"  = "поведенческие показатели";
+"msg_bbs"  = "обсуждение";
+"msg_queyreport"  = "статистика запросов";
+"msg_zhixin"  = "письмо";
+"msg_offlineDoc"  = "автономный документ";
+"msg_MyCollection"  = "моя коллекция";
+"msg_attendance"  = "с учетом";
+"msg_task"  = "Рабочая задача";
+"msg_schedule"  = "график";
+"msg_show"  = "площадь";
+"msg_ReportShow"  = "Анализ отчетов";
+"msg_SystemMsg"  = "системные сообщения";
+"msg_form"  = "форма";
+"msg_IntegratedOffice"  = "Объединенные служебные помещения";
+"msg_project"  = "проект";
+"msg_noMsg"  = "данных пока нет";
+"msg_noAssMsg"  = "пока нет новых сообщений";
+"msg_delete"  = "исключить";
+"msg_remove" = "Убирать";
+"msg_top"  = "сверху";
+"msg_canceltop"  = "Отмена установки";
+"msg_markRead"  = "помечены как прочитанные";
+"msg_outMsg"  = "внешняя система";
+"msg_reportCenter"  = "центр отчетности";
+"msg_groupNotification"  = "групповые системные сообщения";
+"msg_xiaoguangbo"  = "малое вещание";
+"msg_xgbnewtip"  = "организация небольших радиопередач";
+"msg_xgbnewMessage"  = "у вас есть новости по радио";
+"msg_xgbrecalltip"  = "отзыв сообщения по радио";
+"msg_fileass"  = "помощник по документации";
+"msg_zhixinInitError"  = "письмо не инициализировано";
+"msg_app"  = "Применить сообщение";
+"msg_push"  = "интеллектуальное напоминание";
+"msg_leader"  = "мои руководящие новости";
+"msg_track"  = "сообщение об отслеживании";
+"msg_mention"  = "@ сообщение для меня";
+"msg_requestingFilePrivilege"  = "Запрашивайте данные, попробуйте позже.";
+"msg_noFilePrivilege"  = "Вы не имеете права на эту операцию, обратитесь к системному администратору Консультационной группы или к хозяину группы!";
+"msg_zhixin_notHasPermission" = "Пока письмо не запущено, свяжитесь с администратором";
+"msg_zhixin_notAvailable" = "служба писем недоступна";
+"msg_set_admin" = "%@ назначает вас администратором группового чата \"%@\".";
+"msg_unset_admin" = "%@ аннулировал права администратора для вашего группового чата \"%@\".";
+"msg_mark_unread" = "Отметить как непрочитанное";
+"msg_you_set_admin" = "Вы установили %@ для Администратора";
+"msg_you_unset_admin" = "Вы отменили %@ для Администратора";
+"msg_someone_set_admin" = "%@ установили %@ для Администратора";
+"msg_someone_unset_admin" = "%@ отменили %@ для Администратора";
+"msg_content_sensitive_notsend" = "Сообщение содержит конфиденциальную информацию и не может быть отправлено";
+"msg_content_sensitive_hascleared" = "Сообщение содержит конфиденциальную информацию, очищено";
+/*************************** 消息列表 end *******************************/
+
+/*************************** 融云 *******************************/
+"rc_PluginBoardPicture"  = "рисунок";
+"rc_PluginBoardCamera"  = "фотографировать";
+"rc_PluginBoardLocation"  = "позиция";
+"rc_PluginBoardFile"  = "документация";
+"rc_RedPacket"  = "красная сумка";
+"rc_PluginBoard_VoIPAudioCall" = "голосовые переговоры";
+"rc_PluginBoard_VoIPVideoCall" = "видеоразговор";
+"rc_PluginBoard_VoIPAudioAndVideoCall" = "фонетический видеоразговор";
+"view_RedPacket"  = "просмотр красной сумки";
+"redPacket_Expired"  = "красная сумка просрочена";
+"rc_OpenRedPacket"  = "получение красной сумки";
+"yourself_Open"   = "ты получаешь свою собственную красную сумку";
+"rc_M3RedPacket"  = "красная сумка";
+"redPacket_received"  = "красная сумка была получена";
+"redPacket_over"  = "красная сумка была доставлена";
+"redPacket_receive_info"  = "Вы получили красные пакеты @";
+"redPacket_receive_info2" = "%@ получил ваш красный пакет";
+"you"  = "ты";
+"ass_doc"  = "связанный документ";
+"view_details"  = "Просмотр деталей";
+"Launch_time"  = "время начала:";
+"doc_sponsors"  = "инициатор:";
+"rc_task_principal"  = "ответственное лицо:";
+"rc_scan_code_join_group" = "Добавить групповой разговор через сканирование двухмерных кодов";
+"GroupReplacement" = "кластер переместился label%@";
+"GroupReplacement_who_changed_owner_to"="%@Владелец группы перенесен в%@";
+"GroupRebulletin" = "изменение группового объявления";
+"ConvertMission" = "Передача задач";
+"You sent a window jitter" = "Вы послали сообщение о встряхивании окна";
+"sent you a window jitter" = "отправлено встряхивание окон";
+"rc_group_chat_record" = "запись группового разговора";
+"rc_single_messages_forward" = "постатейная пересылка";
+"rc_merge_message_forward" = "объединить и пересылать";
+"rc_transfer_opinoin" = "Передать мнение";
+"rc_msg_business_card" = "[визитная карточка]";
+"rc_msg_business_card_name" = "визитная карточка";
+"rc_msg_general_business" = "[%@ сообщение]";
+"rc_msg_general_business_handel_success" = "успешная обработка";
+"rc_msg_general_business_handel_fail" = "Ошибка обработки";
+"rc_msg_collection_handel_success" = "коллекция удалась";
+"rc_msg_collection_handel_fail" = "Ошибка сохранения";
+"rc_msg_collection_handel_already_collect" = "Вы коллекционировали этот документ";
+"rc_msg_single_forward_tip" = "пересылать сообщения, которые не поддерживаются красными пакетами и типами карт";
+"rc_msg_combine_forward_tip" = "объединить сообщение, которое поддерживает только текст, рисунок и тип файла";
+"rc_msg_turn_on_opinione_tip" = "пересылать сообщения только для текста, изображений, типов файлов";
+"rc_msg_collection_chat_record_tip" = "коллекция поддерживает только текст, рисунок, тип файла";
+"rc_msg_combine_vard" = "[запись разговора]";
+"rc_msg_unknown_folder_tip" = "Переместить конец сообщения, пока не поддерживается Тип папки";
+"rc_group_kanban_chat" = "обмен";
+"rc_msg_resend" = "Отправить";
+"msg_at_all" = "All";
+"rc_msg_quote" = "Quote";
+"rc_msg_unknown_tip" = "Мобильный терминал в настоящее время не поддерживает этот тип просмотра информации.";
+"rc_msg_unknown_msgtype" = "[Неизвестный тип сообщения]";
+"zx_loginstatus_mobile" = "Мобильный онлайн";
+"zx_loginstatus_client" = "клиент онлайн";
+"zx_loginstatus_web" = "веб-сайт онлайн";
+"zx_loginstatus_offline" = "оффлайн";
+
+"meeting_join" = "Присоединиться сейчас";
+"meeting_copyAndJoin" = "Присоединиться сейчас";
+"meeting_pwdCopied" = "Password Copied";
+"meeting_insNumb" = "номер собрания";
+"meeting_insPwd" = "пароль собрания";
+
+"rc_remote_del_confirm_text" = "Запись чата не может быть восстановлена после удаления.";
+"rc_remote_clear_confirm_text" = "После того, как запись разговора была очищена, ее нельзя восстановить.";
+/*************************** 融云 *******************************/
+
+/*************************** 新建快捷 *******************************/
+"quick_coll"  = "свободное взаимодействие";
+"quick_form"  = "форма формы";
+"quick_scan"  = "подметать";
+"quick_groupchat"  = "обмен группами спонсоров";
+"quick_chat"  = "начать разговор";
+"quick_task"  = "новые задачи";
+"quick_meeting"  = "новые заседания";
+"quick_attendance"  = "с учетом";
+"quick_schedule"  = "Новая программа";
+"quick_zhumu_meeting" = "привлекать внимание к собранию";
+"quick_ontimemeet" = "мгновенная встреча";
+/*************************** 新建快捷 *******************************/
+
+/*************************** cordova插件 start *******************************/
+"Calendar_LoadFail"  = "Ошибка загрузки компонента календаря";
+"Calendar_NoAccess"  = "не имеют права доступа к календарю";
+/*************************** cordova插件 end *******************************/
+
+/*************************** 日历权限设置 start *******************************/
+"Calendar_Permisson_Setting" = "пожалуйста, разреши в параметрах устройства Настройка - приватность - календарь %@ доступ к календарь";
+"Calendar_Unavailable_title" = "Календарь недоступен";
+/*************************** 日历权限设置 end *******************************/
+
+/*************************** 通讯录权限设置 start *******************************/
+"Contact_Permisson_Setting" = "пожалуйста, разреши в параметрах устройства Настройка - приватность - Адресная книга %@ доступ к Адресная книга";
+"Contact_Unavailable_title" = "Адресная книга недоступна";
+/*************************** 通讯录权限设置 end *******************************/
+
+/*************************** 网络错误 start *******************************/
+"Common_Network_Unavailable"  = "текущая сеть недоступна, проверьте настройки сети";
+"Common_Server_CannotConnect"  = "Невозможно подключиться к серверу, попробуйте позже";
+"Common_Server_DataError"  = "запрос данных не выполнен";
+/*************************** 网络错误 end *******************************/
+
+"Common_HandWrite"  = "подписать и ратифицировать";
+"Common_PlisInput"  = "пожалуйста, введите содержание";
+"Common_InputSealPassWord"  = "пожалуйста, введите пароль для подписи";
+"Common_PassWordNONull"  = "пароль не может быть пустым";
+"Common_PasswordWrong"  = "Ошибка ввода пароля подписи";
+"Common_InputLimit"  = "достигнуть верхнего предела ввода, который больше не может быть введен.";
+
+"commom_ok"  = "хорошо";
+"commom_setting"  = "Настройка";
+"common_kikedByOther"  = "ваш номер счёта был зарегистрирован в другом месте, вы были вынуждены спуститься вниз";
+"common_backLogin"  = "вернуться на страницу входа";
+
+"updates_check_failed"  = "Ошибка проверки обновления";
+"loadApp_fail"  = "Ошибка загрузки приложения";
+"desktop_errorParameter"  = "Ошибка получения параметров приложения на рабочем столе";
+"wrong_local_resource_path"  = "Ошибка доступа к локальным ресурсам";
+"device_no_data"  = "устройство не найдено подходящим приложением для открытия данных";
+"device_not_sms"  = "устройство не поддерживает отправку SMS";
+"device_not_telephone"  = "оборудование не поддерживает телефонные звонки";
+"attach_path_empty"  = "путь вложения не может быть пустым";
+"common_send_fail"  = "Ошибка отправки";
+"common_send_success"  = "отправка завершена";
+"read_manifest_error"  = "Ошибка чтения Manifest.Json";
+"gesture_clicked_forgot"  = "щелчок левой кнопкой мыши на забытом ручном коде";
+"gesture_clicked_right"  = "щёлкните правой кнопкой мыши по другим номерам счета для посадки";
+"gesture_clicked_skip"  = "Нажмите кнопку пропуска";
+"gesture_clicked_return"  = "Нажмите кнопку назад";
+"open_app_download_adress"  = "Открыть адрес приложения для загрузки";
+"url_empty"  = "URL адрес пуст";
+"parameters_error"  = "ошибка передачи параметров";
+"database_inser_error"  = "Ошибка вставки базы данных.";
+"data_fail_local"  = "локальные данные не найдены";
+"viewController_unsupported "  = "ViewController не поддерживается";
+"memberid_nil"   = "Memberid не может быть пустым";
+"jsapi_error"  = "свойства jsapi и openAppMethod не могут быть пустыми, проверьте файл manifest.Json";
+"device_ios_low"  = "версия IOS слишком низкая";
+"please_install_wps"  = "пожалуйста, установите WPS";
+"iAppOffice_unauthorization"  = "неверный номер последовательности мобильных office, свяжитесь с системным администратором настройки / обновления мобильных офисных номеров!";
+"reopen_wps"  = "WPS занято, пожалуйста, Перезагрузите WPS";
+
+/*************************** 来电提醒 *******************************/
+"call_identification_setting_alert"  = "для нормального использования функции напоминания при вызове, пожалуйста, включите системные права на вызов - вызов блокировки и идентификацию";
+"call_identification_unkown_error"  = "произошла неизвестная ошибка";
+"call_identification_to_setting"  = "перейти к настройке";
+"call_identification_low_system"  = "функция напоминания вызова поддерживается только системой iOS 10 или выше";
+"call_identification_contacts_error"  = "не удалось получить адресную книгу, пожалуйста, ждите завершения загрузки справочника после его повторного испытания";
+"call_identification_open_success"  = "включить напоминание об успехе";
+"call_identification_open_fail"  = "открытие напоминания об ошибке";
+"call_identification_close_success"  = "Закрыть напоминание об успешности";
+"call_identification_close_fail"  = "закрыть напоминание об ошибке";
+"call_identification_guide_title"  = "Включить напоминание о звонке M3";
+"call_identification_guide_1"  = "Этап 1: поиск [телефонных звонков, блокирующих идентификацию]";
+"call_identification_guide_2"  = "этап 2: Открытие [мобильного офиса]";
+/*************************** 来电提醒 end *******************************/
+
+/*************************** 登录 *******************************/
+"login_login"  = "вход";
+"login_login_ing" = "Вход в систему...";
+"login_bindtip"  = "Уровень безопасности этой учетной записи высок. Вам необходимо привязать это устройство, прежде чем вы сможете войти в систему. Хотите отправить запрос на привязку?";
+"login_input_empty"  = "имя или пароль не могут быть пустыми";
+"login_input_empty2"  = "номер телефона или пароль не может быть пустым";
+"login_forget_password"  = "Забыть пароль";
+"login_username"  = "Имя пользователя";
+"login_password"  = "пароль";
+"login_forget_alert"  = "поиск пароля на странице входа в компьютер";
+"login_server_add"  = "Добавить";
+"login_server_list_title"  = "Выберите адрес сервера";
+"login_server_list_add"  = "установить адрес сервера";
+"login_server_list_edit"  = "изменить адрес сервера";
+"login_no_note"  = "пока нет информации об оговорках";
+"login_server_host"  = "адрес сервера (необходимо заполнить)";
+"login_server_port"  = "порт (должен быть заполнен)";
+"login_server_note"  = "примечание (до 15 слов, не обязательно заполнять)";
+"login_server_host1"  = "адрес сервера";
+"login_server_port1"  = "порт";
+"login_server_note1"  = "примечание (до 15 слов)";
+"login_server_delete_message"  = "Удалить адрес сервера?";
+"login_server_no_address"  = "пожалуйста, введите адрес сервера";
+"login_server_no_port"  = "пожалуйста, введите номер порта";
+"login_server_address_error"  = "Неверный формат адреса сервера";
+"login_scan_err"  = "на этой картинке не найден действительный двухмерный код";
+"login_server_exist"  = "адрес сервера и порт уже существуют";
+"login_scan_button"  = "добавить адрес для кода сканирования";
+"login_server_ass"  = "добавлен путем ссылки на номер счета";
+"login_policy_agree"  = "читал и согласился";
+"login_policy_detail"  = "соглашение о защите частной жизни";
+"login_server_manual"  = "Добавить Вручную";
+"login_server_cloud"  = "добавлено через центр облачности";
+"login_server_setting"  = "Настройка сервера";
+"login_phone"  = "номер мобильного телефона";
+"login_server_uninit"  = "пожалуйста, установите адрес сервера";
+"login_server_uninit2"  = "Список адресов сервера, которые не получены на предприятии";
+"login_verification"  = "код проверки";
+"login_tag_legacy"  = "номер счета";
+"login_tag_phone"  = "номер телефона для входа в систему";
+"login_server_note_prefix"  = "примечание";
+"login_cloud_error_2001"  = "неверный запрос!";
+"login_cloud_error_2002"  = "Вы не связаны номер мобильного телефона, пожалуйста, используйте номер счета предприятия для входа в систему";
+"login_cloud_error_2003"  = "номер мобильного телефона связан с несколькими сотрудниками, пожалуйста, используйте корпоративный номер счета для регистрации";
+"login_cloud_error_default"  = "сервер ненормальный, попробуйте позже!";
+"login_policy_not_agree" = "несогласие и выход";
+"login_policy_pop_agree" = "согласие, согласие";
+"login_fail" = "Ошибка входа в систему";
+"login_current_bind_device_numb" = "Текущий номер устройства";
+
+"login_sms_send_tips" = "Код подтверждения отправлен";
+"login_sms_login_phone_error" = "Пожалуйста, введите действующий телефонный номер";
+"login_sms_area_code_title" = "Выберите страну и регион";
+"login_sms_area_code_hot_title" = "#Популярные страны и регионы";
+"login_sms_graph_ver_tips" = "проверка безопасности";
+"login_sms_graph_ver_input_error" = "Код подтверждения неверен или время ожидания истекло, введите его еще раз.";
+"login_sms_phone_unbinding_account" = "Текущий номер мобильного телефона не привязан к кабинету";
+"login_sms_phone_binding_multi_account" = "Текущий номер мобильного телефона соответствует нескольким офисным учетным записям, измените способ входа";
+"login_sms_unit_sms_unauthorized" = "SMS-управление устройством не авторизовано";
+"login_sms_get_code_reach_ceiling" = "Количество попыток получения кодов подтверждения для этого номера телефона достигло верхнего предела. Повторите попытку завтра.";
+"login_sms_get_code_after_seconds" = "Пожалуйста, получите код подтверждения SMS через %@ секунд";
+
+"login_mutilauth_refetchsms" = "Повторно получить код подтверждения по SMS";
+"login_mutilauth_refetch" = "приобрести";
+"login_mutilauth_pleaseinputsms" = "Пожалуйста, введите SMS-код подтверждения";
+"login_mutilauth_smshassendto" = "Капча отправлена";
+"login_mutilauth_seconds" = "секунды";
+
+/*************************** 登录end *******************************/
+
+/******************************重要消息提醒************************************/
+"imp_msg_loadimage" = "Картинка генерируется";
+/******************************重要消息提醒end************************************/
+
+/*************************** 关联账号 *******************************/
+"ass_edit_top_tip"  = "пожалуйста, введите соответствующую информацию для связи";
+"ass_server_host"  = "адрес сервера";
+"ass_username"  = "Имя пользователя";
+"ass_server_note"  = "примечание";
+"ass_title"  = "номер счета ассоциации";
+"ass_add"  = "Добавить";
+"ass_button"  = "корреляция";
+"ass_add_title"  = "Добавить ассоциированные номера счетов";
+"ass_edit_title"  = "изменить номер счета ассоциации";
+"ass_edit_delete_hint"  = "следует ли отменить ассоциацию с этим счетом";
+"ass_switch_title"  = "Переключить предприятие";
+"ass_add_err1"  = "был добавлен адрес сервера, который не может быть ассоциирован";
+"ass_add_err2"  = "Сервер был добавлен путем ссылки на номер счета, не добавлять повторно";
+"ass_add_err3"  = "Сервер был добавлен через центр облачности, не добавлять повторно";
+"ass_edit_err"  = "Добавить номер счёта не может быть отредактирован через ассоциацию, переключитесь на главный номер счета операции";
+"msg_associate"  = "другие деловые новости";
+"ass_switch_ass_title"  = "транскорпоративная единица";
+"ass_switch_parttime_title"  = "единица измерения удара группы";
+/*************************** 关联账号end *******************************/
+
+/*************************** 转发 *******************************/
+"forward_sendto"  = "отправлено";
+"forward_create_new_chat"  = "Создать новый чат";
+"forward_choose_group"  = "выбор групп";
+"forward_recent_contact"  = "последние контакты";
+"forward_send_to"  = "отправить";
+"forward_leave_message"  = "Оставьте сообщение коллеге";
+"forward_message_list_info"  = "[вы получили сообщение]";
+"forward_fileHaveDelete"  = "невозможно передать, файл сервера удален";
+"forward_leaveMsgLimit"  = "не более 100 китайских иероглифов";
+/*************************** 转发end *******************************/
+
+/*************************** 相册 *******************************/
+"pic_handling"  = "обрабатывается...";
+"pic_open"  = "открыть";
+"pic_close"  = "Закрыть";
+"pic_automatic"  = "автоматически";
+/*************************** 相册end *******************************/
+
+/*************************** 日期 *******************************/
+"week_one"  = "Понедельник";
+"week_two"  = "вторник";
+"week_three"  = "среда";
+"week_four"  = "Четверг";
+"week_five"  = "Пятница";
+"week_six"  = "суббота";
+"week_seven"  = "воскресенье";
+/*************************** 日期end *******************************/
+
+/*************************** 引导页 *******************************/
+"guide_start" = "открыть путешествие M3";
+/*************************** 引导页end *******************************/
+
+/*************************** 打印 *******************************/
+"print_action" = "печать ";
+"print_more_than_size" = "размер распечатанного файла превышает ограничение";
+/*************************** 引导页end *******************************/
+
+/*************************** 图片查看组件 *******************************/
+"review_image_videoIsInvalid" = "Неверное видео";
+"review_image_videoError" = "ошибка видео";
+"review_image_unableToSave" = "Невозможно сохранить";
+"review_image_imageIsInvalid" = "Неверное изображение";
+"review_image_downloadImageFailed" = "Ошибка загрузки рисунка";
+"review_image_getPhotoAlbumAuthorizationFailed" = "Ошибка получения прав на альбом";
+"review_image_saveToPhotoAlbumSuccess" = "сохранить в системный альбом";
+"review_image_saveToPhotoAlbumFailed" = "Ошибка сохранения";
+"review_image_viewOriginalPhoto" = "вид оригинал";
+"review_image_viewOriginalPhoto_tip" = "Показать оригинал";
+"review_image_recognizeQRCode" = "Идентификационный QR-код";
+"review_image_recognizeQRCode_in_pic" = "Определите QR-код на картинке";
+"review_image_upload_failed" = "Загрузка не удалась";
+"review_image_downloading" = "скачать...";
+"review_image_network_cannot_connect" = "Текущая сеть недоступна, проверьте настройки сети";
+/*************************** 图片查看组件end *******************************/
+
+/*************************** 页面锁提示 *******************************/
+"pad_lock_hint" = "Проверьте, выходятся ли текущие данные во время обработки?";
+/*************************** 页面锁提示end *******************************/
+
+/*************************** 多端登录提示 *******************************/
+"mu_login_web" = "Website logged in";
+"mu_login_zhixin" = "ZhiXin logged in";
+"mu_login_weChat" = "WeChat logged in";
+"mu_login_web_zhixin" = "Website、ZhiXin logged in";
+"mu_login_web_weChat" = "Website、WeChat logged in";
+"mu_login_zhixin_weChat" = "ZhiXin、ZhiXin logged in";
+"mu_login_web_zhixin_weChat" = "Website、ZhiXin and WeChat logged in";
+"mu_login_exit_web" = "выход из веб - страницы";
+"mu_login_exit_zhixin" = "выход из почтового конца";
+"mu_login_exit_weChat" = "выход из МКС";
+"mu_login_alreadyMute" = "Mobile notification is off";
+
+"mu_login_type_web" = "Веб";
+"mu_login_type_pc" = "ПК";
+"mu_login_type_wechat" = "WeChat";
+"mu_login_type_phone" = "Мобильный";
+"mu_login_type_pad" = "Планшет";
+"mu_login_exit" = "Выход";
+"mu_login_type_logined" = "Войден";
+"muj_login_exit_success" = "Успешно вышел";
+/*************************** 多端登录提示end *******************************/
+
+/*************************** MJRefresh *******************************/
+"MJRefreshHeaderIdleText" = "Обновить снизу";
+"MJRefreshHeaderPullingText" = "отпустить обновление";
+"MJRefreshHeaderRefreshingText" = "Обновить";
+"MJRefreshAutoFooterIdleText" = "нажмите или Растяните для загрузки";
+"MJRefreshAutoFooterRefreshingText" = "Загрузка дополнительных данных...";
+"MJRefreshAutoFooterNoMoreDataText" = "полная загрузка завершена";
+"MJRefreshBackFooterIdleText" = "верхняя тяга может быть загружена больше";
+"MJRefreshBackFooterPullingText" = "отменить загрузку сразу";
+"MJRefreshBackFooterRefreshingText" = "Загрузка дополнительных данных...";
+"MJRefreshBackFooterNoMoreDataText" = "полная загрузка завершена";
+"MJRefreshHeaderLastTimeText" = "Последнее обновление:";
+"MJRefreshHeaderDateTodayText" = "сегодня";
+"MJRefreshHeaderNoneLastDateText" = "без записи";
+/*************************** MJRefresh *******************************/
+
+/*************************** 多端登录 *******************************/
+"mutil_login_mute" = "Отключение сотового телефона";
+"mutil_login_already_mute" = "Телефон отключен";
+"mutil_login_exit_other_client" = "Выход на другой конец";
+"mutil_login_recovery_notification" = "Возобновить телефонные уведомления";
+"mutil_login_unmute_hint" = "После включения «Отключение звука на телефоне» уведомление о новом сообщении возобновится в обычном режиме";
+"mutil_login_stop_notification" = "Остановить телефонные уведомления";
+"mutil_login_mute_hint" = "Когда функция «Без звука» включена, уведомления о новых сообщениях больше не будут приниматься на телефоне";
+/*************************** 多端登录 *******************************/
+
+/*************************** 手机盾相关 *******************************/
+"login_tag_mokey" = "мобильный щит";
+"login_mokeyUsername" = "Имя пользователя";
+"login_mokey_NoKeyId" = "KeyId не существует, пожалуйста, проверьте мобильный щит на платформе управления";
+"login_mokey_NoBind" = "Вы не привязали мобильный щит";
+"login_mokey_error_getkeyid" = "Не удалось получить мобильный щит keyId";
+"login_mokey_error_nocertorurl" = "мобильный щит не настраивает адреса и сертификаты SDK";
+"login_mokey_error_username" = "Ошибка запроса логина";
+"login_mokey_error_getInfo" = "Ошибка запроса информации о щите";
+"login_mokey_error_geteventdata" = "Невозможно получить доступ к серверу";
+"login_mokey_error_certexpire" = "Ваши сертификаты нуждаются в обновлении";
+"login_input_empty3" = "номер счета мобильного щита не может быть пустым";
+"mokey_updateCert_success" = "Обновление сертификата мобильного щита завершено";
+"mokey_userReset_success" = "успешно сбросить щит";
+"login_mokey_scan" = "подметать";
+"login_mokey_NoUserName" = "Введите счёт";
+"login_mokey_scan_login" = "после входа в систему M3";
+"login_mokey_scan_nosupport" = "пока не известно код Mokey";
+"login_mokey_error_beenbound" = "мобильный щит уже привязан к другим устройствам, пожалуйста, свяжитесь с администратором системы";
+"login_mokey_error_qrcodefailure" = "отказ двухмерного кода";
+"reset_mokey_error_account_atypism" = "текущая учётная запись, восстанавливаемая паролем, не совпадает с учётной записью для входа на мобильный терминал";
+/*************************** 手机盾end *******************************/
+
+/*************************** 投屏组件start *******************************/
+"screen_mirror_btn_title" = "Беспроводной экран";
+"screen_mirror_tips_title" = "Теплое напоминание";
+"screen_mirror_checkout_btn" = "Посмотреть учебник";
+"screen_mirror_tips" = "Телефоны Apple должны использовать функцию «зеркальное отображение экрана», чтобы навести экран, пожалуйста, откройте экран в центре управления";
+/*************************** 投屏组件end *******************************/
+
+/*************************** 新文件管理组件start *******************************/
+"file_management_send_btn" = "Отправить";
+"file_management_localfile" = "Телефонный файл";
+"file_management_from_comefrom_m3" = "родом из:";
+"file_management_from_comefrom_third" = "родом из:";
+"file_management_from_comefrom" = "родом из:";
+"file_management_from_sendto" = "Отправить:";
+"file_management_from_comefrom_group" = "Из группового чата:";
+"file_management_from_sendto_group" = "Отправить в групповой чат:";
+"file_management_save_ro_file_success_from_other_tips" = "Сохранено успешно! Пожалуйста, перейдите в мой файл, чтобы просмотреть сохраненный контент";
+/*************************** 新文件管理组件end *******************************/
+
+/*************************** 分享组件start *******************************/
+"share_share_to_innner_title" = "Мобильный офис";
+"share_btn_new_chat" = "Начать чат";
+"share_btn_new_coopa" = "Новое сотрудничество";
+"share_btn_new_conf" = "Новая конференция";
+"share_btn_doc_center" = "Центр документации";
+"share_btn_new_task" = "Новая задача";
+"share_btn_new_sche" = "Новое расписание";
+"share_btn_forward_coopa" = "Экспедирование сотрудничества";
+"share_btn_download" = "скачать";
+"share_btn_collect" = "Collect";
+"share_btn_share" = "доля";
+"share_btn_print" = "печать";
+"share_btn_wechat" = "Micro письмо";
+"share_btn_qq" = "QQ";
+"share_btn_other_app" = "Другие приложения";
+"share_btn_my_colleague" = "Zhixin";
+"share_btn_wwechat" = "Корпоративный WeChat";
+"share_btn_dingtalk" = "Гвозди";
+"share_btn_screen_mirrioring" = "Беспроводной экран";
+"share_btn_generate_qrcode" = "QR код";
+"share_btn_tel_confe" = "Конференц-связь";
+"share_auth_tips_string" = "Разрешить ли персоналу вне процесса просматривать";
+"share_auth_btn_allow" = "разрешать";
+"share_auth_btn_notallow" = "Не допускается";
+"share_component_save_to_my_doc" = "Сохранить в мой документ";
+"share_component_save_to_other_doc" = "Сохранить в другом документе";
+"share_component_share_finished_tips" = "Отправлено!";
+"share_component_share_finished_back_former_view" = "Вернуться на предыдущую страницу";
+"share_component_share_finished_stay_curr_view" = "Будьте в курсе";
+"share_component_file_share_count_tips" = "в целом%ld";
+"share_wechat_limit_10M" = "файл больше 10 м, пока не поддерживается";
+"share_wechat_failed" = "Поделиться неудачей";
+/*************************** 分享组件end *******************************/
+
+/*************************** 登录新界面 *******************************/
+"login_please_login_tips" = "Пожалуйста, войдите";
+"login_please_org_tips" = "только для пользователей cloud";
+"login_first_login_tips" = "Пожалуйста, настройте сервер для первого входа";
+"login_account_placeholder" = "счета";
+"login_account_phone_num" = "Аккаунт / Номер мобильного телефона";
+"login_sms_login_btn" = "СМС QR код";
+"login_mokey_login_btn" = "Экран телефона";
+"login_sms_login_tips" = "СМС QR код";
+"login_mokey_login_tips" = "Экран телефона";
+"login_account_login" = "Вход в аккаунт";
+"login_account_phone_num_login" = "Вход в аккаунт / номер мобильного телефона";
+"login_get_sms_code_error" = "Не удалось получить код подтверждения SMS";
+"login_get_sms_verification_code" = "Получить код подтверждения";
+"login_reget_sms_verification_code" = "Отправить повторно через %02ld сек";
+"login_resend_sms_verification_code" = "Отправить";
+"login_account_null_tips" = "Введите номер счёта";
+"login_phone_null_tips" = "Введите номер телефона";
+"login_password_null_tips" = "Введите пароль";
+"login_verification_code_null_tips" = "Код подтверждения не может быть пустым";
+"login_first_login_set_server_tips" = "Пожалуйста, сначала настройте сервер";
+"login_policy_select_policy_detail" = "Пожалуйста, проверьте и согласитесь с «Соглашением о защите конфиденциальности»";
+"login_first_login_select_server" = "Выберите адрес сервера";
+"login_first_login_edit_server" = "Изменить адрес сервера";
+"login_server_can_not_be_null" = "Сервер не может быть пустым";
+"login_port_can_not_be_null" = "Порт не может быть пустым";
+"login_verification_code_can_not_be_null" = "Пожалуйста, введите проверочный код";
+"login_orgcode" = "код организации";
+"login_orgcode_login" = "регистрация кода организации";
+"login_other_login" = "другой способ входа";
+"login_orgcode_no_null" = "код организации не может быть пустым";
+/*************************** 登录新界面end *******************************/
+
+/*************************** vpn设置 start *******************************/
+"vpn_setpwd" = "Установить пароль";
+"vpn_inputnewpwd" = "Введите новый пароль";
+"vpn_inputnewpwdagain" = "Введите новый пароль еще раз";
+"vpn_inputnewpwd_notsame" = "Пароль, введенный дважды, несогласован";
+"vpn_inputnewpwd_over5minitus" = "Пароль был изменен более 5 минут, пожалуйста, введите изменение повторно";
+"vpn_renewpwd_success" = "Password changed successfully";
+"vpn_renewpwd_overtime" = "Change password more than 5 minutes，please return and enter again";
+"vpn_set_toplevel" = "Advanced Settings";
+"vpn_set_btntitle" = "VPN settings";
+"vpn_set_btntitledone" = "VPN is set";
+"vpn_set_enteraddress" = "Please enter a VPN address";
+"vpn_set_pwdverify" = "Password Authentication";
+"vpn_set_entername" = "Please enter a username";
+"vpn_set_enterpwd" = "Please enter a password";
+"vpn_set_spaverify" = "SPA Verification";
+"vpn_set_spaentercode" = "Please enter SPA verification code";
+"vpn_set_description" = "Configuration Description (Only supports Sangfor VPN)\n1、Enter the VPN address and configure the authentication information \n2、If you need to change the VPN password, please go to Sangfor client to modify";
+"vpn_set_agreedes" = "Submission is deemed to be convincing with consent";
+"vpn_set_privacy" = "Privacy Agreement";
+"vpn_set_submit" = "submit";
+"vpn_set_blanktip" = "There are unfilled fields";
+
+"vpn_connect_ing" = "Подключение к VPN";
+"vpn_connect_fail" = "Сбой подключения к VPN";
+"vpn_connect_nohand" = "Не удается подключиться к адресу VPN";
+"vpn_connect_reset" = "Пожалуйста, переустановите";
+/*************************** vpn设置 end *******************************/
+
+/*************************** 截屏控制 *******************************/
+"screenshot_control_tips" = "Контроль захвата экрана включен, операции регистрируются в фоновом журнале";
+"screeenshot_control_iknow_btn" = "Получил это";
+"screeenshot_page_title_multi_login" = "многополюсная страница входа";
+"screeenshot_page_title_camera" = "камера";
+"screeenshot_page_title_empty" = "пустая страница";
+"screeenshot_page_title_image_browser" = "картинка";
+"screeenshot_page_title_AVPlayer" = "звуковой проигрыватель";
+/*************************** 截屏控制end *******************************/
+
+/*************************** 图片组件新增start *******************************/
+"picture_forward_text" = "Forwarded";
+"picture_photo_text" = "фото";
+"picture_video_text" = "видео";
+"picture_check_pics_title" = "Фото / видео";
+"picture_multi_select_btn_title" = "Множественный выбор";
+"picture_pic_selected_empty_tips" = "Пожалуйста, выберите изображение";
+"photo_preview_nav_title" = "Панорамирование и масштабирование";
+/*************************** 图片组件新增end *******************************/
+
+/*************************** 视频组件start *******************************/
+"video_component_retake_title" = "Пересдача";
+"video_component_use_title" = "Использовать";
+"video_component_select_from_album" = "Выбрать из альбома";
+"video_component_take_photo" = "Сфотографируй";
+"video_component_no_permission" = "невозможно снять микрофон и права камеры";
+"audio_component_no_permission" = "Не удалось записать, включите права микрофона в настройки системы";
+"video_component_data_loading_failed" = "Не удалось загрузить аудио и видео, обратитесь к администратору";
+"video_compress" = "сжатие";
+/*************************** 视频组件end *******************************/
+
+/*************************** 推送开关设置start *******************************/
+"user_notification_not_open_tip" = "обнаружено, что вы не открывали уведомления, чтобы получить их вовремя, рекомендуется открыть";
+"user_notification_ignore" = "игнорировать";
+/*************************** 推送开关设置end *******************************/
+
+/*************************** 低版本系统可能出现空白页面的提示start *******************************/
+"low_system_blank_tip" = "Обнаружена низкая версия системы iOS, возможно, из - за чрезмерного использования памяти появится белый экран страницы или повторение обновления, во избежание того, чтобы повлиять на ваш опыт использования, рекомендуется обновить версию системы на iOS11. 0 или заменить её";
+/*************************** 低版本系统可能出现空白页面的提示end *******************************/
+"select_multiple_chats" = "Выберите несколько разговоров";
+"excess_quantity" = "Можно выбрать до 10 сеансов.";
+"send_separately_to" = "Отправить отдельно";
+"total_message" = "Всего %lu новостей.";
+/*************************** 负一屏start *******************************/
+"slide_to_top_screen" = "Спускайтесь на второй этаж, чтобы увидеть последние следы.";
+"add_to_top_screen" = "Добавить на второй этаж";
+"cancel_to_top_screen" = "Удалить со второго этажа";
+"recently_title" = "В последнее время";
+"common_entry" = "Часто используемый вход";
+"my_second_floor" = "Мой второй этаж.";
+"top_screen_recently_tip" = "Недавно просмотренные документы, синергия и т. Д. появятся здесь";
+"add_top_screen_success" = "Успешно добавлено";
+"remove_top_screen_success" = "Успешно удалено";
+/*************************** 负一屏end *******************************/
+"more_operations" = "Больше операций";

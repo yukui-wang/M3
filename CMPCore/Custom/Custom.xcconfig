@@ -1,0 +1,14 @@
+//
+//  Custom.xcconfig
+//  CMPCore
+//
+//  Created by SeeyonMobileM3MacMini2 on 2022/12/12.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+#include "Base.xcconfig"
+
+//MOBAppKey = "11111111"//
+//MOBAppSecret = "333333333333333333333333"//

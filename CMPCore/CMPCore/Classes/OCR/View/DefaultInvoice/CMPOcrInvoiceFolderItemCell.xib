@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="CMPOcrInvoiceFolderItemCell">
+            <rect key="frame" x="0.0" y="0.0" width="150" height="40"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="150" height="40"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Whl-wp-KHC" userLabel="bgView">
+                        <rect key="frame" x="0.0" y="0.0" width="150" height="40"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="第三季度补助发票" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3kE-Tg-fFA">
+                        <rect key="frame" x="15" y="0.0" width="120" height="40"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="SEy-5g-ep8"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="3kE-Tg-fFA" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="15" id="4ZS-G3-qdd"/>
+                <constraint firstItem="Whl-wp-KHC" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="JJp-gb-Ci1"/>
+                <constraint firstItem="3kE-Tg-fFA" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="Qot-i0-I8O"/>
+                <constraint firstAttribute="trailing" secondItem="3kE-Tg-fFA" secondAttribute="trailing" constant="15" id="Vby-cO-J15"/>
+                <constraint firstItem="Whl-wp-KHC" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="iuj-t5-Vdi"/>
+                <constraint firstAttribute="bottom" secondItem="Whl-wp-KHC" secondAttribute="bottom" id="nUe-Wn-Vxv"/>
+                <constraint firstAttribute="trailing" secondItem="Whl-wp-KHC" secondAttribute="trailing" id="qR0-Ay-R9B"/>
+                <constraint firstAttribute="bottom" secondItem="3kE-Tg-fFA" secondAttribute="bottom" id="zfN-qz-rgG"/>
+            </constraints>
+            <size key="customSize" width="150" height="40"/>
+            <connections>
+                <outlet property="bgView" destination="Whl-wp-KHC" id="FJm-lq-vod"/>
+                <outlet property="nameLabel" destination="3kE-Tg-fFA" id="OkX-Y7-6Tm"/>
+            </connections>
+            <point key="canvasLocation" x="210.1449275362319" y="149.33035714285714"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

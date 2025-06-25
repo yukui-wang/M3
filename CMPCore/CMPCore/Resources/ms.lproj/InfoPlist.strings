@@ -1,0 +1,18 @@
+/*
+ InfoPlist.strings
+ CMPCore
+ 
+ Created by youlin on 2017/3/11.
+ 
+ */
+CFBundleName="Pejabat mudah alih";
+CFBundleDisplayName="Pejabat mudah alih";
+NSLocationWhenInUseUsageDescription = "Sila berikan ＂Pejabat Mudah Alih＂ untuk mengakses lokasi anda; jika tidak dibenarkan, anda tidak akan dapat menggunakan penghantaran lokasi, daftar masuk dan ciri-ciri lain.";
+NSLocationAlwaysAndWhenInUseUsageDescription = "Sila berikan ＂Pejabat Mudah Alih＂ untuk mengakses lokasi anda; jika tidak dibenarkan, anda tidak akan dapat menggunakan penghantaran lokasi, daftar masuk dan ciri-ciri lain.";
+NSCalendarsUsageDescription = "Sila berikan ＂Pejabat Mudah Alih＂ untuk mengakses kalendar anda; jika tidak dibenarkan, anda tidak akan dapat menggunakan ciri-ciri seperti penyegerakan kalendar.";
+NSContactsUsageDescription = "Sila berikan ＂Pejabat Mudah Alih＂ untuk mengakses kenalan anda; jika tidak dibenarkan, anda tidak akan dapat menggunakan kenalan, menambah kenalan tempatan dan banyak lagi.";
+NSPhotoLibraryUsageDescription = "Sila berikan ＂Pejabat Mudah Alih＂ untuk mengakses album foto anda; jika tidak dibenarkan, anda tidak akan dapat menghantar foto kepada rakan sekerja, memuat naik gambar album tempatan dan sebagainya dalam lampiran.";
+NSCameraUsageDescription = "Sila berikan ＂Pejabat Mudah Alih＂ untuk mengakses kamera anda, jika tidak dibenarkan, anda tidak akan dapat menggunakan sapuan, mengambil foto dan fungsi lain.";
+NSPhotoLibraryAddUsageDescription = "Sila berikan ＂Pejabat Mudah Alih＂ untuk mengakses album foto anda; jika tidak dibenarkan, anda tidak akan dapat menghantar foto kepada rakan sekerja, memuat naik gambar album tempatan dan sebagainya dalam lampiran.";
+NSMicrophoneUsageDescription = "Sila berikan ＂Pejabat Mudah Alih＂ untuk mengakses mikrofon anda; jika tidak, anda tidak akan dapat menggunakan pemesejan suara, persidangan video dan banyak lagi.";
+NSFaceIDUsageDescription = "Sila berikan ＂Pejabat Mudah Alih＂ untuk mengakses id wajah anda; jika tidak, anda tidak akan dapat menggunakan ciri-ciri seperti buka kunci muka.";

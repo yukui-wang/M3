@@ -1,0 +1,21 @@
+{
+    "bundleIdWithPrefix" : "xxxxxx.com.xxx.xxxx",
+    "appGroupId" : "group.com.xxx.xxxx.xxx",
+    "callExtensionBundleId" : "",
+    "shareExtensionBundleId" : "",
+    "bundleVersion" : "1.0.0",
+    "defaultServer" : "",
+    "defaultServerNote" : "默认",
+    "baiduApiKey" : "",
+    "gaodeApiKey" : "",
+    "qqAppId" : "",
+    "qqAppKey" : "",
+    "qqUniversalLink" : "",
+    "wcAppId" : "",
+    "wcAppKey" : "",
+    "wcUniversalLink" : "",
+    "dingAppId" : "",
+    "leboAppId" : "",
+    "leboAppKey" : "",
+    "privacyTag" : "0"
+}

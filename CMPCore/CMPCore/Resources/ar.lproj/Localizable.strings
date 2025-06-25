@@ -1,0 +1,853 @@
+/*
+ Localizable.strings
+ M1IPhone
+ 
+ Created by admin on 12-10-29.
+ Copyright (c) 2012年 北京致远协创软件有限公司. All rights reserved.
+ */
+
+
+/**************************************登陆与菜单   start********************************************/
+"GestureLogin_Skip_Confirm" = "تخطى";
+"GestureLogin_Titile_Set" = "تعيين كلمة المرور لفتة";
+"GestureLogin_DrawUnlock" = "رسم نمط فتح";
+"GestureLogin_ResetGesture" = "إعادة ضبط الإيماءة";
+"GestureLogin_ForgetGesture" = "نسيت كلمة المرور لفتة";
+"GestureLogin_OtherWayLogin" = "تسجيل الدخول إلى الحساب الآخر";
+"GestureLogin_Inputpassword" = "أدخل كلمة المرور";
+"GestureLogin_Input_MoreThan4" = "يرجى رسم ما لا يقل عن 4 نقاط على التوالي";
+"GestureLogin_Input_Again" = "يرجى إدخال كلمة المرور لفتة مرة أخرى";
+"GestureLogin_Set_Success" = "تم إعداد كلمة المرور بنجاح";
+"GestureLogin_Input_SameToPre" = "لا يتوافق مع السحب الأول ، يرجى السحب مرة أخرى";
+"GestureLogin_Input_Right" = "التحقق بنجاح";
+"GestureLogin_Input_WrongCountTip" = "تم إدخال كلمة المرور بشكل غير صحيح ، ويمكنك أيضًا إدخال٪ ld مرة.";
+
+"coll_nosignature" = "لا يوجد توقيع.";
+"coll_all_clean" = "مسح الكل";
+"Setting_Clean_Finished" = "قم بتنظيف مساحة التخزين وحررها:";
+"Setting_Cleaning..." = "جارٍ محو ذاكرة التخزين المؤقت ، يرجى الانتظار ...";
+
+"Email_Send_Cancel" = "إلغاء إرسال البريد";
+"Email_Save_Success" = "احفظ الرسالة بنجاح";
+"Email_Send_Success" = "تم ارسال البريد بنجاح";
+"Email_Send_Fail" = "فشل في إرسال البريد";
+"Email_NO_Config_Mailbox" = "يرجى البريد الإلكتروني مع الهاتف المحمول";
+"QRCode_Scan" = "اكتساح";
+"QRCode_Album" = "رواق";
+"QRCode_AutoScan" = "ضع رمز الاستجابة السريعة في المربع وسيتم مسحه ضوئيًا تلقائيًا";
+"QRCode_Message" = "اكتساح الطرف:";
+"QRCode_NotAddressCode" = "لا يمكن التعرف على رمز الاستجابة السريعة هذا كبطاقة أعمال";
+
+"Sign_markInMap" = "خريطة الشرح";
+"Sign_location_servicesSet_m3" = "تم إيقاف تشغيل خدمة الموقع.يرجى زيارة نظام \"الإعدادات\" - \"الخصوصية\" - \"خدمات الموقع\" - \"٪ @\" وتمكين خدمات الموقع";
+"Sign_location_servicesSet" = "تم إيقاف تشغيل خدمة الموقع.يرجى زيارة نظام \"الإعدادات\" - \"الخصوصية\" - \"خدمات الموقع\" وتمكين خدمات الموقع";
+"Sign_Local_locat_data_unavailable" = "بيانات تحديد المواقع المحلية غير متاحة!";
+"Sign_Local_locat_data_waiting" = "الحصول على معلومات الموقع";
+"common_save" = "حفظ";
+
+"touchid_unavailable" = "لم يتم تعيين معرف اللمس ، يرجى إضافة بصمة في \"إعدادات النظام - معرف اللمس وكلمة المرور\"";
+"faceid_unavailable" = "لم يتم تعيين معرف الوجه ، يرجى إضافة وجه في \"إعدادات النظام - معرف الوجه وكلمة المرور\"";
+"touchid_verify_reason" = "تحقق من معرف اللمس فتح";
+"faceid_verify_reason" = "تحقق من فتح معرف الوجه";
+"common_goto_setting" = "الذهاب إلى مجموعة";
+"touchid_lock" = "تم تجاوز محاولات معرف اللمس";
+"faceid_lock" = "تم تجاوز محاولات Face ID";
+"localauth_touchID_button" = "انقر لإلغاء القفل باستخدام Touch ID";
+"localauth_faceID_button" = "انقر لإلغاء قفل Face ID";
+"localauth_gesture" = "لفتة فتح";
+"localauth_openFaceToUnlock_button" = "فتح الوجه لفتح";
+"localauth_openFingerprintToUnlock_button" = "تشغيل فتح بصمات الأصابع";
+
+"WiFiClockIn_clockInTime" = "وقت العمل";
+"WiFiClockIn_clockOffTime" = "ساعات التوقف";
+"WiFiClockIn_illegal" = "غير متصل حاليًا بشبكة WiFi المحددة";
+"WiFiClockIn_button" = "اذهب إلى العمل";
+
+/**************************************common   start********************************************/
+"Common_Yesterday" = "أمس";
+"Common_Tomorrow" = "غدا";
+"Common_MustUpdateVersion" = "تم اكتشاف تحديث البرنامج ، يرجى التحديث إلى٪ @ للاستخدام العادي.";
+"Common_LatestVersion" = "أحدث نسخة";
+"Common_UpdateNow" = "تحميل الآن";
+"Common_Alert" = "ذكر";
+"Common_Update_Download" = "تم اكتشاف تحديث البرنامج وإصدار جديد من تجربة التنزيل.";
+"Common_DownloadNow" = "تحميل الآن";
+"Common_DownloadLater" = "تجاهل هذا الإصدار";
+"Common_Already_the_recently_Version" = "بالفعل أحدث نسخة";
+"Common_To" = "إلى";
+
+"Common_Pic1" = "الصورة٪ @.";
+"Common_Voc1" = "صوت٪ @. مقهى";
+"Common_Mov1" = "فيديو٪ @. mov";
+
+"common_delete" = "حذف";
+"common_prompt" = "موجه";
+"common_cancel" = "ألغيت";
+"common_ok" = "حدد";
+"common_confirm" = "أكد";
+"common_rename" = "إعادة تسمية";
+"common_rename_placeholder" = "الرجاء إدخال اسم ملف جديد";
+
+"common_close" = "قريب";
+"common_return" = "عودة";
+"common_back" = "عودة";
+"common_search" = "بحث";
+"common_table_loading" = "تحميل البيانات";
+"common_no_record" = "غير مسجل";
+"common_no_paly" = "لا يلعب";
+"common_inputName_canNotEmpty_againInput" = "الاسم لا يمكن أن يكون فارغا ، يرجى إعادة إدخال";
+"common_not_record" = "لا تسجيل";
+"common_nameExist_againInput" = "الاسم موجود بالفعل ، يرجى إعادة إدخال";
+"common_stop_paly" = "العب توقف";
+"common_paly_stop" = "لعب وقفة";
+"common_thisDoc_isNotExist" = "هذا الملف غير موجود!";
+"common_record_paly" = "توقف التسجيل";
+"common_playing" = "الآن اللعب";
+
+"common_attName_theMostInput_40Words" = "يمكن إدخال اسم المرفق حتى 40 كلمة.";
+"common_inputCharacter_notInclude_XX" = "لا يمكن أن تحتوي الأحرف التي تدخلها على أحرف * / <>؟ :: ||";
+"common_save_success" = "تم الحفظ بنجاح";
+"common_save_fail" = "فشل حفظ";
+"common_norecord" = "غير قادر على التسجيل";
+"common_norecordalert" = "يرجى السماح٪ @ بالوصول إلى الميكروفون في خيار \"الإعدادات - الخصوصية - الميكروفون\" في الجهاز";
+"common_nocameraalert" = "يرجى السماح٪ @ بالوصول إلى الكاميرا في خيار \"الإعدادات - الخصوصية - الكاميرا\" في الجهاز";
+"common_nophotostitle" = "الألبوم غير متوفر";
+"common_nophotos" = "يرجى السماح٪ @ بالوصول إلى صورك في خيار \"الإعدادات - الخصوصية - الصور\" في الجهاز";
+"common_uploadAttachmentLimit" = "لا يمكن أن يكون حجم الملف الذي تم تحميله أكبر من 50 مترًا.";
+"common_nodata" = "لا توجد بيانات حتى الآن";
+"common_language" = "";
+"common_search_subject" = "عنوان رئيسي";
+"common_Nothing" = "لا يوجد محتوى";
+"common_Nothing_sorry" = "!آسف لا يوجد شيء هنا";
+"common_search_pleaseEnterKeywords" = "الرجاء إدخال كلمة رئيسية";
+"common_camera_unavailable" = "الكاميرا غير متوفرة";
+"common_read" = "رأي";
+"common_finshed" = "كامل";
+"common_repeal" = "فك";
+
+"common_proxyAlert" = "الجهاز الحالي يعمل على تشغيل الوكيل ، وسوف يكون هناك خطر على الأمان إذا استمرت في استخدامه!";
+"common_jailbreakAlert" = "لقد تم كسر الجهاز الحالي وسوف يستمر استخدامه مع المخاطر الأمنية!";
+"common_loadAppFail" = "أخفق تحميل التطبيق ، يرجى إعادة تعيين عنوان الخادم.";
+"common_noAppDownloadAddress" = "لا يوجد عنوان لتنزيل التطبيق أو تنسيق العنوان غير صحيح \ n٪ @";
+"common_noPermissionCamera" = "غير قادر على استخدام الكاميرا";
+"common_downloadFileFailed" = "فشل تنزيل الملف.";
+"common_fileCopyError" = "خطأ في نسخ الملفات إلى دليل التخزين.";
+"common_locationDetail" = "تفاصيل الموقع";
+"common_failToFormatLocation" = "فشل تحويل تنسيق الموقع";
+"common_unkownError" = "خطأ غير معروف";
+"common_appDownloadFail" = "فشل تحميل التطبيق ، انقر فوق";
+"common_unzipAppPackageFail" = "خطأ في إلغاء ضغط حزمة التطبيق.";
+"common_downloadAddressEmpty" = "لا يمكن أن يكون عنوان التنزيل فارغًا";
+"common_noAppInformation" = "لم يتم العثور على معلومات التطبيق";
+"common_mobileAlbums" = "ألبوم صور للجوال";
+"common_videoPreview" = "معاينة الفيديو";
+"common_usePhoto" = "استخدام الصورة";
+"common_takePhotoAgain" = "استعادة";
+"common_noFreeSpace" = "تبلغ مساحة تخزين الجهاز أقل من 200 متر. يرجى تنظيف المساحة قبل التنزيل.";
+"common_uploadServerEmpty" = "لا يمكن أن يكون عنوان خادم التحميل فارغًا";
+"common_deleteCacheFail" = "فشل حذف ذاكرة التخزين المؤقت";
+"common_cancelSending" = "إلغاء الإرسال";
+"common_cancelLabeling" = "إلغاء تحديد";
+"common_turnOnLocation" = "يرجى تشغيل مفتاح الموضع في إعدادات النظام.";
+"common_pleaseSelectLocation" = "يرجى اختيار الموقع";
+"common_cancelPhotography" = "إلغاء الصورة";
+"common_noPermissionAlbums" = "لا أذونات الألبوم";
+
+"common_reload_tabbar" = "يتم تعديل التنقل السفلي وتحتاج الصفحة إلى تحديث.";
+"common_load_success" = "الانتهاء";
+"common_reload_language" = "لم تعد اللغة المفضلة لديك الحالية مدعومة ويجب تحديثها.";
+"common_or" = "أو";
+"common_exit" = "انسحب";
+"common_Connecting" = "اتصال ...";
+"common_dept"="قسم";
+/**************************************common   end********************************************/
+
+/**************************************OfflineFiles   start********************************************/
+"offlineFiles_unknownFiles" = "لا يدعم ملف التنسيق هذا المشاهدة المحلية في الوقت الحالي. يرجى فتحه مع تطبيقات أخرى.";
+"offlineFiles_offlineFiles" = "وثيقة حاليا";
+"offlineFiles_myfile" = "ملفي";
+"offlineFiles_haveBeenSelect_xx" = "تم تحديد٪ d";
+"offlineFiles_unzipFail" = "تحميل الملف غير طبيعي أو فاسد";
+/**************************************OfflineFiles    end********************************************/
+
+/*************************** 更新包 start *******************************/
+"UpdatePackage_TipTitle" = "موجه";
+"UpdatePackage_TipTitle_IsDownload" = "تنزيل التطبيقات لك";
+"UpdatePackage_CloseApp" = "إغلاق التطبيق";
+"UpdatePackage_Download" = "تحميل";
+"UpdatePackage_TipNotWifi" = "بيئة شبكتك الحالية ليست شبكة Wi-Fi. سيؤدي متابعة التنزيل إلى توليد حركة مرور ، هل تم تنزيلها؟";
+"UpdatePackage_ReDownload" = "إعادة تحميل";
+"UpdatePackage_updating" = "تنزيل التطبيقات من أجلك ، يرجى النقر لعرضها";
+"UpdatePackage_progress" = "تنزيل التطبيق لك (٪ d٪ s)";
+"UpdatePackage_updateFail" = "فشل التنزيل ، يرجى التنزيل مرة أخرى";
+/*************************** 更新包 end *******************************/
+
+/*************************** 离线通讯录 start *******************************/
+"contacts" = "دفتر العناوين";
+"contacts_org" = "الهيكل التنظيمي";
+"contacts_team" = "فريق المشروع";
+"contacts_groupchat" = "الدردشة الجماعية";
+"contacts_frequent" = "الاتصالات المشتركة";
+"contacts_related" = "الموظفين المعنيين";
+"contacts_downloadFail" = "فشل تنزيل دفتر العناوين غير المتصل!";
+"contacts_retry" = "إعادة تحميل";
+"contacts_downloading" = "يتم الآن تنزيل جهات الاتصال في وضع عدم الاتصال ...";
+"contacts_searchkey_old" = "الرجاء إدخال اسمك / رقم هاتفك المحمول";
+"contacts_searchkey_new" = "الرجاء إدخال اسمك / رقم هاتفك المحمول / الأحرف الأولى بينيين";
+"contacts_getData" = "جارٍ قراءة جهات الاتصال في وضع عدم الاتصال بالنسبة لك ...";
+/*************************** 离线通讯录 end *******************************/
+
+/*************************** 相册 start *******************************/
+"photo" = "صور";
+"Common_Preview" = "المعاينة";
+"photo_original" = "الصورة الأصلية";
+"photo_download_iCloud" = "يرجى المحاولة مرة أخرى بعد تنزيل صورة iCloud في ألبوم النظام.";
+"photo_limit" = "يرجى تحميل صورة أصغر من٪ ldM.";
+"photo_countlimit" = "يمكنك فقط تحديد ما يصل إلى٪ zd من الصور";
+"photo_setting" = "يرجى في \"设置-隐私-照片\"选项中，\r允许%@访问你的手机相册。";
+
+"scan_fail" = "لا رمز الاستجابة السريعة المعترف بها";
+"scan_picfail" = "لم يتم التعرف على رمز الاستجابة السريعة في الصورة";
+"common_isee" = "أنا أعلم";
+"atta_limitsize" = "يرجى تحميل ملف أصغر من٪ ldM.";
+"common_weakpassword" = "لا تفي بمتطلبات قوة كلمة المرور أو انتهت صلاحية كلمة المرور ، من أجل أمان حسابك ، يرجى تغيير كلمة المرور.";
+"scan_joingroup_error" = "فشل الانضمام إلى مجموعة الدردشة";
+/*************************** 相册 end *******************************/
+
+/*************************** 消息列表 start *******************************/
+"msg_image" = "[صورة]";
+"msg_voice" = "[صوت]";
+"msg_file" = "[أرشيف]";
+"msg_vcard" = "[بطاقة العمل]";
+"msg_personal_card" = "بطاقة العمل";
+"mjRefresh_just" = "آخر تحديث في: فقط";
+"mjRefresh_fewSecond" = "آخر تحديث:٪ d ثانية قبل";
+"msg_clearGroupNotification" = "بعد مسح سجل رسائل نظام المجموعة ، لا يمكن استعادته ، هل تريد بالتأكيد محو جميع الرسائل؟";
+"msg_recall" = "سحب رسالة";
+"msg_recall_me" = "قمت بسحب رسالة";
+"msg_metioned" = "[شخص ما 我]";
+"msg_fileHaveDelete" = "غير قادر على التنزيل ، تم حذف ملف الخادم";
+"msg_userListTitle" = "اختيار عضو المجموعة";
+"msg_reedit" = "إعادة تحرير";
+"msg_createGroup" = "بدء دردشة جماعية";
+"msg_joinGroup" = "لقد انضممت إلى الدردشة الجماعية";
+"msg_quitGroup" = "الخروج من الدردشة الجماعية";
+"msg_kickedGroup" = "لقد تمت إزالتك من الدردشة الجماعية";
+"msg_dismissGroup" = "تم حل الدردشة الجماعية \"٪ @\".";
+"msg_changeGroupManager" = "لقد أصبحت مالك الدردشة الجماعية \"٪ @\".";
+"msg_rebulletin" = "تغيير إعلان المجموعة";
+"msg_operator" = "عامل";
+"msg_replacement" = "تم نقل مالك المجموعة إلى٪ @";
+"msg_msgTitle" = "أخبار";
+"msg_coll" = "متعاون";
+"msg_edoc" = "وثيقة رسمية";
+"msg_plan" = "خطة العمل";
+"msg_bul" = "إعلان";
+"msg_news" = "أخبار";
+"msg_inquire" = "مسح";
+"msg_meeting" = "لقاء";
+"msg_doc" =  "ملف";
+"msg_wages" = "قسائم الدفع";
+"msg_BehaviorPerformance" = "الأداء السلوكي";
+"msg_bbs" = "بحث";
+"msg_queyreport" = "إحصائيات الاستعلام";
+"msg_zhixin" = "بعث برسالة إلى";
+"msg_offlineDoc" = "وثيقة حاليا";
+"msg_MyCollection" = "مجموعتي";
+"msg_attendance" = "تحقق في";
+"msg_task" = "مهمة العمل";
+"msg_schedule" = "الجدول الزمني";
+"msg_show" = "استمتع الفضاء";
+"msg_ReportShow" = "تقرير التحليل";
+"msg_SystemMsg" = "رسالة النظام";
+"msg_form" = "أشكال";
+"msg_IntegratedOffice" = "مكتب متكامل";
+"msg_project" = "مشروع";
+"msg_noMsg" = "لا توجد بيانات حتى الآن";
+"msg_noAssMsg" = "لا أخبار جديدة";
+"msg_delete" = "حذف";
+"msg_remove" = "أبعد";
+"msg_top" = "لزج";
+"msg_canceltop" = "فاشل";
+"msg_markRead" = "اجعله مقروء";
+"msg_outMsg" = "النظام الخارجي";
+"msg_reportCenter" = "مركز التقارير";
+"msg_groupNotification" = "رسالة نظام المجموعة";
+"msg_xiaoguangbo" = "بث صغير";
+"msg_xgbnewtip" = "بدء بث صغير";
+"msg_xgbnewMessage" = "لديك رسالة بث صغيرة جديدة";
+"msg_xgbrecalltip" = "سحب رسالة البث";
+"msg_fileass" = "مساعد ملف";
+"msg_zhixinInitError" = "الرسالة غير مهيأة";
+"msg_app" = "رسالة التطبيق";
+"msg_push" = "تذكير دفع الذكية";
+"msg_leader" = "رسالة قيادتي";
+"msg_track" = "تتبع رسالة المسألة";
+"msg_mention" = "@ رسالتي";
+"msg_requestingFilePrivilege" = "طلب البيانات ، يرجى المحاولة مرة أخرى لاحقًا.";
+"msg_noFilePrivilege" = "غير مصرّح لك بالقيام بذلك ، لمزيد من التفاصيل ، يرجى الرجوع إلى مسؤول النظام أو مالك المجموعة!";
+"msg_zhixin_notHasPermission" = "بعد فتح الرسالة ، يرجى الاتصال بمسؤول";
+"msg_zhixin_notAvailable" = "خدمة الرسالة غير متوفرة";
+"msg_set_admin" = "يعينك %@ كمسؤول عن الدردشة الجماعية \"%@\".";
+"msg_unset_admin" = "ألغى %@ حقوق المسؤول في الدردشة الجماعية الخاصة بك \"%@\".";
+"msg_mark_unread" = "مارك غير مقروء";
+"msg_you_set_admin" = "لقد قمت بتعيين @% مسؤول";
+"msg_you_unset_admin" = "لقد ألغيت @% في منصب المدير";
+"msg_someone_set_admin" = "قمت بتعيين @% مسؤول %@";
+"msg_someone_unset_admin" = "ألغيت @% في منصب المدير %@";
+"msg_content_sensitive_notsend" = "تحتوي الرسالة على معلومات حساسة ولا يمكن إرسالها";
+"msg_content_sensitive_hascleared" = "تحتوي الرسالة على معلومات حساسة ، تم مسحها";
+/*************************** 消息列表 end *******************************/
+
+/*************************** 融云 *******************************/
+"rc_PluginBoardPicture" = "صور";
+"rc_PluginBoardCamera" = "التقط صورة";
+"rc_PluginBoardLocation" = "موقع";
+"rc_PluginBoardFile" = "ملف";
+"rc_PluginBoard_VoIPAudioCall"="مكالمة صوتية";
+"rc_PluginBoard_VoIPVideoCall"="مكالمة فيديو";
+"rc_PluginBoard_VoIPAudioAndVideoCall" = "صوت مكالمة فيديو";
+"rc_RedPacket" = "المغلف الأحمر";
+"view_RedPacket" = "عرض المغلف الأحمر";
+"redPacket_Expired" = "انتهت المغلف الأحمر";
+"rc_OpenRedPacket" = "تلقي مظروف أحمر";
+"yourself_Open"  ="لقد تلقيت المغلف الأحمر الخاص بك";
+"rc_M3RedPacket" = "المغلف الأحمر";
+"redPacket_received" = "تم تلقي مظروف أحمر";
+"redPacket_over" = "تم تلقي الظرف الأحمر";
+"redPacket_receive_info" = "لقد تلقيت المغلف الأحمر لـ٪ @";
+"redPacket_receive_info2"= "تلقى٪ @ المغلف الأحمر الخاص بك";
+"you" = "أنت";
+"ass_doc" = "وثيقة مرتبطة";
+"view_details" = "عرض التفاصيل";
+"Launch_time" = "وقت البدء: ";
+"doc_sponsors" = "الراعي: ";
+"rc_task_principal" = "الشخص المسؤول:";
+"rc_scan_code_join_group" = "من خلال مسح رمز ثنائي الأبعاد إضافة مجموعة دردشة";
+"GroupReplacement"="تم نقل مالك المجموعة إلى٪ @";
+"GroupReplacement_who_changed_owner_to"="%@ نقل مالك المجموعة إلى %@";
+"GroupRebulletin"="تغيير إعلان المجموعة";
+"ConvertMission"="نقل المهمة";
+"You sent a window jitter"="لقد أرسلت غضب النافذة";
+"sent you a window jitter"="أرسلت لك غضب النافذة";
+"rc_group_chat_record" = "دردشة مجموعة سجلات";
+"rc_single_messages_forward" = "إلى الأمام";
+"rc_merge_message_forward" = "الجمع بين الشحن";
+"rc_transfer_opinoin" = "نقل الرأي";
+"rc_msg_business_card" = "[بطاقة شخصية]";
+"rc_msg_business_card_name" = "بطاقة شخصية";
+"rc_msg_general_business" = "[أخبار %@]";
+"rc_msg_general_business_handel_success" = "التعامل بنجاح";
+"rc_msg_general_business_handel_fail" = "التعامل مع الفشل";
+"rc_msg_collection_handel_success" = "جمع النجاح";
+"rc_msg_collection_handel_fail" = "فشل في جمع";
+"rc_msg_collection_handel_already_collect" = "كنت قد جمعت هذه الوثيقة";
+"rc_msg_single_forward_tip" = "إرسال الرسائل التي لا تدعم حزمة حمراء ، تطبيق نوع البطاقة";
+"rc_msg_combine_forward_tip" = "دمج وإلى الأمام الرسائل التي تدعم فقط النص ، الصور ، أنواع الملفات";
+"rc_msg_turn_on_opinione_tip" = "الرسائل التي تدعم النص ، صورة ، نوع الملف فقط";
+"rc_msg_collection_chat_record_tip" = "جمع الرسائل التي تدعم فقط النص ، الصور ، أنواع الملفات";
+"rc_msg_combine_vard" = "[سجل الدردشة]";
+"rc_msg_unknown_folder_tip" = "الجوال لا يدعم نوع المجلد عرض المعلومات";
+"rc_group_kanban_chat" = "التيار المتردد";
+"rc_msg_resend" = "إعادة إرسال";
+"msg_at_all" = "الجميع";
+"rc_msg_quote" = "يقتبس";
+"rc_msg_unknown_tip" = "لا يدعم الجهاز المحمول حاليًا هذا النوع من عرض المعلومات";
+"rc_msg_unknown_msgtype" = "[نوع الرسالة غير معروف]";
+"zx_loginstatus_mobile" = "الهاتف المحمول عبر الإنترنت";
+"zx_loginstatus_client" = "العميل عبر الإنترنت";
+"zx_loginstatus_web" = "على شبكة الإنترنت على شبكة الإنترنت";
+"zx_loginstatus_offline" = "غير متصل";
+"quick_ontimemeet" = "اجتماع فوري";
+
+"rc_remote_del_confirm_text" = "لا يمكن استعادة بعد حذف محضر الدردشة، هل من المؤكد حذفه؟";
+"rc_remote_clear_confirm_text" = "لا يمكن استعادة سجلات الدردشة بعد إفراغها، هل هو متأكد من إفراغها؟";
+/*************************** 融云 *******************************/
+
+/*************************** 新建快捷 *******************************/
+"quick_coll" = "تعاون مجاني";
+"quick_form" = "قالب النموذج";
+"quick_scan" = "اكتساح";
+"quick_groupchat" = "بدء الاتصال الجماعي";
+"quick_chat" = "ابدأ الدردشة";
+"quick_task" = "مهمة جديدة";
+"quick_meeting" = "اجتماع جديد";
+"quick_attendance" = "تحقق في";
+"quick_schedule" = "جدول جديد";
+"quick_zhumu_meeting" = "주목 회의";
+/*************************** 新建快捷 *******************************/
+
+/*************************** cordova插件 start *******************************/
+"Calendar_LoadFail" = "خطأ في تحميل مكون التقويم";
+"Calendar_NoAccess" = "لا يمكن الوصول إلى التقويم";
+/*************************** cordova插件 end *******************************/
+
+/*************************** 日历权限设置 start *******************************/
+"Calendar_Permisson_Setting" = "يُرجى السماح لـ %@ بالوصول إلى التقويم في خيار ”الإعدادات - الخصوصية - التقويم” بالجهاز";
+"Calendar_Unavailable_title" = "التقويم غير متوفر";
+/*************************** 日历权限设置 end *******************************/
+
+/*************************** 通讯录权限设置 start *******************************/
+"Contact_Permisson_Setting" = "يُرجى السماح لـ %@ بالوصول إلى دفتر العناوين في خيار ”الإعدادات - الخصوصية - جهات الاتصال” بالجهاز";
+"Contact_Unavailable_title" = "دفتر العناوين غير متوفر";
+/*************************** 通讯录权限设置 end *******************************/
+
+/*************************** 网络错误 start *******************************/
+"Common_Network_Unavailable" = "الشبكة الحالية غير متوفرة ، يرجى التحقق من إعدادات الشبكة";
+"Common_Server_CannotConnect" = "غير قادر على الاتصال بالخادم ، يرجى المحاولة مرة أخرى لاحقًا";
+"Common_Server_DataError" = "فشل طلب البيانات";
+/*************************** 网络错误 end *******************************/
+
+"Common_HandWrite" = "توقيع الدفعة";
+"Common_PlisInput" = "الرجاء إدخال المحتوى";
+"Common_InputSealPassWord" = "الرجاء إدخال كلمة مرور التوقيع";
+"Common_PassWordNONull" = "لا يمكن أن تكون كلمة المرور فارغة";
+"Common_PasswordWrong" = "أدخل خطأ كلمة مرور التوقيع";
+"Common_InputLimit" = "تم الوصول إلى حد الإدخال ولا يمكن إدخاله.";
+
+"commom_ok" = "خير";
+"commom_setting" = "نصب";
+"common_kikedByOther" = "تم تسجيل الدخول إلى حسابك في موقع آخر ، فأنت مجبر على عدم الاتصال بالإنترنت";
+"common_backLogin" = "العودة إلى صفحة تسجيل الدخول";
+
+"updates_check_failed" = "التحقق من فشل التحديث";
+"loadApp_fail" = "فشل تحميل التطبيق";
+"desktop_errorParameter" = "الحصول على سطح المكتب بنقرة واحدة خطأ في تطبيق المعلمة";
+"wrong_local_resource_path" = "الحصول على خطأ مسار المورد المحلي";
+"device_no_data" = "لم يكتشف الجهاز التطبيق المناسب لفتح البيانات";
+"device_not_sms" = "الجهاز لا يدعم الرسائل النصية";
+"device_not_telephone" = "لا يدعم الجهاز الاتصال";
+"attach_path_empty" = "لا يمكن أن يكون مسار المرفق فارغًا";
+"common_send_fail" = "فشل الإرسال";
+"common_send_success" = "أرسلت بنجاح";
+"read_manifest_error" =  "خطأ في قراءة manifest.json.";
+"gesture_clicked_forgot" = "النقر على كلمة المرور المنسية لفتة على اليسار";
+"gesture_clicked_right" = "انقر على الحساب الآخر على حق تسجيل الدخول.";
+"gesture_clicked_skip" = "النقر على زر تخطي";
+"gesture_clicked_return" = "النقر على زر العودة";
+"open_app_download_adress" = "افتح عنوان تنزيل التطبيق";
+"url_empty" = "عنوان url فارغ.";
+"parameters_error" = "خطأ المعلمة مرت";
+"database_inser_error" = "حدث خطأ أثناء إدراج قاعدة البيانات.";
+"data_fail_local" = "لم يتم العثور على البيانات المقابلة محليا.";
+"viewController_unsupported " = "viewController لا يدعم";
+"memberid_nil"  = "لا يمكن أن يكون العضو خاليًا";
+"jsapi_error" = "لا يمكن أن تكون خصائص Jsapi و openAppMethod فارغة ، يرجى التحقق من ملف manifest.json";
+"device_ios_low" = "إصدار ios منخفض جدًا";
+"please_install_wps" = "الرجاء تثبيت wps";
+"iAppOffice_unauthorization" = "الرقم التسلسلي لمكتب المحمول غير صالح ، يرجى الاتصال بمسؤول النظام لتعيين / تحديث الرقم التسلسلي لمكتب المحمول!";
+"reopen_wps" = "Wps مشغولة ، يرجى إعادة تشغيل wps";
+
+/*************************** 来电提醒 *******************************/
+"call_identification_setting_alert" = "من أجل استخدام وظيفة تنبيه المكالمات بشكل طبيعي ، يرجى فتح إذن النظام في \"الهاتف - حظر المكالمات وتحديد الهوية\"";
+"call_identification_unkown_error" = "لقد حدث خطأ غير معروف";
+"call_identification_to_setting" = "الذهاب إلى مجموعة";
+"call_identification_low_system" = "ميزة تنبيه المكالمات تدعم نظام iOS 10 وما فوق فقط";
+"call_identification_contacts_error" = "أخفق الحصول على دفتر العناوين ، يرجى الانتظار حتى يتم تنزيل دفتر العناوين والمحاولة مرة أخرى";
+"call_identification_open_success" = "قم بتشغيل تذكير المكالمة بنجاح";
+"call_identification_open_fail" = "أخفق تشغيل تذكير المكالمة";
+"call_identification_close_success" = "قم بإيقاف تشغيل تذكير المكالمة بنجاح";
+"call_identification_close_fail" = "قم بإيقاف تشغيل فشل تنبيه المكالمة";
+"call_identification_guide_title" = "تشغيل تذكير مكالمة m3";
+"call_identification_guide_1" = "الخطوة 1: انتقل إلى [إعدادات الهاتف] للعثور على [حظر المكالمات وتحديد الهوية]";
+"call_identification_guide_2" = "الخطوة 2: فتح [مكتب المحمول]";
+/*************************** 来电提醒 end *******************************/
+
+/*************************** 登录 *******************************/
+"login_login" = "تسجيل الدخول";
+"login_login_ing" = "تسجيل الدخول...";
+"login_bindtip" = "مستوى الأمان لهذا الحساب مرتفع ، حيث يلزم ربط هذا الجهاز قبل أن تتمكن من تسجيل الدخول. هل تريد إرسال طلب ملزم؟";
+"login_input_empty" = "اسم المستخدم أو كلمة المرور لا يمكن أن تكون فارغة";
+"login_input_empty2" = "رقم الهاتف أو كلمة المرور لا يمكن أن تكون فارغة";
+"login_forget_password" = "نسيت كلمة المرور";
+"login_username" = "اسم المستخدم";
+"login_password" = "كلمة المرور";
+"login_forget_alert" = "يرجى الذهاب إلى صفحة تسجيل الدخول بجهاز الكمبيوتر الخاص بك لاستعادة كلمة المرور الخاصة بك.";
+"login_server_add" = "إضافة";
+"login_server_list_title" = "حدد عنوان الخادم";
+"login_server_list_add" = "اضبط عنوان الخادم";
+"login_server_list_edit" = "تحرير عنوان الخادم";
+"login_no_note" = "لا توجد ملاحظات";
+"login_server_host" = "عنوان الخادم (مطلوب)";
+"login_server_port" = "ميناء (مطلوب)";
+"login_server_note" = "ملاحظات (حتى 15 كلمة ، غير مطلوبة)";
+"login_server_host1" = "عنوان الخادم";
+"login_server_port1" = "ميناء";
+"login_server_note1" = "ملاحظات (حتى 15 كلمة)";
+"login_server_delete_message" = "هل أنت متأكد أنك تريد حذف عنوان الخادم هذا؟";
+"login_server_no_address" = "الرجاء إدخال عنوان الخادم";
+"login_server_no_port" = "الرجاء إدخال رقم المنفذ";
+"login_server_address_error" = "تنسيق عنوان الخادم غير صحيح";
+"login_scan_err" = "لم يتم التعرف على رمز QR صالح في الصورة";
+"login_server_exist" = "عنوان الخادم والمنفذ موجودان بالفعل";
+"login_scan_button" = "مسح رمز لإضافة عنوان";
+"login_server_ass" = "إضافة بواسطة حساب المرتبطة";
+"login_policy_agree" = "قراءة وتوافق";
+"login_policy_detail" = "اتفاقية حماية الخصوصية";
+"login_server_manual" = "إضافة يدويا";
+"login_server_cloud" = "إضافة عبر مركز الغيمة";
+"login_server_setting" = "إعداد الخادم";
+"login_phone" = "رقم الهاتف المحمول";
+"login_server_uninit" = "يرجى ضبط عنوان الخادم أولاً.";
+"login_server_uninit2" = "لم تحصل على قائمة عناوين الخادم للمؤسسة";
+"login_verification" = "رمز التحقق";
+"login_tag_legacy" = "تسجيل الدخول إلى الحساب";
+"login_tag_phone" = "تسجيل رقم الجوال";
+"login_server_note_prefix" = "تعليق";
+"login_cloud_error_2001" = "طلب غير صالح!";
+"login_cloud_error_2002" = "أنت لست ملتزمًا برقم الجوال ، يرجى تسجيل الدخول باستخدام حسابك";
+"login_cloud_error_2003" = "رقم الهاتف مرتبط بعدة أشخاص ، يرجى تسجيل الدخول باستخدام حساب.";
+"login_cloud_error_default" = "الخادم غير طبيعي ، يرجى المحاولة مرة أخرى لاحقًا!";
+"login_policy_not_agree" = "نختلف و خروج";
+"login_policy_pop_agree" = "قراءة ، توافق";
+"login_fail" = "فشل تسجيل الدخول";
+"login_current_bind_device_numb" = "رقم الجهاز الحالي";
+
+"login_sms_send_tips" = "تم إرسال رمز التحقق";
+"login_sms_login_phone_error" = "يرجى إدخال رقم هاتف صالح";
+"login_sms_area_code_title" = "حدد الدولة والمنطقة";
+"login_sms_area_code_hot_title" = "# الدول والمناطق الشعبية";
+"login_sms_graph_ver_tips" = "التحقق من السلامة";
+"login_sms_graph_ver_input_error" = "رمز التحقق غير صحيح أو انتهت مهلته ، يرجى إعادة الإدخال";
+"login_sms_phone_unbinding_account" = "رقم الهاتف المحمول الحالي غير مرتبط بحساب المكتب";
+"login_sms_phone_binding_multi_account" = "رقم الهاتف المحمول الحالي يتوافق مع حسابات مكتبية متعددة ، يرجى تغيير طريقة تسجيل الدخول";
+"login_sms_unit_sms_unauthorized" = "إدارة الرسائل القصيرة للوحدة غير مصرح بها";
+"login_sms_get_code_reach_ceiling" = "وصل عدد مرات الحصول على رموز التحقق لرقم الهاتف هذا إلى الحد الأقصى ، يرجى المحاولة مرة أخرى غدًا";
+"login_sms_get_code_after_seconds" = "يرجى الحصول على رمز التحقق بعد %@ ثوان";
+
+"login_mutilauth_refetchsms" = "إعادة الحصول على رمز التحقق عبر الرسائل القصيرة";
+"login_mutilauth_refetch" = "إعادة اكتساب";
+"login_mutilauth_pleaseinputsms" = "الرجاء إدخال رمز التحقق عبر الرسائل القصيرة";
+"login_mutilauth_smshassendto" = "أرسل اختبار التحقق إلى";
+"login_mutilauth_seconds" = "ثواني";
+
+/*************************** 登录end *******************************/
+
+/******************************重要消息提醒************************************/
+"imp_msg_loadimage" = "يتم إنشاء الصورة";
+/******************************重要消息提醒end************************************/
+
+/*************************** 关联账号 *******************************/
+"ass_edit_top_tip" = "يرجى إدخال المعلومات ذات الصلة لتكون مرتبطة";
+"ass_server_host" = "عنوان الخادم";
+"ass_username" = "اسم المستخدم";
+"ass_server_note" = "تعليق";
+"ass_title" = "حساب مرتبط";
+"ass_add" = "إضافة";
+"ass_button" = "متعلق";
+"ass_add_title" = "إضافة حساب مرتبط";
+"ass_edit_title" = "تعديل الحساب المرتبط";
+"ass_edit_delete_hint" = "هل تريد إلغاء ربط هذا الحساب؟";
+"ass_switch_title" = "شركة التبديل";
+"ass_add_err1" = "تمت إضافة عنوان الخادم هذا ولا يمكن ربطه";
+"ass_add_err2" = "تمت إضافة الخادم من خلال الحساب المرتبط ، ولا تقم بإضافته مرارًا وتكرارًا.";
+"ass_add_err3" = "تمت إضافة الخادم من خلال Cloud Alliance Center. لا تقم بإضافته بشكل متكرر.";
+"ass_edit_err" = "لا يمكن التعديل عن طريق إضافة حساب بالاقتران ، يرجى التبديل إلى تشغيل الحساب الرئيسي";
+"msg_associate" = "أخبار الشركات الأخرى";
+"ass_switch_ass_title" = "وحدة عبر المؤسسة";
+"ass_switch_parttime_title" = "مجموعة الوحدة الفرعية";
+/*************************** 关联账号end *******************************/
+
+/*************************** 转发 *******************************/
+"forward_sendto" = "إرسال إلى";
+"forward_create_new_chat" = "إنشاء دردشة جديدة";
+"forward_choose_group" = "اختر مجموعة";
+"forward_recent_contact" = "الاتصال الأخيرة";
+"forward_send_to" = "إرسال إلى";
+"forward_leave_message" = "اترك رسالة للزملاء";
+"forward_message_list_info" = "[لقد تلقيت رسالة معاد توجيهها]";
+"forward_fileHaveDelete" = "غير قادر على إعادة التوجيه ، تم حذف ملف الخادم";
+"forward_leaveMsgLimit" = "لا يمكن أن يتجاوز 100 حرف صيني";
+/*************************** 转发end *******************************/
+
+/*************************** 相册 *******************************/
+"pic_handling" = "تجهيز ال ...";
+"pic_open" = "فتح";
+"pic_close" = "قريب";
+"pic_automatic" = "تلقائي";
+/*************************** 相册end *******************************/
+
+/*************************** 日期 *******************************/
+"week_one" = "الإثنين";
+"week_two" = "الثلاثاء";
+"week_three" = "الأربعاء";
+"week_four" = "الخميس";
+"week_five" = "الجمعة";
+"week_six" = "السبت";
+"week_seven" = "الأحد";
+/*************************** 日期end *******************************/
+
+/*************************** 引导页 *******************************/
+"guide_start" = "افتح الجولة m3";
+/*************************** 引导页end *******************************/
+
+/*************************** 打印 *******************************/
+"print_action" = "طباعة";
+"print_more_than_size" = "يتجاوز حجم الملف المطبوع الحد المسموح به";
+/*************************** 打印end *******************************/
+
+/*************************** 图片查看组件 *******************************/
+"review_image_videoIsInvalid" = "فيديو غير صالح";
+"review_image_videoError" = "خطأ فيديو";
+"review_image_unableToSave" = "غير قادر على الحفظ";
+"review_image_imageIsInvalid" = "صورة غير صالحة";
+"review_image_downloadImageFailed" = "فشل تنزيل الصور";
+"review_image_getPhotoAlbumAuthorizationFailed" = "فشل في الحصول على إذن الألبوم";
+"review_image_saveToPhotoAlbumSuccess" = "تم الحفظ في ألبوم النظام";
+"review_image_saveToPhotoAlbumFailed" = "فشل الحفظ";
+"review_image_viewOriginalPhoto" = "عرض الصورة الأصلية";
+"review_image_viewOriginalPhoto_tip" = "الصورة الأصلية المعروضة";
+"review_image_recognizeQRCode" = "تحديد رمز الاستجابة السريعة";
+"review_image_recognizeQRCode_in_pic" = "تحديد رمز الاستجابة السريعة في الصورة";
+"review_image_upload_failed" = "فشل التحميل";
+"review_image_downloading" = "تحميل...";
+"review_image_network_cannot_connect" = "الشبكة الحالية غير متوفرة ، يرجى التحقق من إعدادات الشبكة";
+/*************************** 图片查看组件end *******************************/
+
+/*************************** 页面锁提示 *******************************/
+"pad_lock_hint" = "تحقق ما إذا كانت البيانات الحالية خرجت أثناء المعالجة؟";
+/*************************** 页面锁提示end *******************************/
+
+/*************************** 多端登录提示 *******************************/
+"mu_login_web" = "Website logged in";
+"mu_login_zhixin" = "ZhiXin logged in";
+"mu_login_weChat" = "WeChat logged in";
+"mu_login_web_zhixin" = "Website、ZhiXin logged in";
+"mu_login_web_weChat" = "Website、WeChat logged in";
+"mu_login_zhixin_weChat" = "ZhiXin、ZhiXin logged in";
+"mu_login_web_zhixin_weChat" = "Website、ZhiXin and WeChat logged in";
+"mu_login_exit_web" = "الخروج من صفحة الويب";
+"mu_login_exit_zhixin" = "الخروج من الرسالة";
+"mu_login_exit_weChat" = "خروج الصغير";
+"mu_login_alreadyMute" = "Mobile notification is off";
+
+"mu_login_type_web" = "الويب";
+"mu_login_type_pc" = "PC";
+"mu_login_type_wechat" = "WeChat";
+"mu_login_type_phone" = "الجوال";
+"mu_login_type_pad" = "لaptop";
+"mu_login_exit" = "خروج";
+"mu_login_type_logined" = "مسجل";
+"muj_login_exit_success" = "الخروج بنجاح";
+/*************************** 多端登录提示end *******************************/
+
+/*************************** MJRefresh *******************************/
+"MJRefreshHeaderIdleText" = "تحديث المنسدلة";
+"MJRefreshHeaderPullingText" = "الافراج عن التحديث";
+"MJRefreshHeaderRefreshingText" = "منعش";
+"MJRefreshAutoFooterIdleText" = "انقر أو اسحب لتحميل أكثر";
+"MJRefreshAutoFooterRefreshingText" = "جارٍ تحميل المزيد من البيانات ...";
+"MJRefreshAutoFooterNoMoreDataText" = "تحميل بالفعل";
+"MJRefreshBackFooterIdleText" = "سحب ما يصل لتحميل أكثر";
+"MJRefreshBackFooterPullingText" = "الافراج وتحميل الآن أكثر";
+"MJRefreshBackFooterRefreshingText" = "جارٍ تحميل المزيد من البيانات ...";
+"MJRefreshBackFooterNoMoreDataText" = "تحميل بالفعل";
+"MJRefreshHeaderLastTimeText" = "آخر تحديث:";
+"MJRefreshHeaderDateTodayText" = "اليوم";
+"MJRefreshHeaderNoneLastDateText" = "لا يوجد سجل";
+/*************************** MJRefresh *******************************/
+
+/*************************** 多端登录 *******************************/
+"mutil_login_mute" = "الهاتف الخليوي كتم";
+"mutil_login_already_mute" = "تم كتم الهاتف";
+"mutil_login_exit_other_client" = "الخروج من الطرف الآخر";
+"mutil_login_recovery_notification" = "استئناف إعلامات الهاتف";
+"mutil_login_unmute_hint" = "بعد تشغيل \"كتم الصوت على الهاتف\"، سيتم استئناف إشعار الرسالة الجديدة بشكل طبيعي";
+"mutil_login_stop_notification" = "وقف إشعارات الهاتف";
+"mutil_login_mute_hint" = "عند تمكين \"كتم الهاتف\" ، لن يتم استلام إشعارات الرسائل الجديدة على الهاتف";
+/*************************** 多端登录 *******************************/
+
+/*************************** 手机盾相关 *******************************/
+"login_tag_mokey" = "درع الهاتف المحمول تسجيل الدخول";
+"login_mokeyUsername" = "درع الهاتف اسم المستخدم";
+"login_mokey_NoKeyId" = "لا يوجد مفتاح  ، يرجى إعادة ترخيص الهاتف المحمول الدرع على منصة إدارة";
+"login_mokey_NoBind" = "لا يمكنك ربط الهاتف المحمول الدرع  ، ربط على منصة إدارة";
+"login_mokey_error_getkeyid" = "الحصول على الهاتف الخليوي الدرع keyid فشلت";
+"login_mokey_error_nocertorurl" = "الهاتف المحمول درع لا مشكل SDK عنوان وشهادة";
+"login_mokey_error_username" = "طلب تسجيل الدخول اسم المستخدم خطأ";
+"login_mokey_error_getInfo" = "طلب درع الهاتف رسالة فشل";
+"login_mokey_error_geteventdata" = "الحصول على الهاتف المحمول درع الدخول فشل الحدث";
+"login_mokey_error_certexpire" = "الشهادة تحتاج إلى تحديث";
+"login_input_empty3" = "درع الهاتف رقم الحساب لا يمكن أن تكون فارغة";
+"mokey_updateCert_success" = "تحديث الهاتف المحمول درع الشهادة بنجاح";
+"mokey_userReset_success" = "إعادة تعيين درع الهاتف بنجاح";
+"login_mokey_scan" = "اكتساح";
+"login_mokey_NoUserName" = "الرجاء إدخال حساب";
+"login_mokey_scan_login" = "الرجاء تسجيل الدخول بعد مسح رمز M3";
+"login_mokey_scan_nosupport" = "لا أعرف رمز ثنائي الأبعاد الأخرى";
+"login_mokey_error_beenbound" = "الهاتف المحمول الدرع تم ربط الأجهزة الأخرى  ، يرجى الاتصال بمسؤول النظام";
+"login_mokey_error_qrcodefailure" = "بعدين رمز الفشل";
+"reset_mokey_error_account_atypism" = "الحساب الذي يتم إعادة تعيين كلمة المرور الحالية لا يتفق مع حساب تسجيل دخول الجوال";
+/*************************** 手机盾end *******************************/
+
+/*************************** 投屏组件start *******************************/
+"screen_mirror_btn_title" = "شاشة النسخ المتطابق";
+"screen_mirror_tips_title" = "تذكير دافئ";
+"screen_mirror_checkout_btn" = "عرض البرنامج التعليمي";
+"screen_mirror_tips" = "تحتاج هواتف Apple إلى استخدام وظيفة النسخ المتطابق للشاشة لإلقاء الشاشات ، يرجى فتح الشاشة في مركز التحكم";
+/*************************** 投屏组件end *******************************/
+
+/*************************** 新文件管理组件start *******************************/
+"file_management_send_btn" = "إرسال";
+"file_management_localfile" = "ملف الهاتف";
+"file_management_from_comefrom_m3" = "يأتي من:";
+"file_management_from_comefrom_third" = "يأتي من:";
+"file_management_from_comefrom" = "يأتي من:";
+"file_management_from_sendto" = "ارسل إلى:";
+"file_management_from_comefrom_group" = "من الدردشة الجماعية:";
+"file_management_from_sendto_group" = "إرسال إلى الدردشة الجماعية:";
+"file_management_save_ro_file_success_from_other_tips" = "تم الحفظ بنجاح! يرجى الانتقال إلى ملفي لعرض المحتوى المحفوظ";
+/*************************** 新文件管理组件end *******************************/
+
+/*************************** 分享组件start *******************************/
+"share_share_to_innner_title" = "مكتب متنقل";
+"share_btn_new_chat" = "ابدأ الدردشة";
+"share_btn_new_coopa" = "تعاون جديد";
+"share_btn_new_conf" = "مؤتمر جديد";
+"share_btn_doc_center" = "مركز التوثيق";
+"share_btn_new_task" = "مهمة جديدة";
+"share_btn_new_sche" = "جدول جديد";
+"share_btn_forward_coopa" = "إعادة توجيه التعاون";
+"share_btn_download" = "تحميل";
+"share_btn_collect" = "اجمع";
+"share_btn_share" = "سهم";
+"share_btn_print" = "طباعة";
+"share_btn_wechat" = "بريد إلكتروني الصغير";
+"share_btn_qq" = "QQ";
+"share_btn_other_app" = "تطبيقات أخرى";
+"share_btn_my_colleague" = "Zhixin";
+"share_btn_wwechat" = "WeChat العمل";
+"share_btn_dingtalk" = "قرع الحديث";
+"share_btn_screen_mirrioring" = "شاشة النسخ المتطابق";
+"share_btn_generate_qrcode" = "رمز الاستجابة السريعة";
+"share_btn_tel_confe" = "دعوة المؤتمر";
+"share_auth_tips_string" = "ما إذا كان يجب السماح للعاملين خارج العملية بالمشاهدة";
+"share_auth_btn_allow" = "سماح";
+"share_auth_btn_notallow" = "غير مسموح";
+"share_component_save_to_my_doc" = "حفظ في وثيقتي";
+"share_component_save_to_other_doc" = "حفظ في وثيقة أخرى";
+"share_component_share_finished_tips" = "أرسلت!";
+"share_component_share_finished_back_former_view" = "العودة إلى الصفحة السابقة";
+"share_component_share_finished_stay_curr_view" = "البقاء الحالية";
+"share_component_file_share_count_tips" = "تماما%ld";
+"share_wechat_limit_10M" = "الملف يتجاوز 10M ، مؤقتا غير معتمد";
+"share_wechat_failed" = "فشل مشاركة";
+/*************************** 分享组件end *******************************/
+
+/*************************** 登录新界面 *******************************/
+"login_please_login_tips" = "يرجى تسجيل الدخول";
+"login_please_org_tips" = "cloud المستخدم فقط";
+"login_first_login_tips" = "يرجى إعداد الخادم لأول تسجيل دخول";
+"login_account_placeholder" = "حسابات";
+"login_account_phone_num" = "رقم الحساب / الجوال";
+"login_sms_login_btn" = "تسجيل الدخول التحقق من الرسائل القصيرة";
+"login_mokey_login_btn" = "تسجيل دخول درع الجوال";
+"login_sms_login_tips" = "رمز التحقق من الرسائل القصيرة";
+"login_mokey_login_tips" = "درع الهاتف";
+"login_account_login" = "تسجيل الدخول إلى الحساب";
+"login_account_phone_num_login" = "حساب / رقم تسجيل الدخول";
+"login_get_sms_code_error" = "أخفق الحصول على رمز التحقق من الرسائل القصيرة";
+"login_get_sms_verification_code" = "الحصول على رمز التحقق";
+"login_reget_sms_verification_code" =  "إعادة الإرسال بعد %02ld ثوانٍ";
+"login_resend_sms_verification_code" = "إعادة إرسال";
+"login_account_null_tips" = "الرجاء إدخال رقم الحساب";
+"login_phone_null_tips" = "الرجاء إدخال رقم الهاتف";
+"login_password_null_tips" = "الرجاء إدخال كلمة السر";
+"login_verification_code_null_tips" = "لا يمكن أن يكون رمز التحقق فارغًا";
+"login_first_login_set_server_tips" = "يرجى إعداد الخادم أولاً";
+"login_policy_select_policy_detail" = "يرجى التحقق والموافقة على اتفاقية حماية الخصوصية";
+"login_first_login_select_server" = "حدد عنوان الخادم";
+"login_first_login_edit_server" = "تحرير عنوان الخادم";
+"login_server_can_not_be_null" = "لا يمكن أن يكون الخادم فارغًا";
+"login_port_can_not_be_null" = "لا يمكن أن يكون المنفذ فارغًا";
+"login_verification_code_can_not_be_null" = "الرجاء إدخال رمز التحقق";
+"login_orgcode" = "رمز المنظمة";
+"login_orgcode_login" = " رمز دخول المنظمة";
+"login_other_login" = "طرق أخرى لتسجيل الدخول";
+"login_orgcode_no_null" = "رمز المنظمة لا يمكن أن تكون فارغة";
+/*************************** 登录新界面end *******************************/
+
+/*************************** vpn设置 start *******************************/
+"vpn_setpwd" = "تعيين كلمة مرور";
+"vpn_inputnewpwd" = "أدخل كلمة مرور جديدة";
+"vpn_inputnewpwdagain" = "أدخل كلمة مرور جديدة مرة أخرى";
+"vpn_inputnewpwd_notsame" = "كلمة المرور التي تم إدخالها مرتين غير متسقة";
+"vpn_inputnewpwd_over5minitus" = "تم تغيير كلمة المرور لأكثر من 5 دقائق ، يرجى إعادة إدخال التغيير ";
+"vpn_renewpwd_success" = "Password changed successfully";
+"vpn_renewpwd_overtime" = "Change password more than 5 minutes，please return and enter again";
+"vpn_set_toplevel" = "Advanced Settings";
+"vpn_set_btntitle" = "VPN settings";
+"vpn_set_btntitledone" = "VPN is set";
+"vpn_set_enteraddress" = "Please enter a VPN address";
+"vpn_set_pwdverify" = "Password Authentication";
+"vpn_set_entername" = "Please enter a username";
+"vpn_set_enterpwd" = "Please enter a password";
+"vpn_set_spaverify" = "SPA Verification";
+"vpn_set_spaentercode" = "Please enter SPA verification code";
+"vpn_set_description" = "Configuration Description (Only supports Sangfor VPN)\n1、Enter the VPN address and configure the authentication information \n2、If you need to change the VPN password, please go to Sangfor client to modify";
+"vpn_set_agreedes" = "Submission is deemed to be convincing with consent";
+"vpn_set_privacy" = "Privacy Agreement";
+"vpn_set_submit" = "submit";
+"vpn_set_blanktip" = "There are unfilled fields";
+
+"vpn_connect_ing" = "الاتصال بشبكة الخصوصية الافتراضية (VPN)";
+"vpn_connect_fail" = "فشل الاتصال بشبكة الخصوصية الافتراضية (VPN)";
+"vpn_connect_nohand" = "لا يمكن الاتصال بعنوان شبكة الخصوصية الافتراضية (VPN)";
+"vpn_connect_reset" = "يرجى إعادة التعيين";
+/*************************** vpn设置 end *******************************/
+
+/*************************** 截屏控制 *******************************/
+"screenshot_control_tips" = "التحكم في التقاط الشاشة قيد التشغيل ، يتم تسجيل العمليات في سجل ";
+"screeenshot_control_iknow_btn" = "حصلت عليه";
+"screeenshot_page_title_multi_login" = "صفحة تسجيل الدخول";
+"screeenshot_page_title_camera" = "الكاميرا";
+"screeenshot_page_title_empty" = "صفحة فارغة";
+"screeenshot_page_title_image_browser" = "عرض الصور";
+"screeenshot_page_title_AVPlayer" = "مشغل الصوت والفيديو";
+/*************************** 截屏控制end *******************************/
+
+/*************************** 图片组件新增start *******************************/
+"picture_forward_text" = "أحالت";
+"picture_photo_text" = "صور";
+"picture_video_text" = "فيديو";
+"picture_check_pics_title" = "صورة / فيديو";
+"picture_multi_select_btn_title" = "الاختيار من متعدد";
+"picture_pic_selected_empty_tips" = "يرجى اختيار صورة";
+"photo_preview_nav_title" = "عموم والتكبير";
+/*************************** 图片组件新增end *******************************/
+
+/*************************** 视频组件start *******************************/
+"video_component_retake_title" = "استعمال";
+"video_component_use_title" = "استعمال";
+"video_component_select_from_album" = "اختر من الألبوم";
+"video_component_take_photo" = "التقط صورة";
+"video_component_no_permission" = "غير قادر على اطلاق النار ، يرجى فتح الميكروفون والكاميرا الأذونات في إعدادات نظام الهاتف المحمول";
+"audio_component_no_permission" = "غير قادر على تسجيل ، يرجى فتح الميكروفون في إعدادات نظام الهاتف";
+"video_component_data_loading_failed" = "فشل تحميل الصوت والفيديو ، يرجى الاتصال بالمسؤول";
+"video_compress" = "ضغط";
+/*************************** 视频组件end *******************************/
+
+/*************************** 推送开关设置start *******************************/
+"user_notification_not_open_tip" = "الكشف عن عدم فتح دفع إشعار ، من أجل الحصول على إشعار في الوقت المناسب ، أقترح عليك فتح";
+"user_notification_ignore" = "أهمل";
+/*************************** 推送开关设置end *******************************/
+
+/*************************** 低版本系统可能出现空白页面的提示start *******************************/
+"low_system_blank_tip" = "الكشف عن نسخة من نظام دائرة الرقابة الداخلية الخاصة بك منخفضة ، قد تظهر صفحة الشاشة البيضاء أو التحديث المتكرر بسبب الإفراط في الذاكرة ، لتجنب التأثير على تجربة استخدام الخاص بك ، فمن المستحسن أن ترقية نسخة النظام إلى ios11.0 أو أكثر من استبدال الجهاز الخاص بك";
+/*************************** 低版本系统可能出现空白页面的提示end *******************************/
+"select_multiple_chats" = "اختيار دردشة متعددة";
+"excess_quantity" = "يمكن اختيار ما يصل إلى 10 دورات";
+"send_separately_to" = "أرسل إلى";
+"total_message" = "رسائل %lu ما مجموعه";
+/*************************** 负一屏start *******************************/
+"slide_to_top_screen" = "تنزلق إلى الطابق الثاني لرؤية آثار أقدام الأخيرة";
+"add_to_top_screen" = "إضافة إلى الطابق الثاني";
+"cancel_to_top_screen" = "إزالة من الطابق الثاني";
+"recently_title" = "في الآونة الأخيرة";
+"common_entry" = "مدخل مشترك";
+"my_second_floor" = "بلدي الطابق الثاني";
+"top_screen_recently_tip" = "الوثائق الأخيرة ، والتعاون ، وما إلى ذلك سوف تظهر هنا ";
+"add_top_screen_success" = "تمت الإضافة بنجاح";
+"remove_top_screen_success" = "تمت الإزالة بنجاح";
+/*************************** 负一屏end *******************************/
+"more_operations" = "المزيد من العمليات";

@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="Cache-Control" content="max-age">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta content="yes" name="apple-touch-fullscreen">
+    <meta content="telephone=no,email=no" name="format-detection">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <title>greet info</title>
+    <style type="text/css">
+        html, body, table {
+            font-family: 'Microsoft Yahei', Tahoma, Helvetica, Arial, sans-serif;
+            -webkit-font-smoothing: antialiased;
+        }
+        body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre,
+        code, form, fieldset, legend, input, textarea, p, blockquote, th,
+        td, hr, button, article, aside, details, figcaption, figure, footer, 
+        header, hgroup, menu, nav, section {
+            margin: 0;
+            padding: 0;
+        }
+        /* html 5 tag*/
+        article, aside, details, figcaption, figure, 
+        footer, header, hgroup, menu, nav, section {
+            display: block;
+        }
+        span {
+            font-family: 'Microsoft Yahei', Tahoma, Helvetica, Arial, sans-serif;
+        }
+        ol, ul {
+            list-style: none;
+        }
+        /* 统一上标和下标 */
+        sub, sup {
+            line-height: 0;
+            position: relative;
+            vertical-align: baseline;
+        }
+        sup {
+            top: -0.5em;
+        }
+        sub {
+            bottom: -0.25em;
+        }
+    </style>
+    <style type='text/css'>
+        html,body {
+            width: 100%;
+            height: 100%;
+        }
+        .body-content {
+            overflow: hidden;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            box-sizing: border-box;
+        }
+        .mobile-content-warp {
+            border-radius: 12px;
+            overflow:hidden;
+            transform-origin: 0 0;
+        }
+        .mask{
+            backdrop-filter: blur(10px);
+            background-image: linear-gradient(180deg, #00000080 0%, #00000099 100%);
+        }
+        .mobile-content {
+            box-sizing: border-box;
+            overflow: hidden;
+            padding: 14px 14px 0 14px;
+            transform-origin: 0 0;
+        }
+        p {
+            word-break: break-all;
+        }
+        .greet_bottom {
+            width: 211px;
+            height: 14px;
+        }
+    </style>
+</head>
+<body id="body_warp">
+     <div class="body-content" id="body_content">
+            <div class="mobile-content-warp" id="greet_content_warp">
+                <div id="greet_content" class="mobile-content">
+                    <div class="mobile-content-text-inner mobile-content-mask">
+                    </div>
+                </div>
+                <div id="greet-bottom" class="greet_bottom">
+                    <div class="mobile-content-text-inner mobile-content-mask">
+                    </div>
+                </div>
+            </div>
+    </div>
+</body>
+<script type="text/javascript">
+    // 蒙层比例
+    var MASK_SIZE = {
+        "big": {
+            width: 211,
+            height: 302
+        },
+        "middle":{
+            width: 211,
+            height: 190
+        },
+        "small":{
+            width: 211,
+            height: 132
+        }
+    }
+    // 蒙层默认宽高
+    var defaultContentWidth = 211;
+    var defaultContentHeight = 190;
+    // 默认宽度
+    var defaultBodyWidth = 275;
+    // 默认宽度
+    var defaultBodyHeight = 354;
+    // 是否继续轮播
+    var flag = true;
+    // 当前轮播高度
+    var height = 0;
+    // 定时
+    var quartJob;
+    // 对象
+    var $content = document.getElementById("greet_content");
+    var $contentWarp = document.getElementById("greet_content_warp");
+    var $bodyContent = document.getElementById("body_content");
+    // 总内容高度
+    var scrollHeight = 190;
+    var greetInfo;
+    
+    /**
+     * 初始化预览视图内容，由端调用 
+     */
+    function initGreetView(params){
+        console.log('params', params)
+        greetInfo = params;
+        var content = greetInfo.mobileDetails;
+        var maskSet = greetInfo.mobileMaskSet;
+        var maskSize = greetInfo.mobileMaskSize;
+        var showType = greetInfo.mobileShowType;
+
+        init(content, maskSet, maskSize, showType);
+    }
+    
+    /**
+     * 预览内容滚动 
+     */
+    function scroll(){
+        if (!flag){
+            return;
+        }
+        height = height + 10;
+        if (Math.abs(height) >= scrollHeight){
+            height = 0;
+        }
+        $content.scrollTop = height;
+    }
+    
+    /**
+     * 初始化页面，由webview调用
+     * @param content 内容
+     * @param maskSet 是否显示蒙板 0隐藏，1显示
+     * @param maskSize 蒙板大小 big，middle，small
+     * @param showType 显示类型：0正常显示，1滚动显示
+     */
+    function init(content,maskSet,maskSize,showType){
+        var windowWidth = window.innerWidth;
+        $content = document.getElementById("greet_content");
+        $contentWarp = document.getElementById("greet_content_warp");
+        $bodyContent = document.getElementById("body_content");
+        var width = defaultContentWidth;
+        var height = defaultContentHeight;
+        
+        try{
+            var maskObj = MASK_SIZE[maskSize];
+            // 蒙板的高度适配，没有值以默认值展示
+            if (maskObj){
+                width = maskObj.width;
+                height = maskObj.height;
+            }
+            $content.style.height = (height - 14) + "px";
+            $content.style.width = width + "px";
+
+            $contentWarp.style.width =  width + "px";
+            $contentWarp.style.height = height + "px";
+            // 等比缩放
+            var rate = windowWidth / defaultBodyWidth
+            var bw = width * rate;
+            var bh = height * rate;
+            $bodyContent.style.width = bw + "px";
+            $bodyContent.style.height = bh + "px";
+            $bodyContent.style.margin = "-" + (bh /2.0) + "px -" + (bw/2.0) + "px";
+            $contentWarp.style.transform = "scale("+rate+")";
+            $contentWarp.style.transformOrigin = "0 0";
+            $content.innerHTML = content;
+            
+            // 是否显示遮罩
+            if(maskSet == '1'){
+                $contentWarp.classList.add("mask");
+            }
+            // 是否无限滚动
+            if (showType == '1'){
+                // 滚动高度
+                scrollHeight = $content.scrollHeight - $content.style.height.replace("px", "") + 14 * rate + 50;
+                quartJob = setInterval(scroll, 200);
+            }
+        }catch(e){
+            console.error(e);
+        }
+    }
+</script>
+</html>

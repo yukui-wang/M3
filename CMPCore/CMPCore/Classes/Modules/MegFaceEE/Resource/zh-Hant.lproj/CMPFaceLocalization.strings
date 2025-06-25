@@ -1,0 +1,33 @@
+/* 
+  CMPFaceLocalization.strings
+  CMPCore
+
+  Created by Shoujian Rao on 2023/11/23.
+  
+*/
+"face_local_noAuth" = "此操作需要人臉驗證，您當前無人臉服務使用許可權，請聯系管理員";//人脸服务未授权
+"face_local_disabled" = "此操作需要人臉驗證，當前人臉服務异常，請稍後重試";//人脸服务不可用
+"face_local_noAccount" = "此操作需要人臉驗證，您的曠視服務關聯帳號不存在，請聯系管理員";//旷视无关联账号
+"face_local_accountForbid" = "此操作需要人臉驗證，您的曠視服務關聯帳號被禁用，請聯系管理員";//旷视账号被禁用
+"face_local_noConfig" = "此操作需要人臉驗證，曠視服務配寘資訊為空，請聯系管理員";//旷视配置信息
+"face_local_confirmRegister" = "此操作需要人臉驗證，請先錄入人臉";//此操作需要人脸验证，请先录入人脸
+
+"face_local_beginRegister" = "開始錄入";//按钮
+"face_local_cancel_register" = "取消人臉錄入";
+"face_local_register_success" = "人臉錄入成功";
+
+"face_local_bizNoChanged" = "業務號已變更，驗證失敗";//每次验证都会生成一个业务号，由客户端生成，后面会和服务端返回的业务号对比，避免数据篡改
+
+"face_local_verify_success" = "驗證成功";
+"face_local_verify_fail" = "驗證失敗";
+
+"face_local_notFaceQrCode" = "非人臉識別二維碼";
+
+"face_local_privacyPolicy" = "《隱私政策》";
+
+"face_local_authorize_biological_title" = "請注意，您將進入生物識別流程";
+"face_local_authorize_biological_content" = "該流程將需要監視器許可權，採集、處理並留存您的生物識別資訊（含現場與您的企業私有化部署的資料庫中的人臉圖片及其所含人臉資訊，屬於個人敏感資訊），以實現本產品生物識別相關功能。 具體請見《隱私政策》。";
+
+"face_local_view_privacyPolicy" = "查看隱私政策";
+"face_local_agree" = "同意";
+"face_local_not_agree_exit" = "不同意並退出";

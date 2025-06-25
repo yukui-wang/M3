@@ -1,0 +1,18 @@
+/*
+ InfoPlist.strings
+ CMPCore
+ 
+ Created by youlin on 2017/3/11.
+ 
+ */
+CFBundleName="モバイルオフィス";
+CFBundleDisplayName="モバイルオフィス";
+NSLocationWhenInUseUsageDescription = "「モバイルオフィス」にあなたの場所へのアクセスを許可してください;許可されない場合、あなたは位置情報配信、チェックインおよび他の機能を使用することができません。";
+NSLocationAlwaysAndWhenInUseUsageDescription = "「モバイルオフィス」にあなたの場所へのアクセスを許可してください;許可されない場合、あなたは位置情報配信、チェックインおよび他の機能を使用することができません。";
+NSCalendarsUsageDescription = "カレンダーへのアクセスを ＂モバイルオフィス＂に許可してください;許可されていない場合、カレンダー同期などの機能を使用することはできません。";
+NSContactsUsageDescription = "＂Mobile Office＂があなたの連絡先にアクセスすることを許可してください;許可されない場合、あなたは連絡先を使用することができなくなり、ローカルの連絡先に追加することができなくなります。";
+NSPhotoLibraryUsageDescription = "＂Mobile Office＂にあなたのフォトアルバムへのアクセスを許可してください;許可されていない場合、あなたは同僚への写真の送信、添付ファイルのローカルアルバム画像のアップロードなどはできません。";
+NSCameraUsageDescription = "「Mobile Office」にあなたのカメラへのアクセスを許可してください;許可されていない場合、あなたはスイープを使用することができなくなり、写真やその他の機能が使えなくなります。";
+NSPhotoLibraryAddUsageDescription = "＂Mobile Office＂にあなたのフォトアルバムへのアクセスを許可してください;許可されていない場合、あなたは同僚への写真の送信、添付ファイルのローカルアルバム画像のアップロードなどはできません。";
+NSMicrophoneUsageDescription = "「Mobile Office」があなたのマイクにアクセスすることを許可してください;そうでなければ、あなたはボイスメッセージ、ビデオ会議などを使用することができません。";
+NSFaceIDUsageDescription = "「Mobile Office」があなたのフェイスIDにアクセスすることを許可してください;そうでなければ、フェイスロック解除のような機能を使用することはできません。";

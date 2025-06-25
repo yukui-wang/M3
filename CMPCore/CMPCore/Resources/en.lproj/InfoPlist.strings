@@ -1,0 +1,19 @@
+/* 
+  InfoPlist.strings
+  CMPCore
+
+  Created by youlin on 2017/3/11.
+
+*/
+CFBundleName="Mobile Office";
+CFBundleDisplayName="Mobile Office";
+NSLocationWhenInUseUsageDescription = "Allow “Mobile Office” to access your location while you are using the app;If not, you can't send location and sign in to locate.";
+NSLocationAlwaysAndWhenInUseUsageDescription = "Allow “Mobile Office” to access your location while you are using the app;If not, you can't send location and sign in to locate.";
+NSCalendarsUsageDescription = "Allow “Mobile Office” to access the calendar while you are using the app;If not, you can't use schedule-synchronized.";
+NSContactsUsageDescription = "Allow “Mobile Office” to access your contacts while you are using the app;If not, you can't use address book contacts and add contacts to the local address book.";
+NSPhotoLibraryUsageDescription = "Allow “Mobile Office” to access your photos while you are using the app;If not, you can't send photos or add pictures in the enclosure.";
+NSCameraUsageDescription = "Allow “Mobile Office” to access the camera while you are using the app;If not, you can't scan and take pictures.";
+NSPhotoLibraryAddUsageDescription = "Allow “Mobile Office” to access your photos while you are using the app;If not, you can't send photos or add pictures in the enclosure.";
+NSMicrophoneUsageDescription = "Allow “Mobile Office” to access the microphone while you are using the app;If not, you can't send voice messages and use a video conference.";
+NSFaceIDUsageDescription = "Allow “Mobile Office” to access the Face ID while you are using the app;If not, you can't use face unlock.";
+

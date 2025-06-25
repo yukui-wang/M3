@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>icon</key>
+		<string>share_icon_download</string>
+		<key>title</key>
+		<string>share_btn_download</string>
+		<key>index</key>
+		<string>0</string>
+		<key>key</key>
+		<string>download</string>
+	</dict>
+	<dict>
+		<key>icon</key>
+		<string>share_icon_collect</string>
+		<key>title</key>
+		<string>share_btn_collect</string>
+		<key>index</key>
+		<string>1</string>
+		<key>key</key>
+		<string>collect</string>
+	</dict>
+	<dict>
+		<key>icon</key>
+		<string>share_icon_print</string>
+		<key>title</key>
+		<string>share_btn_print</string>
+		<key>index</key>
+		<string>2</string>
+		<key>key</key>
+		<string>print</string>
+	</dict>
+	<dict>
+		<key>icon</key>
+		<string>share_icon_screenMirrioring</string>
+		<key>title</key>
+		<string>share_btn_screen_mirrioring</string>
+		<key>index</key>
+		<string>4</string>
+		<key>key</key>
+		<string>screen_display</string>
+	</dict>
+</array>
+</plist>

@@ -1,0 +1,250 @@
+"key_cancel" = "Cancel";
+"key_confirm" = "Confirm";
+"key_quit_remind" = "Confirm Logout";
+"key_remind" = "Remind";
+"key_relogin_remind" = "Login expired. Please log in again.";
+"key_begin_face_register" = "Start Registration";
+"key_begin_face_verify" = "Start Verification";
+"key_login_success" = "Register Success";
+"key_relogin" = "Try Again";
+"key_album" = "Album";
+"key_return" = "Go Back";
+"key_refresh_remind" = "refresh in ";
+"key_lifetime_interval" = "Valid for: ";
+"key_lifetime_left_interval" = "Expired After: ";
+"key_login_device" = "Login to:";
+"key_login_page" = "Login to:";
+"key_version" = "";
+"key_iknow" = "Close the Guide";
+"key_refresh" = "Refresh";
+"key_privacy_policy" = "Insert Privacy Policy title text";
+"key_unlock_message" = "Unlock to authenticate";
+"key_switch_remind" = "Notification";
+"key_register_success" = "Registration Success";
+
+"authorize_camera_title" = "Camera Access Request";
+"authorize_camera_message" = "FaceID Enterprise Edition would like to access your camera to start biometric verification";
+"authorize_refuse" = "Refuse";
+"authorize_accept" = "Go to Settings";
+"authorize_album_title" = "Album Access Request";
+"authorize_album_message" = "FaceID Enterprise Edition would like to access your album";
+"authorize_biological_title" = "You are about to begin the biometric identification:";
+"authorize_biological_content" = "The biometric identification process requires your permission to access your camera and to collect, process, and store your facial biometrics, which includes facial biometrics stored in your company's privatized database.\nRead our *** for more details.";
+
+"network_remote_failed_remind" = "Slow or no internet connection. Check your network settings and try again";
+"network_dependable_remind" = "Connect to your company's secured Intranet to continue";
+
+"verify_reverify_remind" = "Please restart the verification process";
+"verify_success" = "Authentication Success";
+"verify_failed_relogin_remind" = "Biometric Verification Failed";
+"verify_failed_remind" = "Verification Failed";
+"verify_reverify" = "Try Again";
+"verify_failed_no_authorify" = "This account is not authorized to authenticate to this device";
+"verify_face_swipping" = "FaceID";
+"verify_cancel" = "Cancel";
+"verify_refuse" = "Deny";
+"verify_face_swipping_remind" = "FaceID Authentication：";
+"verify_check_number_remind" = "Authentication ID:";
+"verify_failed_not_personal" = "This authentication request is not initiated from your account";
+"verify_failed" = "Biometric Verification Failed";
+"verify_failed_device_deleta" = "This device has been disabled";
+"verify_fastpass_swipping" = "FastPass";
+"verify_fastpass_swipping_remind" = "FastPass Authentication:";
+"verify_face_swipping_button" = "Start Authentication";
+"verify_fastpass_swipping_button" = "Start Authentication";
+"verify_faceidOTP_swippint_remind" = "One-time passcode:";
+"faceidotp_cancel_verify" = "Cancel";
+
+"validation_failed" = "We encountered an error. Please try again later or contact your IT helpdesk.";
+"version_app_not_support" = "This app release is incompatible with the version of your company's service. Please contact IT helpdesk.";
+
+"login_verify_register_title" = "Register your FaceID Biometrics\nRegister your facial biometrics to complete your identity profile";
+"login_verify_after_register_title" = "Register your FaceID Biometrics";
+"login_verify_login_title" = "Last Step:\nVerify your FaceID Biometrics";
+"login_verify_remind" = "Please follow the instructions :";
+"login_verify_remind_content" = "* Ensure that only your face will be within the frame\n* Remove any object that may be covering parts of your face\n* Proceed in a well-lit environment";
+
+"scan_alignment_remind" = "Position the QR Code in the frame";
+"scan_analysis_failed" = "No valid QR code. Please try another image.";
+"scan_qrcode_invalid" = "Invalid QR Code";
+
+"otp_use_remind" = "Your Phone About to Go Offline? ";
+"otp_offline_create_remind" = "Generate offline OTP to unlock your computer when offline";
+"otp_offline_create" = "Go Offline";
+"otp_flow_timeout" = "Process request timeout. Please try again";
+"otp_offline" = "Offline OTP";
+"otp_offline_notice_title" = "Before you go offline: ";
+"otp_offline_notice_content" = "Try login with the OTP to verify synchronization.";
+"otp_offline_forbidden_remind" = "This OTP scenario has been deleted or deactivated ";
+"otp_offline_useless_remind" = "Offline OTP authentication is unavailable to you.  Contact IT helpdesk for more information.";
+"otp_offline_lookover_title" = "How to Access Offline OTP?";
+"otp_offline_lookover_content" = "Go to Home Page or Other Authentication Methods to check generated offline OTP";
+
+"otp_guide_close" = "Close the Guide";
+
+"agreement_just_agree" = "Agree";
+"agreement_disagree" = "Refuse";
+"agreement_disagree_and_quit" = "Refuse and Exit";
+
+"seckey_authentication_management" = "Authentication Setup";
+"seckey_authentication_current_default" = "Default Setup: ";
+"seckey_authentication_shortcur_time" = "Security Key Created at: ";
+"seckey_authentication_scan_face" = "FaceID Biometrics";
+"seckey_authentication_shortcut" = "FastPass";
+"seckey_authentication_registered" = "Enabled";
+"seckey_authentication_not_registered" = "Disabled";
+"seckey_authentication_set_default" = "Set as Default";
+"seckey_authentication_open_shortcut" = "Enable";
+"seckey_authentication_open_scan_face" = "Enable";
+"seckey_authentication_face_remind" = "Register your FaceID Biometrics to enhance the security of authentication";
+"seckey_authentication_fastpass_remind" = "Unlock your device to complete authentication";
+"seckey_authentication_register_content" = "FastPass Authentication";
+"seckey_authentication_register_otp" = "Enable";
+"seckey_authentication_register_otp_success" = "OTP Enabled";
+"seckey_authentication_register_otp_failed" = "OTP Registration Failed";
+"seckey_authentication_register_no_authority" = "To enable this authentication method we need to verify your identity. Log back in to register all the credentials.";
+
+"seckey_authentication_set_default_alert_face" = "Confirm to set FaceID Biometrics as your default authentication choice. ";
+"seckey_authentication_set_default_alert_fastpass" = "Confirm to set FastPass as your default authentication choice. ";
+"seckey_authentication_set_default_alert_confirm" = "Confirm";
+
+"seckey_register_welcome" = "Login Success\nUnlock FastPass Authentication";
+"seckey_register_message" = "Unlocking your screen to authenticate devices and Web applications\nYou can activate FastPass later";
+"seckey_register_open" = "Unlock FastPass";
+"seckey_register_not_open" = "Maybe Later";
+"seckey_register_button" = "Unlock to Activate";
+
+"seckey_after_register_message" = "Activate your FastPass \nUnlock your device to verify your identity";
+"seckey_after_register_failed" = "FastPass Failed";
+"seckey_after_register_return" = "Return";
+
+"seckey_disable_message" = "Failed to Activate FastPass";
+"seckey_disable_message_detail" = "You can activate FastPass later in Authentication Setups";
+"seckey_disable_confirm" = "Continue to Login";
+
+"seckey_register_alert_no_biological_title" = "Biometrics Verification Unavailable";
+"seckey_register_alert_no_biological_message" = "Your device doesn't support biometric verification. You can't enable FastPass.";
+"seckey_register_alert_no_biological_confirm" = "Continue";
+"seckey_after_register_alert_no_biological_confirm" = "Continue";
+"seckey_register_remind_no_biological_message" = "Your device doesn't support biometric verification. You can't enable FastPass. Please reach out to IT helpdesk for other options.";
+
+"seckey_register_alert_biological_authority_title" = "Biometrics Required";
+"seckey_register_alert_biological_authority_message" = "FastPass requires access to Apple Face ID. Please grant access. Or you can activate FastPass later.";
+"seckey_register_alert_biological_authority_cancel" = "Maybe Later";
+"seckey_after_register_alert_biological_authority_cancel" = "Cancel";
+"seckey_register_alert_biological_authority_confirm" = "Go to Settings";
+"seckey_register_alert_biological_authority_message_after_face" = "FastPass requires access to Apple Face ID. Please grant access.";
+
+"seckey_register_alert_biological_not_add_title" = "Biometrics Required";
+"seckey_register_alert_biological_not_add_faceID_message" = "FastPass requires your device to enable Apple Face ID. Please set up Touch ID in Face ID & Passcode. Or you can activate FastPass later.";
+"seckey_register_alert_biological_not_add_touchID_message" = "FastPass requires your device to enable Touch ID. Please set up Touch ID in Touch ID & Passcode. Or you can activate FastPass later.";
+"seckey_register_alert_biological_not_add_cancel" = "Maybe Later";
+"seckey_register_alert_biological_not_add_confirm" = "OK";
+"seckey_register_alert_biological_not_add_faceID_message_after_face" = "FastPass requires your device to enable Apple Face ID. Please set up Face ID in Face ID & Passcode.";
+"seckey_register_alert_biological_not_add_touchID_message_after_face" = "FastPass requires your device to enable Touch ID. Please set up Touch ID in Touch ID & Passcode.";
+
+"seckey_register_alert_biological_low_not_add_title" = "Security Notification";
+"seckey_register_alert_biological_low_not_add_message" = "The security of FastPass authentication can be enhanced by your device's biometrics. It's recommended to activate the device's biometrics in Settings.";
+"seckey_register_alert_biological_low_not_add_confirm" = "Use Passcode";
+"seckey_register_alert_biological_low_not_add_cancel" = "OK";
+
+"seckey_register_alert_biological_locked_title" = "Face ID Locked Out";
+"seckey_register_alert_biological_locked_message_faceID" = "Your Face ID is locked out. Unlock your device to re-activate Face ID";
+"seckey_register_alert_biological_locked_message_touchID" = "Your Touch ID is locked out. Unlock your device to re-activate Touch ID";
+"seckey_register_alert_biological_confirm" = "OK";
+
+"seckey_register_alert_biological_locked_low_title" = "Activate FastPass";
+"seckey_register_alert_biological_locked_low_faceID_message" = "Your Face ID is locked out. Unlock your device to re-activate Face ID. Or you can continue to use Passcode to activate FastPass";
+"seckey_register_alert_biological_locked_low_touchID_message" = "Your Touch ID is locked out. Unlock your device to re-activate Touch ID. Or you can continue to use Passcode to activate FastPass";
+"seckey_register_alert_biological_locked_low_calcel" = "Cancel";
+"seckey_register_alert_biological_locked_low_confirm" = "Continue";
+
+"seckey_register_alert_biological_no_password_title" = "Activate FastPass";
+"seckey_register_alert_biological_no_password_faceID_message" = "FastPass requires your device to enable screen lock. Please set up screen lock in Face ID & Passcode. Or you can activate FastPass later.";
+"seckey_register_alert_biological_no_password_touchID_message" = "FastPass requires your device to enable screen lock. Please set up screen lock in Touch ID & Passcode. Or you can activate FastPass later.";
+"seckey_register_alert_biological_no_password_cancel" = "Maybe Later";
+"seckey_register_alert_biological_no_password_confirm" = "OK";
+"seckey_register_alert_biological_no_password_faceID_message_after_face" = "FastPass requires your device to enable screen lock. Please set up screen lock in Face ID & Passcode.";
+"seckey_register_alert_biological_no_password_touchID_message_after_face" = "FastPass requires your device to enable screen lock. Please set up screen lock in Touch ID & Passcode.";
+
+"seckey_disable_remind" = "Invalid Credential: FastPass Unavailable";
+"face_disable_remind" = "Invalid Credential: FaceID Biometrics Unavailable";
+
+"authentication_no_available_title" = "No Available Credentials";
+"authentication_no_available_message" = "Your credentials have been expired or disabled. No authentication choice is available. Please log out and re-register.";
+"authentication_no_available_confirm" = "Log Out";
+
+"error_1001_title" = "Error";
+"error_1001_message" = "Failed to update user data. Please log back in.";
+"error_1001_confirm" = "OK";
+
+"fastpass_biological_reset_alert_message" = "Your device biometrics has been reset. Please re-register FastPass or you can switch to FaceID Biometrics";
+"fastpass_biological_reset_alert_confirm" = "Switch to FaceID Biomerics";
+
+"fastpass_authentication_biological_locked_touchID_message" = "Your Touch ID is locked out. Unlock your device to re-activate Touch ID";
+"fastpass_authentication_biological_locked_faceID_message" = "Your Face ID is locked out. Unlock your device to re-activate Face ID";
+
+"network_trust_failed_fastpass_message" = "FastPass must be activated on your company's trusted network. Please switch network and try again.";
+"network_trust_failed_fastpass_retry" = "Try again";
+
+"access_denied_due_to_security_policy" = "Access Denied Due to Security Policy";
+"access_dinied_due_to_high_level" = "Security policy requires mobile biometrics.";
+
+"authentication_swith_to_face" = "Switch to FaceID Biometrics";
+
+"no_authentication_remind" = "This authentication request requires FastPass. Go to Settings to activate FastPass";
+"no_face_authentication_remind" = "This authentication request requires FaceID Biometrics. Go to Settings to activate FaceID Biometrics";
+
+"register_list_title" = "Authentication Factors\nRegister and unlock the authentication factors available to you";
+"register_list_face_descript" = "Secure your access with FaceID Biometrics";
+"register_list_fastpass_descript" = "Unlock your mobile device to authenticate";
+"register_list_to_register" = "Enable";
+"register_list_registered" = "Enabled";
+"register_list_skip" = "Skip this Step";
+"register_list_OTP" = "OTP";
+"register_list_otp_registered" = "Enabled";
+"register_list_otp_not_registered" = "Disabled";
+"register_list_verify_failed" = "Authentication Failed";
+
+"faceidOTP_show_title" = "OTP:";
+
+"loading_full_screen_loading" = "Loading...";
+"loading_loading" = "Loading...";
+"loading_5s_remind" = "Slow internet connection";
+"loading_animation" = "Loading";
+
+"loading_alert_title" = "Error";
+"loading_alert_message" = "Slow or no internet connection. Check your network settings and try again";
+"loading_alert_cancel" = "Cancel";
+"loading_alert_retry" = "Try Again";
+"loading_alert_know" = "OK";
+
+"network_failed_reload_button_title" = "Try Again";
+
+"authentication_denied_no_authority" = "Authentication Denied by Security Policy";
+"authentication_denied_no_register" = "The Authenticaiton Policy requires using other authentication factors.";
+"authentication_denied_to_register" = "Enable All Factors";
+"authentication_already_finished" = "Authentication process completed or terminated";
+
+"network_failed_remind_home" = "Unable to connect to service. Check network.";
+
+"faceee_bad_argument" = "Wrong arguments";
+"faceee_invalid_resource_files" = "Resource files missing or incorrect.";
+"faceee_intialization_faile" = "Initialization failed";
+"faceee_invalid_domain_or_endpoint" = "Invalid domain or endpoint";
+"faceee_login_expired" = "Authentication service login expired";
+"faceee_no_registered_user_credential" = "No user credential registered.";
+"faceee_user_cancelation" = "Authentication canceled";
+"faceee_no_user_account" = "Please register your user account before starting the authentication";
+"faceee_authentication_faile" = "Verification failed";
+"faceee_invalid_site" = "Invalid site designation. Push verification failed.";
+"faceee_faceid_otp_expired" = "FaceID OTP is expired. Please re-register";
+"faceee_in_progress" = "Other authentication in process. Please wait till the authentication is completed.";
+"faceee_unknown_error" = "Unknown Error";
+//"authorize_biological_disagree" = "The biometric identification process requires your permission to access your camera and to collect, process, and store your facial biometrics, which includes facial biometrics stored in your company's privatized database.";
+"authorize_biological_disagree" = "User Canceled";
+"credential_already_exit" = "Your FaceID Biometrics is already registered";
+
+"faceee_account_has_login" = "Account logged in";
+
+"icon_otp_offline_guide" = "otp_offline_guide_en";

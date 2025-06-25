@@ -1,0 +1,41 @@
+/*
+ Localizable.strings
+ MGFaceIDDetect
+ 
+ Created by Megvii on 2021/10/10.
+ Copyright © 2017年 megvii. All rights reserved.
+ */
+
+"livenessHomePromptBlinkText"                 =           "请眨眼";
+"livenessHomePromptOpenMouthText"                 =           "请张嘴";
+"livenessHomePromptShakeHeadText"                 =           "请左右转头";
+"livenessHomePromptNodText"                 =           "请上下点头";
+
+"livenessHomePromptFrontalFaceText" = "Position Your Face in the Frame";
+"livenessHomePromptBrighterText" = "Insufficient Lighting";
+"livenessHomePromptDarkerText" = "Lighting Too Bright";
+"livenessHomePromptCloserText" = "Move Forward a Little";
+"livenessHomePromptFurtherText" = "Move Back a Little";
+"livenessHomePromptFrontalFaceInBoundingBoxText" = "Position Your Face in the Frame";
+"livenessHomePromptNoEyesOcclusionText" = "Remove Anything Covering Your Eyes";
+"livenessHomePromptNoMouthOcclusionText" = "Remove Anything Covering Your Mouth";
+"livenessHomePromptStayStillText" = "Hold Still for a Moment";
+"livenessHomePromptTooBrightText" = "Lighting Too Bright";
+"livenessHomePromptAngleOffsetText" = "Adjust Your Face Upright";
+"livenessHomePromptMotionBlurText" = "请保持拍摄清晰";
+"livenessHomePromptGaussianBlurText" = "请保持拍摄清晰";
+"livenessHomePromptVerticalText"                 =           "Keep Your Phone Upright";
+"livenessHomeExitPopupwindowTitleText" = "Cancel Verification";
+"livenessHomeExitPopupwindowBodyText" = "Are you sure you want to cancel the verification？";
+"livenessHomePromptCheckMultiFaceText" = "Multiple Faces Detected";
+"livenessHomePromptNoBacklightingText" = "Bring Your Face Into Focus";
+"livenessHomePromptFaceEreaText" = "人脸有效面积太小";
+"livenessHomePromptWaitText"                 =           "Verifying...";
+"livenessHomeAgreementText" = "《用户协议》";
+"livenessHomeCreditText" = "《个人信用信息告知书》";
+"livenessHomeAgreementpageTopTitleText" = "活体验证";
+"livenessHomeAgreementpageBottomTitleText" = "Remove Anything Covering Your Face";
+"livenessHomeAgreementpageBottomButtonText" = "开始";
+"livenessHomePromptReadyText" = "Position Your Face in the Frame";
+"livenessHomeExitPopupwindowCancel" = "Cancel";
+"livenessHomeExitPopupwindowConfirm" = "Confirm";

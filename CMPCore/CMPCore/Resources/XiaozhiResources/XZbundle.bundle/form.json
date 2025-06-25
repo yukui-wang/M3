@@ -1,0 +1,77 @@
+{
+    "code" : 0,
+    "data" : {
+        "ORDERSCHEDULE" : {
+            "extData" : {
+                "appId" : "1",
+                "formmain" : "formmain_0018",
+                "templateId" : "-2455920380647423187"
+            },
+            "unitIntent" : "ORDERSCHEDULE",
+            "steps":{
+                "3":{
+                    "display":"标题",
+                    "name":"field0004",
+                    "next":"4",
+                    "type":"native",
+                    "key":"subject",
+                    "keyValue":null,
+                    "attr":{
+                        "type":"text",
+                        "limit":"50"
+                    },
+                    "value":null
+                },
+                "1":{
+                    "display":"开始时间",
+                    "name":"field0007",
+                    "next":"2",
+                    "type":"unit",
+                    "key":"user_begintime",
+                    "keyValue":null,
+                    "attr":{
+                        "type":"datetime"
+                    },
+                    "value":null
+                },
+                "2":{
+                    "display":"结束时间",
+                    "name":"field0008",
+                    "next":"3",
+                    "type":"unit",
+                    "key":"user_endtime",
+                    "keyValue": null,
+                    "attr":{
+                        "type":"datetime"
+                    },
+                    "value":null
+                },
+                "4":{
+                    "display":"事件内容",
+                    "name":"field0009",
+                    "next":"5",
+                    "type":"native",
+                    "key":"content",
+                    "keyValue": null,
+                    "attr":{
+                        "type":"text"
+                    },
+                    "value":null
+                },
+                "5":{
+                    "display":"预约对象",
+                    "name":"field0005",
+                    "next":"-1",
+                    "type":"native",
+                    "key":"members",
+                    "keyValue": null,
+                    "attr":{
+                        "type":"text"
+                    },
+                    "value":null
+                }
+            }
+        }
+    },
+    "message" : ""
+}

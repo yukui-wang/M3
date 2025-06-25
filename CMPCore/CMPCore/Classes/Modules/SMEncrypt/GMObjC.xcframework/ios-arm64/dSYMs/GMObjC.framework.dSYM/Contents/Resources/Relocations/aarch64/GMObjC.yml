@@ -1,0 +1,102 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/shoujian/Library/Caches/org.carthage.CarthageKit/DerivedData/15.3_15E204a/GMObjC/3.3.4/Build/Intermediates.noindex/ArchiveIntermediates/GMObjC/BuildProductsPath/Release-iphoneos/GMObjC.framework/GMObjC'
+relocations:
+  - { offsetInCU: 0x34, offset: 0x34F88, size: 0x8, addend: 0x0, symName: _GMObjCVersionString, symObjAddr: 0x0, symBinAddr: 0xA1C0, symSize: 0x0 }
+  - { offsetInCU: 0x69, offset: 0x34FBD, size: 0x8, addend: 0x0, symName: _GMObjCVersionNumber, symObjAddr: 0x28, symBinAddr: 0xA1E8, symSize: 0x0 }
+  - { offsetInCU: 0x27, offset: 0x34FFA, size: 0x8, addend: 0x0, symName: '+[GMSm2Bio initialize]', symObjAddr: 0x0, symBinAddr: 0x4000, symSize: 0xC }
+  - { offsetInCU: 0x4F, offset: 0x35022, size: 0x8, addend: 0x0, symName: _kDefaultBioEllipticCurveType, symObjAddr: 0x1620, symBinAddr: 0xD650, symSize: 0x0 }
+  - { offsetInCU: 0x7D, offset: 0x35050, size: 0x8, addend: 0x0, symName: '+[GMSm2Bio initialize]', symObjAddr: 0x0, symBinAddr: 0x4000, symSize: 0xC }
+  - { offsetInCU: 0xAC, offset: 0x3507F, size: 0x8, addend: 0x0, symName: '+[GMSm2Bio readPublicKeyFromPemFile:]', symObjAddr: 0xC, symBinAddr: 0x400C, symSize: 0x60 }
+  - { offsetInCU: 0x103, offset: 0x350D6, size: 0x8, addend: 0x0, symName: '+[GMSm2Bio readPrivateKeyFromPemFile:]', symObjAddr: 0x6C, symBinAddr: 0x406C, symSize: 0x60 }
+  - { offsetInCU: 0x15A, offset: 0x3512D, size: 0x8, addend: 0x0, symName: '+[GMSm2Bio readPublicKeyFromPemString:]', symObjAddr: 0xCC, symBinAddr: 0x40CC, symSize: 0x4 }
+  - { offsetInCU: 0x19D, offset: 0x35170, size: 0x8, addend: 0x0, symName: '+[GMSm2Bio readPrivateKeyFromPemString:]', symObjAddr: 0xD0, symBinAddr: 0x40D0, symSize: 0x4 }
+  - { offsetInCU: 0x1E0, offset: 0x351B3, size: 0x8, addend: 0x0, symName: '+[GMSm2Bio readKeyFromPemString:]', symObjAddr: 0xD4, symBinAddr: 0x40D4, symSize: 0x1E0 }
+  - { offsetInCU: 0x527, offset: 0x354FA, size: 0x8, addend: 0x0, symName: '+[GMSm2Bio readPublicKeyFromDerFile:]', symObjAddr: 0x2B4, symBinAddr: 0x42B4, symSize: 0x58 }
+  - { offsetInCU: 0x57E, offset: 0x35551, size: 0x8, addend: 0x0, symName: '+[GMSm2Bio readPrivateKeyFromDerFile:]', symObjAddr: 0x30C, symBinAddr: 0x430C, symSize: 0x58 }
+  - { offsetInCU: 0x5D5, offset: 0x355A8, size: 0x8, addend: 0x0, symName: '+[GMSm2Bio readPublicKeyFromDerData:]', symObjAddr: 0x364, symBinAddr: 0x4364, symSize: 0x8 }
+  - { offsetInCU: 0x618, offset: 0x355EB, size: 0x8, addend: 0x0, symName: '+[GMSm2Bio readPrivateKeyFromDerData:]', symObjAddr: 0x36C, symBinAddr: 0x436C, symSize: 0x8 }
+  - { offsetInCU: 0x65B, offset: 0x3562E, size: 0x8, addend: 0x0, symName: '+[GMSm2Bio readKeyFromDerData:public:]', symObjAddr: 0x374, symBinAddr: 0x4374, symSize: 0x1E4 }
+  - { offsetInCU: 0x860, offset: 0x35833, size: 0x8, addend: 0x0, symName: '+[GMSm2Bio savePublicKeyToPemFile:filePath:]', symObjAddr: 0x558, symBinAddr: 0x4558, symSize: 0x8 }
+  - { offsetInCU: 0x8B1, offset: 0x35884, size: 0x8, addend: 0x0, symName: '+[GMSm2Bio savePrivateKeyToPemFile:filePath:]', symObjAddr: 0x560, symBinAddr: 0x4560, symSize: 0x8 }
+  - { offsetInCU: 0x902, offset: 0x358D5, size: 0x8, addend: 0x0, symName: '+[GMSm2Bio savePublicKeyToDerFile:filePath:]', symObjAddr: 0x568, symBinAddr: 0x4568, symSize: 0x8 }
+  - { offsetInCU: 0x953, offset: 0x35926, size: 0x8, addend: 0x0, symName: '+[GMSm2Bio savePrivateKeyToDerFile:filePath:]', symObjAddr: 0x570, symBinAddr: 0x4570, symSize: 0x8 }
+  - { offsetInCU: 0x9A4, offset: 0x35977, size: 0x8, addend: 0x0, symName: '+[GMSm2Bio savePubKeyToFile:filePath:pemType:]', symObjAddr: 0x578, symBinAddr: 0x4578, symSize: 0x164 }
+  - { offsetInCU: 0xC9D, offset: 0x35C70, size: 0x8, addend: 0x0, symName: '+[GMSm2Bio savePriKeyToFile:filePath:pemType:]', symObjAddr: 0x6DC, symBinAddr: 0x46DC, symSize: 0x1B8 }
+  - { offsetInCU: 0xFBC, offset: 0x35F8F, size: 0x8, addend: 0x0, symName: '+[GMSm2Bio createPemKeyPairFiles]', symObjAddr: 0x894, symBinAddr: 0x4894, symSize: 0x14 }
+  - { offsetInCU: 0xFF2, offset: 0x35FC5, size: 0x8, addend: 0x0, symName: '+[GMSm2Bio createDerKeyPairFiles]', symObjAddr: 0x8A8, symBinAddr: 0x48A8, symSize: 0x14 }
+  - { offsetInCU: 0x1028, offset: 0x35FFB, size: 0x8, addend: 0x0, symName: '+[GMSm2Bio createPubFile:priFile:]', symObjAddr: 0x8BC, symBinAddr: 0x48BC, symSize: 0x2D8 }
+  - { offsetInCU: 0x129F, offset: 0x36272, size: 0x8, addend: 0x0, symName: '+[GMSm2Bio convertPemToDer:]', symObjAddr: 0xB94, symBinAddr: 0x4B94, symSize: 0x90 }
+  - { offsetInCU: 0x12F9, offset: 0x362CC, size: 0x8, addend: 0x0, symName: '+[GMSm2Bio convertDerToPem:public:]', symObjAddr: 0xC24, symBinAddr: 0x4C24, symSize: 0x12C }
+  - { offsetInCU: 0x13A8, offset: 0x3637B, size: 0x8, addend: 0x0, symName: '+[GMSm2Bio wordWrap:count:]', symObjAddr: 0xD50, symBinAddr: 0x4D50, symSize: 0x160 }
+  - { offsetInCU: 0x149E, offset: 0x36471, size: 0x8, addend: 0x0, symName: '+[GMSm2Bio readBase64KeyFromPemString:]', symObjAddr: 0xEB0, symBinAddr: 0x4EB0, symSize: 0x1F0 }
+  - { offsetInCU: 0x1549, offset: 0x3651C, size: 0x8, addend: 0x0, symName: '+[GMSm2Bio ellipticCurveType]', symObjAddr: 0x10A0, symBinAddr: 0x50A0, symSize: 0xC }
+  - { offsetInCU: 0x157D, offset: 0x36550, size: 0x8, addend: 0x0, symName: '+[GMSm2Bio setEllipticCurveType:]', symObjAddr: 0x10AC, symBinAddr: 0x50AC, symSize: 0xC }
+  - { offsetInCU: 0x27, offset: 0x36605, size: 0x8, addend: 0x0, symName: '+[GMSm4Utils initialize]', symObjAddr: 0x0, symBinAddr: 0x50B8, symSize: 0xC }
+  - { offsetInCU: 0x8F, offset: 0x3666D, size: 0x8, addend: 0x0, symName: '+[GMSm4Utils initialize]', symObjAddr: 0x0, symBinAddr: 0x50B8, symSize: 0xC }
+  - { offsetInCU: 0xBE, offset: 0x3669C, size: 0x8, addend: 0x0, symName: '+[GMSm4Utils createSm4Key]', symObjAddr: 0xC, symBinAddr: 0x50C4, symSize: 0x1A0 }
+  - { offsetInCU: 0x244, offset: 0x36822, size: 0x8, addend: 0x0, symName: '+[GMSm4Utils ecbEncryptData:key:]', symObjAddr: 0x1AC, symBinAddr: 0x5264, symSize: 0x204 }
+  - { offsetInCU: 0x4D8, offset: 0x36AB6, size: 0x8, addend: 0x0, symName: '+[GMSm4Utils ecbEncryptText:key:]', symObjAddr: 0x3B0, symBinAddr: 0x5468, symSize: 0xE0 }
+  - { offsetInCU: 0x55F, offset: 0x36B3D, size: 0x8, addend: 0x0, symName: '+[GMSm4Utils ecbDecryptData:key:]', symObjAddr: 0x490, symBinAddr: 0x5548, symSize: 0x1A8 }
+  - { offsetInCU: 0x70F, offset: 0x36CED, size: 0x8, addend: 0x0, symName: '+[GMSm4Utils ecbDecryptText:key:]', symObjAddr: 0x638, symBinAddr: 0x56F0, symSize: 0xE4 }
+  - { offsetInCU: 0x796, offset: 0x36D74, size: 0x8, addend: 0x0, symName: '+[GMSm4Utils cbcEncryptData:key:IV:]', symObjAddr: 0x71C, symBinAddr: 0x57D4, symSize: 0x240 }
+  - { offsetInCU: 0x9CC, offset: 0x36FAA, size: 0x8, addend: 0x0, symName: '+[GMSm4Utils cbcEncryptText:key:IV:]', symObjAddr: 0x95C, symBinAddr: 0x5A14, symSize: 0x10C }
+  - { offsetInCU: 0xA63, offset: 0x37041, size: 0x8, addend: 0x0, symName: '+[GMSm4Utils cbcDecryptData:key:IV:]', symObjAddr: 0xA68, symBinAddr: 0x5B20, symSize: 0x1E8 }
+  - { offsetInCU: 0xC22, offset: 0x37200, size: 0x8, addend: 0x0, symName: '+[GMSm4Utils cbcDecryptText:key:IV:]', symObjAddr: 0xC50, symBinAddr: 0x5D08, symSize: 0x110 }
+  - { offsetInCU: 0x27, offset: 0x3731B, size: 0x8, addend: 0x0, symName: '+[GMSm3Utils initialize]', symObjAddr: 0x0, symBinAddr: 0x5E18, symSize: 0xC }
+  - { offsetInCU: 0xA9, offset: 0x3739D, size: 0x8, addend: 0x0, symName: '+[GMSm3Utils initialize]', symObjAddr: 0x0, symBinAddr: 0x5E18, symSize: 0xC }
+  - { offsetInCU: 0xD8, offset: 0x373CC, size: 0x8, addend: 0x0, symName: '+[GMSm3Utils hashWithString:]', symObjAddr: 0xC, symBinAddr: 0x5E24, symSize: 0x84 }
+  - { offsetInCU: 0x13F, offset: 0x37433, size: 0x8, addend: 0x0, symName: '+[GMSm3Utils hashWithData:]', symObjAddr: 0x90, symBinAddr: 0x5EA8, symSize: 0x194 }
+  - { offsetInCU: 0x2C9, offset: 0x375BD, size: 0x8, addend: 0x0, symName: '+[GMSm3Utils hmacWithSm3:plaintext:]', symObjAddr: 0x224, symBinAddr: 0x603C, symSize: 0x10 }
+  - { offsetInCU: 0x32A, offset: 0x3761E, size: 0x8, addend: 0x0, symName: '+[GMSm3Utils hmacWithSm3:plainData:]', symObjAddr: 0x234, symBinAddr: 0x604C, symSize: 0x10 }
+  - { offsetInCU: 0x38B, offset: 0x3767F, size: 0x8, addend: 0x0, symName: '+[GMSm3Utils hmac:key:plaintext:]', symObjAddr: 0x244, symBinAddr: 0x605C, symSize: 0xE0 }
+  - { offsetInCU: 0x422, offset: 0x37716, size: 0x8, addend: 0x0, symName: '+[GMSm3Utils hmac:keyData:plainData:]', symObjAddr: 0x324, symBinAddr: 0x613C, symSize: 0x16C }
+  - { offsetInCU: 0x624, offset: 0x37918, size: 0x8, addend: 0x0, symName: '+[GMSm3Utils evpMDType:]', symObjAddr: 0x490, symBinAddr: 0x62A8, symSize: 0x40 }
+  - { offsetInCU: 0x27, offset: 0x37AA2, size: 0x8, addend: 0x0, symName: _d2i_SM2_Ciphertext_1, symObjAddr: 0x0, symBinAddr: 0x62E8, symSize: 0xC }
+  - { offsetInCU: 0x4F, offset: 0x37ACA, size: 0x8, addend: 0x0, symName: _SM2_Ciphertext_1_it, symObjAddr: 0x2BB8, symBinAddr: 0xC390, symSize: 0x0 }
+  - { offsetInCU: 0x5E, offset: 0x37AD9, size: 0x8, addend: 0x0, symName: '+[GMSm2Utils bnToHexPadding:]', symObjAddr: 0x2A58, symBinAddr: 0x8D40, symSize: 0xBC }
+  - { offsetInCU: 0xD2, offset: 0x37B4D, size: 0x8, addend: 0x0, symName: _SM2_Ciphertext_1_seq_tt, symObjAddr: 0x2B18, symBinAddr: 0xC2F0, symSize: 0x0 }
+  - { offsetInCU: 0xF9, offset: 0x37B74, size: 0x8, addend: 0x0, symName: _kDefaultEllipticCurveType, symObjAddr: 0x2D40, symBinAddr: 0xD654, symSize: 0x0 }
+  - { offsetInCU: 0x197, offset: 0x37C12, size: 0x8, addend: 0x0, symName: _d2i_SM2_Ciphertext_1, symObjAddr: 0x0, symBinAddr: 0x62E8, symSize: 0xC }
+  - { offsetInCU: 0x228, offset: 0x37CA3, size: 0x8, addend: 0x0, symName: _i2d_SM2_Ciphertext_1, symObjAddr: 0xC, symBinAddr: 0x62F4, symSize: 0xC }
+  - { offsetInCU: 0x293, offset: 0x37D0E, size: 0x8, addend: 0x0, symName: _SM2_Ciphertext_1_new, symObjAddr: 0x18, symBinAddr: 0x6300, symSize: 0xC }
+  - { offsetInCU: 0x2CF, offset: 0x37D4A, size: 0x8, addend: 0x0, symName: _SM2_Ciphertext_1_free, symObjAddr: 0x24, symBinAddr: 0x630C, symSize: 0xC }
+  - { offsetInCU: 0x317, offset: 0x37D92, size: 0x8, addend: 0x0, symName: '+[GMSm2Utils initialize]', symObjAddr: 0x30, symBinAddr: 0x6318, symSize: 0xC }
+  - { offsetInCU: 0x346, offset: 0x37DC1, size: 0x8, addend: 0x0, symName: '+[GMSm2Utils ellipticCurveType]', symObjAddr: 0x3C, symBinAddr: 0x6324, symSize: 0xC }
+  - { offsetInCU: 0x379, offset: 0x37DF4, size: 0x8, addend: 0x0, symName: '+[GMSm2Utils setEllipticCurveType:]', symObjAddr: 0x48, symBinAddr: 0x6330, symSize: 0xC }
+  - { offsetInCU: 0x3B6, offset: 0x37E31, size: 0x8, addend: 0x0, symName: '+[GMSm2Utils createKeyPair]', symObjAddr: 0x54, symBinAddr: 0x633C, symSize: 0x200 }
+  - { offsetInCU: 0x717, offset: 0x38192, size: 0x8, addend: 0x0, symName: '+[GMSm2Utils enData:hexPubKey:]', symObjAddr: 0x254, symBinAddr: 0x653C, symSize: 0x1B0 }
+  - { offsetInCU: 0xA88, offset: 0x38503, size: 0x8, addend: 0x0, symName: '+[GMSm2Utils encryptText:publicKey:]', symObjAddr: 0x404, symBinAddr: 0x66EC, symSize: 0xDC }
+  - { offsetInCU: 0xB0F, offset: 0x3858A, size: 0x8, addend: 0x0, symName: '+[GMSm2Utils encryptHex:publicKey:]', symObjAddr: 0x4E0, symBinAddr: 0x67C8, symSize: 0xDC }
+  - { offsetInCU: 0xB96, offset: 0x38611, size: 0x8, addend: 0x0, symName: '+[GMSm2Utils encryptData:publicKey:]', symObjAddr: 0x5BC, symBinAddr: 0x68A4, symSize: 0x90 }
+  - { offsetInCU: 0xBFD, offset: 0x38678, size: 0x8, addend: 0x0, symName: '+[GMSm2Utils deData:hexPriKey:]', symObjAddr: 0x64C, symBinAddr: 0x6934, symSize: 0x1A0 }
+  - { offsetInCU: 0xEEE, offset: 0x38969, size: 0x8, addend: 0x0, symName: '+[GMSm2Utils decryptToText:privateKey:]', symObjAddr: 0x7EC, symBinAddr: 0x6AD4, symSize: 0xE0 }
+  - { offsetInCU: 0xF75, offset: 0x389F0, size: 0x8, addend: 0x0, symName: '+[GMSm2Utils decryptToHex:privateKey:]', symObjAddr: 0x8CC, symBinAddr: 0x6BB4, symSize: 0xE8 }
+  - { offsetInCU: 0xFFC, offset: 0x38A77, size: 0x8, addend: 0x0, symName: '+[GMSm2Utils decryptToData:privateKey:]', symObjAddr: 0x9B4, symBinAddr: 0x6C9C, symSize: 0x9C }
+  - { offsetInCU: 0x1064, offset: 0x38ADF, size: 0x8, addend: 0x0, symName: '+[GMSm2Utils convertC1C2C3ToC1C3C2:hasPrefix:]', symObjAddr: 0xA50, symBinAddr: 0x6D38, symSize: 0x164 }
+  - { offsetInCU: 0x110F, offset: 0x38B8A, size: 0x8, addend: 0x0, symName: '+[GMSm2Utils convertC1C3C2ToC1C2C3:hasPrefix:]', symObjAddr: 0xBB4, symBinAddr: 0x6E9C, symSize: 0x138 }
+  - { offsetInCU: 0x11E0, offset: 0x38C5B, size: 0x8, addend: 0x0, symName: '+[GMSm2Utils asn1EnC1Hex:c3Data:c2Data:]', symObjAddr: 0xCEC, symBinAddr: 0x6FD4, symSize: 0x25C }
+  - { offsetInCU: 0x1491, offset: 0x38F0C, size: 0x8, addend: 0x0, symName: '+[GMSm2Utils asn1EncodeWithC1C3C2:]', symObjAddr: 0xF48, symBinAddr: 0x7230, symSize: 0x19C }
+  - { offsetInCU: 0x1562, offset: 0x38FDD, size: 0x8, addend: 0x0, symName: '+[GMSm2Utils asn1EncodeWithC1C3C2Array:]', symObjAddr: 0x10E4, symBinAddr: 0x73CC, symSize: 0x124 }
+  - { offsetInCU: 0x15DA, offset: 0x39055, size: 0x8, addend: 0x0, symName: '+[GMSm2Utils asn1EncodeWithC1C3C2Data:]', symObjAddr: 0x1208, symBinAddr: 0x74F0, symSize: 0x110 }
+  - { offsetInCU: 0x16C5, offset: 0x39140, size: 0x8, addend: 0x0, symName: '+[GMSm2Utils asn1DeToC1C3C2Data:]', symObjAddr: 0x1318, symBinAddr: 0x7600, symSize: 0x2A0 }
+  - { offsetInCU: 0x193F, offset: 0x393BA, size: 0x8, addend: 0x0, symName: '+[GMSm2Utils asn1DecodeToC1C3C2:]', symObjAddr: 0x15B8, symBinAddr: 0x78A0, symSize: 0xEC }
+  - { offsetInCU: 0x19AA, offset: 0x39425, size: 0x8, addend: 0x0, symName: '+[GMSm2Utils asn1DecodeToC1C3C2Array:]', symObjAddr: 0x16A4, symBinAddr: 0x798C, symSize: 0x218 }
+  - { offsetInCU: 0x1A48, offset: 0x394C3, size: 0x8, addend: 0x0, symName: '+[GMSm2Utils asn1DecodeToC1C3C2Data:]', symObjAddr: 0x18BC, symBinAddr: 0x7BA4, symSize: 0x118 }
+  - { offsetInCU: 0x1AB3, offset: 0x3952E, size: 0x8, addend: 0x0, symName: '+[GMSm2Utils signData:priKey:userData:]', symObjAddr: 0x19D4, symBinAddr: 0x7CBC, symSize: 0x390 }
+  - { offsetInCU: 0x1EFD, offset: 0x39978, size: 0x8, addend: 0x0, symName: '+[GMSm2Utils signHex:privateKey:userHex:]', symObjAddr: 0x1D64, symBinAddr: 0x804C, symSize: 0xF8 }
+  - { offsetInCU: 0x1F9B, offset: 0x39A16, size: 0x8, addend: 0x0, symName: '+[GMSm2Utils signText:privateKey:userID:]', symObjAddr: 0x1E5C, symBinAddr: 0x8144, symSize: 0xF4 }
+  - { offsetInCU: 0x2039, offset: 0x39AB4, size: 0x8, addend: 0x0, symName: '+[GMSm2Utils verifyData:signRS:pubKey:userData:]', symObjAddr: 0x1F50, symBinAddr: 0x8238, symSize: 0x2E8 }
+  - { offsetInCU: 0x23BA, offset: 0x39E35, size: 0x8, addend: 0x0, symName: '+[GMSm2Utils verifyHex:signRS:publicKey:userHex:]', symObjAddr: 0x2238, symBinAddr: 0x8520, symSize: 0x120 }
+  - { offsetInCU: 0x2465, offset: 0x39EE0, size: 0x8, addend: 0x0, symName: '+[GMSm2Utils verifyText:signRS:publicKey:userID:]', symObjAddr: 0x2358, symBinAddr: 0x8640, symSize: 0x11C }
+  - { offsetInCU: 0x2510, offset: 0x39F8B, size: 0x8, addend: 0x0, symName: '+[GMSm2Utils derEncode:]', symObjAddr: 0x2474, symBinAddr: 0x875C, symSize: 0x1A4 }
+  - { offsetInCU: 0x26D4, offset: 0x3A14F, size: 0x8, addend: 0x0, symName: '+[GMSm2Utils derDecode:]', symObjAddr: 0x2618, symBinAddr: 0x8900, symSize: 0x25C }
+  - { offsetInCU: 0x2957, offset: 0x3A3D2, size: 0x8, addend: 0x0, symName: '+[GMSm2Utils computeECDH:privateKey:]', symObjAddr: 0x2874, symBinAddr: 0x8B5C, symSize: 0x1E4 }
+  - { offsetInCU: 0x27, offset: 0x3A703, size: 0x8, addend: 0x0, symName: '+[GMUtils stringToHex:]', symObjAddr: 0x0, symBinAddr: 0x8DFC, symSize: 0x8C }
+  - { offsetInCU: 0x5D, offset: 0x3A739, size: 0x8, addend: 0x0, symName: '+[GMUtils stringToHex:]', symObjAddr: 0x0, symBinAddr: 0x8DFC, symSize: 0x8C }
+  - { offsetInCU: 0xC4, offset: 0x3A7A0, size: 0x8, addend: 0x0, symName: '+[GMUtils dataToHex:]', symObjAddr: 0x8C, symBinAddr: 0x8E88, symSize: 0xD8 }
+  - { offsetInCU: 0x1B2, offset: 0x3A88E, size: 0x8, addend: 0x0, symName: '+[GMUtils hexToString:]', symObjAddr: 0x164, symBinAddr: 0x8F60, symSize: 0x94 }
+  - { offsetInCU: 0x219, offset: 0x3A8F5, size: 0x8, addend: 0x0, symName: '+[GMUtils hexToData:]', symObjAddr: 0x1F8, symBinAddr: 0x8FF4, symSize: 0xAC }
+  - { offsetInCU: 0x2E0, offset: 0x3A9BC, size: 0x8, addend: 0x0, symName: '+[GMUtils base64Encode:]', symObjAddr: 0x2A4, symBinAddr: 0x90A0, symSize: 0x58 }
+  - { offsetInCU: 0x343, offset: 0x3AA1F, size: 0x8, addend: 0x0, symName: '+[GMUtils base64Decode:]', symObjAddr: 0x2FC, symBinAddr: 0x90F8, symSize: 0x50 }
+...

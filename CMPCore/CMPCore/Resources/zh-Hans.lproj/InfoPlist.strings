@@ -1,0 +1,18 @@
+/* 
+  InfoPlist.strings
+  CMPCore
+
+  Created by youlin on 2017/3/11.
+
+*/
+CFBundleName="移动办公";
+CFBundleDisplayName="移动办公M3";
+NSLocationWhenInUseUsageDescription = "请允许“移动办公”访问你的位置；若不允许，你将无法使用位置发送、签到定位等功能。";
+NSLocationAlwaysAndWhenInUseUsageDescription = "请允许“移动办公”访问你的位置；若不允许，你将无法使用位置发送、签到定位等功能。";
+NSCalendarsUsageDescription = "请允许“移动办公”访问你的日历；若不允许，你将无法使用日程同步等功能。";
+NSContactsUsageDescription = "请允许“移动办公”访问你的通讯录；若不允许，你将无法使用通讯录联系人、添加到本地通讯录等功能。";
+NSPhotoLibraryUsageDescription = "请允许“移动办公”访问你的相册；若不允许，你将无法给同事发送照片、在附件中上传本地相册图片等内容。";
+NSCameraUsageDescription = "请允许“移动办公”访问你的相机；若不允许，你将无法使用扫一扫、拍照等功能。";
+NSPhotoLibraryAddUsageDescription = "请允许“移动办公”访问你的相册；若不允许，你将无法给同事发送照片、在附件中上传本地相册图片等内容。";
+NSMicrophoneUsageDescription = "请允许“移动办公”访问你的麦克风；若不允许，你将无法使用发送语音消息、视频会议等功能。";
+NSFaceIDUsageDescription = "请允许“移动办公”访问你的面容ID；若不允许，你将无法使用面容解锁等功能。";

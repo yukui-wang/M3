@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<array>
+		<dict>
+			<key>icon</key>
+			<string>share_icon_chat</string>
+			<key>title</key>
+			<string>share_btn_new_chat</string>
+			<key>shareType</key>
+			<string>0</string>
+		</dict>
+		<dict>
+			<key>icon</key>
+			<string>share_icon_file_assistant</string>
+			<key>title</key>
+			<string>msg_fileass</string>
+			<key>shareType</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>icon</key>
+			<string>share_icon_my_files</string>
+			<key>title</key>
+			<string>offlineFiles_myfile</string>
+			<key>shareType</key>
+			<string>2</string>
+		</dict>
+	</array>
+	<array>
+		<dict>
+			<key>icon</key>
+			<string>share_icon_newcoaop</string>
+			<key>title</key>
+			<string>share_btn_new_coopa</string>
+			<key>shareType</key>
+			<string>3</string>
+		</dict>
+		<dict>
+			<key>icon</key>
+			<string>share_icon_docCenter</string>
+			<key>title</key>
+			<string>share_component_save_to_other_doc</string>
+			<key>shareType</key>
+			<string>4</string>
+		</dict>
+	</array>
+</array>
+</plist>

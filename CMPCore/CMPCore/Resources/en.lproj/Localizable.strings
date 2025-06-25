@@ -1,0 +1,881 @@
+/*
+ Localizable.strings
+ M1IPhone
+ 
+ Created by admin on 12-10-29.
+ Copyright (c) 2012年 北京致远协创软件有限公司. All rights reserved.
+ */
+
+
+/**************************************登陆与菜单   start********************************************/
+"GestureLogin_Skip_Confirm" = "Skip";
+"GestureLogin_Titile_Set" = "Draw Gesture Pattern";
+"GestureLogin_DrawUnlock" = "Draw Unlock Pattern";
+"GestureLogin_ResetGesture" = "Reset your Gesture";
+"GestureLogin_ForgetGesture" = "Forget Gesture";
+"GestureLogin_OtherWayLogin" = "Other Account";
+"GestureLogin_Inputpassword" = "Enter Password";
+"GestureLogin_Input_MoreThan4" = "Please Draw at Least Four Points";
+"GestureLogin_Input_Again" = "Please draw your unlock pattern again.";
+"GestureLogin_Set_Success" = "Password Successfully Set";
+"GestureLogin_Input_SameToPre" = "Not consistent with the first time, please try again.";
+"GestureLogin_Input_Right" = "Validate Successfully!";
+"GestureLogin_Input_WrongCountTip" = "Failed password attempt, you can enter %ld times.";
+
+"coll_nosignature" = "No Signature.";
+"coll_all_clean" = "Clear All";
+"Setting_Clean_Finished" = "Clean up finished, the storage space is released:";
+"Setting_Cleaning..." = "Clearing the cache, please wait...";
+
+"Email_Send_Cancel" = "Cancel Sending Mail";
+"Email_Save_Success" = "Mail saved successfully";
+"Email_Send_Success" = "Mail sent successfully";
+"Email_Send_Fail" = "Failed to send mail";
+"Email_NO_Config_Mailbox" = "Please provide mobile email first";
+"QRCode_Scan" = "Scan QR Code";
+"QRCode_Album" = "Albums";
+"QRCode_AutoScan" = "Place QR Code into the frame, it will scan automatically";
+"QRCode_Message" = "Prompt:";
+"QRCode_NotAddressCode" = "This QR code cannot be recognized as business card.";
+
+"Sign_markInMap" = "Map labeling";
+"Sign_location_servicesSet_m3" = "Location Services is turned off. Please access the system “Settings“ - “Privacy“ - “Location Services“ - “%@“ and enable Location Services";
+"Sign_location_servicesSet" = "Location Services is turned off. Please access the system “Settings“ - “Privacy“ - “Location Services“ - “%@“ and enable Location Services";
+"Sign_Local_locat_data_unavailable" = "Local Positioning data is not available!";
+"Sign_Local_locat_data_waiting" = "Getting location information";
+"common_save" = "Save";
+
+"touchid_unavailable" = "Touch ID is not set, please add fingerprint in “Settings-Touch ID & Passcode”";
+"faceid_unavailable" = "Face ID is not set, please add fingerprint in “Settings-Face ID & Passcode”";
+"touchid_verify_reason" = "Verify Touch ID unlock";
+"faceid_verify_reason" = "Verify Face ID unlock";
+"common_goto_setting" = "Go Settings";
+"touchid_lock" = "Exceeded Touch ID attempts";
+"faceid_lock" = "Exceeded Face ID attempts";
+"localauth_touchID_button" = "Click to unlock your Touch ID";
+"localauth_faceID_button" = "Click to unlock your Fouch ID";
+"localauth_gesture" = "Gesture Pattern";
+"localauth_openFaceToUnlock_button" = "Turn on face unlocking";
+"localauth_openFingerprintToUnlock_button" = "Turn on fingerprint unlocking";
+
+"WiFiClockIn_clockInTime" = "Working time";
+"WiFiClockIn_clockOffTime" = "WorkOff time";
+"WiFiClockIn_illegal" = "The specified WiFi is not currently connected";
+"WiFiClockIn_button" = "Clock In";
+
+/**************************************common   start********************************************/
+"Common_Yesterday" = "Yesterday";
+"Common_Tomorrow" = "Tomorrow";
+"Common_MustUpdateVersion" = "A new version has been released, please update to %@ for your convenience.";
+"Common_LatestVersion" = "latest version";
+"Common_UpdateNow" = "Download Now";
+"Common_Alert" = "Prompt";
+"Common_Update_Download" = "A new version has been released, update it now.";
+"Common_DownloadNow" = "Download Now";
+"Common_DownloadLater" = "Ignore This Version";
+"Common_Already_the_recently_Version" = "Your APP is up to Date.";
+"Common_To" = "TO";
+
+"Common_Pic1" = "Picture%@.";
+"Common_Voc1" = "Voice%@.caf";
+"Common_Mov1" = "Video%@.mov";
+
+"common_delete" = "Delete";
+"common_prompt" = "Prompt";
+"common_cancel" = "Cancel";
+"common_ok" = "Confirm";
+"common_confirm" = "Confirm";
+"common_rename" = "Rename";
+"common_rename_placeholder" = "Please enter a new file name";
+
+"common_close" = "Close";
+"common_return" = "Return";
+"common_back" = "Back";
+"common_search" = "Search";
+"common_table_loading" = "Loading...";
+"common_no_record" = "Not recorded";
+"common_no_paly" = "Not played";
+"common_inputName_canNotEmpty_againInput" = "Name cannot be empty, please re-enter.";
+"common_not_record" = "No record";
+"common_nameExist_againInput" = "Name already existed, please re-enter.";
+"common_stop_paly" = "Stop play";
+"common_paly_stop" = "Pause play";
+"common_thisDoc_isNotExist" = "This file does not exist!";
+"common_record_paly" = "Record Stop";
+"common_playing" = "Playing";
+
+"common_attName_theMostInput_40Words" = "Maximum 40 characters of attachment naming.";
+"common_inputCharacter_notInclude_XX" = "CharCacters input cannot contain */<>?:：｜|";
+"common_save_success" = "Save successfully";
+"common_save_fail" = "Save Failed";
+"common_norecord" = "Unable to record";
+"common_norecordalert" = "Please allow %@ to access your microphone in device 'settings-privacy-microphone' option.";
+"common_nocameraalert" = "Please allow %@ to access your camera in device 'settings-privacy-camera' option.";
+"common_nophotostitle" = "Your albums is not available";
+"common_nophotos" = "Please allow %@ to access your photos in device 'settings-privacy-photos' option.";
+"common_uploadAttachmentLimit" = "Uploaded files cannot exceed 50M.";
+"common_nodata" = "No Data";
+"common_language" = "_en";
+"common_search_subject" = "Prompt";
+"common_Nothing" = "None";
+"common_Nothing_sorry" = "Sorry! Nothing here";
+"common_search_pleaseEnterKeywords" = "Please Enter Keywords";
+"common_camera_unavailable" = "Your camera is not available.";
+"common_read" = "View";
+"common_finshed" = "Complete";
+"common_repeal" = "Undo";
+
+"common_proxyAlert" = "This device has started up proxy sevice, there may be security risk if you continue to use it!";
+"common_jailbreakAlert" = "This device has completed jailbreak, there may be security risk if you continue to use it!";
+"common_loadAppFail" = "Fail to load application, please reset server address.";
+"common_noAppDownloadAddress" = "No Application Download Address or Incorrect Address Format \n%@";
+"common_noPermissionCamera" = "Enable to Use Camera";
+"common_downloadFileFailed" = "File Download Fail.";
+"common_fileCopyError" = "Error Copying File to Directory. ";
+"common_locationDetail" = "Location Details";
+"common_failToFormatLocation" = "Fail to Convert Location Format";
+"common_unkownError" = "Unknown Error";
+"common_appDownloadFail" = "App package download failed, click";
+"common_unzipAppPackageFail" = "Error Unzipping Application Package. ";
+"common_downloadAddressEmpty" = "Download Address Cannot Be Empty";
+"common_noAppInformation" = "Unable to Find Application Information";
+"common_mobileAlbums" = "Mobile Albums";
+"common_videoPreview" = "Video Preview";
+"common_usePhoto" = "Use Photo";
+"common_takePhotoAgain" = "Photograph Again";
+"common_noFreeSpace" = "Your available space is less than 200M, please download after clearng.";
+"common_uploadServerEmpty" = "Upload Server Address Cannot Be Empty";
+"common_deleteCacheFail" = "Delete Cathe Failed";
+"common_cancelSending" = "Cancel Sending";
+"common_cancelLabeling" = "Cancel Labeling";
+"common_turnOnLocation" = "Please turn on location service in settings.";
+"common_pleaseSelectLocation" = "Please Select Location";
+"common_cancelPhotography" = "Cancel Photography";
+"common_noPermissionAlbums" = "No Permission to Access Albums";
+
+"common_reload_tabbar" = "The bottom navigation changes, please reload.";
+"common_load_success" = "Success";
+"common_reload_language" = "Your current preferred language is no longer supported and we need to refresh the pages";
+"common_or" = "or";
+"common_exit" = "Sign out";
+"common_Connecting" = "Connecting...";
+"common_dept"="Dept";
+/**************************************common   end********************************************/
+
+/**************************************OfflineFiles   start********************************************/
+"offlineFiles_unknownFiles" = "This format file does not support local view, please use other applications to open.";
+"offlineFiles_offlineFiles" = "Offline Doc";
+"offlineFiles_myfile" = "My File";
+"offlineFiles_haveBeenSelect_xx" = "Selected %d item(s)";
+"offlineFiles_unzipFail" = "Exceptional or corrupt file loading";
+"Common_Network_Disconnect" = "The current network is abnormal and the server cannot be accessed. Please try switching between WIFI, mobile network, and flight mode";
+/**************************************OfflineFiles    end********************************************/
+
+/*************************** 更新包 start *******************************/
+"UpdatePackage_TipTitle" = "Prompt";
+"UpdatePackage_TipTitle_IsDownload" = "Downloading App Packages";
+"UpdatePackage_CloseApp" = "Close App";
+"UpdatePackage_Download" = "Download";
+"UpdatePackage_TipNotWifi" = "You are not in wireless network and will generate traffic, continue or not?";
+"UpdatePackage_ReDownload" = "retry";
+"UpdatePackage_updating" = "Downloading or updating apps, please wait until finish";
+"UpdatePackage_progress" = "Updating the package(%d%s)";
+"UpdatePackage_updateFail" = "Download failed, please download again";
+
+//new
+"UpdatePakageNew_applicationing" = "Application resource downloading";
+"UpdatePakageNew_downloadSuc" = "Application download successfully!";
+"UpdatePakageNew_downloadFail" = " application download failed!";
+"UpdatePakageNew_downloadFail_Cap" = "Application download failed!";
+"UpdatePakageNew_updateNow" = "Immediately update";
+"UpdatePakageNew_updateNext" = "Restart update";
+"UpdatePakageNew_reDownload" = "Redownload";
+"UpdatePakageNew_downloadNext" = "Next time";
+"UpdatePakageNew_zipupdating" = "Updating the application resource";
+
+/*************************** 更新包 end *******************************/
+
+/*************************** 离线通讯录 start *******************************/
+"contacts" = "Contacts";
+"contacts_org" = "Organization";
+"contacts_team" = "Project Team";
+"contacts_groupchat" = "My Group Chat";
+"contacts_frequent" = "Top Contacts";
+"contacts_related" = "Following";
+"contacts_downloadFail" = "Fail to Download Offline Contacts!";
+"contacts_retry" = "Retry";
+"contacts_downloading" = "Downloading offline contacts...";
+"contacts_searchkey_new" = "Enter name or phone number or first spell alphabet";
+"contacts_searchkey_old" = "Enter name or phone number";
+"contacts_getData" = "Reading offline contacts...";
+/*************************** 离线通讯录 end *******************************/
+
+/*************************** 相册 start *******************************/
+"photo" = "Photo";
+"Common_Preview" = "Preview";
+"photo_original" = "Original";
+"photo_limit" = "You can only select photos less than %ld M";
+"photo_countlimit" = "You can only select %zd photos at most.";
+"photo_download_iCloud" = "Please try again after downloading iCloud image in system album.";
+"photo_setting" = "Please allow %@ to access your albums in device 'settings-privacy-photos' option.";
+
+"scan_fail" = "Recognize QR code Failed";
+"scan_picfail" = "Failed to recognize QR code in this photo.";
+"common_isee" = "Ok";
+"atta_limitsize" = "Please upload a file less than %ldM";
+"common_weakpassword" = "Password strength is not enough or passwords have expired, please change the password for your account security.";
+"scan_joingroup_error" = "Failure to join group chat";
+/*************************** 相册 end *******************************/
+
+/*************************** 消息列表 start *******************************/
+"msg_image" = "[Image]";
+"msg_voice" = "[Voice]";
+"msg_file" = "[File]";
+"msg_vcard" = "[Card]";
+"msg_personal_card" = "Card";
+"mjRefresh_just" = "The latest update time: just now";
+"mjRefresh_fewSecond" = "The latest update time:%d second ago";
+"msg_clearGroupNotification" = "Group message record cannot be restored after clearing, are you sure to clear all messages?";
+"msg_recall_me" = "You recall a message";
+"msg_recall" = "recall a message";
+"msg_metioned" = "[You have been @]";
+"msg_fileHaveDelete" = "The file have been deleted from server";
+"msg_userListTitle" = "Select group member";
+"msg_reedit" = "reedit";
+"msg_createGroup" = "New group chat";
+"msg_joinGroup" = "You have joined group chat ";
+"msg_quitGroup" = " Leave ";
+"msg_kickedGroup" = "You have been removed from group chat ";
+"msg_dismissGroup" = "Group “%@” have been dismissed.";
+"msg_changeGroupManager" = "You have been owner of “%@”.";
+"msg_rebulletin" = "Group bulletin changed";
+"msg_operator" = "Operator";
+"msg_replacement" = "%@ have been owner";
+"msg_msgTitle" = "Message";
+"msg_coll" = "Collaboration";
+"msg_edoc" = "Official Doc";
+"msg_plan" = "Plan";
+"msg_bul" = "Bulletin";
+"msg_news" = "News";
+"msg_inquire" = "Survey";
+"msg_meeting" = "Meeting";
+"msg_doc" =  "Doc";
+"msg_wages" = "Salary";
+"msg_BehaviorPerformance" = "Behavior Performance";
+"msg_bbs" = "BBS";
+"msg_queyreport" = "Query Statistics";
+"msg_zhixin" = "ZhiXin";
+"msg_offlineDoc" = "Offline Doc";
+"msg_MyCollection" = "My Favorite";
+"msg_attendance" = "Sign in";
+"msg_task" = "Task";
+"msg_schedule" = "Schedule";
+"msg_show" = "Big show";
+"msg_ReportShow" = "Report analysis";
+"msg_SystemMsg" = "System Message";
+"msg_form" = "Form";
+"msg_IntegratedOffice" = "Office Service";
+"msg_project" = "Project";
+"msg_noMsg" = "No Data";
+"msg_noAssMsg" = "No Message";
+"msg_delete" = "Delete";
+"msg_remove" = "Remove";
+"msg_top" = "Top";
+"msg_canceltop" = "Cancel top";
+"msg_markRead" = "Mark as Read";
+"msg_outMsg" = "External System";
+"msg_reportCenter" = "report";
+"msg_groupNotification" = "Group System Message";
+"msg_xiaoguangbo" = "Small broadcast";
+"msg_xgbnewtip" = "launched a small broadcast";
+"msg_xgbnewMessage" = "You have a new small broadcast message";
+"msg_xgbrecalltip" = "recalled a broadcast message";
+"msg_fileass" = "File assistant";
+"msg_zhixinInitError" = "Zhixin Not Init";
+"msg_app" = "Application message";
+"msg_push" = "Smart push reminder";
+"msg_leader" = "My leadership message";
+"msg_track" = "Track events message";
+"msg_mention" = "@ Me message";
+"msg_requestingFilePrivilege" = "Requesting data, please try again later";
+"msg_noFilePrivilege" = "You are not authorized to do this. For details, please consult your system administrator or the group owner.";
+"msg_zhixin_notHasPermission" = "Please contact the administrator";
+"msg_zhixin_notAvailable" = "Letter Service Not Available";
+"msg_set_admin" = "%@ set you up as an administrator of group chat \"%@\"";
+"msg_unset_admin" = "%@ revoke your group chat \"%@\" administrator privileges.";
+"msg_mark_unread" = "Marked as unread";
+"msg_you_set_admin" = "You have set %@ as Administrator";
+"msg_you_unset_admin" = "You canceled %@ as Administrator";
+"msg_someone_set_admin" = "%@ have set %@ as Administrator";
+"msg_someone_unset_admin" = "%@ canceled %@ as Administrator";
+"msg_content_sensitive_notsend" = "The message contains sensitive information and cannot be sent";
+"msg_content_sensitive_hascleared" = "Message contains sensitive information, cleared";
+/*************************** 消息列表 end *******************************/
+
+/*************************** 融云 *******************************/
+"rc_PluginBoardPicture" = "Photos";
+"rc_PluginBoardCamera" = "Camera";
+"rc_PluginBoardLocation" = "Location";
+"rc_PluginBoardFile" = "File";
+"rc_PluginBoard_VoIPAudioCall" = "Voice Call";
+"rc_PluginBoard_VoIPVideoCall" = "Video Call";
+"rc_PluginBoard_VoIPAudioAndVideoCall" = "Audio video call";
+"rc_RedPacket" = "Red Packet";
+"rc_OpenRedPacket" = "Open";
+"view_RedPacket" = "View Red Packet";
+"redPacket_Expired" = "Red Packet expired";
+"rc_M3RedPacket" = "Red Packet";
+"yourself_Open"  ="Opened Red Packet from yourself";
+"redPacket_received" = "Opened";
+"redPacket_over" = "None available";
+"redPacket_receive_info" = "Opened Red Packet from %@";
+"redPacket_receive_info2"= "%@ opened your Red Packet";
+"you" = " you";
+"ass_doc" = "Associated Document";
+"view_details" = "view details";
+"Launch_time" = "Launch time: ";
+"doc_sponsors" = "sponsors: ";
+"rc_task_principal" = "Person in charge：";
+"rc_scan_code_join_group" = "Adding group chat by scanning two-dimensional code";
+"GroupReplacement"="%@ have been owner";
+"GroupReplacement_who_changed_owner_to"="%@ changed owner to %@";
+"GroupRebulletin"="Group bulletin changed";
+"ConvertMission"="Transfer task";
+"You sent a window jitter"="You sent a window jitter";
+"sent you a window jitter"="sent you a window jitter";
+"rc_group_chat_record" = "Chat record of group chat";
+"rc_single_messages_forward" = "One by one forwarding";
+"rc_merge_message_forward" = "Merge forwarding";
+"rc_transfer_opinoin" = "Transfer opinion";
+"rc_msg_business_card" = "[Business card]";
+"rc_msg_business_card_name" = "Business card";
+"rc_msg_general_business" = "[%@ message]";
+"rc_msg_general_business_handel_success" = "Successful treatment";
+"rc_msg_general_business_handel_fail" = "Processing failure";
+"rc_msg_collection_handel_success" = "Collection success";
+"rc_msg_collection_handel_fail" = "Collection failure";
+"rc_msg_collection_handel_already_collect" = "You have collected this document";
+"rc_msg_single_forward_tip" = "One by one forwarding of messages that do not support red packet and application card types";
+"rc_msg_combine_forward_tip" = "Merge and forward only supports messages of text, picture and file types";
+"rc_msg_turn_on_opinione_tip" = "Only messages of text, picture and file types are supported";
+"rc_msg_collection_chat_record_tip" = "Collection only supports messages of text, picture and file types";
+"rc_msg_combine_vard" = "[Chat record]";
+"rc_msg_unknown_folder_tip" = "The mobile terminal does not support viewing folder type information temporarily";
+"rc_group_kanban_chat" = "Communication";
+"rc_msg_resend" = "Resend";
+"msg_at_all" = "All";
+"rc_msg_quote" = "Quote";
+"rc_msg_unknown_tip" = "The mobile terminal does not support viewing this type information temporarily";
+"rc_msg_unknown_msgtype" = "[Unknown Type]";
+"rc_msg_robot_msg" = "Robot Message";
+"zx_loginstatus_mobile" = "Mobile Online";
+"zx_loginstatus_client" = "Client Online";
+"zx_loginstatus_web" = "Web Online";
+"zx_loginstatus_offline" = "Offline";
+"zx_meeting_invite" = "Invite";
+
+"meeting_join" = "Join Now";
+"meeting_copyAndJoin" = "Copy Password Join";
+"meeting_pwdCopied" = "Password Copied";
+"meeting_insNumb" = "Meeting No.";
+"meeting_insPwd" = "Meeting Pw.";
+
+"rc_remote_del_confirm_text" = "Chat records cannot be recovered after deletion. Are you sure to delete them?";
+"rc_remote_clear_confirm_text" = "The chat history cannot be recovered after being cleared. Are you sure to clear it?";
+/*************************** 融云 *******************************/
+
+/*************************** 新建快捷 *******************************/
+"quick_coll" = "Collaboration";
+"quick_form" = "Form Template";
+"quick_scan" = "Scan QR Code";
+"quick_groupchat" = "Launch Group";
+"quick_chat" = "Launch Chat";
+"quick_task" = "New Task";
+"quick_meeting" = "New Meeting";
+"quick_attendance" = "Sign in";
+"quick_schedule" = "New Schedule";
+"quick_zhumu_meeting" = "Attention meeting";
+"quick_ontimemeet" = "Quick Meeting";
+/*************************** 新建快捷 *******************************/
+
+/*************************** cordova插件 start *******************************/
+"Calendar_LoadFail" = "Calendar Load Error";
+"Calendar_NoAccess" = "No permission to access calendar";
+/*************************** cordova插件 end *******************************/
+
+/*************************** 日历权限设置 start *******************************/
+"Calendar_Permisson_Setting" = "Please allow %@ to access your calendar in device 'settings-privacy-calendar' option.";
+"Calendar_Unavailable_title" = "Calendar is unavailable";
+/*************************** 日历权限设置 end *******************************/
+
+/*************************** 通讯录权限设置 start *******************************/
+"Contact_Permisson_Setting" = "Please allow %@ to access your address book in device 'settings-privacy-address book' option.";
+"Contact_Unavailable_title" = "Address book is unavailable";
+/*************************** 通讯录权限设置 end *******************************/
+
+/*************************** 网络错误 start *******************************/
+"Common_Network_Unavailable" = "Network is not available, please check";
+"Common_Server_CannotConnect" = "The current network is abnormal and the server cannot be accessed";
+"Common_Server_DataError" = "Failed to Request Data";
+"Common_Server_Port_Alert" = "The server port is a high-risk port, which may lead to abnormal use";
+/*************************** 网络错误 end *******************************/
+
+"Common_HandWrite" = "Sign to Approve";
+"Common_PlisInput" = "Please Enter Content";
+"Common_InputSealPassWord" = "Please Enter the Seal Password";
+"Common_PassWordNONull" = "Password cannot be empty";
+"Common_PasswordWrong" = "Password wrong";
+"Common_InputLimit" = "Input limit reached , you can not enter.";
+
+"commom_ok" = "OK";
+"commom_setting" = "Setting";
+"common_kikedByOther" = "You are forced to logoff.";
+"common_backLogin" = "Return to LOGIN PAGE";
+
+"updates_check_failed" = "Fail to Check for Updates";
+"loadApp_fail" = "Fail to Load Application.";
+"desktop_errorParameter" = "Error Getting One-Click Application Parameter";
+"wrong_local_resource_path" = "Get Wrong Local Resource Path";
+"device_no_data" = "Fail to detect right appication to open this data in your device.";
+"device_not_sms" = "This Device Does Not Support Send Message";
+"device_not_telephone" = "This Device Does Not Support Telephone";
+"attach_path_empty" = "Attachment Path Cannot Be Empty";
+"common_send_fail" = "Sent Failed";
+"common_send_success" = "Sent Successfully";
+"read_manifest_error" = "Error Reading manifest.json.";
+"gesture_clicked_forgot" = "Clicked forgot gesture password on the left";
+"gesture_clicked_right" = "Clicked Swich Account on the Right";
+"gesture_clicked_skip" = "Clicked Skip";
+"gesture_clicked_return" = "Clicked Return";
+"open_app_download_adress" = "Open Application Download Address";
+"url_empty" = "Empty URL Address";
+"parameters_error" = "Parameters Passed Error";
+"database_inser_error" = "Error Inserting into Database.";
+"data_fail_local" = "Fail to Find Corresponding Data in Local Files";
+"viewController_unsupported " = "Unsupported viewController";
+"memberid_nil"  = "memberid Cannot Be Empty";
+"jsapi_error" = "jsapi and openAppMethod properties cannot be empty, please review manifest.json.";
+"device_ios_low" = "Low IOS Version";
+"please_install_wps" = "Please install WPS";
+"iAppOffice_unauthorization" = "WPS serial number is invalid, please contact the system administrator to set / update the mobile office serial number!";
+"reopen_wps" = "Please reopen WPS";
+
+/*************************** 来电提醒 *******************************/
+"call_identification_setting_alert" = "For the normal use of call reminder function, please go to \"Phone - Call Blocking & Identification\" in the open system privileges";
+"call_identification_unkown_error" = "Unkown Error";
+"call_identification_to_setting" = "Go Setting";
+"call_identification_low_system" = "Call alert function is only supported for iOS 10 and above systems";
+"call_identification_contacts_error" = "Failed to get the address book, please wait for the address book to download and try again";
+"call_identification_open_success" = "Turn on the call identification success";
+"call_identification_open_fail" = "Turn on the call identification fail";
+"call_identification_close_success" = "Turn off the call identification success";
+"call_identification_close_fail" = "Turn off the call identification fail";
+"call_identification_guide_title" = "Turn on the call identification";
+"call_identification_guide_1" = "Step 1:Open [Phone] - [Call Blocking & Identification]";
+"call_identification_guide_2" = "Step 2:Turn on M3";
+/*************************** 来电提醒 end *******************************/
+
+/*************************** 登录 *******************************/
+"login_login" = "Login";
+"login_login_ing" = "Logging in...";
+"login_bindtip" = "The security level of this account is high. You need to bind this device before you can log in. Do you want to send a binding request?";
+"login_input_empty" = "Username or password cannot be empty";
+"login_input_empty2" = "Phone number or password cannot be empty";
+"login_forget_password" = "Forget password";
+"login_username" = "Username";
+"login_password" = "Password";
+"login_forget_alert" = "Please go to the computer login page to retrieve the password";
+"login_server_add" = "Add";
+"login_server_list_title" = "Select the server address";
+"login_server_list_add" = "Setting server address";
+"login_server_list_edit" = "Edit server address";
+"login_no_note" = "No remarks";
+"login_server_host" = "Server address(required)";
+"login_server_port" = "Port(required)";
+"login_server_note" = "Remarks (up to 15 characters)";
+"login_server_host1" = "Server address";
+"login_server_port1" = "Port";
+"login_server_note1" = "Remarks (up to 15 characters)";
+"login_server_delete_message" = "Are you sure delete this server address?";
+"login_server_no_address" = "Please enter the server address";
+"login_server_no_port" = "Please enter the server port";
+"login_server_address_error" = "Incorrect server address format";
+"login_scan_err" = "Failed to recognize server in this QR code.";
+"login_server_exist" = "Server address and port already exists";
+"login_scan_button" = "Scan QR code";
+"login_server_ass" = "Added By Associated Account";
+"login_policy_agree" = "Read and Agree";
+"login_policy_detail" = "Privacy Protection Agreement";
+"login_server_manual" = "Manually Add";
+"login_server_cloud" = "Added By Cloud";
+"login_server_setting" = "Set up server";
+"login_phone" = "Phone Number";
+"login_server_uninit" = "Please set your server address first";
+"login_server_uninit2" = "Can not get server list";
+"login_verification" = "Verify Code";
+"login_tag_legacy" = "Account";
+"login_tag_phone" = "Phone Number";
+"login_server_note_prefix" = "Remarks";
+"login_cloud_error_2001" = "Invalid Request!";
+"login_cloud_error_2002" = "You have not bind a cell-phone number,please use account to login in";
+"login_cloud_error_2003" = "Multi-Record found,please use account to login in";
+"login_cloud_error_default" = "Server exception, please try again later.";
+"login_policy_not_agree" = "Disagree and exit";
+"login_policy_pop_agree" = "Read and agree";
+"login_fail" = "Login failed";
+"login_current_bind_device_numb" = "Current device number";
+
+"login_sms_send_tips" = "Verification code has been sent";
+"login_sms_login_phone_error" = "Please enter a valid phone number";
+"login_sms_area_code_title" = "Select country and region";
+"login_sms_area_code_hot_title" = "#Popular countries and regions";
+"login_sms_graph_ver_tips" = "Safety verification";
+"login_sms_graph_ver_input_error" = "The verification code is incorrect or timed out, please re-enter";
+"login_sms_phone_unbinding_account" = "The current mobile phone number is not bound to the office account";
+"login_sms_phone_binding_multi_account" = "The current mobile phone number corresponds to multiple office accounts, please change the login method";
+"login_sms_unit_sms_unauthorized" = "The SMS management of the unit is not authorized";
+"login_sms_get_code_reach_ceiling" = "The number of times to obtain verification codes for this phone number has reached the upper limit, please try again tomorrow";
+"login_sms_get_code_after_seconds" = "Please get the SMS verification code after %@s";
+
+"login_mutilauth_refetchsms" = "Re-get SMS verification code";
+"login_mutilauth_refetch" = "Reacquire";
+"login_mutilauth_pleaseinputsms" = "Please enter SMS verification code";
+"login_mutilauth_smshassendto" = "Verification code sent to";
+"login_mutilauth_seconds" = "seconds";
+
+/*************************** 登录end *******************************/
+
+/******************************重要消息提醒************************************/
+"imp_msg_loadimage" = "Generating picture";
+/******************************重要消息提醒end************************************/
+
+/*************************** 关联账号 *******************************/
+"ass_edit_top_tip" = "Please input associated information";
+"ass_server_host" = "Server address";
+"ass_username" = "Username";
+"ass_server_note" = "Remarks";
+"ass_title" = "Associated Account";
+"ass_add" = "Add";
+"ass_button" = "Associate";
+"ass_add_title" = "Add Associated Account";
+"ass_edit_delete_hint" = "Make sure you want delete this";
+"ass_edit_title" = "Edit Associated Account";
+"ass_switch_title" = "Switch Units";
+"ass_add_err1" = "This host was already added on this device, can't add again";
+"ass_add_err2" = "This host was already added on this device, can't add again";
+"ass_add_err3" = "This host was already added on this device, can't add again";
+"ass_edit_err" = "This account was added by associated account,please switch to your main account to edit";
+"msg_associate" = "Cross-enterprises Messages";
+"ass_switch_ass_title" = "Cross-Organizational Enterprise";
+"ass_switch_parttime_title" = "Group Subsidiary";
+/*************************** 关联账号end *******************************/
+
+/*************************** 转发 *******************************/
+"forward_sendto" = "Send to";
+"forward_create_new_chat" = "Create new chat";
+"forward_choose_group" = "Choose group";
+"forward_recent_contact" = "Recent contact";
+"forward_send_to" = "Send to";
+"forward_leave_message" = "Leave a message to colleagues";
+"forward_message_list_info" = "[You receive the forwarding message]";
+"forward_fileHaveDelete" = "The file have been deleted from server";
+"forward_leaveMsgLimit" = "No more than 100 words";
+/*************************** 转发end *******************************/
+
+/*************************** 相册 *******************************/
+"pic_handling" = "Loading...";
+"pic_open" = "on";
+"pic_close" = "off";
+"pic_automatic" = "auto";
+/*************************** 相册end *******************************/
+
+/*************************** 日期 *******************************/
+"week_one" = "Monday";
+"week_two" = "Tuesday";
+"week_three" = "Wednesday";
+"week_four" = "Thursday";
+"week_five" = "Friday";
+"week_six" = "Saturday";
+"week_seven" = "Sunday";
+/*************************** 日期end *******************************/
+
+/*************************** 引导页 *******************************/
+"guide_start" = "Start M3 Tour";
+/*************************** 引导页end *******************************/
+
+/*************************** 打印 *******************************/
+"print_action" = "Print";
+"print_more_than_size" = "The size of the printed file exceeds the limit";
+/*************************** 打印end *******************************/
+
+/*************************** 图片查看组件 *******************************/
+"review_image_videoIsInvalid" = "Video is invalid";
+"review_image_videoError" = "Video error";
+"review_image_unableToSave" = "Unable to save";
+"review_image_imageIsInvalid" = "Image is invalid";
+"review_image_downloadImageFailed" = "Download failed";
+"review_image_getPhotoAlbumAuthorizationFailed" = "Failed to get album authorization";
+"review_image_saveToPhotoAlbumSuccess" = "Save successful";
+"review_image_saveToPhotoAlbumFailed" = "Save failed";
+"review_image_viewOriginalPhoto" = "View original photo";
+"review_image_viewOriginalPhoto_tip" = "The original picture has been displayed";
+"review_image_recognizeQRCode" = "Identify QR code";
+"review_image_recognizeQRCode_in_pic" = "Identify QR code in the picture";
+"review_image_upload_failed" = "upload failed";
+"review_image_downloading" = "downloading...";
+"review_image_network_cannot_connect" = "The current network is unavailable, please check your network settings";
+/*************************** 图片查看组件end *******************************/
+
+/*************************** 页面锁提示 *******************************/
+"pad_lock_hint" = "Check whether the current data is exited during processing?";
+/*************************** 页面锁提示end *******************************/
+
+/*************************** 多端登录提示 *******************************/
+"mu_login_web" = "Website logged in";
+"mu_login_zhixin" = "ZhiXin logged in";
+"mu_login_weChat" = "WeChat logged in";
+"mu_login_web_zhixin" = "Website、ZhiXin logged in";
+"mu_login_web_weChat" = "Website、WeChat logged in";
+"mu_login_zhixin_weChat" = "ZhiXin、ZhiXin logged in";
+"mu_login_web_zhixin_weChat" = "Website、ZhiXin and WeChat logged in";
+"mu_login_exit_web" = "Exit the Web";
+"mu_login_exit_zhixin" = "Withdrawal from the correspondent";
+"mu_login_exit_weChat" = "Exit WeChat";
+"mu_login_alreadyMute" = "Mobile notification is off";
+
+"mu_login_type_web" = "Web";
+"mu_login_type_pc" = "Zhixin";
+"mu_login_type_wechat" = "WeChat";
+"mu_login_type_phone" = "Phone";
+"mu_login_type_pad" = "Pad";
+"mu_login_exit" = "Logout ";
+"mu_login_type_logined" = " online";
+"muj_login_exit_success" = "Successful logout";
+/*************************** 多端登录提示end *******************************/
+
+/*************************** MJRefresh *******************************/
+"MJRefreshHeaderIdleText" = "Pull down to refresh";
+"MJRefreshHeaderPullingText" = "Release immediate refresh";
+"MJRefreshHeaderRefreshingText" = "Refreshing...";
+"MJRefreshAutoFooterIdleText" = "Tap or pull up to load more";
+"MJRefreshAutoFooterRefreshingText" = "Loading...";
+"MJRefreshAutoFooterNoMoreDataText" = "No More Data";
+"MJRefreshBackFooterIdleText" = "Pull up to load more";
+"MJRefreshBackFooterPullingText" = "Release to load more.";
+"MJRefreshBackFooterRefreshingText" = "Loading...";
+"MJRefreshBackFooterNoMoreDataText" = "No More Data";
+"MJRefreshHeaderLastTimeText" = "Last update:";
+"MJRefreshHeaderDateTodayText" = "Today";
+"MJRefreshHeaderNoneLastDateText" = "No record";
+/*************************** MJRefresh *******************************/
+
+/*************************** 多端登录 *******************************/
+"mutil_login_mute" = "Cell phone mute";
+"mutil_login_already_mute" = "The phone is muted";
+"mutil_login_exit_other_client" = "Exit the other client";
+"mutil_login_recovery_notification" = "Resume phone notifications";
+"mutil_login_unmute_hint" = "After turning \"Mute on the phone\", the new message notification will resume normal";
+"mutil_login_stop_notification" = "Stop phone notifications";
+"mutil_login_mute_hint" = "When \"Mute Phone\" is enabled, new message notifications will no longer be received on the phone<";
+/*************************** 多端登录 *******************************/
+
+/*************************** 手机盾相关 *******************************/
+"login_tag_mokey" = "Mokey Account";
+"login_mokeyUsername" = "Mokey Username";
+"login_mokey_NoKeyId" = "KeyId Inexistence，Try Authorised Mokey On Management Platform";
+"login_mokey_NoBind" = "You are not bound to the Mokey, please bind on the management platform";
+"login_mokey_error_getkeyid" = "Failed to get keyId of Mokey";
+"login_mokey_error_nocertorurl" = "Mokey without SDK Address and Certificate";
+"login_mokey_error_username" = "Get Login Name Err";
+"login_mokey_error_getInfo" = "Failed to request Mokey Info";
+"login_mokey_error_geteventdata" = "Failed to get Mokey login event ";
+"login_mokey_error_certexpire" = "Your certificate needs to be updated";
+"login_input_empty3" = "Mokey Name cannot be empty";
+"mokey_updateCert_success" = "Update Mokey Certificate Succeed";
+"mokey_userReset_success" = "Reset Mokey Succeed";
+"login_mokey_scan" = "Scan QR Code";
+"login_mokey_NoUserName" = "Please enter your account";
+"login_mokey_scan_login" = "Please scan the code after M3 login";
+"login_mokey_scan_nosupport" = "Failed to recognize server in this Mokey QR code.";
+"login_mokey_error_beenbound" = "Mokey has been bound by other devices. Please contact the system administrator";
+"login_mokey_error_qrcodefailure" = "QR Code Failure";
+"reset_mokey_error_account_atypism" = "Reset account is different with login account.";
+/*************************** 手机盾end *******************************/
+
+/*************************** 投屏组件start *******************************/
+"screen_mirror_btn_title" = "Screen Mirroring";
+"screen_mirror_tips_title" = "Warm Prompt";
+"screen_mirror_checkout_btn" = "Checkout";
+"screen_mirror_tips" = "iPhone needs mirror your screen via Screen Mirroring, please turn it on in Control Center";
+/*************************** 投屏组件end *******************************/
+
+/*************************** 新文件管理组件start *******************************/
+"file_management_send_btn" = "Send";
+"file_management_localfile" = "Phone File";
+"file_management_from_comefrom_m3" = "come from:";
+"file_management_from_comefrom_third" = "come from:";
+"file_management_from_comefrom" = "come from:";
+"file_management_from_sendto" = "send to:";
+"file_management_from_comefrom_group" = "come from group:";
+"file_management_from_sendto_group" = "send to group:";
+"file_management_save_ro_file_success_from_other_tips" = "Saved successfully! Please go to my file to view the saved content";
+/*************************** 新文件管理组件end *******************************/
+
+/*************************** 分享组件start *******************************/
+"share_share_to_innner_title" = "Mobile Office";
+"share_btn_new_chat" = "New chat";
+"share_btn_new_coopa" = "New collaboration";
+"share_btn_new_conf" = "New conference";
+"share_btn_doc_center" = "Doc center";
+"share_btn_new_task" = "New task";
+"share_btn_new_sche" = "New schedule";
+"share_btn_forward_coopa" = "Forward collaboration";
+"share_btn_download" = "Download";
+"share_btn_collect" = "Collect";
+"share_btn_share" = "Share";
+"share_btn_print" = "Print";
+"share_btn_wechat" = "Wechat";
+"share_btn_wechattimeline" = "Timeline";
+"share_btn_qq" = "QQ";
+"share_btn_other_app" = "Other";
+"share_btn_my_colleague" = "Zhixin";
+"share_btn_wwechat" = "WeChat Work";
+"share_btn_dingtalk" = "Dingtalk";
+"share_btn_screen_mirrioring" = "Screen Mirroring";
+"share_btn_generate_qrcode" = "QR Code";
+"share_btn_tel_confe" = "Tel Confference";
+"share_auth_tips_string" = "Do you allow it be checked by someone who isn't in the process";
+"share_auth_btn_allow" = "Allow";
+"share_auth_btn_notallow" = "Not Allow";
+"share_component_save_to_my_doc" = "Save to my document";
+"share_component_save_to_other_doc" = "Save to document center";
+"share_component_share_finished_tips" = "Has been sent!";
+"share_component_share_finished_back_former_view" = "Back to the last page";
+"share_component_share_finished_stay_curr_view" = "Stay current";
+"share_component_file_share_count_tips" = "total%ld";
+"share_wechat_limit_10M" = "File exceeds 10M, not supported temporarily";
+"share_wechat_failed" = "Sharing failed";
+/*************************** 分享组件end *******************************/
+
+/*************************** 登录新界面 *******************************/
+"login_please_login_tips" = "Please login";
+"login_please_org_tips" = "Cloud users only";
+"login_first_login_tips" = "Please set server while firstly login with account";
+"login_account_placeholder" = "Account";
+"login_account_phone_num" = "Account/Phone number";
+"login_account_login" = "Account login";
+"login_account_phone_num_login" = "Account/Phone number login";
+"login_sms_login_btn" = "SMS login";
+"login_mokey_login_btn" = "Mobile shield";
+"login_sms_login_tips" = "SMS verification code";
+"login_mokey_login_tips" = "Mobile shield";
+"login_get_sms_code_error" = "Failed to get SMS verification code";
+"login_get_sms_verification_code" = "Get code";
+"login_reget_sms_verification_code" = "Resend after %02lds";
+"login_resend_sms_verification_code" = "Resend";
+"login_account_null_tips" = "Please enter your account number";
+"login_phone_null_tips" = "Please enter your mobile number";
+"login_password_null_tips" = "Please input a password";
+"login_verification_code_null_tips" = "verification code must be filled";
+"login_first_login_set_server_tips" = "Please set up the server first";
+"login_policy_select_policy_detail" = "Please check and agree to the Privacy Protection Agreement";
+"login_first_login_select_server" = "Select server address";
+"login_first_login_edit_server" = "Edit server address";
+"login_server_can_not_be_null" = "Server cannot be empty";
+"login_port_can_not_be_null" = "Port cannot be empty";
+"login_verification_code_can_not_be_null" = "enter verification code";
+"login_orgcode" = "Organization code";
+"login_orgcode_login" = "Organization code login";
+"login_other_login" = "Other logins";
+"login_orgcode_no_null" = "Organization code cannot be empty";
+/*************************** 登录新界面end *******************************/
+
+/*************************** vpn设置 start *******************************/
+"vpn_setpwd" = "Set VPN password";
+"vpn_inputnewpwd" = "Please enter a new password";
+"vpn_inputnewpwdagain" = "Please enter a new password again";
+"vpn_inputnewpwd_notsame" = "The password entered twice is inconsistent";
+"vpn_inputnewpwd_over5minitus" = "The password has been changed for more than 5 minutes, please re-enter the change";
+"vpn_modifypwd_success" = "Modify password success";
+"vpn_modifypwd_firsttip" = "You need to change the password upon the first login to the VPN";
+"vpn_modifypwd_gomodify" = "Modify";
+"vpn_renewpwd_success" = "Password changed successfully";
+"vpn_renewpwd_overtime" = "Change password more than 5 minutes，please return and enter again";
+"vpn_set_toplevel" = "Advanced Settings";
+"vpn_set_btntitle" = "VPN settings";
+"vpn_set_btntitledone" = "VPN is set";
+"vpn_set_enteraddress" = "Please enter a VPN address";
+"vpn_set_pwdverify" = "Password Authentication";
+"vpn_set_entername" = "Please enter a username";
+"vpn_set_enterpwd" = "Please enter a password";
+"vpn_set_spaverify" = "SPA Verification";
+"vpn_set_spaentercode" = "Please enter SPA verification code";
+"vpn_set_description" = "Configuration Description (Only supports Sangfor VPN)\n1、Enter the VPN address and configure the authentication information \n2、If you need to change the VPN password, please go to Sangfor client to modify";
+"vpn_set_agreedes" = "Submission is deemed to be convincing with consent";
+"vpn_set_privacy" = "Privacy Agreement";
+"vpn_set_submit" = "submit";
+"vpn_set_blanktip" = "There are unfilled fields";
+
+"vpn_connect_ing" = "Connecting to VPN";
+"vpn_connect_fail" = "VPN Connection Failed";
+"vpn_connect_nohand" = "Unable to Connect to VPN Address";
+"vpn_connect_reset" = "Please Reset";
+
+/*************************** vpn设置 end *******************************/
+
+/*************************** 截屏控制 *******************************/
+"screenshot_control_tips" = "We have already launched Screenshot Control, we will send a record to server after your screenshot";
+"screeenshot_control_iknow_btn" = "Got it";
+"screeenshot_page_title_multi_login" = "Multi terminal landing page";
+"screeenshot_page_title_camera" = "camera";
+"screeenshot_page_title_empty" = "Blank page";
+"screeenshot_page_title_image_browser" = "Picture view";
+"screeenshot_page_title_AVPlayer" = "Audio and video player";
+/*************************** 截屏控制end *******************************/
+
+/*************************** 图片组件新增start *******************************/
+"picture_forward_text" = "Forward";
+"picture_photo_text" = "Photo";
+"picture_video_text" = "Video";
+"picture_check_pics_title" = "Photo/Video";
+"picture_multi_select_btn_title" = "Select";
+"picture_pic_selected_empty_tips" = "Please select photo";
+"photo_preview_nav_title" = "Pan and zoom";
+/*************************** 图片组件新增end *******************************/
+
+/*************************** 视频组件start *******************************/
+"video_component_retake_title" = "Retake";
+"video_component_use_title" = "Use";
+"video_component_select_from_album" = "Select from album";
+"video_component_take_photo" = "Take photo";
+"video_component_no_permission" = "Unable to shoot, please turn on microphone and camera permissions in the phone system settings";
+"audio_component_no_permission" = "Unable to record, please turn on microphone permission in the phone system settings";
+"video_component_data_loading_failed" = "Audio and video loading failed, please contact the administrator";
+"video_compress" = "Compress...";
+/*************************** 视频组件end *******************************/
+
+/*************************** 推送开关设置start *******************************/
+"user_notification_not_open_tip" = "It is detected that you have not enabled the push notification. In order to receive the notification in time, I suggest you open it";
+"user_notification_ignore" = "ignore";
+/*************************** 推送开关设置end *******************************/
+
+/*************************** 低版本系统可能出现空白页面的提示start *******************************/
+"low_system_blank_tip" = "It is detected that the version of your IOS system is low, and the page may appear white screen or refresh repeatedly due to excessive memory consumption. In order to avoid affecting your use experience, it is recommended to upgrade the system version to IOS 11.0 or replace your device";
+/*************************** 低版本系统可能出现空白页面的提示end *******************************/
+"select_multiple_chats" = "Select multiple chats";
+"excess_quantity" = "You can select a maximun of 10 sessions";
+"send_separately_to" = "Send separately to";
+"total_message" = "%lu messages in total";
+
+/*************************** 负一屏start *******************************/
+"slide_to_top_screen" = "Slide down to the second floor to check the recent footprints";
+"add_to_top_screen" = "Add to the second floor";
+"cancel_to_top_screen" = "Remove from the second floor";
+"recently_title" = "recently";
+"common_entry" = "Common entrances";
+"my_second_floor" = "My second floor";
+"top_screen_recently_tip" = "Recently viewed documents, collaborations, etc. will appear here";
+"add_top_screen_success" = "Success Added";
+"remove_top_screen_success" = "Success Removed";
+/*************************** 负一屏end *******************************/
+"more_operations" = "More operations";

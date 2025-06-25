@@ -1,0 +1,18 @@
+/* 
+  InfoPlist.strings
+  CMPCore
+
+  Created by youlin on 2017/3/11.
+
+*/
+CFBundleName="移動辦公";
+CFBundleDisplayName="移動辦公";
+NSLocationWhenInUseUsageDescription = "請允許“移動辦公”訪問你的位置；若不允許，你將無法使用位置發送、簽到定位等功能。";
+NSLocationAlwaysAndWhenInUseUsageDescription = "請允許“移動辦公”訪問你的位置；若不允許，你將無法使用位置發送、簽到定位等功能。";
+NSCalendarsUsageDescription = "請允許“移動辦公”訪問你的行事曆；若不允許，你将无法使用日程同步等功能。";
+NSContactsUsageDescription = "請允許“移動辦公”訪問你的通訊錄；若不允許，你將無法使用通訊錄連絡人、添加到本地通訊錄等功能。";
+NSPhotoLibraryUsageDescription = "請允許“移動辦公”訪問你的相册；若不允許，你將無法給同事發送照片、在附件中上傳本地相册圖片等內容。";
+NSCameraUsageDescription = "請允許“移動辦公”訪問你的相機；若不允許，你將無法使用掃一掃、拍照等功能。";
+NSPhotoLibraryAddUsageDescription = "請允許“移動辦公”訪問你的相册；若不允許，你將無法給同事發送照片、在附件中上傳本地相册圖片等內容。";
+NSMicrophoneUsageDescription = "請允許“移動辦公”訪問你的麥克風；若不允許，你將無法使用發送語音消息、視訊會議等功能。";
+NSFaceIDUsageDescription = "請允許“移動辦公”訪問你的面容ID；若不允許，你將無法使用面容解鎖等功能。";

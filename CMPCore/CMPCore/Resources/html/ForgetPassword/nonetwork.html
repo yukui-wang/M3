@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="Cache-Control" content="max-age">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta content="yes" name="apple-touch-fullscreen">
+    <meta content="telephone=no,email=no" name="format-detection">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <title></title>
+    <!-- 字体图标 -->
+    <style>
+        /* 新增各个设备的导航栏样式兼容 */
+        body.ios-x header.header {
+            height: 88px;
+            padding-top: 44px;
+            line-height: 88px;
+        }
+
+        body.ios header.header {
+            height: 64px;
+            padding-top: 20px;
+            line-height: 64px;
+        }
+
+        body.android header.header {
+            height: 44px;
+            line-height: 44px;
+        }
+
+        body {
+            margin: 0;
+            -webkit-user-select: none;
+        }
+
+        /* flexbox */
+        .flex-v {
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: flex;
+            -webkit-flex-flow: column;
+            flex-flow: column;
+        }
+
+        .flex-h {
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: flex;
+        }
+
+        .flex-1 {
+            -webkit-box-flex: 1;
+            -webkit-flex: 1;
+            flex: 1;
+        }
+
+        /* header */
+        .header {
+            height: 44px;
+            line-height: 44px;
+            padding: 0 10px;
+            border-bottom: 1px solid #eaeaea;
+        }
+
+        .header > a {
+            width: 80px;
+            font-size: 16px;
+            color: #3AADFB;
+            -webkit-tap-highlight-color: transparent;
+            text-decoration: none;
+        }
+
+        .header > a:active {
+            opacity: 0.8;
+        }
+
+        .header > a > i {
+            vertical-align: middle;
+            font-style: normal;
+        }
+
+        .header > a > .left-arrow {
+            width: 16px;
+            height: 16px;
+            -webkit-tap-highlight-color: transparent;
+            display: inline-block;
+            background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAC4klEQVRYR72XTWgTaRzGn2fyTqpWEcVdREE8KHhRkOKaaQX3IEgFTTEhBxEVEUXwC7qLB9lDL148KO4HyypLD0vFNElbv8CTF22qWARFFBWUHv04uFYkmXfmkQoFCabNx8S5Zpjf732e8J//EC2+Ogv+SYX4rdxmVo5v59tKHFvF78hqYdyxl0h0SzhbTJlekPouAl5O6wl/GOSiENw9ljJXqh008gS8fPkQxN8BPQ1CN3kvw5czpRyZwLqbam+ftP0E0oL+eTPXPfZiG0uzVRyJwMacVjvwrwNcRnLfaMrkZgNP/960QGfepiX1g5oI5Sbvpvm8VvjUfQ0LrLqhth8/BWcBHRY0gMA9UMzwUz3whgU2ZbUicPxhgGsAHimmzb/1ghuuIDFkuxnoEqDXctzk2E4+aRReVwI/35IpvbOnSfwqIPdxvtn3cCs/NgOvWWBDVkuNY/MkOkLpxFg6/nez4Jor8Ar+ZoYYFDQJ4yaLPXwUFXzmBCR2FuwpCX0krtGY3XeS/BAlvKqAl9VixOxlCJvp6JfRnfHzUYOrVtA1omWhb8cBLARMVzHNB62CfzuBrGKJmO11hNMgrpcCs2c8w/etkqg6Cb1BvxMOCpRKgtvTqiRmHMXrs/phTswOEkhI6i2m439GncTs7wLJSRRsH4FTAPJRDaCa58D0jYm8v4XCZUDvYNxUVPNg9gS+ytzLajlidojC2pA8OpYyF5utpC6BKVjHfbnxV/YMiePNvIbrrqDypIm83UFpoNFFpGmBqQd8WcXoj0BcAfJgMWUG6q2k7goqAV5WcxHzLxLcBenC63nu0VqW0UgS+FrGy9n9pP6S9KyWdTxygakHesNaC+uPkFwCcH8t23HTFVRW0jWiBbL2PwA7BP7xfxDrfZxhudp/I3KBaZCXL58geEbSo1jo9tzOcOJbEi0T+FLJUPknBCyQaC/Fzerv+nU8fdqOq1rSVrZ7RwNzDhkGlSl8Bu9PJzA0woxIAAAAAElFTkSuQmCC") no-repeat center;
+            background-size: auto 100%;
+        }
+
+        .header > h1 {
+            margin: 0;
+            font-size: 18px;
+            font-weight: 400;
+            text-align: center;
+        }
+
+        /* 无网络主体页面 */
+        .nonetwork-content {
+            text-align: center;
+            position: relative;
+        }
+
+        .nonetwork-image-warp {
+            font-size: 0;
+        }
+
+        .nonetwork-image-warp img {
+            max-width: 100%;
+            width: auto;
+            height: auto;
+        }
+
+        .refresh-content {
+            position: absolute;
+            top: 50%;
+            left: 0;
+            width: 100%;
+        }
+
+        .refresh-content .title {
+            font-size: 16px;
+            margin: 0;
+        }
+
+        .refresh-content .tips {
+            font-size: 14px;
+            color: #999;
+            margin: 14px 0 20px;
+            line-height: 100%;
+        }
+
+        .refresh-content .refresh-button {
+            height: 30px;
+            margin: 0;
+            border: 1px solid #000000;
+            background-color: transparent;
+            font-size: 14px;
+            border-radius: 15px;
+            padding: 0 20px;
+            outline: none;
+        }
+    </style>
+
+</head>
+<body class="flex-v">
+<!-- waiting render page -->
+<script type="text/javascript">
+    (function (window, document, navigator) {
+        var iphone = /(iphonex)/i;
+        var iphonex = iphone.test(navigator.userAgent);
+        var isIOS = navigator.userAgent.indexOf('iPhone') > -1;
+        var isAndroid = navigator.userAgent.indexOf('Android') > -1 || navigator.userAgent.indexOf('Linux') > -1;
+        var tap = 'ontap' in document ? 'tap' : 'click';
+        if (isIOS) {
+            if (iphonex) {
+                document.body.classList.add('ios-x');
+            } else {
+                document.body.classList.add('ios');
+            }
+        } else if (isAndroid) {
+            document.body.classList.add('android');
+        } else {
+            document.body.classList.add('android');
+        }
+        var nonetwork = {
+            textGroup: {
+                cn: {
+                    back: '返回',
+                    title: '无网络',
+                    content: {
+                        title: '无法连接到网络',
+                        button: '重新加载',
+                        tips: '当前网络不可用，请检查您的网络设置'
+                    }
+                },
+                en: {
+                    back: 'Back',
+                    title: 'No Network',
+                    content: {
+                        title: 'Unable to connect to network',
+                        button: 'Reload',
+                        tips: 'Please check your network settings'
+                    }
+                }
+            },
+            init: function () {
+                this.mounted();
+                this.bindEvent();
+            },
+            mounted: function () {
+                var pageLang = this.getPageLang();
+                document.title = pageLang.title;
+                document.body.innerHTML = this.render(pageLang) + document.body.innerHTML;
+            },
+            getPageLang: function () {
+                var isEn = window.location.search.indexOf('lang=en') >= 0;
+                return isEn ? this.textGroup.en : this.textGroup.cn;
+            },
+            render: function (pageLang) {
+                var model = '<header class="flex-h header">\n' +
+                    '    <a class="m3-back" id="goBackLink">\n' +
+                    '        <i class="left-arrow"></i><i>' + pageLang.back + '</i>\n' +
+                    '    </a>\n' +
+                    '    <h1 class="flex-1 textover-1">' + pageLang.title + '</h1>\n' +
+                    '    <a></a>\n' +
+                    '</header>\n' +
+                    '\n' +
+                    '<div class="nonetwork-content">\n' +
+                    '    <div class="nonetwork-image-warp"><img src="nonetwork.jpg"></div>\n' +
+                    '    <div class="refresh-content">\n' +
+                    '        <p class="title">' + pageLang.content.title + '</p>\n' +
+                    '        <p class="tips">' + pageLang.content.tips + '</p>\n' +
+                    '        <button id="refresh" class="refresh-button">' + pageLang.content.button + '</button>\n' +
+                    '    </div>\n' +
+                    '\n' +
+                    '</div>';
+                return model
+            },
+            bindEvent: function () {
+                document.getElementById('refresh').addEventListener(tap, function () {
+                    window.location.href = "jsbridge://cmp?isSync=true&bridge='CoreBridge'&action='refresh'";
+                }, false);
+                document.getElementById('goBackLink').addEventListener(tap, function () {
+                    window.location.href = "jsbridge://cmp?isSync=true&bridge='CoreBridge'&action='back'";
+                }, false)
+            }
+        };
+        nonetwork.init();
+    })(window, document, navigator)
+
+</script>
+</body>
+</html>

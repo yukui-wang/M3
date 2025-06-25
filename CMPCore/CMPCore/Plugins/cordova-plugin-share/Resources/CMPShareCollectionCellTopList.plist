@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>icon</key>
+		<string>share_icon_zhixin</string>
+		<key>title</key>
+		<string>share_btn_my_colleague</string>
+		<key>index</key>
+		<string>0</string>
+		<key>appId</key>
+		<string>55</string>
+		<key>key</key>
+		<string>uc</string>
+	</dict>
+	<dict>
+		<key>icon</key>
+		<string>share_icon_QQ</string>
+		<key>title</key>
+		<string>share_btn_qq</string>
+		<key>index</key>
+		<string>1</string>
+		<key>appId</key>
+		<string>1</string>
+		<key>key</key>
+		<string>qq</string>
+	</dict>
+	<dict>
+		<key>icon</key>
+		<string>share_icon_wechat</string>
+		<key>title</key>
+		<string>share_btn_wechat</string>
+		<key>index</key>
+		<string>2</string>
+		<key>appId</key>
+		<string>30</string>
+		<key>key</key>
+		<string>wechat</string>
+	</dict>
+	<dict>
+		<key>icon</key>
+		<string>share_icon_other_apps</string>
+		<key>title</key>
+		<string>share_btn_other_app</string>
+		<key>index</key>
+		<string>4</string>
+		<key>appId</key>
+		<string>6</string>
+		<key>key</key>
+		<string>other</string>
+	</dict>
+</array>
+</plist>

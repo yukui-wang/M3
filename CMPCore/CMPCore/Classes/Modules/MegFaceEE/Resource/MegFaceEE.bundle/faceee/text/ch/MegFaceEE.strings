@@ -1,0 +1,250 @@
+"key_cancel" = "取消";
+"key_confirm" = "确定";
+"key_quit_remind" = "提示";
+"key_remind" = "提示";
+"key_relogin_remind" = "登录已失效，请重新登录";
+"key_begin_face_register" = "开始刷脸";
+"key_begin_face_verify" = "开始刷脸";
+"key_login_success" = "录入人脸成功";
+"key_relogin" = "重新登录";
+"key_album" = "相册";
+"key_return" = "返回";
+"key_refresh_remind" = "s 后刷新";
+"key_lifetime_interval" = "生效时长 ";
+"key_lifetime_left_interval" = "剩余可用时长 ";
+"key_login_device" = "登录设备";
+"key_login_page" = "登录页面";
+"key_version" = "版本";
+"key_iknow" = "我知道了";
+"key_refresh" = "点击刷新";
+"key_privacy_policy" = "《请填写隐私政策展示名称》";
+"key_unlock_message" = "解锁完成快捷认证";
+"key_switch_remind" = "提示";
+"key_register_success" = "注册成功";
+
+"authorize_camera_title" = "开启摄像头权限";
+"authorize_camera_message" = "您需要开启摄像头权限后使用刷脸功能";
+"authorize_refuse" = "不开启";
+"authorize_accept" = "去设置";
+"authorize_album_title" = "开启相册权限";
+"authorize_album_message" = "您需要开启相册权限后使用扫描图片二维码";
+"authorize_biological_title" = "请注意，您将进入生物识别流程";
+"authorize_biological_content" = "该流程将需要摄像头权限，采集、处理并留存您的生物识别信息（含现场与您的企业私有化部署的数据库中的人脸图片及其所含人脸信息，属于个人敏感信息），以实现本产品生物识别相关功能。具体请见***。";
+
+"network_remote_failed_remind" = "网络连接异常，请检查网络后重试";
+"network_dependable_remind" = "当前手机未在可信网络，请链接至企业内网开始获取";
+
+"verify_reverify_remind" = "请重新操作认证流程";
+"verify_success" = "验证成功";
+"verify_failed_relogin_remind" = "验证失败，请重新登录";
+"verify_failed_remind" = "验证未通过";
+"verify_reverify" = "重新认证";
+"verify_failed_no_authorify" = "无权限认证此设备";
+"verify_face_swipping" = "刷脸认证";
+"verify_cancel" = "取消认证";
+"verify_refuse" = "拒绝认证";
+"verify_face_swipping_remind" = "您正在进行刷脸认证：";
+"verify_check_number_remind" = "请核对认证编号:";
+"verify_failed_not_personal" = "非本人登录账号，无法开启验证";
+"verify_failed" = "验证失败";
+"verify_failed_device_deleta" = "设备已失效，请联系管理员";
+"verify_fastpass_swipping" = "快捷认证";
+"verify_fastpass_swipping_remind" = "您正在进行快捷认证：";
+"verify_face_swipping_button" = "刷脸认证";
+"verify_fastpass_swipping_button" = "快捷认证";
+"verify_faceidOTP_swippint_remind" = "查看动态令牌：";
+"faceidotp_cancel_verify" = "取消认证";
+
+"validation_failed" = "企业服务配置错误，请稍后重试";
+"version_app_not_support" = "您企业的FaceID服务不适配当前app版本，请联系企业IT管理员";
+
+"login_verify_register_title" = "FaceID人脸注册\n使用FaceID企业版前，请先注册人脸";
+"login_verify_after_register_title" = "FaceID人脸注册";
+"login_verify_login_title" = "使用前请进行\nFaceID人脸登录";
+"login_verify_remind" = "为确保采录人脸质量，注册前请先确保：";
+"login_verify_remind_content" = "*本人操作\n*摘下口罩，墨镜等遮挡物\n*在光照充足的环境下操作";
+
+"scan_alignment_remind" = "请对准二维码进行扫描";
+"scan_analysis_failed" = "图片解析失败，换个图片试试";
+"scan_qrcode_invalid" = "二维码无效";
+
+"otp_use_remind" = "希望手机离线时认证设备？";
+"otp_offline_create_remind" = "若您的电脑和手机即将进入离线状态，可生成离线OTP认证";
+"otp_offline_create" = "生成离线OTP";
+"otp_flow_timeout" = "流程超时，请重试";
+"otp_offline" = "离线OTP";
+"otp_offline_notice_title" = "离线认证提示";
+"otp_offline_notice_content" = "建议在手机离线前，使用离线OTP认证一次个人设备";
+"otp_offline_forbidden_remind" = "该场景配置被删除或禁用";
+"otp_offline_useless_remind" = "如果您希望设备离线时认证，请联系企业IT管理员开通";
+"otp_offline_lookover_title" = "如何查看离线OTP";
+"otp_offline_lookover_content" = "查看离线OTP，请前往【首页】或【其他认证方式页】";
+
+"otp_guide_close" = "我知道了";
+
+"agreement_just_agree" = "同意";
+"agreement_disagree" = "不同意";
+"agreement_disagree_and_quit" = "不同意并退出";
+
+"seckey_authentication_management" = "认证方式管理";
+"seckey_authentication_current_default" = "当前默认认证方式：";
+"seckey_authentication_shortcur_time" = "快捷认证注册时间：";
+"seckey_authentication_scan_face" = "FaceID刷脸认证";
+"seckey_authentication_shortcut" = "快捷认证";
+"seckey_authentication_registered" = "已注册";
+"seckey_authentication_not_registered" = "未注册";
+"seckey_authentication_set_default" = "设为默认认证方式";
+"seckey_authentication_open_shortcut" = "开启快捷认证";
+"seckey_authentication_open_scan_face" = "人脸注册";
+"seckey_authentication_face_remind" = "人脸注册后，可以使用刷脸进行更安全的认证";
+"seckey_authentication_fastpass_remind" = "开启快捷认证后，可以使用手机解锁进行快速认证";
+"seckey_authentication_register_content" = "开启快捷认证";
+"seckey_authentication_register_otp" = "前往绑定";
+"seckey_authentication_register_otp_success" = "绑定成功";
+"seckey_authentication_register_otp_failed" = "绑定失败";
+"seckey_authentication_register_no_authority" = "注册新的认证方式需要验证您的企业员工身份，请退出APP重新登录并注册凭据";
+
+"seckey_authentication_set_default_alert_face" = "确认将FaceID刷脸认证设置为默认认证方式吗？（设置后将立即生效）";
+"seckey_authentication_set_default_alert_fastpass" = "确认将快捷认证设置为默认认证方式吗？（设置后将立即生效）";
+"seckey_authentication_set_default_alert_confirm" = "确认";
+
+"seckey_register_welcome" = "登录成功，\n请开启快捷认证";
+"seckey_register_message" = "使用手机解锁代替刷脸进行认证\n您也可以随时在认证方式管理页面开启此认证";
+"seckey_register_open" = "开启快捷认证";
+"seckey_register_not_open" = "暂不开启";
+"seckey_register_button" = "开启快捷认证";
+
+"seckey_after_register_message" = "请开启快捷认证\n使用手机解锁验证身份来绑定您的设备";
+"seckey_after_register_failed" = "快捷认证失败";
+"seckey_after_register_return" = "返回";
+
+"seckey_disable_message" = "手机快捷认证失败";
+"seckey_disable_message_detail" = "您后续可以在“认证方式设置”中重新注册";
+"seckey_disable_confirm" = "确定";
+
+"seckey_register_alert_no_biological_title" = "无法使用生物解锁";
+"seckey_register_alert_no_biological_message" = "检测到您的手机无生物解锁功能，无法使用此认证方式";
+"seckey_register_alert_no_biological_confirm" = "确认，直接登录";
+"seckey_after_register_alert_no_biological_confirm" = "确认，直接登录";
+"seckey_register_remind_no_biological_message" = "您的手机无生物解锁功能，请联系管理员为您开启其他认证方式";
+
+"seckey_register_alert_biological_authority_title" = "提示";
+"seckey_register_alert_biological_authority_message" = "您需要使用手机生物解锁认证才可开启此功能，您可以去开启权限，也可以跳过稍后“认证方式设置”中重新进行注册";
+"seckey_register_alert_biological_authority_cancel" = "跳过，直接登录";
+"seckey_after_register_alert_biological_authority_cancel" = "取消";
+"seckey_register_alert_biological_authority_confirm" = "前往设置";
+"seckey_register_alert_biological_authority_message_after_face" = "您需要使用手机生物解锁认证才可开启此功能，您可以去开启权限";
+
+"seckey_register_alert_biological_not_add_title" = "设置生物解锁";
+"seckey_register_alert_biological_not_add_faceID_message" = "您需要使用手机生物解锁认证才可开启此功能，请前往“设置-面容ID与密码”设置，也可以跳过后在“认证方式设置”中重新注册";
+"seckey_register_alert_biological_not_add_touchID_message" = "您需要使用手机生物解锁认证才可开启此功能，请前往”设置-触控ID与密码“设置，也可以跳过后在“认证方式设置”中重新注册";
+"seckey_register_alert_biological_not_add_cancel" = "跳过，直接登录";
+"seckey_register_alert_biological_not_add_confirm" = "我知道了";
+"seckey_register_alert_biological_not_add_faceID_message_after_face" = "您需要使用手机生物解锁认证才可开启此功能，请前往“设置-面容ID与密码”设置";
+"seckey_register_alert_biological_not_add_touchID_message_after_face" = "您需要使用手机生物解锁认证才可开启此功能，请前往”设置-触控ID与密码“设置";
+
+"seckey_register_alert_biological_low_not_add_title" = "设置生物解锁";
+"seckey_register_alert_biological_low_not_add_message" = "您的手机当前没有设置生物解锁，建议使用生物解锁来提高认证的安全性";
+"seckey_register_alert_biological_low_not_add_confirm" = "使用密码解锁";
+"seckey_register_alert_biological_low_not_add_cancel" = "我知道了";
+
+"seckey_register_alert_biological_locked_title" = "提示";
+"seckey_register_alert_biological_locked_message_faceID" = "面容ID已被锁定，请使用锁屏码解锁手机重试";
+"seckey_register_alert_biological_locked_message_touchID" = "触控ID已被锁定，请使用锁屏码解锁手机重试";
+"seckey_register_alert_biological_confirm" = "我知道了";
+
+"seckey_register_alert_biological_locked_low_title" = "开启快捷认证";
+"seckey_register_alert_biological_locked_low_faceID_message" = "面容ID已被锁定，请使用锁屏码解锁手机后重试或继续使用密码解锁开启快捷认证";
+"seckey_register_alert_biological_locked_low_touchID_message" = "触控ID已被锁定，请使用锁屏码解锁手机后重试或继续使用密码解锁开启快捷认证";
+"seckey_register_alert_biological_locked_low_calcel" = "取消认证";
+"seckey_register_alert_biological_locked_low_confirm" = "继续开启快捷认证";
+
+"seckey_register_alert_biological_no_password_title" = "设置生物解锁";
+"seckey_register_alert_biological_no_password_faceID_message" = "您需要使用手机生物解锁认证才可开启此功能，请前往“设置-面容ID与密码”设置，也可跳过后在“认证方式设置”中重新注册";
+"seckey_register_alert_biological_no_password_touchID_message" = "您需要使用手机生物解锁认证才可开启此功能，请前往“设置-触控ID与密码”设置，也可跳过后在“认证方式设置”中重新注册";
+"seckey_register_alert_biological_no_password_cancel" = "跳过，直接登录";
+"seckey_register_alert_biological_no_password_confirm" = "我知道了";
+"seckey_register_alert_biological_no_password_faceID_message_after_face" = "您需要使用手机密码解锁认证才可开启此功能，请前往“设置-面容ID与密码”设置";
+"seckey_register_alert_biological_no_password_touchID_message_after_face" = "您需要使用手机密码解锁认证才可开启此功能，请前往“设置-触控ID与密码”设置";
+
+"seckey_disable_remind" = "凭据已失效，快捷认证不可用";
+"face_disable_remind" = "凭据已失效，刷脸认证不可用";
+
+"authentication_no_available_title" = "提示";
+"authentication_no_available_message" = "当前无可用认证方式，无法使用APP，需退出APP重新登录";
+"authentication_no_available_confirm" = "确认";
+
+"error_1001_title" = "提示";
+"error_1001_message" = "用户信息同步失败，请退出重新登录。";
+"error_1001_confirm" = "确认";
+
+"fastpass_biological_reset_alert_message" = "设备生物解锁信息已失效，需重新注册快捷认证后使用，您也可以尝试刷脸认证";
+"fastpass_biological_reset_alert_confirm" = "确认";
+
+"fastpass_authentication_biological_locked_touchID_message" = "触控ID已被锁定，\n请使用锁屏码解锁手机重试";
+"fastpass_authentication_biological_locked_faceID_message" = "面容ID已被锁定，\n请使用锁屏码解锁手机重试";
+
+"network_trust_failed_fastpass_message" = "首次使用快捷认证需要在企业可信网络进行，请切换网络后重试";
+"network_trust_failed_fastpass_retry" = "重试";
+
+"access_denied_due_to_security_policy" = "认证被安全策略拒绝";
+"access_dinied_due_to_high_level" = "当前认证指定的快捷认证方式需要使用手机生物认证，用户需要重新注册快捷认证";
+
+"authentication_swith_to_face" = "切换刷脸认证";
+
+"no_authentication_remind" = "当前场景必须使用快捷认证，请前往“认证方式管理页”开启快捷认证";
+"no_face_authentication_remind" = "当前场景必须使用刷脸认证，请前往“认证方式管理页”开启刷脸认证";
+
+"register_list_title" = "请注册您的认证凭据\n使用FaceID企业版前，请先注册认证凭据";
+"register_list_face_descript" = "人脸注册后，可以使用刷脸进行更安全的认证";
+"register_list_fastpass_descript" = "开启快捷认证后，可使用手机解锁进行快速认证";
+"register_list_to_register" = "注册";
+"register_list_registered" = "已注册";
+"register_list_skip" = "开始使用";
+"register_list_OTP" = "动态令牌";
+"register_list_otp_registered" = "已绑定";
+"register_list_otp_not_registered" = "未绑定";
+"register_list_verify_failed" = "认证失败";
+
+"faceidOTP_show_title" = "动态令牌:";
+
+"loading_full_screen_loading" = "正在加载，请稍等";
+"loading_loading" = "加载中";
+"loading_5s_remind" = "当前网络缓慢, 请耐心等待";
+"loading_animation" = "加载中";
+
+"loading_alert_title" = "加载失败";
+"loading_alert_message" = "网络连接异常，请检查网络后重试";
+"loading_alert_cancel" = "取消";
+"loading_alert_retry" = "重试";
+"loading_alert_know" = "知道了";
+
+"network_failed_reload_button_title" = "重新加载";
+
+"authentication_denied_no_authority" = "您没有当前应用的认证权限，请联系管理员开通";
+"authentication_denied_no_register" = "您没有开启当前应用指定的认证方式，请前往认证方式管理开启";
+"authentication_denied_to_register" = "前往注册认证凭据";
+"authentication_already_finished" = "认证流程已结束";
+
+"network_failed_remind_home" = "网络连接异常，请检查网络后重试";
+
+"faceee_bad_argument" = "接口参数传入错误";
+"faceee_invalid_resource_files" = "资源文件缺失或有误，请检查资源文件";
+"faceee_intialization_faile" = "SDK初始化失败，请检查SDK授权";
+"faceee_invalid_domain_or_endpoint" = "校验企业私有化部署的domain或endpoint失败";
+"faceee_login_expired" = "登录已失效，请重新登录";
+"faceee_no_registered_user_credential" = "当前无可用认证方式，无法使用APP，需重新绑定FaceID企业版账号";
+"faceee_user_cancelation" = "认证流程已取消";
+"faceee_no_user_account" = "未绑定FaceID企业版用户账号，无法使用认证功能";
+"faceee_authentication_faile" = "验证失败，请重新操作认证流程";
+"faceee_invalid_site" = "认证推送的站点信息不正确，推送不可用";
+"faceee_faceid_otp_expired" = "动态令牌失效，需重新绑定动态令牌";
+"faceee_in_progress" = "其他认证流程进行中，需结束当前流程再开始新的调用";
+"faceee_unknown_error" = "出现未知异常";
+//"authorize_biological_disagree" = "该流程将需要摄像头权限，采集、处理并留存您的生物识别信息（含现场与您的企业私有化部署的数据库中的人脸图片及其所含人脸信息，属于个人敏感信息），以实现本产品生物识别相关功能。";
+"authorize_biological_disagree" = "用户已取消";
+"credential_already_exit" = "认证凭据已存在，勿重复注册";
+
+"faceee_account_has_login" = "账号已登录";
+
+"icon_otp_offline_guide" = "otp_offline_guide";

@@ -1,0 +1,710 @@
+ <html>
+     <head>
+         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+     </head>
+ <body>
+     <script>
+        window.localStorage.removeItem('CMPFullScreenState');
+        window.localStorage.removeItem('CMP_SESSION_CACHE');
+
+        var canConnectNative = true;
+        var ua = navigator.userAgent.toLowerCase();
+        if(ua.indexOf("like mac os x") > 0){
+            var reg = /os [\d._]*/gi ;
+            var verinfo = ua.match(reg) ;
+            var version = (verinfo+"").replace(/[^0-9|_.]/ig,"").replace(/_/ig,".");
+            var arr=version.split(".");
+            if (arr && arr.length > 0){
+                var f = arr[0], s = arr[1];
+                if (f>9){
+                    canConnectNative = true;
+                }
+            }
+            _cmpJsConsole('os version info:',version);
+        }
+        _cmpJsConsole('canConnectNative:',canConnectNative);
+
+            function _cmpIsDev(){
+                return true;
+                var result = window.localStorage[ "isDev" ];
+                return (result === "1");
+            }
+
+            function _cmpJsConsole(action,param){
+                var isDev = _cmpIsDev();
+                if (isDev) {
+                    var actionParams = {
+                        method:"cmpJsConsole",
+                        from:window.location.href,
+                        action,
+                        param
+                    }
+                    var r = prompt.apply(window, [ JSON.stringify(actionParams) ]);
+                    return r;
+                }
+            }
+
+            function _cmpFetchAllJSLocalStorage(){
+                var isDev = _cmpIsDev();
+                if (isDev) {
+                    var len = localStorage.length;
+                    console.log(len)
+                    var arr = new Array();
+                    for(var i = 0; i < len; i++) {
+                        var getKey = localStorage.key(i);
+                        var getVal = localStorage.getItem(getKey);
+                        arr[i] = {
+                            'key': getKey,
+                            'val': getVal,
+                        }
+                    }
+                    console.log(arr);
+                    _cmpJsConsole("cmpFetchAllJSLocalStorage",arr);
+                }
+            }
+         var localStorageOrigin = window.localStorage;//原始的localStorage
+         function setAllData2LocalStorageOrigin(){
+             if (canConnectNative){
+                var actionParams = {
+                    method:"localStorage",
+                    action:"getAllData"
+                };
+                var allData = prompt.apply(window, [ JSON.stringify(actionParams) ]);
+                _cmpJsConsole("allData-native-m3dataupgrage",allData);
+                if(allData){
+                    var allDataObj = JSON.parse(allData);
+                    for(var key in allDataObj){
+                        localStorageOrigin.setItem(key,allDataObj[key])
+                    }
+                }
+             }
+         };
+         setAllData2LocalStorageOrigin();//将原生缓存的localstorage中的值全部再写入到原始localstorage中
+
+            window.onerror = function(sMsg,sUrl,sLine,columnNumber,errorObj){
+                var cmpPageErrorMsg = "发生错误的信息：" + sMsg+ "、发生错误的文件：" +sUrl+ "、发生错误的行数：" + sLine+"、错误堆栈如下：" + errorObj.stack;
+                var logObj = {
+                    "log":cmpPageErrorMsg
+                }
+                _cmpJsConsole("window.onerror",logObj);
+            }
+        ;(function(factory, global) {
+            //声明命名空间，初始化工厂
+            this.m3API = factory();
+            window.onerror = function(a, b, c) {
+                console.log(arguments);
+                _cmpJsConsole("window.onerror",arguments);
+            }
+        })(function() {
+
+            // ======================== 私有方法 ========================
+            function extend(a, b) {
+                for (var i in b) {
+                    a[i] = b[i];
+                }
+                return a;
+            }
+            //获取缓存
+            function getCache(key) {
+                /*
+                var value = localStorage.getItem(key);
+                if(typeof value !== "undefined" && value !== null){
+                    _cmpJsConsole("localStorageGetItem-js",{key,value});
+                    return value;
+                }
+                 */
+                var value;
+                if (canConnectNative) {
+                    var actionParams = {
+                        method:"localStorage",
+                        action:"getItem",
+                        key:key,
+                    }
+                    value = prompt.apply(window, [ JSON.stringify(actionParams) ]);
+                    _cmpJsConsole("localStorageGetItem-native",{key,value});
+                }
+                
+                if(!value || value == null || typeof value == "undefined"){
+                    value = localStorage.getItem(key);
+                    _cmpJsConsole("localStorageGetItem-js-2",{key,value});
+                }
+                _cmpJsConsole("localStorageGetItem-result",{key,value});
+                return value;
+            }
+
+            //移除缓存
+            function removeCache(key) {
+                window.localStorage.removeItem(key);
+                _cmpJsConsole("localStorageRemoveItem",{key});
+                var actionParams = {
+                    method:"localStorage",
+                    action:"removeItem",
+                    key:key,
+                }
+                return prompt.apply(window, [ JSON.stringify(actionParams) ]);
+
+            }
+
+            //设置缓存
+            function setCache(key, value) {
+                var result = window.localStorage[ key ] = value;
+                _cmpJsConsole("localStorageSetItem",{key,value});
+                return result;
+            }
+
+            //老版本的key
+            function getKey() {
+                return "userId_" + getId() + "server_" + getCurServerUrl();
+            }
+
+            function getNewKey() {
+                return "userId_" + getId() + "server_" + getCurServerUrl() + 'companyId_' + getCompanyId();
+            }
+
+            //获取当前的服务器url
+            function getCurServerUrl() {
+                console.log("m3datauprage log -- getCurServerUrl -- editModel:"+getCache("editModel") + "-- editAddress:"+getCache("editAddress")+"--editPort:"+getCache("editPort"));
+                return getCache("editModel") + '://' + getCache("editAddress") + ':' + getCache("editPort");
+            }
+
+            //设置当前服务器信息
+            function setServerInfo(info) {
+                _cmpJsConsole("setServerInfo",info);
+                setCache('editAddress', info.ip);
+                setCache('editPort', info.port);
+                setCache('editModel', info.model);
+                setCache(info.ip + '_' + info.port, JSON.stringify(info));
+                setCache('serverVersion', info.serverVersion);
+                // ============== 适配协同云 start ==============
+                //动态路径，用于服务器请求
+                var cloudServerPath = getCurServerUrl() + info.contextPath,
+                    //静态资源路径
+                    cloudStaticPath = cloudServerPath,
+                    //CDN路径
+                    cloundCDNPath = '',
+                    //静态资源版本信息
+                    staticSuffix = '';
+                setCache('ctxPath', cloudServerPath);
+                setCache('staticPath', cloudStaticPath);
+                setCache('staticSuffix', '');
+                setCache('cdnDomain', '');
+                setCache('orgCode', info.orgCode);
+
+                // ============== 适配协同云 end ==============
+            }
+
+            //获取当前人员信息的唯一标示
+            function getId() {
+                return getCache("userId_" + getCurServerUrl());
+            };
+
+            //设置当前人员信息的唯一标示
+            function setId(id) {
+                setCache('userId_' + getCurServerUrl(), id);
+            };
+
+            function getCompanyId() {
+                console.log(window.companyId);
+                return window.companyId;
+            }
+
+            //获取当前人员信息
+            function getCurrentUserInfo() {
+                var data,
+                    key = getKey(),
+                    newKey = getNewKey();
+                _cmpJsConsole("getCurrentUserInfo",{"des":"init",key,newKey});
+                // _cmpFetchAllJSLocalStorage();
+                try {
+                    console.log('get userInfo version', window.serverVersion);
+                    //大于等于服务器版本2.1.0
+                    if (window.serverVersion >= 210 || window.isNeedUpdate) {
+                        data = getCache(newKey);
+                        _cmpJsConsole("getCurrentUserInfo",{"des":"server>=210_获取新data",newKey,data});
+                        //数不到新版本的数据，去用老版本的key去取值，并且更新后删除
+                        console.log('new data', data)
+                        if (!data) {
+                            data = getCache(key);
+                            _cmpJsConsole("getCurrentUserInfo--- will setCurrentUserInfo",{"des":"server>=210_获取新data无果，获取旧data",key,data});
+                            setCurrentUserInfo(data);
+                            console.log('shengji chengg', getCache(newKey));
+                        }
+                        removeCache(key);
+                        //移除垃圾数据
+                        removeCache(key + 'companyId_undefined');
+                    } else {
+                        data = getCache(key);
+                        _cmpJsConsole("getCurrentUserInfo",{"des":"server<210_获取旧data",key,data});
+                    }
+                    if (data){
+                        return JSON.parse(data);
+                    }
+                    _cmpJsConsole("getCurrentUserInfo",{"des":"最终人员信息还是空",data});
+                    return {};
+
+                } catch(e) {
+                    _cmpJsConsole("getCurrentUserInfo",{"des":"catch e",e});
+                    return {};
+                }
+            }
+
+            //设置当前人员信息
+            function setCurrentUserInfo(info) {
+                _cmpJsConsole("setCurrentUserInfo---did set",{info});
+                if (info && typeof info !== "undefined" && info !== null) {
+                    var data = typeof info == 'string' ? info : JSON.stringify(info);
+                    if (window.serverVersion >= 210  || window.isNeedUpdate) {
+                        setCache("userId_" + getId() + "server_" + getCurServerUrl() + 'companyId_' + getCompanyId(), data);
+                    } else {
+                        setCache("userId_" + getId() + "server_" + getCurServerUrl(), data);
+                    }
+                }else{
+                    setAllData2LocalStorageOrigin();
+                }
+            }
+
+            //设置头像
+            function setIcon(data) {
+                setCache('iconUrl', data);
+            }
+
+            //设置手势密码
+            function setGesture(status, serverVersion) {
+                window.serverVersion = parseInt(serverVersion ? serverVersion.replace(/\./g,'') : '');
+                console.log('setGesture' + window.serverVersion)
+                //新版本无需做讲手势密码保存在
+                if (window.serverVersion >= 210) { return; }
+                var user = getCurrentUserInfo();
+                user.gesture = status;
+                _cmpJsConsole('setGesture---will setCurrentUserInfo',user);
+                setCurrentUserInfo(user);
+            }
+
+            //设置待办配置信息
+            function setConfig(hasAddressBook, hasIndexPlugin, warkMarkConfig, todoConfig, messageClassification, internal, hasAIPlugin) {
+                console.log('setConfig' + window.serverVersion)
+                var user = getCurrentUserInfo();
+                user.internal = internal;
+                user.hasAIPlugin = hasAIPlugin;
+                user.hasAddressBook = hasAddressBook;
+                user.hasIndexPlugin = hasIndexPlugin;
+                user.messageClassification = messageClassification;
+                /* {
+                    //水印内容：
+                    "materMarkNameEnable" : "false",    姓名
+                    "materMarkDeptEnable" : "true",     单位
+                    "materMarkTimeEnable" : "false",    时间
+                    //是否设置水印：
+                    "materMarkEnable" : "true"
+                    }*/
+                if (warkMarkConfig) {
+                    user.materMarkNameEnable = warkMarkConfig.materMarkNameEnable;
+                    user.materMarkDeptEnable = warkMarkConfig.materMarkDeptEnable;
+                    user.materMarkTimeEnable = warkMarkConfig.materMarkTimeEnable;
+                    user.materMarkEnable = warkMarkConfig.materMarkEnable;
+                }
+
+                if (todoConfig) {
+                    user.hasDoneList = todoConfig.hasDoneList;
+                    user.hasPendingList = todoConfig.hasPendingList;
+                    user.hasSentList = todoConfig.hasSentList;
+                    user.hasWaitSendList = todoConfig.hasWaitSendList;
+                }
+                _cmpJsConsole('setConfig---will setCurrentUserInfo',user);
+                setCurrentUserInfo(user);
+            }
+
+            //登录成功后设置本地存储信息
+            function setLocalData(statisticId, currentMember, ticket, config, psw, loginName, account) {
+                _cmpJsConsole('setLocalData',{statisticId, currentMember, ticket, config, psw, loginName, account,'des':'m3API_js'});
+                //退出和唤醒统计所需参数
+                setCache("statisticId", statisticId);
+                //头像修改权限控制
+                currentMember.iconUrl = getCurServerUrl() + "/mobile_portal/seeyon/rest/orgMember/avatar/" + currentMember.id + "?maxWidth=200&data=" + Math.ceil(Math.random() * 100);
+                //登录状态,是否可以自动登录
+                currentMember.loginStatus = "true";
+                currentMember.account = account;
+                window.companyId = currentMember.accountId;
+                setCache('companyId', currentMember.accountId);
+                setCache('currentUserInfo', JSON.stringify({account: account}));
+                var extInfo = getExtUserInfo();
+                currentMember = extend(currentMember, config);
+                currentUser = extend(currentMember, extInfo);
+                currentUser.accShortName = currentMember.accShortName;
+                //设置密码
+                currentUser.loginPwd = psw;
+                currentUser.loginName = loginName;
+                if (psw && psw != "") {
+                    currentUser.voiceLoginPwd = psw;
+                }
+                _cmpJsConsole("setLocalData--- will setCurrentUserInfo",{'des':'合并设置当前人员信息', currentMember,extInfo});
+                setCurrentUserInfo(currentUser);
+                setIcon(currentUser.iconUrl);
+                setCache("name", currentUser.name);
+                setCache("online-debug-url", getCurServerUrl() + "/mobile_portal");
+            }
+
+            function getExtUserInfo(isneedGet) {
+                var user = getCurrentUserInfo();
+                var extInfo = {};
+                extInfo.gesture = user.gesture == undefined ? 2 : user.gesture; //手势密码开关,默认为2未开启
+                extInfo.gesturePwd = user.gesturePwd || "";
+                extInfo.deviceState = user.deviceState || "";
+                extInfo.soundRemind = user.soundRemind == undefined ? 1 : user.soundRemind; //系统声音
+                extInfo.vibrationRemind = user.vibrationRemind == undefined ? 1 : user.vibrationRemind; //系统震动
+                extInfo.voiceStatus = user.voiceStatus == undefined ? 2 : user.voiceStatus; //声音锁开关,默认为2未开启
+                extInfo.voicePwd = user.voicePwd || "";
+                extInfo.showAppCategory = user.showAppCategory || "true"; //默认显示应用分类
+                extInfo.indexPage = user.indexPage || "todo"; //默认首页为待办
+                extInfo.loginName = user.loginName;
+                extInfo.loginPwd = user.loginPwd;
+                extInfo.voiceLoginPwd = user.loginPwd; //逻辑需要,需设置密码与登录密码一致,不同于声音锁voicePwd
+                extInfo.logBgUrl = user.logBgUrl; //设置登录页背景
+                return extInfo;
+            }
+
+            function getDefaultUserInfo() {
+                var user = getCurrentUserInfo();
+                //重置应用分类
+                user.showAppCategory = 'true';
+                //头像
+                user.iconUrl = getCurServerUrl() + "/mobile_portal/seeyon/rest/orgMember/avatar/" + user.id + "?maxWidth=200&data=" + Math.ceil(Math.random() * 100);
+                return user;
+            }
+
+            //传值给原生（Android）
+            function sendData(data) {
+                //判断是否存在JSBridgeToNative方法
+                if (window.JSBridgeToNative) {
+                    window.JSBridgeToNative(data);
+                }
+            }
+
+            function checkIsNull(obj){
+                if(!obj || typeof obj == undefined || obj == null || obj == 'null' || obj == '<null>') return true;
+                return false;
+            }
+
+            // ======================== 抛出给原生使用的方法 ========================
+            return {
+                //获取用户信息
+                initServerVersion: function(serverVersion, companyId) {
+                    _cmpJsConsole('initServerVersion',{serverVersion,companyId,'des':'m3API_js'});
+                    window.serverVersion = parseInt(serverVersion ? serverVersion.replace(/\./g,'') : '');
+                    window.companyId = companyId;
+                    setCache('companyId', companyId);
+                },
+
+                //获取用户信息
+                getUserInfo: function() {
+                    try {
+                        var deviceData = JSON.parse(getCache("userId_" + getId() + "server_" + getCurServerUrl()) || '{}'),
+                            //返回的参数格式
+                            data = {
+                                //账号
+                                name:deviceData.name || '',
+                                userId:getId() || '',
+                                //账号ID
+                                account: deviceData.loginName || '',
+                                //密码
+                                psw: deviceData.loginPwd || '',
+                                //头像
+                                headerIcon: deviceData.iconUrl || '',
+                                //设置手势状态 0，1，2分别代表 关闭，开启，默认开启
+                                //如果缓存中没有手势状态 将状态值设为 默认开启
+                                gesture: deviceData.gesture === undefined ? 2 : deviceData.gesture
+                            };
+                    } catch(e) {
+                        //发送数据Android
+                        sendData({});
+                        //iOS获取数据方式
+                        return {};
+                    }
+                    //发送数据Android
+                    sendData(data);
+                    //iOS获取数据方式
+                    return JSON.stringify(data);
+                },
+            
+                switchAccount: function(userInfo, configInfo) {
+                    _cmpJsConsole('switchAccount',{userInfo,configInfo,'des':'m3API_js'});
+                    var key, cacheData,
+                        defaultUserInfo = getDefaultUserInfo();
+                    //更新companyId
+                    window.companyId = userInfo.accountId;
+                    setCache('companyId', userInfo.accountId);
+                    key = getNewKey();
+                    cacheData = getCache(key);
+                    //有缓存
+                    if (!cacheData) {
+                        cacheData = defaultUserInfo;
+                    } else {
+                        cacheData = JSON.parse(cacheData);
+                    }
+                    cacheData = extend(cacheData, userInfo);
+                    cacheData = extend(cacheData, configInfo.data);
+                    setCache(key, JSON.stringify(cacheData));
+                },
+
+                //获取服务器列表信息
+                getServerList: function() {
+                    try {
+                        //获取localData的值
+                        var data = JSON.parse(getCache("localData") || '[]');
+                    } catch(e) {
+                        sendData({});
+                        return {};
+                    }
+                    sendData(data);
+                    return JSON.stringify(data);
+                },
+
+                //获取当前服务器信息
+                getCurServerInfo: function() {
+                    try {
+                        var data = JSON.parse(getCache(getCache("editAddress") + '_' + getCache("editPort")) || '{}');
+                    } catch(e) {
+                        sendData({});
+                        return {};
+                    }
+                    sendData(data);
+                    return JSON.stringify(data);
+                },
+                
+                /* 设置服务器的逻辑 */
+                //缓存服务器信息F
+                // ==================== 接口verification/checkEnv成功后执行 ====================
+                setServerInfo: function(data) {
+                    _cmpJsConsole('setServerInfo',{data,'des':'m3API_js'});
+                    console.log('setServer', data);
+                    var defaults = {
+                        ip: data.ip,
+                        port: data.port,
+                        model: data.model,
+                        url: data.model + "://" + data.ip + ":" + data.port,
+                        //接口返回
+                        serverID: data.identifier,
+                        //接口返回
+                        shellUpdateSever: typeof data.updateServer === 'string' ? JSON.parse(data.updateServer) : data.updateServer,
+                        serverurl: data.model + "://" + data.ip + ":" + data.port + "/mobile_portal",
+                        serverVersion: data.serverVersion,
+                        contextPath: data.contextPath || '/seeyon',
+                        orgCode: data.orgCode
+
+                    };
+                    window.serverVersion = parseInt(data.serverVersion ? data.serverVersion.replace(/\./g,'') : '');
+                    setServerInfo(defaults);
+                },
+
+                // ==================== verification/login接口返回 ====================
+                setV5LoginCache: function(res, loginName, psw, account, serverVersion) {
+                    _cmpJsConsole('setV5LoginCache',{res,loginName,psw,account,serverVersion,'des':'m3API_js'});
+                    window.login = res;
+                    console.log('setV5LoginCache', arguments);
+                    setId(res.data.currentMember.id);
+        //            m3DB.initTables(function() {
+        //            });
+                    setLocalData(res.data.statisticId, res.data.currentMember, res.data.ticket, res.data.config, psw, loginName, account);
+                    window.serverVersion = parseInt(serverVersion ? serverVersion.replace(/\./g,'') : '');
+                },
+
+                // ==================== 手势密码 ====================
+                /**
+                 * @param state [object number]
+                 * @param psw [object string]
+                 */
+                setGesture: function(state, serverVersion) {
+                    _cmpJsConsole('setGesture',{state,serverVersion,'des':'m3API_js'});
+                    setGesture(state, serverVersion);
+                },
+
+                // ==================== 配置信息（待办，消息） ====================
+                setConfig: function(res) {
+                    _cmpJsConsole('setConfig',{res,'des':'m3API_js'});
+                    window.configs = res;
+                    window.isNeedUpdate = res.data.hasParttimeSwitch;
+                    window.serverVersion = parseInt(res.version.replace(/\./g,''));
+                    console.log('setConfig', res);
+                    setConfig(res.data.hasAddressBook, res.data.hasIndexPlugin, {
+                        materMarkEnable: res.data.materMarkEnable,
+                        materMarkNameEnable: res.data.materMarkNameEnable,
+                        materMarkDeptEnable: res.data.materMarkDeptEnable,
+                        materMarkTimeEnable: res.data.materMarkTimeEnable
+                    }, {
+                        hasDoneList: res.data.hasDoneList,
+                        hasPendingList: res.data.hasPendingList,
+                        hasSentList: res.data.hasSentList,
+                        hasWaitSendList: res.data.hasWaitSendList
+                    }, res.data.messageClassification, res.data.internal, res.data.hasAIPlugin);
+                },
+
+                //更新包 ==================== api/mobile/app/list ====================
+                updateApps: function(res) {
+        //            res = JSON.parse(res);
+        //            m3DB.insertApps(res.data, function() {
+        //            });
+                },
+            
+                /**
+                 *设置产品标识 xp  2019-02-18
+                * product {string} 产品标识；
+                *            <li>a8:A8标准产品</li>
+                *            <li>gov:G6产品</li>
+                */
+                setV5Product:function(product){
+                    _cmpJsConsole('setV5Product',{product,'des':'m3API_js'});
+                    window.localStorage.setItem("CMP_V5_PRODUCTEDITION",product);
+                },
+                
+                setDev:function(isDev){
+                    window.localStorage["isDev"] = isDev;
+                },
+                
+                getIsDev:function(){
+                    return window.localStorage["isDev"];
+                },
+
+                
+                nativeSyncDataToJs:function(fromNativeSyncDataObj,serverConfigN,memberInfoN,memberConfigN,otherConfigN,stateN){
+                    if (checkIsNull(fromNativeSyncDataObj)) return JSON.stringify({'stateJs':'-1','msg':'fromNativeSyncDataObj null'});
+                    var fromNativeSyncDataObjJS = fromNativeSyncDataObj;
+                    if (typeof fromNativeSyncDataObj == 'string'){
+                        fromNativeSyncDataObjJS = JSON.parse(fromNativeSyncDataObj);
+                    }
+                    //处理服务器信息
+                    var serverConfigJs = fromNativeSyncDataObjJS.serverConfigN;
+                    if (checkIsNull(serverConfigJs)) return JSON.stringify({'stateJs':'-1001','msg':'fromNativeSyncDataObj null'});
+                    if (serverConfigN && typeof serverConfigN == 'string'){
+                        serverConfigJs = JSON.parse(serverConfigN);
+                    }
+                    if (serverConfigJs){
+                        setServerInfo(serverConfigJs);
+                    }
+                    var editAddress = getCache("editAddress");
+                    if (!editAddress || typeof editAddress == undefined || editAddress == null){
+                        return JSON.stringify({'stateJs':'1','msg':'no editAddress'});//告诉原生，js没有服务器信息
+                    }else{
+                        //js有服务信息了，可以检查js member信息了
+                        var memberInfoJs = memberInfoN;
+                        if (memberInfoN && typeof memberInfoN == 'string'){
+                            memberInfoJs = JSON.parse(memberInfoN);
+                        }
+                        if (memberInfoJs && memberInfoJs.res && memberInfoJs.res.currentMember && memberInfoJs.res.currentMember.id && memberInfoJs.res.currentMember.accountId){
+                            setV5LoginCache(memberInfoJs.res, memberInfoJs.loginName, memberInfoJs.psw, memberInfoJs.account, memberInfoJs.serverVersion);
+                        }
+                        var companyId = getCompanyId();
+                        if (!companyId || typeof companyId == undefined || companyId == null){
+                            return JSON.stringify({'stateJs':'2','msg':'no companyId'});//告诉原生，js没有服务器信息
+                        }
+                        var userId = getId();
+                        if (!userId || typeof userId == undefined || userId == null){
+                            return JSON.stringify({'stateJs':'3','msg':'no userId'});//告诉原生，js没有服务器信息
+                        }
+                    }
+                }
+            }
+        }, this);
+        // =================== 初始化indexedDB ===================
+        ;(function($) {
+                //数据库名
+            var CMP_DB_NAME = 'cmp-indexed-DB',
+                //session表名称
+                CMP_SESSION_T_NAME = 'cmp-session-DB',
+                //local表名称
+                CMP_LOCAL_T_NAME = 'cmp-local-DB',
+                //数据库版本
+                CMP_DB_VERSION = '1.0';
+            // =================================  indexDB start  =================================
+            function dbFx() {
+                this.indexDB = window.indexedDB || window.webkitIndexedDB;
+                this.db = null;
+                this.localTableName = CMP_LOCAL_T_NAME;
+                this.sessionTableName = CMP_SESSION_T_NAME;
+                this.dbName = CMP_DB_NAME;
+                this.version = CMP_DB_VERSION;
+            }
+
+            dbFx.prototype = {
+                
+                //打开数据库
+                open: function(callback) {
+                    var _this = this,
+                        request = this.indexDB.open(this.dbName, this.version);
+                    //异常监听
+                    request.onerror = function (e) {
+                        console.log('open error', e);
+                        //打开异常
+                        _this.error && _this.error({code: '91001'});
+                    };
+
+                    //成功监听
+                    request.onsuccess = function (e) {
+                        _this.db = request.result;
+                        console.log('open success', e);
+                        callback(request.result);
+                    };
+
+                    //第一次创建
+                    request.onupgradeneeded = function (e) {
+                        console.log('open create');
+                        _this.db = e.target.result;
+                        e.target.result.createObjectStore(_this.localTableName, {keyPath: 'key'});
+                        e.target.result.createObjectStore(_this.sessionTableName, {keyPath: 'key'});
+                    }
+                },
+
+                //清除所有
+                clearStore: function(opts) {
+                    var _this = this;
+                    this.open(function() {
+                        var dbObj = _this.transaction(opts.success, opts.fail, opts.isSession);
+                        dbObj.store.clear();
+                    })
+                },
+
+                //事务处理
+                transaction: function(success, fail, isSession) {
+                    var _this = this,
+                        storeName = this.sessionTableName;
+                        transaction = this.db.transaction(storeName, "readwrite"),
+                        store = transaction.objectStore(storeName);
+                    //事务完成
+                    transaction.oncomplete = function(ret) {
+                        console.log('transaction oncomplete');
+                        success && success(ret);
+                    }
+                    //事务异常
+                    transaction.onerror = function(e) {
+                        fail && fail(e);
+                        console.log('transaction error', e);
+                    }
+                    return {
+                        transaction: transaction,
+                        store: store
+                    };
+                },
+
+                //关闭数据库
+                close: function() {
+                    //关闭数据，在连接池为空闲的状态下
+                    if (this.db) {
+                        this.db.close(CMP_LOCAL_T_NAME);
+                        this.db.close(CMP_SESSION_T_NAME);
+                    }
+                }
+            };
+
+            new dbFx().clearStore({
+                isSession: true,
+                success: function() {
+                    console.log('clear sessionDB success');
+                },
+                
+                fail: function(e) {
+                    console.log('clear sessionDB fail', e);
+                }
+            });
+        })(this);
+     </script>
+ </body>
+ </html>

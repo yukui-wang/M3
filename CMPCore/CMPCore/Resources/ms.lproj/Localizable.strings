@@ -1,0 +1,851 @@
+/*
+ Localizable.strings
+ M1IPhone
+ 
+ Created by admin on 12-10-29.
+ Copyright (c) 2012年 北京致远协创软件有限公司. All rights reserved.
+ */
+
+
+/**************************************登陆   start********************************************/
+"GestureLogin_Skip_Confirm" = "Langkau";
+"GestureLogin_Titile_Set" = "Tetapkan kata laluan isyarat";
+"GestureLogin_DrawUnlock" = "Menggambar corak buka kunci";
+"GestureLogin_ResetGesture" = "Tetapkan isyarat semula";
+"GestureLogin_ForgetGesture" = "Lupakan kata laluan isyarat";
+"GestureLogin_OtherWayLogin" = "Log masuk akaun lain";
+"GestureLogin_Inputpassword" = "Masukkan kata laluan";
+"GestureLogin_Input_MoreThan4" = "Sila ambil sekurang-kurangnya 4 mata berturut-turut";
+"GestureLogin_Input_Again" = "Sila masukkan kata laluan gerak isyarat semula";
+"GestureLogin_Set_Success" = "Tetapan kata laluan berjaya";
+"GestureLogin_Input_SameToPre" = "Tidak konsisten dengan cabutan pertama, sila lukiskan lagi";
+"GestureLogin_Input_Right" = "Pengesahan yang berjaya";
+"GestureLogin_Input_WrongCountTip" = "Kata laluan dimasukkan dengan betul, anda juga boleh memasukkan% ld kali";
+
+"coll_nosignature" = "Tiada tandatangan.";
+"coll_all_clean" = "Kosongkan semua";
+"Setting_Clean_Finished" = "Bersihkan dan bebaskan ruang storan:";
+"Setting_Cleaning..." = "Mengosongkan cache, sila tunggu ...";
+
+"Email_Send_Cancel" = "Batalkan menghantar mel";
+"Email_Save_Success" = "Simpan mesej berjaya";
+"Email_Send_Success" = "Berhati-hatilah menghantar mel";
+"Email_Send_Fail" = "Gagal menghantar mel";
+"Email_NO_Config_Mailbox" = "Sila sediakan e-mel bimbit dahulu";
+"QRCode_Scan" = "Sapu";
+"QRCode_Album" = "Album";
+"QRCode_AutoScan" = "Letakkan kod QR ke dalam kotak dan ia akan mengimbas secara automatik";
+"QRCode_Message" = "Sapu hujung:";
+"QRCode_NotAddressCode" = "Kod QR ini tidak boleh diiktiraf sebagai kad perniagaan";
+
+"Sign_markInMap" = "Anotasi peta";
+"Sign_location_servicesSet_m3" = "Perkhidmatan lokasi dimatikan.Sila lawati sistem ＂Tetapan＂ - ＂Privasi＂ - ＂Perkhidmatan Lokasi＂ - ＂%@＂ dan membolehkan perkhidmatan lokasi";
+"Sign_location_servicesSet" = "Perkhidmatan lokasi dimatikan.Sila lawati sistem ＂Tetapan＂ - ＂Privasi＂ - ＂Perkhidmatan Lokasi＂ dan membolehkan perkhidmatan lokasi";
+"Sign_Local_locat_data_unavailable" = "Data kedudukan tempatan tidak tersedia!";
+"Sign_Local_locat_data_waiting" = "Mendapatkan maklumat lokasi";
+"common_save" = "Simpan";
+
+"touchid_unavailable" = "ID sentuh tidak ditetapkan, sila tambah cap jari dalam ＂Tetapan Sistem - ID Sentuh dan Kata Laluan＂";
+"faceid_unavailable" = "Tiada ID Wajah ditetapkan, sila tambahkan wajah dalam ＂Tetapan Sistem - ID Wajah dan Kata Laluan＂";
+"touchid_verify_reason" = "Sahkan buka kunci ID Sentuh";
+"faceid_verify_reason" = "Sahkan kunci ID dibuka";
+"common_goto_setting" = "Pergi ke set";
+"touchid_lock" = "Melebihi percubaan ID Touch";
+"faceid_lock" = "Melebihi percubaan ID Wajah";
+"localauth_touchID_button" = "Klik untuk membuka kunci dengan ID Sentuh";
+"localauth_faceID_button" = "Klik untuk membuka ID Wajah";
+"localauth_gesture" = "Buka kunci gerak isyarat";
+"localauth_openFaceToUnlock_button" = "Buka wajah untuk membuka kunci";
+"localauth_openFingerprintToUnlock_button" = "Hidupkan buka kunci cap jari";
+
+"WiFiClockIn_clockInTime" = "Masa kerja";
+"WiFiClockIn_clockOffTime" = "Matikan jam";
+"WiFiClockIn_illegal" = "Sila berhubung dengan WiFi pejabat";
+"WiFiClockIn_button" = "Pergi ke kerja";
+
+/**************************************common   start********************************************/
+"Common_Yesterday" = "Semalam";
+"Common_Tomorrow" = "Esok";
+"Common_MustUpdateVersion" = "Kemas kini perisian telah dikesan. Sila kemas kini ke% @ untuk kegunaan biasa.";
+"Common_LatestVersion" = "Versi terkini";
+"Common_UpdateNow" = "Muat turun sekarang";
+"Common_Alert" = "Peringatan";
+"Common_Update_Download" = "Kemas kini perisian dikesan dan versi pengalaman muat turun baru.";
+"Common_DownloadNow" = "Muat turun sekarang";
+"Common_DownloadLater" = "Abaikan versi ini";
+"Common_Already_the_recently_Version" = "Sudah versi terkini";
+"Common_To" = "Untuk";
+
+"Common_Pic1" = "Gambar% @.";
+"Common_Voc1" = "Suara% @. Kafe";
+"Common_Mov1" = "Video% @. Mov";
+
+"common_delete" = "Padam";
+"common_prompt" = "Prompt";
+"common_cancel" = "Batalkan";
+"common_ok" = "Tentukan";
+"common_confirm" = "Sahkan";
+"common_rename" = "Namakan semula";
+"common_rename_placeholder" = "Sila masukkan nama fail baru";
+
+"common_close" = "Tutup";
+"common_return" = "Kembali";
+"common_back" = "Kembali";
+"common_search" = "Carian";
+"common_table_loading" = "Pemuatan data";
+"common_no_record" = "Tidak direkodkan";
+"common_no_paly" = "Tidak bermain";
+"common_inputName_canNotEmpty_againInput" = "Nama tidak boleh kosong, sila masukkan semula";
+"common_not_record" = "Tiada rakaman";
+"common_nameExist_againInput" = "Nama sudah wujud, sila masukkan semula";
+"common_stop_paly" = "Henti bermain";
+"common_paly_stop" = "Main jeda";
+"common_thisDoc_isNotExist" = "Fail ini tidak wujud!";
+"common_record_paly" = "Rakaman berhenti";
+"common_playing" = "Bermain";
+
+"common_attName_theMostInput_40Words" = "Nama lampiran boleh dimasukkan sehingga 40 perkataan.";
+"common_inputCharacter_notInclude_XX" = "Watak yang anda masukkan tidak boleh mengandungi aksara * / <>? :: ||";
+"common_save_success" = "Selamat berjaya";
+"common_save_fail" = "Simpan gagal";
+"common_norecord" = "Tidak dapat merakam";
+"common_norecordalert" = "Sila benarkan% @ untuk mengakses mikrofon anda dalam Tetapan peranti - Privasi - Pilihan mikrofon";
+"common_nocameraalert" = "Sila benarkan% @ untuk mengakses kamera anda dalam pilihan ＂Tetapan - Privasi - Kamera＂ peranti";
+"common_nophotostitle" = "Album tidak tersedia";
+"common_nophotos" = "Sila benarkan% @ untuk mengakses foto anda dalam pilihan ＂Tetapan - Privasi - Foto＂ peranti";
+"common_uploadAttachmentLimit" = "Fail yang dimuat naik tidak boleh melebihi 50m.";
+"common_nodata" = "Belum ada data";
+"common_language" = "";
+"common_search_subject" = "Tajuk";
+"common_Nothing" = "Tiada kandungan";
+"common_Nothing_sorry" = "Maaf!Tak ada apa-apa di sini";
+"common_search_pleaseEnterKeywords" = "Sila masukkan kata kunci";
+"common_camera_unavailable" = "Kamera tidak tersedia";
+"common_read" = "Lihat";
+"common_finshed" = "Lengkap";
+"common_repeal" = "Batalkan";
+
+"common_proxyAlert" = "Peranti semasa mempunyai ejen dihidupkan, dan akan ada risiko keselamatan jika anda terus menggunakannya!";
+"common_jailbreakAlert" = "Peranti semasa telah dipecah dan akan terus digunakan dengan risiko keselamatan!";
+"common_loadAppFail" = "Permohonan gagal dimuatkan. Sila tetapkan semula alamat pelayan.";
+"common_noAppDownloadAddress" = "Tiada alamat muat turun atau format alamat tidak betul \ n% @";
+"common_noPermissionCamera" = "Tidak dapat menggunakan kamera";
+"common_downloadFileFailed" = "Muat turun fail gagal.";
+"common_fileCopyError" = "Ralat menyalin fail ke direktori storan.";
+"common_locationDetail" = "Butiran lokasi";
+"common_failToFormatLocation" = "Penukaran format lokasi gagal";
+"common_unkownError" = "Kesilapan tidak diketahui";
+"common_appDownloadFail" = "Muat turun pakej permohonan gagal, klik";
+"common_unzipAppPackageFail" = "Kesalahan penguraian pakej aplikasi.";
+"common_downloadAddressEmpty" = "Alamat muat turun tidak boleh kosong";
+"common_noAppInformation" = "Tiada maklumat aplikasi yang dijumpai";
+"common_mobileAlbums" = "Album foto mudah alih";
+"common_videoPreview" = "Pratonton video";
+"common_usePhoto" = "Gunakan foto";
+"common_takePhotoAgain" = "Rebutlah";
+"common_noFreeSpace" = "Ruang simpanan peranti kurang dari 200m. Sila bersihkan ruang sebelum memuat turun.";
+"common_uploadServerEmpty" = "Muat naik alamat pelayan tidak boleh kosong";
+"common_deleteCacheFail" = "Padam cache gagal";
+"common_cancelSending" = "Batalkan penghantaran";
+"common_cancelLabeling" = "Nyahtanda";
+"common_turnOnLocation" = "Sila aktifkan suis kedudukan dalam tetapan sistem.";
+"common_pleaseSelectLocation" = "Sila pilih lokasi";
+"common_cancelPhotography" = "Pembatalan foto";
+"common_noPermissionAlbums" = "Tiada kebenaran album";
+
+"common_reload_tabbar" = "Navigasi di bahagian bawah diubah suai dan halaman perlu disegarkan semula.";
+"common_load_success" = "Selesai";
+"common_reload_language" = "Bahasa pilihan anda sekarang tidak lagi disokong dan perlu disegarkan semula";
+"common_or" = "Atau";
+"common_exit" = "Keluar";
+"common_Connecting" = "Menyambung ...";
+"common_dept"="Jabatan";
+/**************************************common   end********************************************/
+
+/**************************************OfflineFiles   start********************************************/
+"offlineFiles_unknownFiles" = "Fail format ini tidak menyokong paparan tempatan pada masa ini. Sila buka dengan aplikasi lain.";
+"offlineFiles_offlineFiles" = "Dokumen luar talian";
+"offlineFiles_myfile" = "Fail saya";
+"offlineFiles_haveBeenSelect_xx" = "% d dipilih";
+"offlineFiles_unzipFail" = "Pemuatan fail tidak normal atau rasuah";
+/**************************************OfflineFiles    end********************************************/
+
+/*************************** 更新包 start *******************************/
+"UpdatePackage_TipTitle" = "Prompt";
+"UpdatePackage_TipTitle_IsDownload" = "Memuat turun apl untuk anda";
+"UpdatePackage_CloseApp" = "Tutup permohonan";
+"UpdatePackage_Download" = "Muat turun";
+"UpdatePackage_TipNotWifi" = "Persekitaran rangkaian semasa anda bukan Wi-Fi. Jika anda terus memuat turun, ia akan menjana trafik. Adakah ia dimuat turun?";
+"UpdatePackage_ReDownload" = "Muat semula";
+"UpdatePackage_updating" = "Memuat turun aplikasi untuk anda, sila klik untuk melihat";
+"UpdatePackage_progress" = "Memuat turun aplikasi untuk anda (% d% s)";
+"UpdatePackage_updateFail" = "Muat turun gagal, sila muat turun sekali lagi";
+/*************************** 更新包 end *******************************/
+
+/*************************** 离线通讯录 start *******************************/
+"contacts" = "Buku alamat";
+"contacts_org" = "Struktur organisasi";
+"contacts_team" = "Pasukan projek";
+"contacts_groupchat" = "Sembang kumpulan saya";
+"contacts_frequent" = "Kenalan biasa";
+"contacts_related" = "Pengikut";
+"contacts_downloadFail" = "Muat turun buku alamat luar talian gagal!";
+"contacts_retry" = "Muat semula";
+"contacts_downloading" = "Memuat turun kenalan luar talian untuk anda ...";
+"contacts_searchkey_old" = "Sila masukkan nama / nombor telefon anda";
+"contacts_searchkey_new" = "Sila masukkan nama / nombor mudah alih / inisial pinyin anda";
+"contacts_getData" = "Membaca kenalan luar talian untuk anda ...";
+/*************************** 离线通讯录 end *******************************/
+
+/*************************** 相册 start *******************************/
+"photo" = "Foto";
+"Common_Preview" = "Pratonton";
+"photo_original" = "Imej asal";
+"photo_download_iCloud" = "Sila cuba lagi selepas memuat turun imej iCloud dalam album sistem.";
+"photo_limit" = "Sila muat naik imej yang lebih kecil daripada% ldM.";
+"photo_countlimit" = "Anda hanya boleh memilih sehingga ke foto% zd";
+"photo_setting" = "Sila di \"设置-隐私-照片\"选项中，\r允许%@访问你的手机相册。";
+
+"scan_fail" = "Tiada kod QR yang diiktiraf";
+"scan_picfail" = "Kod QR tidak diiktiraf dalam foto";
+"common_isee" = "Saya tahu";
+"atta_limitsize" = "Sila muat naik fail yang lebih kecil daripada% ldM.";
+"common_weakpassword" = "Tidak memenuhi keperluan kekuatan kata laluan atau kata laluan telah tamat tempoh. Untuk keselamatan akaun anda, sila tukar kata laluan.";
+"scan_joingroup_error" = "Sertai sembang kumpulan gagal";
+/*************************** 相册 end *******************************/
+
+/*************************** 消息列表 *******************************/
+"msg_image" = "[imej]";
+"msg_voice" = "[Suara]";
+"msg_file" = "[dokumen]";
+"msg_vcard" = "[kad perniagaan]";
+"msg_personal_card" = "kad perniagaan";
+"mjRefresh_just" = "Terakhir dikemaskini pada: hanya";
+"mjRefresh_fewSecond" = "Kali terakhir dikemas kini:% d saat sebelum";
+"msg_clearGroupNotification" = "Selepas rekod mesej sistem kumpulan dibersihkan, ia tidak dapat dipulihkan. Adakah anda pasti mahu memadamkan semua mesej?";
+"msg_recall" = "Mengeluarkan mesej";
+"msg_recall_me" = "Anda menarik balik mesej";
+"msg_metioned" = "[seseorang @ saya]";
+"msg_fileHaveDelete" = "Tidak dapat memuat turun, fail pelayan dipadam";
+"msg_userListTitle" = "Pilih ahli kumpulan";
+"msg_reedit" = "Edit semula";
+"msg_createGroup" = "Mulakan sembang kumpulan";
+"msg_joinGroup" = "Anda telah menyertai sembang kumpulan";
+"msg_quitGroup" = "Sembang kumpulan keluar";
+"msg_kickedGroup" = "Anda telah dialih keluar daripada sembang kumpulan";
+"msg_dismissGroup" = "Sembang kumpulan ＂%@＂ telah dibubarkan.";
+"msg_changeGroupManager" = "Anda telah menjadi pemilik sembang kumpulan ＂%@＂.";
+"msg_rebulletin" = "Perubahan pengumuman kumpulan";
+"msg_operator" = "Pengendali";
+"msg_replacement" = "Pemilik kumpulan telah dipindahkan ke% @";
+"msg_msgTitle" = "Mesej";
+"msg_coll" = "Kerjasama";
+"msg_edoc" = "Dokumen rasmi";
+"msg_plan" = "Pelan kerja";
+"msg_bul" = "Pengumuman";
+"msg_news" = "Berita";
+"msg_inquire" = "Siasatan";
+"msg_meeting" = "Mesyuarat";
+"msg_doc" =  "Dokumen";
+"msg_wages" = "Penggajian";
+"msg_BehaviorPerformance" = "Prestasi tingkah laku";
+"msg_bbs" = "Perbincangan";
+"msg_queyreport" = "Statistik pertanyaan";
+"msg_zhixin" = "Surat";
+"msg_offlineDoc" = "Dokumen luar talian";
+"msg_MyCollection" = "Koleksi saya";
+"msg_attendance" = "Daftar masuk";
+"msg_task" = "Tugas kerja";
+"msg_schedule" = "Jadual waktu";
+"msg_show" = "Nikmati ruang";
+"msg_ReportShow" = "Analisis laporan";
+"msg_SystemMsg" = "Mesej sistem";
+"msg_form" = "Borang";
+"msg_IntegratedOffice" = "Pejabat bersepadu";
+"msg_project" = "Projek";
+"msg_noMsg" = "Belum ada data";
+"msg_noAssMsg" = "Tiada berita baru";
+"msg_delete" = "Padam";
+"msg_remove" = "Mengalih keluar";
+"msg_top" = "Topping";
+"msg_canceltop" = "Nyahpasang";
+"msg_markRead" = "Tandakan sebagai dibaca";
+"msg_outMsg" = "Sistem luaran";
+"msg_reportCenter" = "Pusat laporan";
+"msg_groupNotification" = "Mesej sistem kumpulan";
+"msg_xiaoguangbo" = "Siaran kecil";
+"msg_xgbnewtip" = "Mulakan siaran kecil";
+"msg_xgbnewMessage" = "Anda mempunyai mesej siaran kecil yang baru";
+"msg_xgbrecalltip" = "Mengeluarkan mesej siaran";
+"msg_fileass" = "Pembantu fail";
+"msg_zhixinInitError" = "Surat tidak dimulakan";
+"msg_app" = "Mesej aplikasi";
+"msg_push" = "Peringatan peringatan pintar";
+"msg_leader" = "Mesej kepimpinan saya";
+"msg_track" = "Mesej perkara pelacakan";
+"msg_mention" = "@ 我 消息";
+"msg_requestingFilePrivilege" = "Meminta data, sila cuba lagi kemudian.";
+"msg_noFilePrivilege" = "Anda tidak dibenarkan untuk melakukan ini. Untuk perincian, sila rujuk pentadbir sistem atau pemilik kumpulan!";
+"msg_zhixin_notHasPermission" = "Tiada surat dibuka lagi, sila hubungi pentadbir";
+"msg_zhixin_notAvailable" = "Perkhidmatan surat tidak tersedia";
+"msg_set_admin" = "%@ menetapkan anda sebagai pentadbir sembang kumpulan \"%@\".";
+"msg_unset_admin" = "%@ telah membatalkan hak admin untuk sembang kumpulan \"%@\".";
+"msg_mark_unread" = "Tandakan sebagai belum dibaca";
+"msg_you_set_admin" = "Anda telah menetapkan %@ sebagai pentadbir";
+"msg_you_unset_admin" = "Anda membatalkan %@ sebagai pentadbir";
+"msg_someone_set_admin" = "%@ telah menetapkan %@ sebagai pentadbir";
+"msg_someone_unset_admin" = "%@ membatalkan %@ sebagai pentadbir";
+"msg_content_sensitive_notsend" = "Mesej mengandungi maklumat sensitif dan tidak boleh dihantar";
+"msg_content_sensitive_hascleared" = "Mesej mengandungi maklumat sensitif, dikosongkan";
+/*************************** 消息列表 *******************************/
+
+/*************************** 融云 *******************************/
+"rc_PluginBoardPicture" = "Gambar";
+"rc_PluginBoardCamera" = "Ambil gambar";
+"rc_PluginBoardLocation" = "Lokasi";
+"rc_PluginBoardFile" = "Fail";
+"rc_PluginBoard_VoIPAudioCall"="Panggilan suara";
+"rc_PluginBoard_VoIPVideoCall"="Panggilan video";
+"rc_PluginBoard_VoIPAudioAndVideoCall" = "Panggilan audio dan video";
+"rc_RedPacket" = "Sampul merah";
+"rc_OpenRedPacket" = "Menerima sampul merah";
+"view_RedPacket" = "Lihat sampul merah";
+"redPacket_Expired" = "Sampul merah telah tamat tempoh";
+"yourself_Open"  ="Anda telah menerima sampul merah anda sendiri";
+"rc_M3RedPacket" = "Sampul merah";
+"redPacket_received" = "Sampul surat merah telah diterima";
+"redPacket_over" = "Sampul merah telah diterima";
+"redPacket_receive_info" = "Anda menerima sampul merah% @";
+"redPacket_receive_info2"= "% @ menerima sampul merah anda";
+"you" = "Anda";
+"ass_doc" = "Dokumen bersekutu";
+"view_details" = "Lihat butiran";
+"Launch_time" = "Masa permulaan: ";
+"doc_sponsors" = "Penaja: ";
+"rc_task_principal" = "Orang yang bertanggungjawab:";
+"rc_scan_code_join_group" = "Menyertai sembang kumpulan dengan mengimbas kod QR";
+"GroupReplacement"="Pemilik kumpulan telah dipindahkan ke %@";
+"GroupReplacement_who_changed_owner_to"="%@ transferido el propietario del grupo a %@";
+"GroupRebulletin"="Perubahan pengumuman kumpulan";
+"ConvertMission"="Mentransfer tugas";
+"You sent a window jitter"="Anda menghantar jitter window";
+"sent you a window jitter"="Hantar jitter window kepada anda";
+"rc_group_chat_record" = "Sejarah sembang sembang kumpulan";
+"rc_single_messages_forward" = "Maju satu demi satu";
+"rc_merge_message_forward" = "Merge forwarding";
+"rc_transfer_opinoin" = "Pindahan pendapat";
+"rc_msg_business_card" = "[Kad perniagaan peribadi]";
+"rc_msg_business_card_name" = "Kad perniagaan peribadi";
+"rc_msg_general_business" = "[%@ Mesej]";
+"rc_msg_general_business_handel_success" = "Pemprosesan yang berjaya";
+"rc_msg_general_business_handel_fail" = "Kegagalan pemprosesan";
+"rc_msg_collection_handel_success" = "Kejayaan koleksi";
+"rc_msg_collection_handel_fail" = "Koleksi gagal";
+"rc_msg_collection_handel_already_collect" = "Anda telah memihak kepada dokumen ini";
+"rc_msg_single_forward_tip" = "Mesej yang tidak menyokong paket merah dan jenis kad permohonan akan dihantar satu demi satu.";
+"rc_msg_combine_forward_tip" = "Menggabungkan penghantaran hanya menyokong teks, imej, mesej jenis fail";
+"rc_msg_turn_on_opinione_tip" = "Memindahkan komen hanya menyokong teks, imej, mesej jenis fail";
+"rc_msg_collection_chat_record_tip" = "Kegemaran hanya menyokong teks, gambar, mesej jenis fail";
+"rc_msg_combine_vard" = "[Sejarah sembang]";
+"rc_msg_unknown_folder_tip" = "Terminal mudah alih tidak menyokong melihat maklumat jenis folder buat masa ini";
+"rc_group_kanban_chat" = "Pertukaran";
+"rc_msg_resend" = "Reenviar";
+"msg_at_all" = "All";
+"rc_msg_quote" = "Quote";
+"rc_msg_unknown_tip" = "Das mobile Endgerät unterstützt derzeit diese Art der Informationsanzeige nicht";
+"rc_msg_unknown_msgtype" = "[Jenis mesej tidak diketahui]";
+"zx_loginstatus_mobile" = "Mudah Alih Dalam Talian";
+"zx_loginstatus_client" = "pelanggan dalam talian";
+"zx_loginstatus_web" = "web-side online";
+"zx_loginstatus_offline" = "luar talian";
+
+"meeting_join" = "Sertai Sekarang";
+"meeting_copyAndJoin" = "Sertai Sekarang";
+"meeting_pwdCopied" = "Password Copied";
+"meeting_insNumb" = "nombor mesyuarat";
+"meeting_insPwd" = "kata laluan mesyuarat";
+
+"rc_remote_del_confirm_text" = "Rekod sembang tidak boleh dipulihkan selepas dipadamkan. Adakah anda pasti memadamkannya?";
+"rc_remote_clear_confirm_text" = "Rekod sembang tidak boleh dipulihkan selepas ia dikosongkan. Adakah anda pasti ia dikosongkan?";
+/*************************** 融云 *******************************/
+
+/*************************** 新建快捷 *******************************/
+"quick_coll" = "Kerjasama bebas";
+"quick_form" = "Templat borang";
+"quick_scan" = "Sapu";
+"quick_groupchat" = "Memulakan komunikasi kumpulan";
+"quick_chat" = "Mulakan sembang";
+"quick_task" = "Tugas baru";
+"quick_meeting" = "Mesyuarat baru";
+"quick_attendance" = "Daftar masuk";
+"quick_schedule" = "Jadual baru";
+"quick_zhumu_meeting" = "Persidangan Sorotan";
+"quick_ontimemeet" = "mesyuarat segera";
+/*************************** 新建快捷 *******************************/
+
+/*************************** cordova插件 start *******************************/
+"Calendar_LoadFail" = "Ralat pemuatan komponen kalendar";
+"Calendar_NoAccess" = "Tiada akses kepada kalendar";
+/*************************** cordova插件 end *******************************/
+
+/*************************** 日历权限设置 start *******************************/
+"Calendar_Permisson_Setting" = "Sila benarkan %@ untuk mengakses kalendar anda dalam Tetapan peranti - Privasi - kalendar";
+"Calendar_Unavailable_title" = "Kalendar tidak tersedia";
+/*************************** 日历权限设置 end *******************************/
+
+/*************************** 通讯录权限设置 start *******************************/
+"Contact_Permisson_Setting" = "Sila benarkan %@ untuk mengakses Buku alamat anda dalam Tetapan peranti - Privasi - Buku alamat";
+"Contact_Unavailable_title" = "Buku alamat tidak tersedia";
+/*************************** 通讯录权限设置 end *******************************/
+
+/*************************** 网络错误 start *******************************/
+"Common_Network_Unavailable" = "Rangkaian semasa tidak tersedia, sila periksa tetapan rangkaian anda";
+"Common_Server_CannotConnect" = "Tidak dapat menyambung ke pelayan, sila cuba lagi kemudian";
+"Common_Server_DataError" = "Meminta data gagal";
+/*************************** 网络错误 end *******************************/
+
+"Common_HandWrite" = "Tandatangan kumpulan";
+"Common_PlisInput" = "Sila masukkan kandungan";
+"Common_InputSealPassWord" = "Sila masukkan kata laluan tandatangan";
+"Common_PassWordNONull" = "Kata laluan tidak boleh kosong";
+"Common_PasswordWrong" = "Masukkan ralat kata laluan tandatangan";
+"Common_InputLimit" = "Had input dicapai dan tidak boleh dimasukkan.";
+
+"commom_ok" = "Ok";
+"commom_setting" = "Menetapkan";
+"common_kikedByOther" = "Akaun anda dilog masuk di lokasi lain dan anda terpaksa pergi offline";
+"common_backLogin" = "Kembali ke halaman log masuk";
+
+"updates_check_failed" = "Periksa kegagalan kemas kini";
+"loadApp_fail" = "Memuatkan aplikasi gagal";
+"desktop_errorParameter" = "Dapatkan ralat parameter aplikasi satu klik desktop";
+"wrong_local_resource_path" = "Dapatkan ralat jalan sumber tempatan";
+"device_no_data" = "Peranti tidak mengesan aplikasi yang sesuai untuk membuka data";
+"device_not_sms" = "Peranti tidak menyokong teks";
+"device_not_telephone" = "Peranti tidak menyokong panggilan";
+"attach_path_empty" = "Laluan lampiran tidak boleh kosong";
+"common_send_fail" = "Hantar gagal";
+"common_send_success" = "Berhasil dihantar";
+"read_manifest_error" =  "Ralat membaca manifest.json.";
+"gesture_clicked_forgot" = "Klik kata laluan isyarat yang dilupakan di sebelah kiri";
+"gesture_clicked_right" = "Klik pada akaun lain di sebelah kanan untuk log masuk.";
+"gesture_clicked_skip" = "Klik butang lompat";
+"gesture_clicked_return" = "Klik butang belakang";
+"open_app_download_adress" = "Buka alamat muat turun aplikasi";
+"url_empty" = "Alamat url kosong.";
+"parameters_error" = "Ralat parameter lulus";
+"database_inser_error" = "Terdapat ralat memasukkan pangkalan data.";
+"data_fail_local" = "Data yang sama tidak terdapat di dalam negara.";
+"viewController_unsupported " = "viewController tidak menyokong";
+"memberid_nil"  = "Memberidah tidak boleh kosong";
+"jsapi_error" = "Jsapi dan sifat openAppMethod tidak boleh kosong, sila periksa fail manifest.json";
+"device_ios_low" = "Versi ios terlalu rendah";
+"please_install_wps" = "Sila pasang wps";
+"iAppOffice_unauthorization" = "Nombor siri pejabat mudah alih tidak sah. Sila hubungi pentadbir sistem untuk menetapkan / mengemaskini nombor siri pejabat mudah alih!";
+"reopen_wps" = "Wps diduduki, sila mulakan semula wps";
+
+/*************************** 来电提醒 *******************************/
+"call_identification_setting_alert" = "Untuk menggunakan fungsi amaran panggilan secara normal, sila buka kebenaran sistem dalam ＂Telefon - Panggilan Penghalang dan Pengenalpastian＂";
+"call_identification_unkown_error" = "Ralat yang tidak diketahui telah berlaku";
+"call_identification_to_setting" = "Pergi ke set";
+"call_identification_low_system" = "Ciri amaran panggilan hanya menyokong iOS 10 dan ke atas";
+"call_identification_contacts_error" = "Gagal mendapatkan buku alamat, sila tunggu buku alamat untuk dimuat turun dan cuba lagi";
+"call_identification_open_success" = "Hidupkan peringatan panggilan dengan jayanya";
+"call_identification_open_fail" = "Hidupkan peringatan panggilan gagal";
+"call_identification_close_success" = "Matikan peringatan panggilan dengan jayanya";
+"call_identification_close_fail" = "Matikan kegagalan amaran panggilan";
+"call_identification_guide_title" = "Hidupkan peringatan panggilan m3";
+"call_identification_guide_1" = "Langkah 1: Pergi ke [Tetapan Telefon] untuk mencari [Panggilan Penyekatan dan Pengenalan]";
+"call_identification_guide_2" = "Langkah 2: Terbuka [Pejabat Mudah Alih]";
+/*************************** 来电提醒 end *******************************/
+
+/*************************** 登录 *******************************/
+"login_login" = "Masuk";
+"login_login_ing" = "Masuk...";
+"login_bindtip" = "Tahap keselamatan akaun ini tinggi. Anda perlu mengikat peranti ini sebelum anda boleh log masuk. Adakah anda mahu menghantar permintaan mengikat?";
+"login_input_empty" = "Nama pengguna atau kata laluan tidak boleh kosong";
+"login_input_empty2" = "Nombor telefon atau kata laluan tidak boleh kosong";
+"login_forget_password" = "Lupa kata laluan anda";
+"login_username" = "Nama pengguna";
+"login_password" = "Kata laluan";
+"login_forget_alert" = "Sila pergi ke halaman log masuk komputer anda untuk mendapatkan kata laluan anda.";
+"login_server_add" = "Tambah";
+"login_server_list_title" = "Pilih alamat pelayan";
+"login_server_list_add" = "Tetapkan alamat pelayan";
+"login_server_list_edit" = "Edit alamat pelayan";
+"login_no_note" = "Tiada ucapan";
+"login_server_host" = "Alamat pelayan (diperlukan)";
+"login_server_port" = "Pelabuhan (diperlukan)";
+"login_server_note" = "Catatan (sehingga 15 perkataan, tidak diperlukan)";
+"login_server_host1" = "Alamat pelayan";
+"login_server_port1" = "Pelabuhan";
+"login_server_note1" = "Catatan (sehingga 15 perkataan)";
+"login_server_delete_message" = "Adakah anda pasti mahu memadamkan alamat pelayan ini?";
+"login_server_no_address" = "Sila masukkan alamat pelayan";
+"login_server_no_port" = "Sila masukkan nombor port";
+"login_server_address_error" = "Format alamat pelayan tidak betul";
+"login_scan_err" = "Kod QR yang sah tidak diiktiraf dalam imej";
+"login_server_exist" = "Alamat pelayan dan port sudah ada";
+"login_scan_button" = "Imbas kod untuk menambah alamat";
+"login_server_ass" = "Tambah oleh akaun yang berkaitan";
+"login_policy_agree" = "Baca dan bersetuju";
+"login_policy_detail" = "Perjanjian perlindungan privasi";
+"login_server_manual" = "Tambah secara manual";
+"login_server_cloud" = "Tambah melalui Cloud Center";
+"login_server_setting" = "Menyediakan pelayan";
+"login_phone" = "Nombor telefon mudah alih";
+"login_server_uninit" = "Sila tetapkan alamat pelayan terlebih dahulu.";
+"login_server_uninit2" = "Tidak mendapat senarai alamat pelayan untuk perusahaan itu";
+"login_verification" = "Kod pengesahan";
+"login_tag_legacy" = "Masuk akaun";
+"login_tag_phone" = "Masuk nombor mudah alih";
+"login_server_note_prefix" = "Perkataan";
+"login_cloud_error_2001" = "Permintaan tidak sah!";
+"login_cloud_error_2002" = "Anda tidak terikat dengan nombor telefon bimbit, sila log masuk dengan akaun perniagaan anda";
+"login_cloud_error_2003" = "Nombor telefon mudah alih ini terikat kepada beberapa orang. Sila log masuk dengan akaun perniagaan anda.";
+"login_cloud_error_default" = "Pelayan tidak normal, sila cuba lagi!";
+"login_policy_not_agree" = "Tidak setuju dan keluar";
+"login_policy_pop_agree" = "Baca, bersetuju";
+"login_fail" = "Log masuk gagal";
+"login_current_bind_device_numb" = "Nombor peranti semasa";
+
+"login_sms_send_tips" = "Kod pengesahan telah dihantar";
+"login_sms_login_phone_error" = "Sila masukkan nombor telefon yang sah";
+"login_sms_area_code_title" = "Pilih negara dan wilayah";
+"login_sms_area_code_hot_title" = "#Negara dan wilayah popular";
+"login_sms_graph_ver_tips" = "Pengesahan keselamatan";
+"login_sms_graph_ver_input_error" = "Kod pengesahan tidak betul atau tamat masa, sila masukkan semula";
+"login_sms_phone_unbinding_account" = "Nombor telefon bimbit semasa tidak terikat pada akaun pejabat";
+"login_sms_phone_binding_multi_account" = "Nombor telefon bimbit semasa sepadan dengan berbilang akaun pejabat, sila tukar kaedah log masuk";
+"login_sms_unit_sms_unauthorized" = "Pengurusan SMS unit tidak dibenarkan";
+"login_sms_get_code_reach_ceiling" = "Bilangan kali untuk mendapatkan kod pengesahan untuk nombor telefon ini telah mencapai had atas, sila cuba lagi esok";
+"login_sms_get_code_after_seconds" = "Sila dapatkan kod pengesahan SMS selepas %@s";
+
+"login_mutilauth_refetchsms" = "Dapatkan semula kod pengesahan SMS";
+"login_mutilauth_refetch" = "reacquire";
+"login_mutilauth_pleaseinputsms" = "Sila masukkan kod pengesahan SMS";
+"login_mutilauth_smshassendto" = "Captcha dihantar ke";
+"login_mutilauth_seconds" = "saat";
+
+/*************************** 登录end *******************************/
+
+/******************************重要消息提醒************************************/
+"imp_msg_loadimage" = "Gambar sedang dijana";
+/******************************重要消息提醒end************************************/
+
+/*************************** 关联账号 *******************************/
+"ass_edit_top_tip" = "Sila masukkan maklumat yang berkaitan untuk dikaitkan";
+"ass_server_host" = "Alamat pelayan";
+"ass_username" = "Nama pengguna";
+"ass_server_note" = "Perkataan";
+"ass_title" = "Akaun yang dipautkan";
+"ass_button" = "Persatuan";
+"ass_add" = "Tambah";
+"ass_add_title" = "Tambah akaun yang dipautkan";
+"ass_edit_title" = "Ubah suai akaun berkaitan";
+"ass_edit_delete_hint" = "Adakah anda ingin menyahpaut akaun ini?";
+"ass_switch_title" = "Syarikat penukaran";
+"ass_add_err1" = "Alamat pelayan ini telah ditambah dan tidak boleh dikaitkan";
+"ass_add_err2" = "Pelayan telah ditambah melalui akaun yang berkaitan. Jangan masukkannya berulang kali.";
+"ass_add_err3" = "Pelayan telah ditambah melalui Cloud Alliance Center. Jangan tambahkannya secara berulang.";
+"ass_edit_err" = "Tidak boleh edit dengan menambah akaun oleh persatuan, sila beralih ke operasi akaun utama";
+"msg_associate" = "Berita korporat lain";
+"ass_switch_ass_title" = "Unit merentas perusahaan";
+"ass_switch_parttime_title" = "Sub-unit kumpulan";
+/*************************** 关联账号end *******************************/
+
+/*************************** 转发 *******************************/
+"forward_sendto" = "Hantar ke";
+"forward_create_new_chat" = "Buat sembang baru";
+"forward_choose_group" = "Pilih kumpulan";
+"forward_recent_contact" = "Kenalan terkini";
+"forward_send_to" = "Hantar ke";
+"forward_leave_message" = "Tinggalkan mesej kepada rakan sekerja";
+"forward_message_list_info" = "[Anda menerima mesej yang dikemukakan]";
+"forward_fileHaveDelete" = "Tidak dapat ke hadapan, fail pelayan dipadam";
+"forward_leaveMsgLimit" = "Tidak boleh melebihi 100 aksara Cina";
+/*************************** 转发end *******************************/
+
+/*************************** 相册 *******************************/
+"pic_handling" = "Pemprosesan ...";
+"pic_open" = "Buka";
+"pic_close" = "Tutup";
+"pic_automatic" = "Automatik";
+/*************************** 相册end *******************************/
+
+/*************************** 日期 *******************************/
+"week_one" = "Isnin";
+"week_two" = "Selasa";
+"week_three" = "Rabu";
+"week_four" = "Khamis";
+"week_five" = "Jumaat";
+"week_six" = "Sabtu";
+"week_seven" = "Ahad";
+/*************************** 日期end *******************************/
+
+/*************************** 引导页 *******************************/
+"guide_start" = "Buka lawatan M3";
+/*************************** 引导页end *******************************/
+
+/*************************** 打印 *******************************/
+"print_action" = "Cetak";
+"print_more_than_size" = "Saiz fail yang dicetak melebihi had";
+/*************************** 打印end *******************************/
+
+/*************************** 图片查看组件 *******************************/
+"review_image_videoIsInvalid" = "Video tidak sah";
+"review_image_videoError" = "Kesalahan video";
+"review_image_unableToSave" = "Tidak dapat menyimpan";
+"review_image_imageIsInvalid" = "Imej tidak sah";
+"review_image_downloadImageFailed" = "Muat turun imej gagal";
+"review_image_getPhotoAlbumAuthorizationFailed" = "Gagal mendapatkan kebenaran album";
+"review_image_saveToPhotoAlbumSuccess" = "Disimpan ke album sistem";
+"review_image_saveToPhotoAlbumFailed" = "Simpan gagal";
+"review_image_viewOriginalPhoto" = "Lihat imej asal";
+"review_image_viewOriginalPhoto_tip" = "Imej asal dipaparkan";
+"review_image_recognizeQRCode" = "Kod QR pengenalan";
+"review_image_recognizeQRCode_in_pic" = "Kenal pasti kod QR dalam gambar";
+"review_image_upload_failed" = "Muat naik gagal";
+"review_image_downloading" = "Memuat turun...";
+"review_image_network_cannot_connect" = "Rangkaian semasa tidak tersedia, sila periksa tetapan rangkaian anda";
+/*************************** 图片查看组件end *******************************/
+
+/*************************** 页面锁提示 *******************************/
+"pad_lock_hint" = "Semak sama ada data semasa keluar semasa pemprosesan?";
+/*************************** 页面锁提示end *******************************/
+
+/*************************** 多端登录提示 *******************************/
+"mu_login_web" = "Website logged in";
+"mu_login_zhixin" = "ZhiXin logged in";
+"mu_login_weChat" = "WeChat logged in";
+"mu_login_web_zhixin" = "Website、ZhiXin logged in";
+"mu_login_web_weChat" = "Website、WeChat logged in";
+"mu_login_zhixin_weChat" = "ZhiXin、ZhiXin logged in";
+"mu_login_web_zhixin_weChat" = "Website、ZhiXin and WeChat logged in";
+"mu_login_exit_web" = "Keluar dari laman web";
+"mu_login_exit_zhixin" = "Keluar surat";
+"mu_login_exit_weChat" = "Keluar dari WeChat";
+"mu_login_alreadyMute" = "Mobile notification is off";
+"muj_login_exit_success" = "Berjaya keluar";
+/*************************** 多端登录提示end *******************************/
+
+/*************************** MJRefresh *******************************/
+"MJRefreshHeaderIdleText" = "Pulldown refresh";
+"MJRefreshHeaderPullingText" = "Lepaskan semula";
+"MJRefreshHeaderRefreshingText" = "Menyegarkan";
+"MJRefreshAutoFooterIdleText" = "Klik atau tarik sehingga memuat lebih banyak";
+"MJRefreshAutoFooterRefreshingText" = "Memuat lebih banyak data...";
+"MJRefreshAutoFooterNoMoreDataText" = "Telah dimuatkan";
+"MJRefreshBackFooterIdleText" = "Tarik sehingga memuat lebih banyak";
+"MJRefreshBackFooterPullingText" = "Lepaskan dan muatkan lagi";
+"MJRefreshBackFooterRefreshingText" = "Memuat lebih banyak data...";
+"MJRefreshBackFooterNoMoreDataText" = "Telah dimuatkan";
+"MJRefreshHeaderLastTimeText" = "Kemas kini terakhir：";
+"MJRefreshHeaderDateTodayText" = "Hari ini";
+"MJRefreshHeaderNoneLastDateText" = "Tiada rekod";
+/*************************** MJRefresh *******************************/
+
+/*************************** 多端登录 *******************************/
+"mutil_login_mute" = "Telefon bimbit bisu";
+"mutil_login_already_mute" = "Telefon dimatikan";
+"mutil_login_exit_other_client" = "Keluar dari hujung yang lain";
+"mutil_login_recovery_notification" = "Teruskan pemberitahuan telefon";
+"mutil_login_unmute_hint" = "Setelah bertukar \"Bisu pada telefon\", pemberitahuan mesej baru akan disambung semula dengan normal";
+"mutil_login_stop_notification" = "Hentikan pemberitahuan telefon";
+"mutil_login_mute_hint" = "Apabila \"Bisu Telefon\" didayakan, pemberitahuan mesej baru tidak lagi akan diterima di telefon";
+/*************************** 多端登录 *******************************/
+
+/*************************** 手机盾相关 *******************************/
+"login_tag_mokey" = "Masuk perisai telefon bimbit";
+"login_mokeyUsername" = "Masuk perisai telefon bimbit";
+"login_mokey_NoKeyId" = "KeyId tidak wujud, sila mengesahkan semula perisai telefon pada platform pengurusan";
+"login_mokey_NoBind" = "Anda tidak terikat dengan perisai telefon, sila terikat pada platform pengurusan";
+"login_mokey_error_getkeyid" = "Gagal mendapatkan keyId perisai telefon";
+"login_mokey_error_nocertorurl" = "Perisai telefon bimbit tidak dikonfigurasi dengan alamat dan sijil SDK";
+"login_mokey_error_username" = "Meminta ralat nama pengguna masuk";
+"login_mokey_error_getInfo" = "Meminta maklumat perisai telefon bimbit gagal";
+"login_mokey_error_geteventdata" = "Acara log masuk perisai telefon gagal";
+"login_mokey_error_certexpire" = "Sijil anda perlu dikemas kini";
+"login_input_empty3" = "Akaun perisai telefon bimbit tidak boleh kosong";
+"mokey_updateCert_success" = "Kemas kini sijil perisai telefon bimbit";
+"mokey_userReset_success" = "Tetapkan semula perisai telefon dengan jayanya";
+"login_mokey_scan" = "Sapu";
+"login_mokey_NoUserName" = "Sila masukkan akaun";
+"login_mokey_scan_login" = "Sila imbas kod selepas kemasukan M3";
+"login_mokey_scan_nosupport" = "Saya tidak tahu kod QR Mokey yang lain buat masa ini";
+"login_mokey_error_beenbound" = "Perisai telefon telah terikat oleh peranti lain, sila hubungi pentadbir sistem";
+"login_mokey_error_qrcodefailure" = "Pembatalan kod QR";
+"reset_mokey_error_account_atypism" = "Akaun penetapan kata laluan semasa tidak konsisten dengan akaun log masuk mudah alih.";
+/*************************** 手机盾end *******************************/
+
+/*************************** 投屏组件start *******************************/
+"screen_mirror_btn_title" = "Skrin tanpa wayar";
+"screen_mirror_tips_title" = "Peringatan hangat";
+"screen_mirror_checkout_btn" = "Lihat tutorial";
+"screen_mirror_tips" = "Telefon Apple perlu menggunakan fungsi \"mirroring screen\" untuk membuang skrin, sila buka skrin di pusat kawalan";
+/*************************** 投屏组件end *******************************/
+
+/*************************** 新文件管理组件start *******************************/
+"file_management_send_btn" = "Hantar";
+"file_management_localfile" = "Fail telefon";
+"file_management_from_comefrom_m3" = "Dari:";
+"file_management_from_comefrom_third" = "Dari:";
+"file_management_from_comefrom" = "Dari:";
+"file_management_from_sendto" = "Hantar ke:";
+"file_management_from_comefrom_group" = "Dari sembang kumpulan:";
+"file_management_from_sendto_group" = "Hantar ke sembang kumpulan:";
+"file_management_save_ro_file_success_from_other_tips" = "Selamat berjaya! Sila pergi ke fail saya untuk melihat kandungan yang disimpan";
+/*************************** 新文件管理组件end *******************************/
+
+/*************************** 分享组件start *******************************/
+"share_share_to_innner_title" = "Pejabat Mudah Alih";
+"share_btn_new_chat" = "Mula berbual";
+"share_btn_new_coopa" = "Kerjasama baru";
+"share_btn_new_conf" = "Persidangan baru";
+"share_btn_doc_center" = "Pusat Dokumentasi";
+"share_btn_new_task" = "Tugas baru";
+"share_btn_new_sche" = "Jadual baru";
+"share_btn_forward_coopa" = "Melanjutkan kerjasama";
+"share_btn_download" = "Muat turun";
+"share_btn_collect" = "Kegemaran";
+"share_btn_share" = "Kongsi";
+"share_btn_print" = "Cetak";
+"share_btn_wechat" = "WeChat";
+"share_btn_qq" = "QQ";
+"share_btn_other_app" = "Permohonan lain";
+"share_btn_my_colleague" = "Zhixin";
+"share_btn_wwechat" = "Enterprise WeChat";
+"share_btn_dingtalk" = "ceramah ding";
+"share_btn_screen_mirrioring" = "Cermin skrin";
+"share_btn_generate_qrcode" = "Kod QR";
+"share_btn_tel_confe" = "Panggilan persidangan";
+"share_auth_tips_string" = "Sama ada untuk membenarkan kakitangan keluar proses untuk dilihat";
+"share_auth_btn_allow" = "Benarkan";
+"share_auth_btn_notallow" = "Tidak dibenarkan";
+"share_component_save_to_my_doc" = "Simpan ke dokumen saya";
+"share_component_save_to_other_doc" = "Simpan ke dokumen lain";
+"share_component_share_finished_tips" = "Dihantar!";
+"share_component_share_finished_back_former_view" = "Kembali ke halaman sebelumnya";
+"share_component_share_finished_stay_curr_view" = "Tinggal semasa";
+"share_component_file_share_count_tips" = "Jumlah%ld";
+"share_wechat_limit_10M" = "Fail melebihi 10M, ia tidak disokong pada masa ini";
+"share_wechat_failed" = "Berkongsi gagal";
+/*************************** 分享组件end *******************************/
+
+/*************************** 登录新界面 *******************************/
+"login_please_login_tips" = "Sila daftar masuk";
+"login_please_org_tips" = "Hanya untuk pengguna awan";
+"login_first_login_tips" = "Sila tetapkan pelayan semasa masuk dahulu";
+"login_account_placeholder" = "Akaun";
+"login_account_phone_num" = "Akaun / Nombor telefon";
+"login_sms_login_btn" = "Kod pengesahan SMS";
+"login_mokey_login_btn" = "Perisai mudah alih";
+"login_sms_login_tips" = "Kod pengesahan SMS";
+"login_mokey_login_tips" = "Perisai mudah alih";
+"login_account_login" = "Masuk akaun";
+"login_account_phone_num_login" = "Logo akaun / nombor telefonn";
+"login_get_sms_code_error" = "Gagal mendapatkan kod pengesahan SMS";
+"login_get_sms_verification_code" = "Dapatkan kod pengesahan";
+"login_reget_sms_verification_code" = "Hantar semula selepas %02lds";
+"login_resend_sms_verification_code" = "Hantar semula";
+"login_account_null_tips" = "Sila masukkan akaun";
+"login_phone_null_tips" = "Sila masukkan nombor telefon anda";
+"login_password_null_tips" = "Sila masukkan kata laluan";
+"login_verification_code_null_tips" = "Kod pengesahan tidak boleh kosong";
+"login_first_login_set_server_tips" = "Sila sediakan pelayan terlebih dahulu";
+"login_policy_select_policy_detail" = "Sila semak dan bersetuju dengan Perjanjian Perlindungan Privasi";
+"login_first_login_select_server" = "Pilih alamat pelayan";
+"login_first_login_edit_server" = "Edit alamat pelayan";
+"login_server_can_not_be_null" = "Pelayan tidak boleh kosong";
+"login_port_can_not_be_null" = "Pelabuhan tidak boleh kosong";
+"login_verification_code_can_not_be_null" = "Sila masukkan kod pengesahan";
+"login_orgcode" = "Kod Organisasi";
+"login_orgcode_login" = "Logmasuk kod organisasi";
+"login_other_login" = "Kaedah daftar masuk lain";
+"login_orgcode_no_null" = "Kod organisasi tidak boleh kosong";
+/*************************** 登录新界面end *******************************/
+
+/*************************** vpn设置 start *******************************/
+"vpn_setpwd" = "Tetapkan kata laluan";
+"vpn_inputnewpwd" = "Masukkan kata laluan baru";
+"vpn_inputnewpwdagain" = "Masukkan kata laluan baru sekali lagi";
+"vpn_inputnewpwd_notsame" = "Kata laluan yang dimasukkan dua kali tidak konsisten";
+"vpn_inputnewpwd_over5minitus" = "Kata laluan telah ditukar selama lebih dari 5 minit, sila masukkan semula perubahan";
+"vpn_renewpwd_success" = "Password changed successfully";
+"vpn_renewpwd_overtime" = "Change password more than 5 minutes，please return and enter again";
+"vpn_set_toplevel" = "Advanced Settings";
+"vpn_set_btntitle" = "VPN settings";
+"vpn_set_btntitledone" = "VPN is set";
+"vpn_set_enteraddress" = "Please enter a VPN address";
+"vpn_set_pwdverify" = "Password Authentication";
+"vpn_set_entername" = "Please enter a username";
+"vpn_set_enterpwd" = "Please enter a password";
+"vpn_set_spaverify" = "SPA Verification";
+"vpn_set_spaentercode" = "Please enter SPA verification code";
+"vpn_set_description" = "Configuration Description (Only supports Sangfor VPN)\n1、Enter the VPN address and configure the authentication information \n2、If you need to change the VPN password, please go to Sangfor client to modify";
+"vpn_set_agreedes" = "Submission is deemed to be convincing with consent";
+"vpn_set_privacy" = "Privacy Agreement";
+"vpn_set_submit" = "submit";
+"vpn_set_blanktip" = "There are unfilled fields";
+
+"vpn_connect_ing" = "Sedang menyambung ke VPN";
+"vpn_connect_fail" = "Gagal menyambung ke VPN";
+"vpn_connect_nohand" = "Tidak dapat menyambung ke alamat VPN";
+"vpn_connect_reset" = "Sila reset";
+/*************************** vpn设置 end *******************************/
+
+/*************************** 截屏控制 *******************************/
+"screenshot_control_tips" = "Kawalan tangkapan skrin aktif, operasi dilog masuk log latar belakang";
+"screeenshot_control_iknow_btn" = "Got it";
+"screeenshot_page_title_multi_login" = "Halaman log masuk pelbagai terminal";
+"screeenshot_page_title_camera" = "Kamera";
+"screeenshot_page_title_empty" = "Halaman kosong";
+"screeenshot_page_title_image_browser" = "Paparan Gambar";
+"screeenshot_page_title_AVPlayer" = "Pemain audio dan video";
+/*************************** 截屏控制end *******************************/
+
+/*************************** 图片组件新增start *******************************/
+"picture_forward_text" = "Teruskan";
+"picture_photo_text" = "Foto";
+"picture_video_text" = "Video";
+"picture_check_pics_title" = "Gambar / Video";
+"picture_multi_select_btn_title" = "Pilihan berganda";
+"picture_pic_selected_empty_tips" = "Sila pilih gambar";
+"photo_preview_nav_title" = "Pan dan zum";
+/*************************** 图片组件新增end *******************************/
+
+/*************************** 视频组件start *******************************/
+"video_component_retake_title" = "Remake";
+"video_component_use_title" = "Untuk digunakan";
+"video_component_select_from_album" = "Pilih daripada album";
+"video_component_take_photo" = "Ambil gambar";
+"video_component_no_permission" = "Tidak dapat menembak, sila hidupkan mikrofon dan keizinan kamera dalam tetapan sistem telefon";
+"audio_component_no_permission" = "Tidak dapat merakam, sila hidupkan kebenaran mikrofon dalam tetapan sistem telefon";
+"video_component_data_loading_failed" = "Pemuatan audio dan video gagal, sila hubungi pentadbir";
+"video_compress" = "Pemampatan";
+/*************************** 视频组件end *******************************/
+
+/*************************** 推送开关设置start *******************************/
+"user_notification_not_open_tip" = "Diketahui bahawa anda belum mengaktifkan pemberitahuan push. Untuk menerima pemberitahuan tepat pada waktunya, disarankan agar anda mengaktifkannya";
+"user_notification_ignore" = "abai";
+/*************************** 推送开关设置end *******************************/
+
+/*************************** 低版本系统可能出现空白页面的提示start *******************************/
+"low_system_blank_tip" = "Ia dikesan bahawa versi sistem iOS anda rendah, dan halaman mungkin kosong atau berulang kali disegarkan kerana penggunaan memori yang berlebihan. Untuk mengelakkan mempengaruhi pengalaman anda, disarankan untuk meningkatkan versi sistem ke iOS11.0 atau lebih tinggi atau mengganti anda peralatan";
+/*************************** 低版本系统可能出现空白页面的提示end *******************************/
+"select_multiple_chats" = "Pilih berbilang sembang";
+"excess_quantity" = "Sehingga 10 sesi boleh dipilih";
+"send_separately_to" = "Hantar secara terpisah ke";
+"total_message" = "%lu mesej dalam jumlah";
+/*************************** 负一屏start *******************************/
+"slide_to_top_screen" = "Lekas ke tingkat kedua untuk periksa jejak kaki baru-baru ini";
+"add_to_top_screen" = "Tambah ke tingkat kedua";
+"cancel_to_top_screen" = "Buang dari tingkat kedua";
+"recently_title" = "baru-baru ini";
+"common_entry" = "Masuk umum";
+"my_second_floor" = "Tingkat kedua saya";
+"top_screen_recently_tip" = "Dokumen yang baru dipaparkan, kerjasama, dll. akan muncul di sini";
+"add_top_screen_success" = "Berjaya Ditambah";
+"remove_top_screen_success" = "Berjaya Dikeluarkan";
+/*************************** 负一屏end *******************************/
+"more_operations" = "Lebih operasi";

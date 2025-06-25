@@ -1,0 +1,6 @@
+framework module MegFaceEE {
+  umbrella header "MegFaceEE.h"
+
+  export *
+  module * { export * }
+}

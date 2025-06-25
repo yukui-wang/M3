@@ -1,0 +1,879 @@
+/*
+ Localizable.strings
+ M1IPhone
+ 
+ Created by admin on 12-10-29.
+ Copyright (c) 2012年 北京致远协创软件有限公司. All rights reserved.
+ */
+
+
+/**************************************登陆与菜单   start********************************************/
+"GestureLogin_Skip_Confirm" = "跳過";
+"GestureLogin_Titile_Set" = "設定手勢密碼";
+"GestureLogin_DrawUnlock" = "繪製解鎖圖案";
+"GestureLogin_ResetGesture" = "重新設定手勢";
+"GestureLogin_ForgetGesture" = "忘記手勢密碼";
+"GestureLogin_OtherWayLogin" = "其它账号登录";
+"GestureLogin_Inputpassword" = "其它帳號登入";
+"GestureLogin_Input_MoreThan4" = "請至少連續繪製4個點";
+"GestureLogin_Input_Again" = "請再次輸入手勢密碼";
+"GestureLogin_Set_Success" = "密碼設定成功";
+"GestureLogin_Input_SameToPre" = "與首次繪製不一致，請再次繪製";
+"GestureLogin_Input_Right" = "驗證成功";
+"GestureLogin_Input_WrongCountTip" = "密碼輸入錯誤，你還可以輸入%ld次";
+
+"coll_nosignature" = "沒有簽章。";
+"coll_all_clean" = "全部清除";
+"Setting_Clean_Finished" = "清理完畢,釋放存儲空間:";
+"Setting_Cleaning..." = "正在清除緩存，請稍候...";
+
+"Email_Send_Cancel" = "取消發送郵件";
+"Email_Save_Success" = "保存郵件成功";
+"Email_Send_Success" = "發送郵件成功";
+"Email_Send_Fail" = "發送郵件失敗";
+"Email_NO_Config_Mailbox" = "請先配手機郵箱";
+"QRCode_Scan" = "掃一掃";
+"QRCode_Album" = "相册";
+"QRCode_AutoScan" = "將二維碼放入框中，即可自動掃描";
+"QRCode_Message" = "掃一掃提示:";
+"QRCode_NotAddressCode" = "此二維碼不能被識別為名片";
+
+"Sign_markInMap" = "地圖標注";
+"Sign_location_servicesSet_m3" = "定位服務已關閉。請訪問系統“設定”-“隱私”-“定位服務“-“%@”並啟用定位服務";
+"Sign_location_servicesSet" = "定位服務已關閉。請訪問系統“設定”-“隱私”-“定位服務”並啟用定位服務";
+"Sign_Local_locat_data_unavailable" = "本地定位數據不可用!";
+"Sign_Local_locat_data_waiting" = "正在獲取位置資訊";
+"common_save" = "保存";
+
+"touchid_unavailable" = "未設定 Touch ID，請在“系統設置-Touch ID 與密碼”中添加指紋";
+"faceid_unavailable" = "未設定 Face ID，請在“系統設置-Face ID 與密碼”中添加面容";
+"touchid_verify_reason" = "驗證 Touch ID 解鎖";
+"faceid_verify_reason" = "驗證 Face ID 解鎖";
+"common_goto_setting" = "去設定";
+"touchid_lock" = "超出 Touch ID 嘗試次數";
+"faceid_lock" = "超出 Face ID 嘗試次數";
+"localauth_touchID_button" = "點擊進行 Touch ID 解鎖";
+"localauth_faceID_button" = "點擊進行 Face ID 解鎖";
+"localauth_gesture" = "手勢解鎖";
+"localauth_openFaceToUnlock_button" = "開啟人臉解鎖";
+"localauth_openFingerprintToUnlock_button" = "開啟指紋解鎖";
+
+"WiFiClockIn_clockInTime" = "上班時間";
+"WiFiClockIn_clockOffTime" = "下班時間";
+"WiFiClockIn_illegal" = "連接辦公WiFi";
+"WiFiClockIn_button" = "上班打卡";
+
+/**************************************common   start********************************************/
+"Common_Yesterday" = "昨天";
+"Common_Tomorrow" = "明天";
+"Common_MustUpdateVersion" = "檢測到一項軟體更新，為了能正常使用，請更新到%@。";
+"Common_LatestVersion" = "最新版本";
+"Common_UpdateNow" = "現在下載";
+"Common_Alert" = "提醒";
+"Common_Update_Download" = "檢測到一項軟體更新，下載體驗新版本。";
+"Common_DownloadNow" = "現在下載";
+"Common_DownloadLater" = "忽略此版本";
+"Common_Already_the_recently_Version" = "已是最新版本";
+"Common_To" = "至";
+
+"Common_Pic1" = "圖片%@.";
+"Common_Voc1" = "語音%@.caf";
+"Common_Mov1" = "視頻%@.mov";
+
+"common_delete" = "刪除";
+"common_prompt" = "提示";
+"common_cancel" = "取消";
+"common_ok" = "確定";
+"common_confirm" = "確認";
+"common_rename" = "重命名";
+"common_rename_placeholder" = "請輸入新檔名";
+
+"common_close" = "關閉";
+"common_return" = "返回";
+"common_back" = "返回";
+"common_search" = "蒐索";
+"common_table_loading" = "數據加載中";
+"common_no_record" = "未錄音";
+"common_no_paly" = "未播放";
+"common_inputName_canNotEmpty_againInput" = "名字不能為空,請重新輸入";
+"common_not_record" = "沒有錄音";
+"common_nameExist_againInput" = "名字已存在，請重新輸入";
+"common_stop_paly" = "播放停止";
+"common_paly_stop" = "播放暫停";
+"common_thisDoc_isNotExist" = "該檔案不存在！";
+"common_record_paly" = "錄音停止";
+"common_playing" = "正在播放";
+
+"common_attName_theMostInput_40Words" = "附件命名最多輸入40個字。";
+"common_inputCharacter_notInclude_XX" = "輸入的字元不能包含字元*/<>?:：｜|";
+"common_save_success" = "保存成功";
+"common_save_fail" = "保存失败";
+"common_norecord" = "無法錄音";
+"common_norecordalert" = "請在設備的“設定-隱私-麥克風”選項中允許%@訪問你的麥克風";
+"common_nocameraalert" = "請在設備的“設定-隱私-相機”选项中允许%@訪問你的相機";
+"common_nophotostitle" = "相册不可用";
+"common_nophotos" = "請在設備的“設定-隱私-照片”選項中允許%@訪問你的照片";
+"common_uploadAttachmentLimit" = "上傳的檔案不能大於50M。";
+"common_nodata" = "暫無數據";
+"common_language" = "";
+"common_search_subject" = "標題";
+"common_Nothing" = "暫無內容";
+"common_Nothing_sorry" = "抱歉！這裡什麼都沒有";
+"common_search_pleaseEnterKeywords" = "請輸入關鍵字";
+"common_camera_unavailable" = "照相機不可用";
+"common_read" = "查看";
+"common_finshed" = "完成";
+"common_repeal" = "撤銷";
+
+"common_proxyAlert" = "當前設備已開啟代理，繼續使用將會存在安全風險！";
+"common_jailbreakAlert" = "當前設備已被越獄，繼續使用將會存在安全風險！";
+"common_loadAppFail" = "應用加載失敗，請重新設定伺服器地址。";
+"common_noAppDownloadAddress" = "無應用下載地址或地址格式不正確\n%@";
+"common_noPermissionCamera" = "無法使用相機";
+"common_downloadFileFailed" = "文件下載失敗。";
+"common_fileCopyError" = "檔案複製到存儲目錄出錯。";
+"common_locationDetail" = "位置詳情";
+"common_failToFormatLocation" = "位置格式轉化失敗";
+"common_unkownError" = "未知錯誤";
+"common_appDownloadFail" = "應用包下載失敗，點擊";
+"common_unzipAppPackageFail" = "應用包解壓出錯。";
+"common_downloadAddressEmpty" = "下載地址不能為空";
+"common_noAppInformation" = "未找到應用資訊";
+"common_mobileAlbums" = "手機相册";
+"common_videoPreview" = "視頻預覽";
+"common_usePhoto" = "使用照片";
+"common_takePhotoAgain" = "重拍";
+"common_noFreeSpace" = "設備存儲空間不足200M，請清理空間後再下載。";
+"common_uploadServerEmpty" = "上傳伺服器地址不能為空";
+"common_deleteCacheFail" = "删除緩存失敗";
+"common_cancelSending" = "取消發送";
+"common_cancelLabeling" = "取消標注";
+"common_turnOnLocation" = "請在系統設置打開定位開關。";
+"common_pleaseSelectLocation" = "請選擇位置";
+"common_cancelPhotography" = "拍照取消";
+"common_noPermissionAlbums" = "沒有相册許可權";
+
+"common_reload_tabbar" = "底導航被修改，需刷新頁面。";
+"common_load_success" = "已完成";
+"common_reload_language" = "你當前的首選語言已不再支持，需要刷新頁面";
+"common_or" = "或";
+"common_exit" = "退出";
+"common_Connecting" = "连接中...";
+"common_dept"="部門";
+/**************************************common   end********************************************/
+
+/**************************************OfflineFiles   start********************************************/
+"offlineFiles_unknownFiles" = "該格式檔案暫不支持本地查看，請用其它應用打開。";
+"offlineFiles_offlineFiles" = "離線檔案";
+"offlineFiles_myfile" = "我的檔案";
+"offlineFiles_haveBeenSelect_xx" = "已選擇%d條";
+"offlineFiles_unzipFail" = "檔案加載异常或損壞";
+/**************************************OfflineFiles    end********************************************/
+
+/*************************** 更新包 start *******************************/
+"UpdatePackage_TipTitle" = "提示";
+"UpdatePackage_TipTitle_IsDownload" = "正在為你下載應用";
+"UpdatePackage_CloseApp" = "關閉應用";
+"UpdatePackage_Download" = "下載";
+"UpdatePackage_TipNotWifi" = "你當前的網路環境不是Wi-Fi，繼續下載將會產生流量，是否下載？";
+"UpdatePackage_ReDownload" = "重新下載";
+"UpdatePackage_updating" = "正在為你下載應用，請完成後再點擊查看";
+"UpdatePackage_progress" = "正在為你下載應用(%d%s)";
+"UpdatePackage_updateFail" = "下載失敗，請重新下載";
+
+//new
+"UpdatePakageNew_applicationing" = "應用資源下載中";
+"UpdatePakageNew_downloadSuc" = "應用資源下載成功!";
+"UpdatePakageNew_downloadFail" = "應用下載失敗!";
+"UpdatePakageNew_downloadFail_Cap" = "應用下載失敗!";
+"UpdatePakageNew_updateNow" = "立即更新";
+"UpdatePakageNew_updateNext" = "再次啟動更新";
+"UpdatePakageNew_reDownload" = "重新下載";
+"UpdatePakageNew_downloadNext" = "下次再說";
+"UpdatePakageNew_zipupdating" = "正在更新應用程式包";
+
+/*************************** 更新包 end *******************************/
+
+/*************************** 离线通讯录 start *******************************/
+"contacts" = "通訊錄";
+"contacts_org" = "組織架構";
+"contacts_team" = "項目組";
+"contacts_groupchat" = "我的群聊";
+"contacts_frequent" = "常用連絡人";
+"contacts_related" = "關注人員";
+"contacts_downloadFail" = "離線通訊錄下載失敗！";
+"contacts_retry" = "重新下載";
+"contacts_downloading" = "正在為你下載離線通訊錄...";
+"contacts_searchkey_old" = "請輸入姓名／手機號";
+"contacts_searchkey_new" = "請輸入姓名／手機號／拼音首字母";
+"contacts_getData" = "正在為你讀取離線通訊錄...";
+/*************************** 离线通讯录 end *******************************/
+
+/*************************** 相册 start *******************************/
+"photo" = "照片";
+"Common_Preview" = "預覽";
+"photo_original" = "原圖";
+"photo_download_iCloud" = "請在系統相册下載iCloud圖片後重試。";
+"photo_limit" = "請你上傳小於%ldM的圖片。";
+"photo_countlimit" = "你最多只能選擇%zd張照片";
+"photo_setting" = "請在\"設定-隱私-照片\"選項中，\r允許%@訪問你的手機相册。";
+
+"scan_fail" = "未識別到二維碼";
+"scan_picfail" = "照片中未識別到二維碼";
+"common_isee" = "我知道了";
+"atta_limitsize" = "請你上傳小於%ldM的檔案。";
+"common_weakpassword" = "不符合密碼强度要求或密碼已到期，為了你的帳號安全，請修改密碼";
+"scan_joingroup_error" = "加入群聊失敗";
+/*************************** 相册 end *******************************/
+
+/*************************** 消息列表 start *******************************/
+"msg_image" = "[圖片]";
+"msg_voice" = "[語音]";
+"msg_file" = "[檔案]";
+"msg_vcard" = "[名片]";
+"msg_personal_card" = "名片";
+"mjRefresh_just" = "最新更新時間：剛剛";
+"mjRefresh_fewSecond" = "最新更新時間：%d秒之前";
+"msg_clearGroupNotification" = "群系統消息記錄被清空後無法恢復，確定要清除所有消息？";
+"msg_recall" = "撤回一條消息";
+"msg_recall_me" = "你撤回一條消息";
+"msg_metioned" = "[有人@我]";
+"msg_fileHaveDelete" = "無法下載，服務器檔案已删除";
+"msg_userListTitle" = "選擇群成員";
+"msg_reedit" = "重新編輯";
+"msg_createGroup" = "發起群聊";
+"msg_joinGroup" = "你已加入群聊";
+"msg_quitGroup" = "退出群聊";
+"msg_kickedGroup" = "你已被移出群聊";
+"msg_dismissGroup" = "群聊“%@”已解散。";
+"msg_changeGroupManager" = "你已成為群聊“%@”的群主。";
+"msg_rebulletin" = "群公告變更";
+"msg_operator" = "操作人";
+"msg_replacement" = "群主已轉移為%@";
+"msg_msgTitle" = "消息";
+"msg_coll" = "協同";
+"msg_edoc" = "公文";
+"msg_plan" = "工作計畫";
+"msg_bul" = "公告";
+"msg_news" = "新聞";
+"msg_inquire" = "調查";
+"msg_meeting" = "會議";
+"msg_doc" =  "檔案";
+"msg_wages" = "工資條";
+"msg_BehaviorPerformance" = "行為績效";
+"msg_bbs" = "討論";
+"msg_queyreport" = "査詢統計";
+"msg_zhixin" = "致信";
+"msg_offlineDoc" = "離線檔案";
+"msg_MyCollection" = "我的收藏";
+"msg_attendance" = "簽到";
+"msg_task" = "工作任務";
+"msg_schedule" = "時間安排";
+"msg_show" = "享空間";
+"msg_ReportShow" = "報表分析";
+"msg_SystemMsg" = "系統消息";
+"msg_form" = "表單";
+"msg_IntegratedOffice" = "綜合辦公";
+"msg_project" = "項目";
+"msg_noMsg" = "暫無數據";
+"msg_noAssMsg" = "暫無新消息";
+"msg_delete" = "删除";
+"msg_remove" = "移除";
+"msg_top" = "置頂";
+"msg_canceltop" = "取消置頂";
+"msg_markRead" = "標為已讀";
+"msg_outMsg" = "外部系統";
+"msg_reportCenter" = "報表中心";
+"msg_groupNotification" = "群系統消息";
+"msg_xiaoguangbo" = "小廣播";
+"msg_xgbnewtip" = "發起小廣播";
+"msg_xgbnewMessage" = "你有新的小廣播消息";
+"msg_xgbrecalltip" = "撤回一條廣播消息";
+"msg_fileass" = "文件助手";
+"msg_zhixinInitError" = "致信未初始化";
+"msg_app" = "應用消息";
+"msg_push" = "智慧推送提醒";
+"msg_leader" = "我的領導消息";
+"msg_track" = "跟踪事項消息";
+"msg_mention" = "@我的消息";
+"msg_requestingFilePrivilege" = "正在請求數據，請稍後再試。";
+"msg_noFilePrivilege" = "您無權進行此操作,詳情請諮詢組織系統管理員或本群群主!";
+"msg_zhixin_notHasPermission" = "暫未開通致信，請聯系管理員";
+"msg_zhixin_notAvailable" = "致信服務不可用";
+"msg_set_admin" = "%@把你设置为群聊\"%@\"的管理員。";
+"msg_unset_admin" = "%@撤销了你群聊\"%@\"的管理員許可權。";
+"msg_mark_unread" = "標為未讀";
+"msg_you_set_admin" = "你已設定%@為管理員";
+"msg_you_unset_admin" = "你取消了%@為管理員";
+"msg_someone_set_admin" = "%@已設定%@為管理員";
+"msg_someone_unset_admin" = "%@取消了%@管理員";
+"msg_content_sensitive_notsend" = "消息包含敏感信息,不可發送";
+"msg_content_sensitive_hascleared" = "消息包含敏感信息,已清除";
+/*************************** 消息列表 end *******************************/
+
+/*************************** 融云 *******************************/
+"rc_PluginBoardPicture" = "圖片";
+"rc_PluginBoardCamera" = "拍照";
+"rc_PluginBoardLocation" = "位置";
+"rc_PluginBoardFile" = "檔案";
+"rc_PluginBoard_VoIPAudioCall"="語音通話";
+"rc_PluginBoard_VoIPVideoCall"="視頻通話";
+"rc_PluginBoard_VoIPAudioAndVideoCall" = "音視頻通話";
+"rc_RedPacket" = "紅包";
+"view_RedPacket" = "查看紅包";
+"redPacket_Expired" = "紅包已過期";
+"rc_OpenRedPacket" = "領取紅包";
+"yourself_Open"  ="你領取了自己的紅包";
+"rc_M3RedPacket" = "紅包";
+"redPacket_received" = "紅包已領取";
+"redPacket_over" = "紅包已被領完";
+"redPacket_receive_info" = "你領取了%@的紅包";
+"redPacket_receive_info2"= "%@領取了你的紅包";
+"you" = "你";
+"ass_doc" = "關聯檔案";
+"view_details" = "查看詳情";
+"Launch_time" = "發起時間：";
+"doc_sponsors" = "發起人：";
+"rc_task_principal" = "負責人：";
+"rc_scan_code_join_group" = "通過掃描二維碼加入了群聊";
+"GroupReplacement"="群主已轉移為%@";
+"GroupReplacement_who_changed_owner_to"="%@把群主轉移給了%@";
+"GroupRebulletin"="群公告變更";
+"ConvertMission"="轉任務";
+"You sent a window jitter"="你發送了一個視窗抖動";
+"sent you a window jitter"="給你發送了一個視窗抖動";
+"rc_group_chat_record" = "群聊的聊天記錄";
+"rc_single_messages_forward" = "逐條轉發";
+"rc_merge_message_forward" = "合併轉發";
+"rc_transfer_opinoin" = "轉意見";
+"rc_msg_business_card" = "[個人名片]";
+"rc_msg_business_card_name" = "個人名片";
+"rc_msg_general_business" = "[%@消息]";
+"rc_msg_general_business_handel_success" = "處理成功";
+"rc_msg_general_business_handel_fail" = "處理失敗";
+"rc_msg_collection_handel_success" = "收藏成功";
+"rc_msg_collection_handel_fail" = "收藏失敗";
+"rc_msg_collection_handel_already_collect" = "你已收藏過該檔案";
+"rc_msg_single_forward_tip" = "逐條轉發不支持紅包、應用卡片類型的消息";
+"rc_msg_combine_forward_tip" = "合併轉發僅支持文字、圖片、檔案類型的消息";
+"rc_msg_turn_on_opinione_tip" = "轉意見僅支持文字、圖片、檔案類型的消息";
+"rc_msg_collection_chat_record_tip" = "收藏僅支持文字、圖片、檔案類型的消息";
+"rc_msg_combine_vard" = "[聊天記錄]";
+"rc_msg_unknown_folder_tip" = "移動端暫不支持資料夾類型資訊查看";
+"rc_group_kanban_chat" = "交流";
+"rc_msg_resend" = "重發";
+"msg_at_all" = "所有人";
+"rc_msg_quote" = "引用";
+"rc_msg_unknown_tip" = "移動端暫不支持此類型資訊查看";
+"rc_msg_unknown_msgtype" = "[未知消息類型]";
+"rc_msg_robot_msg" = "機器人消息";
+"zx_loginstatus_mobile" = "移動端在線";
+"zx_loginstatus_client" = "用戶端在線";
+"zx_loginstatus_web" = "網頁端在線";
+"zx_loginstatus_offline" = "離線";
+"zx_meeting_invite" = "邀請";
+
+"meeting_join" = "立即加入";
+"meeting_copyAndJoin" = "複製密碼並加入";
+"meeting_pwdCopied" = "密碼已複製";
+"meeting_insNumb" = "會議號";
+"meeting_insPwd" = "會議密碼";
+
+"rc_remote_del_confirm_text" = "聊天記錄刪除後不可恢復，是否確定刪除？";
+"rc_remote_clear_confirm_text" = "聊天記錄清空後不可恢復，是否確定清空？";
+/*************************** 融云 *******************************/
+
+/*************************** 新建快捷 *******************************/
+"quick_coll" = "自由協同";
+"quick_form" = "表單模版";
+"quick_scan" = "掃一掃";
+"quick_groupchat" = "發起群組交流";
+"quick_chat" = "發起聊天";
+"quick_task" = "新建任務";
+"quick_meeting" = "新建會議";
+"quick_attendance" = "簽到";
+"quick_schedule" = "新建日程";
+"quick_zhumu_meeting" = "矚目會議";
+"quick_ontimemeet" = "快速會議";
+/*************************** 新建快捷 *******************************/
+
+/*************************** cordova插件 start *******************************/
+"Calendar_LoadFail" = "行事曆組件加載錯誤";
+"Calendar_NoAccess" = "無權訪問行事曆";
+/*************************** cordova插件 end *******************************/
+
+/*************************** 日历权限设置 start *******************************/
+"Calendar_Permisson_Setting" = "請在設備的“設定-隱私-日曆”選項中允許%@訪問你的日曆";
+"Calendar_Unavailable_title" = "日曆不可用";
+/*************************** 日历权限设置 end *******************************/
+
+/*************************** 通讯录权限设置 start *******************************/
+"Contact_Permisson_Setting" = "請在設備的“設定-隱私-通訊錄”選項中允許%@訪問你的通訊錄";
+"Contact_Unavailable_title" = "通訊錄不可用";
+/*************************** 通讯录权限设置 end *******************************/
+
+/*************************** 网络错误 start *******************************/
+"Common_Network_Unavailable" = "當前網絡不可用，請檢查你的網絡設定";
+"Common_Server_CannotConnect" = "當前網絡异常，無法訪問服務器";
+"Common_Server_DataError" = "請求數據失敗";
+"Common_Server_Port_Alert" = "服務器埠為高危埠，可能導致使用异常";
+"Common_Network_Disconnect" = "當前網絡异常，無法訪問服務器，請您嘗試在WIFI，移動網絡，飛行模式三者之間切換";
+/*************************** 网络错误 end *******************************/
+
+"Common_HandWrite" = "簽批";
+"Common_PlisInput" = "請輸入內容";
+"Common_InputSealPassWord" = "請輸入簽章密碼";
+"Common_PassWordNONull" = "密碼不能為空";
+"Common_PasswordWrong" = "輸入簽章密碼錯誤";
+"Common_InputLimit" = "達到輸入上限，不能再輸入。";
+
+"commom_ok" = "好的";
+"commom_setting" = "設定";
+"common_kikedByOther" = "你的帳號在另一地點登入，你被迫下線";
+"common_backLogin" = "返回登入頁";
+
+"updates_check_failed" = "檢查更新失敗";
+"loadApp_fail" = "加載應用失敗";
+"desktop_errorParameter" = "獲取案頭一鍵應用參數錯誤";
+"wrong_local_resource_path" = "獲取本地資源路徑錯誤";
+"device_no_data" = "該設備未檢測到合適的應用打開該數據";
+"device_not_sms" = "該設備不支持發短信";
+"device_not_telephone" = "該設備不支持打電話";
+"attach_path_empty" = "附件路徑不能為空";
+"common_send_fail" = "發送失敗";
+"common_send_success" = "發送成功";
+"read_manifest_error" =  "讀取manifest.json出錯。";
+"gesture_clicked_forgot" = "點擊了左邊的忘記手勢密碼";
+"gesture_clicked_right" = "點擊了右邊的其他帳號登入";
+"gesture_clicked_skip" = "點擊了跳過按鈕";
+"gesture_clicked_return" = "點擊了回退按鈕";
+"open_app_download_adress" = "打開應用下載地址";
+"url_empty" = "url地址為空";
+"parameters_error" = "傳遞的參數錯誤";
+"database_inser_error" = "插入資料庫出錯。";
+"data_fail_local" = "本地未找到對應的數據";
+"viewController_unsupported " = "viewController不支持";
+"memberid_nil"  = "memberid不能為空";
+"jsapi_error" = "jsapi與openAppMethod内容不能空，請檢查manifest.json檔案";
+"device_ios_low" = "IOS版本太低";
+"please_install_wps" = "請安裝WPS";
+"iAppOffice_unauthorization" = "移動office序號無效，請聯系系統管理員設定/更新移動office序號！";
+"reopen_wps" = "WPS被佔用，請重新啟動WPS";
+
+/*************************** 来电提醒 *******************************/
+"call_identification_setting_alert" = "為正常使用來電提醒功能，請你到“電話-來電封锁與身份識別”中開啟系統許可權";
+"call_identification_unkown_error" = "發生未知錯誤";
+"call_identification_to_setting" = "去設定";
+"call_identification_low_system" = "來電提醒功能僅支持iOS 10以上系統";
+"call_identification_contacts_error" = "獲取通訊錄失敗，請等待通訊錄下載完成後重試";
+"call_identification_open_success" = "開啟來電提醒成功";
+"call_identification_open_fail" = "開啟來電提醒失敗";
+"call_identification_close_success" = "關閉來電提醒成功";
+"call_identification_close_fail" = "關閉來電提醒失敗";
+"call_identification_guide_title" = "開啟M3來電提醒";
+"call_identification_guide_1" = "第1步：去【電話設定】找到【來電封锁與身份識別】";
+"call_identification_guide_2" = "第2步：開啟【移動辦公】";
+/*************************** 来电提醒 end *******************************/
+
+/*************************** 登录 *******************************/
+"login_login" = "登入";
+"login_login_ing" = "正在登入...";
+"login_bindtip" = "此賬號安全級別為高，需綁定此設備後才可登錄，是否發送綁定申請？";
+"login_input_empty" = "用戶名或密碼不能為空";
+"login_input_empty2" = "手機號或密碼不能為空";
+"login_forget_password" = "忘記密碼";
+"login_username" = "用戶名";
+"login_password" = "密碼";
+"login_forget_alert" = "請到電腦的登入頁面找回密碼";
+"login_server_add" = "添加";
+"login_server_list_title" = "選擇伺服器地址";
+"login_server_list_add" = "設定伺服器地址";
+"login_server_list_edit" = "編輯伺服器地址";
+"login_no_note" = "暫無備註資訊";
+"login_server_host" = "伺服器地址（必填）";
+"login_server_port" = "埠（必填）";
+"login_server_note" = "備註（最多15個字，非必填）";
+"login_server_host1" = "伺服器地址";
+"login_server_port1" = "埠";
+"login_server_note1" = "備註（最多15個字）";
+"login_server_delete_message" = "你確定删除此伺服器地址嗎？";
+"login_server_no_address" = "請你輸入伺服器地址";
+"login_server_no_port" = "請你輸入埠號";
+"login_server_address_error" = "伺服器地址格式不正確";
+"login_scan_err" = "該圖片中未識別到有效二維碼";
+"login_server_exist" = "伺服器地址和埠已存在";
+"login_scan_button" = "掃碼添加";
+"login_server_ass" = "通過關聯帳號添加";
+"login_policy_agree" = "已閱讀並同意";
+"login_policy_detail" = "《隱私保護協定》";
+"login_server_manual" = "手動添加";
+"login_server_cloud" = "通過雲聯中心添加";
+"login_server_setting" = "設定服務器";
+"login_phone" = "手機號";
+"login_server_uninit" = "請你先設定伺服器地址";
+"login_server_uninit2" = "未獲取到企業的服務器地址清單";
+"login_verification" = "驗證碼";
+"login_tag_legacy" = "帳號登入";
+"login_tag_phone" = "手機號登入";
+"login_server_note_prefix" = "備註";
+"login_cloud_error_2001" = "無效請求！";
+"login_cloud_error_2002" = "你未綁定手機號，請使用企業帳號登入";
+"login_cloud_error_2003" = "該手機號綁定了多個人員，請使用企業帳號登入";
+"login_cloud_error_default" = "服務器异常，請稍後重試！";
+"login_policy_not_agree" = "不同意並退出";
+"login_policy_pop_agree" = "已閱，同意";
+"login_fail" = "登入失敗";
+"login_current_bind_device_numb" = "當前設備號";
+
+"login_sms_send_tips" = "驗證碼已發送";
+"login_sms_login_phone_error" = "請輸入正確的手機號";
+"login_sms_area_code_title" = "選擇國家和地區";
+"login_sms_area_code_hot_title" = "#熱門國家和地區";
+"login_sms_graph_ver_tips" = "安全驗證";
+"login_sms_graph_ver_input_error" = "驗證碼錯誤或超時，請重新輸入";
+"login_sms_phone_unbinding_account" = "當前手機號未綁定辦公賬號";
+"login_sms_phone_binding_multi_account" = "當前手機號對應多個辦公賬號，請更換登錄方式";
+"login_sms_unit_sms_unauthorized" = "所在單位短信管理未授權";
+"login_sms_get_code_reach_ceiling" = "該手機號獲取驗證碼次數達到上限，請明日再試";
+"login_sms_get_code_after_seconds" = "請%@s之後再獲取簡訊驗證碼";
+
+"login_mutilauth_refetchsms" = "重新獲取短信驗證碼";
+"login_mutilauth_refetch" = "重新獲取";
+"login_mutilauth_pleaseinputsms" = "請輸入短信驗證碼";
+"login_mutilauth_smshassendto" = "驗證碼已發送至";
+"login_mutilauth_seconds" = "秒";
+
+/*************************** 登录end *******************************/
+
+/******************************重要消息提醒************************************/
+"imp_msg_loadimage" = "正在生成圖片";
+/******************************重要消息提醒end************************************/
+
+/*************************** 关联账号 *******************************/
+"ass_edit_top_tip" = "請輸入要關聯的相關資訊";
+"ass_server_host" = "伺服器地址";
+"ass_username" = "用戶名";
+"ass_server_note" = "備註";
+"ass_title" = "關聯帳號";
+"ass_button" = "關聯";
+"ass_add" = "添加";
+"ass_add_title" = "添加關聯帳號";
+"ass_edit_title" = "修改關聯帳號";
+"ass_edit_delete_hint" = "是否要取消關聯此帳號";
+"ass_switch_title" = "切換單位";
+"ass_add_err1" = "已添加過此伺服器地址，無法關聯";
+"ass_add_err2" = "該服務器已經通過關聯帳號添加，請勿重複添加";
+"ass_add_err3" = "該服務器已通過雲聯中心添加，請勿重複添加";
+"ass_edit_err" = "通過關聯添加帳號不能編輯，請切換到主帳號操作";
+"msg_associate" = "其它企業消息";
+"ass_switch_ass_title" = "跨企業單位";
+"ass_switch_parttime_title" = "集團下子組織";
+/*************************** 关联账号end *******************************/
+
+/*************************** 转发 *******************************/
+"forward_sendto" = "發送到";
+"forward_create_new_chat" = "創建新的聊天";
+"forward_choose_group" = "選擇群組";
+"forward_recent_contact" = "最近連絡人";
+"forward_send_to" = "發送給";
+"forward_leave_message" = "給同事留言";
+"forward_message_list_info" = "[你收到轉發消息]";
+"forward_fileHaveDelete" = "無法轉發，服務器檔案已删除";
+"forward_leaveMsgLimit" = "不能超過100漢字";
+/*************************** 转发end *******************************/
+
+/*************************** 相册 *******************************/
+"pic_handling" = "正在處理…";
+"pic_open" = "打開";
+"pic_close" = "關閉";
+"pic_automatic" = "自動";
+/*************************** 相册end *******************************/
+
+/*************************** 日期 *******************************/
+"week_one" = "星期一";
+"week_two" = "星期二";
+"week_three" = "星期三";
+"week_four" = "星期四";
+"week_five" = "星期五";
+"week_six" = "星期六";
+"week_seven" = "星期天";
+/*************************** 日期end *******************************/
+
+/*************************** 引导页 *******************************/
+"guide_start" = "開啟M3之旅";
+/*************************** 引导页end *******************************/
+
+/*************************** 打印 *******************************/
+"print_action" = "列印";
+"print_more_than_size" = "被列印文件大小超過限制";
+/*************************** 引导页end *******************************/
+
+/*************************** 图片查看组件 *******************************/
+"review_image_videoIsInvalid" = "視頻無效";
+"review_image_videoError" = "視頻錯誤";
+"review_image_unableToSave" = "無法保存";
+"review_image_imageIsInvalid" = "圖片無效";
+"review_image_downloadImageFailed" = "圖片下載失敗";
+"review_image_getPhotoAlbumAuthorizationFailed" = "獲取相册許可權失敗";
+"review_image_saveToPhotoAlbumSuccess" = "已保存到系統相册";
+"review_image_saveToPhotoAlbumFailed" = "保存失敗";
+"review_image_viewOriginalPhoto" = "查看原圖";
+"review_image_viewOriginalPhoto_tip" = "已顯示原圖";
+"review_image_recognizeQRCode" = "識別二維碼";
+"review_image_recognizeQRCode_in_pic" = "識別圖中二維碼";
+"review_image_upload_failed" = "上傳失敗";
+"review_image_downloading" = "下載中...";
+"review_image_network_cannot_connect" = "當前網絡不可用，請檢查您的網絡設置";
+/*************************** 图片查看组件end *******************************/
+
+/*************************** 页面锁提示 *******************************/
+"pad_lock_hint" = "查看處理中，是否退出當前數據？";
+/*************************** 页面锁提示end *******************************/
+
+/*************************** 多端登录提示 *******************************/
+"mu_login_web" = "網頁端已登入";
+"mu_login_zhixin" = "致信端已登入";
+"mu_login_weChat" = "微信端已登入";
+"mu_login_web_zhixin" = "網頁端、致信端已登入";
+"mu_login_web_weChat" = "網頁端、微信端已登入";
+"mu_login_zhixin_weChat" = "致信端、微信端已登入";
+"mu_login_web_zhixin_weChat" = "網頁端、致信端、微信端已登入";
+"mu_login_exit_web" = "退出網頁端";
+"mu_login_exit_zhixin" = "退出致信端";
+"mu_login_exit_weChat" = "退出微信端";
+"mu_login_alreadyMute" = "手機通知已關閉";
+
+"mu_login_type_web" = "網頁端";
+"mu_login_type_pc" = "致信端";
+"mu_login_type_wechat" = "微信端";
+"mu_login_type_phone" = "手机端";
+"mu_login_type_pad" = "PAD端";
+"mu_login_exit" = "退出";
+"mu_login_type_logined" = "已登入";
+"muj_login_exit_success" = "成功退出";
+/*************************** 多端登录提示end *******************************/
+
+/*************************** MJRefresh *******************************/
+"MJRefreshHeaderIdleText" = "下拉刷新";
+"MJRefreshHeaderPullingText" = "释放刷新";
+"MJRefreshHeaderRefreshingText" = "正在刷新";
+"MJRefreshAutoFooterIdleText" = "點擊或上拉加載更多";
+"MJRefreshAutoFooterRefreshingText" = "正在加載更多的數據...";
+"MJRefreshAutoFooterNoMoreDataText" = "已經全部加載完畢";
+"MJRefreshBackFooterIdleText" = "上拉可以加載更多";
+"MJRefreshBackFooterPullingText" = "鬆開立即加載更多";
+"MJRefreshBackFooterRefreshingText" = "正在加載更多的數據...";
+"MJRefreshBackFooterNoMoreDataText" = "已經全部加載完畢";
+"MJRefreshHeaderLastTimeText" = "最後更新：";
+"MJRefreshHeaderDateTodayText" = "今天";
+"MJRefreshHeaderNoneLastDateText" = "無記錄";
+/*************************** MJRefresh *******************************/
+
+/*************************** 多端登录 *******************************/
+"mutil_login_mute" = "手機靜音";
+"mutil_login_already_mute" = "手機已靜音";
+"mutil_login_exit_other_client" = "退出其他端";
+"mutil_login_recovery_notification" = "恢復手機通知";
+"mutil_login_unmute_hint" = "關閉“手機靜音”後，手機新消息通知將恢復正常";
+"mutil_login_stop_notification" = "停止手機通知";
+"mutil_login_mute_hint" = "啟用“手機靜音”後，手機上將不再接收新消息通知<";
+/*************************** 多端登录 *******************************/
+
+/*************************** 手机盾相关 *******************************/
+"login_tag_mokey" = "手機盾登入";
+"login_mokeyUsername" = "手機盾用戶名";
+"login_mokey_NoKeyId" = "KeyId不存在，請在管理平臺上重新授權手機盾";
+"login_mokey_NoBind" = "您未綁定手機盾，請在管理平臺上進行綁定";
+"login_mokey_error_getkeyid" = "獲取手機盾keyId失敗";
+"login_mokey_error_nocertorurl" = "手機盾未配寘SDK的地址及證書";
+"login_mokey_error_username" = "請求登入用戶名出錯";
+"login_mokey_error_getInfo" = "請求手機盾資訊失敗";
+"login_mokey_error_geteventdata" = "獲取手機盾登入事件失敗";
+"login_mokey_error_certexpire" = "您的證書需要更新";
+"login_input_empty3" = "手機盾帳號不能為空";
+"mokey_updateCert_success" = "更新手機盾證書成功";
+"mokey_userReset_success" = "重置手機盾成功";
+"login_mokey_scan" = "掃一掃";
+"login_mokey_NoUserName" = "請輸入帳戶";
+"login_mokey_scan_login" = "請進行M3登入後掃碼";
+"login_mokey_scan_nosupport" = "暫時不知道Mokey其他二維碼";
+"login_mokey_error_beenbound" = "手機盾已被其他設備綁定，請聯系系統管理員";
+"login_mokey_error_qrcodefailure" = "二維碼失效";
+"reset_mokey_error_account_atypism" = "當前進行密碼重置的帳戶與移動端登入帳戶不一致";
+/*************************** 手机盾end *******************************/
+
+/*************************** 投屏组件start *******************************/
+"screen_mirror_btn_title" = "無線投屏";
+"screen_mirror_tips_title" = "溫馨提示";
+"screen_mirror_checkout_btn" = "查看教程";
+"screen_mirror_tips" = "蘋果手機需要通過繫統“屏幕鏡像”功能進行投屏，請在控製中心開啟投屏";
+/*************************** 投屏组件end *******************************/
+
+/*************************** 新文件管理组件start *******************************/
+"file_management_send_btn" = "髮送";
+"file_management_localfile" = "手機文件";
+"file_management_from_comefrom_m3" = "來自:";
+"file_management_from_comefrom_third" = "來自:";
+"file_management_from_comefrom" = "來自:";
+"file_management_from_sendto" = "髮給:";
+"file_management_from_comefrom_group" = "來自群聊:";
+"file_management_from_sendto_group" = "髮給群聊:";
+"file_management_save_ro_file_success_from_other_tips" = "保存成功!請到我的文件下查看保存內容";
+/*************************** 新文件管理组件end *******************************/
+
+/*************************** 分享组件start *******************************/
+"share_share_to_innner_title" = "移動辦公";
+"share_btn_new_chat" = "髮起聊天";
+"share_btn_new_coopa" = "新建協同";
+"share_btn_new_conf" = "新建會議";
+"share_btn_doc_center" = "文檔中心";
+"share_btn_new_task" = "新建任務";
+"share_btn_new_sche" = "新建日程";
+"share_btn_forward_coopa" = "轉髮協同";
+"share_btn_download" = "下載";
+"share_btn_collect" = "收藏";
+"share_btn_share" = "分享";
+"share_btn_print" = "打印";
+"share_btn_wechat" = "微信";
+"share_btn_wechattimeline" = "朋友圈";
+"share_btn_qq" = "QQ";
+"share_btn_other_app" = "其他應用";
+"share_btn_my_colleague" = "致信";
+"share_btn_wwechat" = "企業微信";
+"share_btn_dingtalk" = "釘釘";
+"share_btn_screen_mirrioring" = "無線投屏";
+"share_btn_generate_qrcode" = "生成二維碼";
+"share_btn_tel_confe" = "電話會議";
+"share_auth_tips_string" = "是否允許流程外人員查看";
+"share_auth_btn_allow" = "允許";
+"share_auth_btn_notallow" = "不允許";
+"share_component_save_to_my_doc" = "保存到我的文檔";
+"share_component_save_to_other_doc" = "保存到文檔中心";
+"share_component_share_finished_tips" = "已髮送!";
+"share_component_share_finished_back_former_view" = "返回上一頁";
+"share_component_share_finished_stay_curr_view" = "留在當前";
+"share_component_file_share_count_tips" = "共%ld個";
+"share_wechat_limit_10M" = "文件超過10M，暫不支持";
+"share_wechat_failed" = "分享失敗";
+/*************************** 分享组件end *******************************/
+
+/*************************** 登录新界面 *******************************/
+"login_please_login_tips" = "請登錄";
+"login_please_org_tips" = "供cloud用戶使用";
+"login_first_login_tips" = "首次賬號登錄請先設置服務器";
+"login_account_placeholder" = "賬號";
+"login_account_phone_num" = "賬號/手機號";
+"login_account_login" = "賬號密碼登錄";
+"login_account_phone_num_login" = "賬號/手機號登錄";
+"login_sms_login_btn" = "短信驗証碼登錄";
+"login_mokey_login_btn" = "手機盾登錄";
+"login_sms_login_tips" = "短信驗証碼";
+"login_mokey_login_tips" = "手機盾";
+"login_get_sms_code_error" = "獲取驗証碼失敗";
+"login_get_sms_verification_code" = "獲取驗証碼";
+"login_reget_sms_verification_code" = "%02lds後重發";
+"login_resend_sms_verification_code" = "重新發送";
+"login_account_null_tips" = "請輸入帳號";
+"login_phone_null_tips" = "請輸入手機號";
+"login_password_null_tips" = "請輸入密碼";
+"login_verification_code_null_tips" = "驗証碼不能爲空";
+"login_first_login_set_server_tips" = "請先設置服務器";
+"login_policy_select_policy_detail" = "請勾選並同意《隱私保護協議》";
+"login_first_login_select_server" = "選擇服務器地址";
+"login_first_login_edit_server" = "編輯服務器地址";
+"login_server_can_not_be_null" = "服務器不能爲空";
+"login_port_can_not_be_null" = "端口不能爲空";
+"login_verification_code_can_not_be_null" = "請輸入驗証碼";
+"login_orgcode" = "組織碼";
+"login_orgcode_login" = "組織碼登錄";
+"login_other_login" = "其他登錄方式";
+"login_orgcode_no_null" = "組織碼不能為空";
+/*************************** 登录新界面end *******************************/
+
+/*************************** vpn设置 start *******************************/
+"vpn_setpwd" = "設置VPN密碼";
+"vpn_inputnewpwd" = "请輸入新密碼";
+"vpn_inputnewpwdagain" = "请再次輸入新密碼";
+"vpn_inputnewpwd_notsame" = "兩次輸入的密碼不一致";
+"vpn_inputnewpwd_over5minitus" = "修改密碼已超過5分鐘，請重新進入修改";
+"vpn_modifypwd_success" = "修改密碼成功";
+"vpn_modifypwd_firsttip" = "VPN首次登錄需要修改密碼";
+"vpn_modifypwd_gomodify" = "去修改";
+"vpn_renewpwd_success" = "密碼修改成功";
+"vpn_renewpwd_overtime" = "修改密碼已超過5分鐘，請重新進入修改";
+"vpn_set_toplevel" = "高級設置";
+"vpn_set_btntitle" = "VPN設置";
+"vpn_set_btntitledone" = "VPN已設置";
+"vpn_set_enteraddress" = "請輸入VPN位址";
+"vpn_set_pwdverify" = "密碼認證";
+"vpn_set_entername" = "請輸入使用者名";
+"vpn_set_enterpwd" = "請輸入密碼";
+"vpn_set_spaverify" = "SPA驗證";
+"vpn_set_spaentercode" = "請輸入SPA驗證碼";
+"vpn_set_description" = "配置說明（僅支援深信服VPN） \n1、輸入VPN位址後進行認證資訊配置 \n2、如需修改VPN密碼請前往深信服用戶端修改";
+"vpn_set_agreedes" = "提交視為同意深信服";
+"vpn_set_privacy" = "《隱私協定》";
+"vpn_set_submit" = "提交";
+"vpn_set_blanktip" = "存在未填寫內容";
+
+"vpn_connect_ing" = "VPN連接中";
+"vpn_connect_fail" = "VPN連接失敗";
+"vpn_connect_nohand" = "VPN地址無法連接";
+"vpn_connect_reset" = "請重新設置";
+/*************************** vpn设置 end *******************************/
+
+/*************************** 截屏控制 *******************************/
+"screenshot_control_tips" = "截屏控製已開啟，操作記入後颱日誌";
+"screeenshot_control_iknow_btn" = "知道了";
+"screeenshot_page_title_multi_login" = "多端登入頁";
+"screeenshot_page_title_camera" = "相機";
+"screeenshot_page_title_empty" = "空白頁";
+"screeenshot_page_title_image_browser" = "圖片查看";
+"screeenshot_page_title_AVPlayer" = "音視頻播放機";
+/*************************** 截屏控制end *******************************/
+
+/*************************** 图片组件新增start *******************************/
+"picture_forward_text" = "轉髮";
+"picture_photo_text" = "照片";
+"picture_video_text" = "視頻";
+"picture_check_pics_title" = "圖片/視頻";
+"picture_multi_select_btn_title" = "多選";
+"picture_pic_selected_empty_tips" = "請選擇圖片";
+"photo_preview_nav_title" = "移動和縮放";
+/*************************** 图片组件新增end *******************************/
+
+/*************************** 视频组件start *******************************/
+"video_component_retake_title" = "重拍";
+"video_component_use_title" = "使用";
+"video_component_select_from_album" = "從相冊選擇";
+"video_component_take_photo" = "拍照";
+"video_component_no_permission" = "無法拍攝，請在手機系統設置中開啟麥克風和相機許可權";
+"audio_component_no_permission" = "無法錄音，請在手機系統設置中開啟麥克風許可權";
+"video_component_data_loading_failed" = "音視頻加載失敗,請聯繫管理員";
+"video_compress" = "壓縮中";
+/*************************** 视频组件end *******************************/
+
+/*************************** 推送开关设置start *******************************/
+"user_notification_not_open_tip" = "檢測到你未開啟推送通知，為了及時收到通知，建議你開啟";
+"user_notification_ignore" = "忽略";
+/*************************** 推送开关设置end *******************************/
+
+/*************************** 低版本系统可能出现空白页面的提示start *******************************/
+"low_system_blank_tip" = "檢測到您的iOS系統版本較低，可能會出現因記憶體佔用過多導致的頁面白屏或反復重繪現象，為避免影響您的使用體驗，建議將系統版本陞級到iOS11.0以上或更換您的設備";
+/*************************** 低版本系统可能出现空白页面的提示end *******************************/
+"select_multiple_chats" = "選擇多個聊天";
+"excess_quantity" = "最多可選擇10個會話";
+"send_separately_to" = "分別發送給";
+"total_message" = "共%lu條消息";
+/*************************** 负一屏start *******************************/
+"slide_to_top_screen" = "下滑到二樓查看最近足跡";
+"add_to_top_screen" = "添加到二樓";
+"cancel_to_top_screen" = "從二樓移除";
+"recently_title" = "最近";
+"common_entry" = "常用入口";
+"my_second_floor" = "我的二樓";
+"top_screen_recently_tip" = "最近查看的文檔、協同等將會出現在這裏";
+"add_top_screen_success" = "添加成功";
+"remove_top_screen_success" = "移除成功";
+/*************************** 负一屏end *******************************/
+"more_operations" = "更多操作";

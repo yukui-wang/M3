@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>dev</key>
+	<string>https://devlogin-service.seeyoncloud.com/loginservice/resource/obtainUrl</string>
+	<key>test</key>
+	<string>https://testlogin-service.seeyoncloud.com/loginservice/resource/obtainUrl</string>
+	<key>vprod</key>
+	<string>https://vprod.a6cloud.cn/loginservice/resource/obtainUrl</string>
+	<key>生产环境</key>
+	<string>https://a6cloud.cn/loginservice/resource/obtainUrl</string>
+</dict>
+</plist>

@@ -1,0 +1,419 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.seeyon.cmpcore" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <preference name="CordovaWebViewEngine" value="CDVWKWebViewEngine" />
+    <preference name="AllowInlineMediaPlayback" value="false" />
+    <preference name="BackupWebStorage" value="cloud" />
+    <preference name="DisallowOverscroll" value="true" />
+    <preference name="EnableViewportScale" value="true" />
+    <preference name="KeyboardDisplayRequiresUserAction" value="true" />
+    <preference name="MediaPlaybackRequiresUserAction" value="false" />
+    <preference name="SuppressesIncrementalRendering" value="false" />
+    <preference name="GapBetweenPages" value="0" />
+    <preference name="PageLength" value="0" />
+    <preference name="PaginationBreakingMode" value="page" />
+    <preference name="PaginationMode" value="unpaginated" />
+    <preference name="iosPersistentFileLocation" value="Compatibility" />
+    <preference name="AppendUserAgent" value="seeyonCordova" />
+    <preference name="PreferredContentMode" value="mobile" />
+    <allow-intent href="itms:*" />
+    <allow-intent href="itms-apps:*" />
+    <allow-navigation href="http://*/*" />
+    <allow-navigation href="https://*/*" />
+    <allow-navigation href="jsbridge://*/*" />
+    <allow-navigation href="weixin:*" />
+    <allow-navigation href="alipay:*" />
+    <allow-navigation href="alipayqr:*" />
+    <allow-navigation href="uppaywallet:*" />
+    <allow-navigation href="cmp://*" /><!--允许iframe访问cmp协议的资源-->
+
+    <name>CMPCore</name>
+    <description>
+        A sample Apache Cordova application that responds to the deviceready event.
+    </description>
+    <author email="dev@cordova.apache.org" href="http://cordova.io">
+        Apache Cordova Team
+    </author>
+    <content src="" />
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <allow-intent href="weixin:*" />
+    <allow-intent href="alipay:*" />
+    <allow-intent href="alipayqr:*" />
+    <allow-intent href="cmp://*" /><!--允许iframe访问cmp协议的资源-->
+
+    <feature name="Camera">
+        <param name="ios-package" value="TZCamera" />
+    </feature>
+    <preference name="CameraUsesGeolocation" value="false" />
+    <preference name="AndroidPersistentFileLocation" value="Internal" />
+    <feature name="File">
+        <param name="ios-package" value="CDVFile" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="Media">
+        <param name="ios-package" value="CDVSound" />
+    </feature>
+    <feature name="NetworkStatus">
+        <param name="ios-package" value="CDVConnection" />
+    </feature>
+    <feature name="CallPhone">
+        <param name="ios-package" value="CallPhone" />
+    </feature>
+        
+    <feature name="AttachmentPlugin">
+        <param name="ios-package" value="AttachmentPlugin" />
+    </feature>
+    
+    <feature name="FileUploadPlugin">
+        <param name="ios-package" value="FileUploadPlugin" />
+    </feature>
+    
+    <feature name="EmailPlugin">
+        <param name="ios-package" value="EmailPlugin" />
+    </feature>
+    
+    <feature name="CDVBarcodeScanner">
+        <param name="ios-package" value="CDVBarcodeScanner" />
+    </feature>
+    
+    <feature name="SQLitePlugin">
+        <param name="ios-package" value="SQLitePlugin" />
+    </feature>
+    
+    <feature name="DownLoadPlugin">
+        <param name="ios-package" value="DownLoadPlugin" />
+    </feature>
+    
+    <feature name="RequestPlugin">
+        <param name="ios-package" value="RequestPlugin" />
+    </feature>
+    
+    <feature name="WebViewPlugin">
+        <param name="ios-package" value="WebViewPlugin" />
+    </feature>
+    
+    <feature name="PushPlugin">
+        <param name="ios-package" value="PushPlugin" />
+    </feature>
+    
+    <feature name="CMPHandleThirdApp">
+        <param name="ios-package" value="CMPHandleThirdApp" />
+    </feature>
+    
+    <feature name="AMapLocationPlugin">
+        <param name="ios-package" value="AMapLocationPlugin" />
+    </feature>
+
+    <feature name="CMPAppManagerPlugin">
+        <param name="ios-package" value="CMPAppManagerPlugin" />
+    </feature>
+    
+    <feature name="NativePageTransitions">
+        <param name="ios-package" value="NativePageTransitions" />
+    </feature>
+    
+    <feature name="GestureLockPlugin">
+        <param name="ios-package" value="GestureLockPlugin" />
+    </feature>
+    
+    <feature name="CMPLocalAuthenticationPlugin">
+        <param name="ios-package" value="CMPLocalAuthenticationPlugin" />
+    </feature>
+
+    <feature name="CacheInfoPlugin">
+        <param name="ios-package" value="CMPCacheInfoPlugin" />
+    </feature>
+    
+    <feature name="LocalStorage">
+        <param name="ios-package" value="CDVLocalStorage" />
+    </feature>
+
+    <feature name="IntentAndNavigationFilter">
+        <param name="ios-package" value="CDVIntentAndNavigationFilter" />
+        <param name="onload" value="true" />
+    </feature>
+    
+    <feature name="HandleOpenUrl">
+        <param name="ios-package" value="CDVHandleOpenURL" />
+        <param name="onload" value="true" />
+    </feature>
+
+    <feature name="GestureHandler">
+        <param name="ios-package" value="CDVGestureHandler" />
+        <param name="onload" value="true" />
+    </feature>
+
+    <feature name="CMPServerPlugin">
+        <param name="ios-package" value="CMPServerPlugin" />
+    </feature>
+    
+    <feature name="CMPNavigationPlugin">
+        <param name="ios-package" value="CMPNavigationPlugin" />
+    </feature>
+    <!--    地图标注     -->
+    <feature name="CMPLocationMarkPlugin">
+        <param name="ios-package" value="CMPLocationMarkPlugin" />
+    </feature>
+    <!--    拍照定位     -->
+    <feature name="CMPTakePicturePlugin">
+        <param name="ios-package" value="CMPTakePicturePlugin" />
+    </feature>
+    <!--    图片多选     -->
+    <feature name="TakeMultiPicturePlugin">
+        <param name="ios-package" value="TakeMultiPicturePlugin" />
+    </feature>
+    <!--    手写签章     -->
+    <feature name="CMPHandWriteSignaturePlugin">
+        <param name="ios-package" value="CMPHandWriteSignaturePlugin" />
+    </feature>
+    <!--    工作微信     -->
+    <feature name="CMPChatPlugin">
+        <param name="ios-package" value="CMPChatPlugin" />
+    </feature>
+    
+    <!--    引导页组件     -->
+    <feature name="CMPGuidePagesPlugin">
+        <param name="ios-package" value="CMPGuidePagesPlugin" />
+    </feature>
+    
+    <!--    CMPCookiePlugin     -->
+    <feature name="CMPCookiePlugin">
+        <param name="ios-package" value="CMPCookiePlugin" />
+    </feature>
+    <!--    桌面一键应用     -->
+    <feature name="CMPDesktopAppLinkPlugin">
+        <param name="ios-package" value="CMPDesktopAppLinkPlugin" />
+    </feature>
+    
+    <!--    查看地图标注插件     -->
+    <feature name="CMPShowLocationPlugin">
+        <param name="ios-package" value="CMPShowLocationPlugin" />
+    </feature>
+    <!--    电话插件     -->
+    <feature name="CMPTelPlugin">
+        <param name="ios-package" value="CMPTelPlugin" />
+    </feature>
+    <!--    电话识别插件     -->
+    <feature name="CMPCallIdentificationPlugin">
+        <param name="ios-package" value="CMPCallIdentificationPlugin" />
+    </feature>
+    
+    <!--    CMP 设备插件     -->
+    <feature name="CMPDevicePlugin">
+        <param name="ios-package" value="CMPDevicePlugin" />
+    </feature>
+    <!--    CMP 离线文档     -->
+    <feature name="CMPOfflineFilesPlugin">
+        <param name="ios-package" value="CMPOfflineFilesPlugin" />
+    </feature>
+    <!--    CMP 壳版本信息     -->
+    <feature name="CMPShellPlugin">
+        <param name="ios-package" value="CMPShellPlugin" />
+    </feature>
+    <!--    设置状态栏颜色     -->
+    <feature name="CMPStatusBarStylePlugin">
+        <param name="ios-package" value="CMPStatusBarStylePlugin" />
+    </feature>
+    <!--    登录加解密     -->
+    <feature name="CMPEncryptPlugin">
+        <param name="ios-package" value="CMPEncryptPlugin" />
+    </feature>
+    <!--    分享     -->
+    <feature name="CMPSharePlugin">
+        <param name="ios-package" value="CMPSharePlugin" />
+    </feature>
+    <!--    url 请求轮询    -->
+    <feature name="CMPRequestTimerPlugin">
+        <param name="ios-package" value="CMPRequestTimerPlugin" />
+    </feature>
+    <!--    杀进程插件    -->
+    <feature name="CMPExitAppPlugin">
+        <param name="ios-package" value="CMPExitAppPlugin" />
+    </feature>
+    <!--    桌面数字    -->
+    <feature name="CMPBadgeNumberlugin">
+        <param name="ios-package" value="CMPBadgeNumberlugin" />
+    </feature>
+    <!--    跳转到系统设置    -->
+    <feature name="CMPSettingPlugin">
+        <param name="ios-package" value="CMPSettingPlugin" />
+    </feature>
+    <!--    离线通讯录    -->
+    <feature name="OfflineContactsPlugin">
+        <param name="ios-package" value="OfflineContactsPlugin" />
+    </feature>
+    <!--    离线通讯录    -->
+    <feature name="CMPOfflineContactsPlugin">
+        <param name="ios-package" value="CMPOfflineContactsPlugin" />
+    </feature>
+    <!--    自定义启动页    -->
+    <feature name="CMPStartPagePlugin">
+        <param name="ios-package" value="CMPStartPagePlugin" />
+    </feature>
+    <!--    底部导航插件    -->
+    <feature name="CMPTabBarPlugin">
+        <param name="ios-package" value="CMPTabBarPlugin" />
+    </feature>
+    <!--    通知监听插件    -->
+    <feature name="CMPWebviewListenerAddPlugin">
+        <param name="ios-package" value="CMPWebviewListenerAddPlugin" />
+    </feature>
+    <!--    通知广播插件    -->
+    <feature name="CMPWebviewListenerFirePlugin">
+        <param name="ios-package" value="CMPWebviewListenerFirePlugin" />
+    </feature>
+    <!--    语音机器人的配置插件    -->
+    <feature name="CMPSpeechRobotConfigPlugin">
+        <param name="ios-package" value="CMPSpeechRobotConfigPlugin" />
+    </feature>
+    <!--    数据本地写入和读取 支持js array和{}   -->
+    <feature name="CMPLocalDataPlugin">
+        <param name="ios-package" value="CMPLocalDataPlugin" />
+    </feature>
+    <!--    日程插件   -->
+    <feature name="CMPSchedulePlugin">
+        <param name="ios-package" value="CMPSchedulePlugin" />
+    </feature>
+    <!--    alertview插件    -->
+    <feature name="CMPAlertViewPlugin">
+        <param name="ios-package" value="CMPAlertViewPlugin" />
+    </feature>
+    <!--    权限插件   -->
+    <feature name="CMPPrivilegePlugin">
+        <param name="ios-package" value="CMPPrivilegePlugin" />
+    </feature>
+    <!--    文件插件   -->
+    <feature name="CMPFilePlugin">
+        <param name="ios-package" value="CMPFilePlugin" />
+    </feature>
+    <!--    粘贴板插件   -->
+    <feature name="CMPPasteboardPlugin">
+        <param name="ios-package" value="CMPPasteboardPlugin" />
+    </feature>
+    <!--    新建快捷插件   -->
+    <feature name="CMPShortcutMenuPlugin">
+        <param name="ios-package" value="CMPShortcutMenuPlugin" />
+    </feature>
+    <!--    Office插件   -->
+    <feature name="OfficePlugin">
+        <param name="ios-package" value="OfficePlugin" />
+    </feature>
+    <!--    应用消息插件   -->
+    <feature name="CMPAppMessagePlugin">
+        <param name="ios-package" value="CMPAppMessagePlugin" />
+    </feature>
+    <!--    账号信息插件   -->
+    <feature name="CMPAccountPlugin">
+        <param name="ios-package" value="CMPAccountPlugin" />
+    </feature>
+    <!--    远程调试插件   -->
+    <feature name="CMPDebugConfigPlugin">
+        <param name="ios-package" value="CMPDebugConfigPlugin" />
+    </feature>
+    <!--    数据中转插件   -->
+    <feature name="CMPTransferDataPlugin">
+        <param name="ios-package" value="CMPTransferDataPlugin" />
+    </feature>
+    <!--    人脸识别插件   -->
+    <feature name="CMPFaceDetectPlugin">
+        <param name="ios-package" value="CMPFaceDetectPlugin" />
+    </feature>
+    <!--    设备方向插件   -->
+    <feature name="CDVOrientation">
+        <param name="ios-package" value="CDVOrientation" />
+    </feature>
+    <!--    打印插件   -->
+    <feature name="CMPPrintPlugin">
+        <param name="ios-package" value="CMPPrintPlugin" />
+    </feature>
+    <!--    获取权限插件   -->
+    <feature name="CMPPermissionPlugin">
+        <param name="ios-package" value="CMPPermissionPlugin" />
+    </feature>
+    <!--    语音命令插件   -->
+    <feature name="CMPSpeechPlugin">
+        <param name="ios-package" value="CMPSpeechPlugin" />
+    </feature>
+    <!--    图片查看插件   -->
+    <feature name="CMPShowImagesPlugin">
+        <param name="ios-package" value="CMPShowImagesPlugin" />
+    </feature>
+    <!--    语言切换插件   -->
+    <feature name="CMPLanguagePlugin">
+        <param name="ios-package" value="CMPLanguagePlugin" />
+    </feature>
+    <!--    安全扫描插件   -->
+    <feature name="SecurityScanningPlugin">
+        <param name="ios-package" value="SecurityScanningPlugin" />
+    </feature>
+    <!--    手机盾插件    -->
+    <feature name="CMPHandleMokey">
+        <param name="ios-package" value="CMPHandleMokey" />
+    </feature>
+    <!--   CDVWKWebViewEngine     -->
+    <!--feature name="CDVWKWebViewEngine">
+        <param name="ios-package" value="CDVWKWebViewEngine" />
+    </feature-->
+    <!--    原生APP插件    -->
+    <feature name="CMPNativeApp">
+        <param name="ios-package" value="CMPNativeApp" />
+    </feature>
+    <!--    皮肤插件    -->
+    <feature name="CMPSkinPlugin">
+        <param name="ios-package" value="CMPSkinPlugin" />
+    </feature>
+    <!--    录音插件    -->
+    <feature name="CMPVoicePlugin">
+        <param name="ios-package" value="CMPVoicePlugin" />
+    </feature>
+    <!--    录音插件    -->
+    <feature name="CMPAlbumPlugin">
+        <param name="ios-package" value="CMPAlbumPlugin" />
+    </feature>
+    <!--    音视频播放插件    -->
+    <feature name="CMPMediaPlugin">
+        <param name="ios-package" value="CMPMediaPlugin" />
+    </feature>
+    <!--    人员信息插件    -->
+    <feature name="UserInfoPlugin">
+        <param name="ios-package" value="CMPUserInfoPlugin" />
+    </feature>
+    <!--    浏览器插件     -->
+    <feature name="InAppBrowser">
+        <param name="ios-package" value="CDVWKInAppBrowser" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="WKInAppBrowser">
+        <param name="ios-package" value="CDVWKInAppBrowser" />
+        <param name="onload" value="true" />
+    </feature>
+    <!--    应用设置插件    -->
+    <feature name="CMPPreferencesPlugin">
+        <param name="ios-package" value="CMPPreferencesPlugin" />
+    </feature>
+    <!--    原生和js同步插件    -->
+    <feature name="CMPNativeJsBridgePlugin">
+        <param name="ios-package" value="CMPNativeJsBridgePlugin" />
+    </feature>
+    <!--    OCR卡包插件    -->
+    <feature name="CMPOcrCardPlugin">
+        <param name="ios-package" value="CMPOcrCardPlugin" />
+    </feature>
+    <!--    weixin卡包插件    -->
+    <feature name="WeChatInvoicePlugin">
+        <param name="ios-package" value="CMPThirdAppInvoicePlugin" />
+    </feature>
+    <!--    会议插件    -->
+    <feature name="CMPMeetingPlugin">
+        <param name="ios-package" value="CMPMeetingPlugin" />
+    </feature>
+    <!--    重要消息插件    -->
+    <feature name="CMPGreetingPlugin">
+        <param name="ios-package" value="CMPGreetingPlugin" />
+    </feature>
+</widget>

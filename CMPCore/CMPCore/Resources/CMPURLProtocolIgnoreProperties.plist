@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IgnoreSFSafariLoadHostRules</key>
+	<array>
+		<string>formtalk</string>
+	</array>
+	<key>IgnoreQueryRules</key>
+	<array>
+		<string>cmpignore=1</string>
+		<string>sn=</string>
+	</array>
+	<key>IgnoreHostRules</key>
+	<array>
+		<string>baidu</string>
+		<string>tencent</string>
+		<string>qq</string>
+		<string>acdgehr</string>
+	</array>
+</dict>
+</plist>

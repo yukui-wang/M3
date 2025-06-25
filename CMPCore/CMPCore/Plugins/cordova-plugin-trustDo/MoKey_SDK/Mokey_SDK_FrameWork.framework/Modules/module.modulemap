@@ -1,0 +1,6 @@
+framework module Mokey_SDK_FrameWork {
+  umbrella header "Mokey_SDK_FrameWork.h"
+
+  export *
+  module * { export * }
+}

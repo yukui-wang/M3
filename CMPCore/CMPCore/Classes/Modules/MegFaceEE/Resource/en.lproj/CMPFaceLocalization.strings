@@ -1,0 +1,36 @@
+/* 
+  CMPFaceLocalization.strings
+  CMPCore
+
+  Created by Shoujian Rao on 2023/11/23.
+  
+*/
+"face_local_noAuth" = "This operation requires facial verification. You currently do not have permission to use facial services. Please contact the administrator";//人脸服务未授权
+"face_local_disabled" = "This operation requires facial verification. The current facial service is abnormal. Please try again later";//人脸服务不可用
+"face_local_noAccount" = "This operation requires facial verification. Your Kuangshi service associated account does not exist. Please contact the administrator";//旷视无关联账号
+"face_local_accountForbid" = "This operation requires facial verification. Your Kuangshi service associated account has been disabled. Please contact the administrator";//旷视账号被禁用
+"face_local_noConfig" = "This operation requires facial verification. The configuration information for the Kuangshi service is empty. Please contact the administrator";//旷视配置信息
+"face_local_confirmRegister" = "This operation requires facial verification. Please enter your face first";//此操作需要人脸验证，请先录入人脸
+
+"face_local_beginRegister" = "Starting input";//按钮
+"face_local_cancel_register" = "Cancel facial input";
+"face_local_register_success" = "Facial input successful";
+
+"face_local_bizNoChanged" = "Business number has been changed, verification failed";//每次验证都会生成一个业务号，由客户端生成，后面会和服务端返回的业务号对比，避免数据篡改
+
+"face_local_verify_success" = "Verification successful";
+"face_local_verify_fail" = "Validation failed";
+
+"face_local_notFaceQrCode" = "Non facial recognition QR code";
+
+"face_local_privacyPolicy" = "《Privacy Policy》";
+
+"face_local_authorize_biological_title" = "Please note that you will enter the biometric process";
+"face_local_authorize_biological_content" = "The biometric identification process requires your permission to access your camera and to collect, process, and store your facial biometrics, which includes facial biometrics stored in your company's privatized database.\nRead our《Privacy Policy》for more details.";
+
+"face_local_view_privacyPolicy" = "View Privacy Policy";
+"face_local_agree" = "Agree";
+"face_local_not_agree_exit" = "Disagree and exit";
+
+
+
