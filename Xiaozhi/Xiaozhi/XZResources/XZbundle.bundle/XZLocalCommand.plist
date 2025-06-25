@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CANCEL</key>
+	<array>
+		<string>取消</string>
+	</array>
+	<key>QUIT</key>
+	<array>
+		<string>再见</string>
+		<string>退出</string>
+	</array>
+	<key>SEARCH</key>
+	<array>
+		<string>查找</string>
+	</array>
+	<key>SEND</key>
+	<array>
+		<string>发送</string>
+		<string>好的</string>
+	</array>
+	<key>OPEN</key>
+	<array>
+		<string>打开</string>
+		<string>修改</string>
+		<string>查看</string>
+	</array>
+</dict>
+</plist>

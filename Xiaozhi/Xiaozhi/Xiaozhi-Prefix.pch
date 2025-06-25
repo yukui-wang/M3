@@ -1,0 +1,20 @@
+//
+//  Xiaozhi-Prefix.pch
+//  Xiaozhi
+//
+//  Created by Kaku Songu on 12/18/21.
+//  Copyright © 2021 wujiansheng. All rights reserved.
+//
+
+#ifndef Xiaozhi_Prefix_pch
+#define Xiaozhi_Prefix_pch
+
+
+#ifdef DEBUG
+    #define NSLog(...) NSLog(__VA_ARGS__)
+#else
+    #define NSLog(...) {}
+#endif
+
+
+#endif /* Xiaozhi_Prefix_pch */
