@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:CMPVpn/CMPVpn.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Xiaozhi/Xiaozhi.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:ios-rongimkit/RongIMKit.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:CordovaLib/CordovaLib.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:CMPLib/CMPLib.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Shortcut/Shortcut.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:CMPMediator/CMPMediator.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:PromiseKit/PromiseKit.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "container:CMPCore/CMPCore.xcodeproj">
+   </FileRef>
+</Workspace>
