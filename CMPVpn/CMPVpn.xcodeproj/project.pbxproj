@@ -1,0 +1,508 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		28314F252BC78FF4002929B2 /* CMPLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5897FCA2805A75000D77EAA /* CMPLib.framework */; };
+		28314F262BC78FF4002929B2 /* CMPLib.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A5897FCA2805A75000D77EAA /* CMPLib.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		28314F2A2BC7AFE4002929B2 /* SangforSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28314F242BC78FF0002929B2 /* SangforSDK.framework */; platformFilter = ios; };
+		28314F2B2BC7AFE4002929B2 /* SangforSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 28314F242BC78FF0002929B2 /* SangforSDK.framework */; platformFilter = ios; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		283F336A2BC91042005672B7 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 283F33692BC91039005672B7 /* PrivacyInfo.xcprivacy */; };
+		2871599F27FEE65F008DB051 /* CMPVpn.h in Headers */ = {isa = PBXBuildFile; fileRef = 2871599E27FEE65F008DB051 /* CMPVpn.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		287159B027FEEAB4008DB051 /* CMPVpnEnterView.h in Headers */ = {isa = PBXBuildFile; fileRef = 287159AE27FEEAB4008DB051 /* CMPVpnEnterView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		287159B127FEEAB4008DB051 /* CMPVpnEnterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 287159AF27FEEAB4008DB051 /* CMPVpnEnterView.m */; };
+		28F396622800089E00D9A66A /* CmpVpnPrefixHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 28F396612800089E00D9A66A /* CmpVpnPrefixHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		28F3966828000E5400D9A66A /* CmpVpnSetController.h in Headers */ = {isa = PBXBuildFile; fileRef = 28F3966628000E5400D9A66A /* CmpVpnSetController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		28F3966928000E5400D9A66A /* CmpVpnSetController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28F3966728000E5400D9A66A /* CmpVpnSetController.m */; };
+		28F3966C2800332A00D9A66A /* CMPVpnCommonTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 28F3966A2800332A00D9A66A /* CMPVpnCommonTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		28F3966D2800332A00D9A66A /* CMPVpnCommonTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 28F3966B2800332A00D9A66A /* CMPVpnCommonTextField.m */; };
+		28F396752803D81800D9A66A /* CMPVpnManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 28F396732803D81800D9A66A /* CMPVpnManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		28F396762803D81800D9A66A /* CMPVpnManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 28F396742803D81800D9A66A /* CMPVpnManager.m */; };
+		C491745A280EA25800D2B848 /* CMPVpnConfigModel.h in Headers */ = {isa = PBXBuildFile; fileRef = C4917458280EA25800D2B848 /* CMPVpnConfigModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C491745B280EA25800D2B848 /* CMPVpnConfigModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C4917459280EA25800D2B848 /* CMPVpnConfigModel.m */; };
+		C4DF13842ADFC72A008B1DCA /* CMPVpnPwdModifyController.h in Headers */ = {isa = PBXBuildFile; fileRef = C4DF13822ADFC72A008B1DCA /* CMPVpnPwdModifyController.h */; };
+		C4DF13852ADFC72A008B1DCA /* CMPVpnPwdModifyController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4DF13832ADFC72A008B1DCA /* CMPVpnPwdModifyController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		286E6E912806AFE3003993D4 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				28314F2B2BC7AFE4002929B2 /* SangforSDK.framework in Embed Frameworks */,
+				28314F262BC78FF4002929B2 /* CMPLib.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		28314F242BC78FF0002929B2 /* SangforSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SangforSDK.framework; sourceTree = "<group>"; };
+		283F33692BC91039005672B7 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		2871599B27FEE65F008DB051 /* CMPVpn.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CMPVpn.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2871599E27FEE65F008DB051 /* CMPVpn.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CMPVpn.h; sourceTree = "<group>"; };
+		287159AE27FEEAB4008DB051 /* CMPVpnEnterView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CMPVpnEnterView.h; sourceTree = "<group>"; };
+		287159AF27FEEAB4008DB051 /* CMPVpnEnterView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CMPVpnEnterView.m; sourceTree = "<group>"; };
+		28F396612800089E00D9A66A /* CmpVpnPrefixHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CmpVpnPrefixHeader.h; sourceTree = "<group>"; };
+		28F3966628000E5400D9A66A /* CmpVpnSetController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CmpVpnSetController.h; sourceTree = "<group>"; };
+		28F3966728000E5400D9A66A /* CmpVpnSetController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CmpVpnSetController.m; sourceTree = "<group>"; };
+		28F3966A2800332A00D9A66A /* CMPVpnCommonTextField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CMPVpnCommonTextField.h; sourceTree = "<group>"; };
+		28F3966B2800332A00D9A66A /* CMPVpnCommonTextField.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CMPVpnCommonTextField.m; sourceTree = "<group>"; };
+		28F396732803D81800D9A66A /* CMPVpnManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CMPVpnManager.h; sourceTree = "<group>"; };
+		28F396742803D81800D9A66A /* CMPVpnManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CMPVpnManager.m; sourceTree = "<group>"; };
+		A5897FCA2805A75000D77EAA /* CMPLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CMPLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4917458280EA25800D2B848 /* CMPVpnConfigModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CMPVpnConfigModel.h; sourceTree = "<group>"; };
+		C4917459280EA25800D2B848 /* CMPVpnConfigModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CMPVpnConfigModel.m; sourceTree = "<group>"; };
+		C4DF13822ADFC72A008B1DCA /* CMPVpnPwdModifyController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CMPVpnPwdModifyController.h; sourceTree = "<group>"; };
+		C4DF13832ADFC72A008B1DCA /* CMPVpnPwdModifyController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CMPVpnPwdModifyController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2871599827FEE65F008DB051 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28314F2A2BC7AFE4002929B2 /* SangforSDK.framework in Frameworks */,
+				28314F252BC78FF4002929B2 /* CMPLib.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2871599127FEE65F008DB051 = {
+			isa = PBXGroup;
+			children = (
+				283F33692BC91039005672B7 /* PrivacyInfo.xcprivacy */,
+				2871599D27FEE65F008DB051 /* CMPVpn */,
+				2871599C27FEE65F008DB051 /* Products */,
+				28F396702803D7AD00D9A66A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2871599C27FEE65F008DB051 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2871599B27FEE65F008DB051 /* CMPVpn.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2871599D27FEE65F008DB051 /* CMPVpn */ = {
+			isa = PBXGroup;
+			children = (
+				28F396722803D7C500D9A66A /* Manager */,
+				28F3966E2803D77400D9A66A /* Frameworks */,
+				28F3966528000E1D00D9A66A /* Controller */,
+				28F3965E2800071A00D9A66A /* Resources */,
+				287159AD27FEE9CC008DB051 /* View */,
+				2871599E27FEE65F008DB051 /* CMPVpn.h */,
+				28F396612800089E00D9A66A /* CmpVpnPrefixHeader.h */,
+			);
+			path = CMPVpn;
+			sourceTree = "<group>";
+		};
+		287159AD27FEE9CC008DB051 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				287159AE27FEEAB4008DB051 /* CMPVpnEnterView.h */,
+				287159AF27FEEAB4008DB051 /* CMPVpnEnterView.m */,
+				28F3966A2800332A00D9A66A /* CMPVpnCommonTextField.h */,
+				28F3966B2800332A00D9A66A /* CMPVpnCommonTextField.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		28F3965E2800071A00D9A66A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		28F3966528000E1D00D9A66A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				28F3966628000E5400D9A66A /* CmpVpnSetController.h */,
+				28F3966728000E5400D9A66A /* CmpVpnSetController.m */,
+				C4DF13822ADFC72A008B1DCA /* CMPVpnPwdModifyController.h */,
+				C4DF13832ADFC72A008B1DCA /* CMPVpnPwdModifyController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		28F3966E2803D77400D9A66A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				28314F242BC78FF0002929B2 /* SangforSDK.framework */,
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+		28F396702803D7AD00D9A66A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A5897FCA2805A75000D77EAA /* CMPLib.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		28F396722803D7C500D9A66A /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				28F396732803D81800D9A66A /* CMPVpnManager.h */,
+				28F396742803D81800D9A66A /* CMPVpnManager.m */,
+				C4917458280EA25800D2B848 /* CMPVpnConfigModel.h */,
+				C4917459280EA25800D2B848 /* CMPVpnConfigModel.m */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2871599627FEE65F008DB051 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				287159B027FEEAB4008DB051 /* CMPVpnEnterView.h in Headers */,
+				2871599F27FEE65F008DB051 /* CMPVpn.h in Headers */,
+				28F3966C2800332A00D9A66A /* CMPVpnCommonTextField.h in Headers */,
+				28F396622800089E00D9A66A /* CmpVpnPrefixHeader.h in Headers */,
+				C4DF13842ADFC72A008B1DCA /* CMPVpnPwdModifyController.h in Headers */,
+				C491745A280EA25800D2B848 /* CMPVpnConfigModel.h in Headers */,
+				28F396752803D81800D9A66A /* CMPVpnManager.h in Headers */,
+				28F3966828000E5400D9A66A /* CmpVpnSetController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2871599A27FEE65F008DB051 /* CMPVpn */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 287159A227FEE65F008DB051 /* Build configuration list for PBXNativeTarget "CMPVpn" */;
+			buildPhases = (
+				2871599627FEE65F008DB051 /* Headers */,
+				2871599727FEE65F008DB051 /* Sources */,
+				2871599827FEE65F008DB051 /* Frameworks */,
+				2871599927FEE65F008DB051 /* Resources */,
+				A5897FDB2805B70A00D77EAA /* ShellScript */,
+				286E6E912806AFE3003993D4 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CMPVpn;
+			productName = CMPVpn;
+			productReference = 2871599B27FEE65F008DB051 /* CMPVpn.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2871599227FEE65F008DB051 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					2871599A27FEE65F008DB051 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 2871599527FEE65F008DB051 /* Build configuration list for PBXProject "CMPVpn" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2871599127FEE65F008DB051;
+			productRefGroup = 2871599C27FEE65F008DB051 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2871599A27FEE65F008DB051 /* CMPVpn */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2871599927FEE65F008DB051 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				283F336A2BC91042005672B7 /* PrivacyInfo.xcprivacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A5897FDB2805B70A00D77EAA /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "sh build.sh\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2871599727FEE65F008DB051 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28F3966928000E5400D9A66A /* CmpVpnSetController.m in Sources */,
+				28F396762803D81800D9A66A /* CMPVpnManager.m in Sources */,
+				28F3966D2800332A00D9A66A /* CMPVpnCommonTextField.m in Sources */,
+				C4DF13852ADFC72A008B1DCA /* CMPVpnPwdModifyController.m in Sources */,
+				C491745B280EA25800D2B848 /* CMPVpnConfigModel.m in Sources */,
+				287159B127FEEAB4008DB051 /* CMPVpnEnterView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		287159A027FEE65F008DB051 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		287159A127FEE65F008DB051 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		287159A327FEE65F008DB051 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				"EXCLUDED_SOURCE_FILE_NAMES[sdk=iphonesimulator*]" = "$(SRCROOT)/CMPVpn/Frameworks/SangforSDK.framework";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/CMPVpn/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = CMPVpn/CmpVpnPrefixHeader.h;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = "";
+				MACH_O_TYPE = staticlib;
+				MARKETING_VERSION = 1.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.seeyon.m3.CMPVpn;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "arm64 arm64e armv7 armv7s x86_64 i386";
+			};
+			name = Debug;
+		};
+		287159A427FEE65F008DB051 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/CMPVpn/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = CMPVpn/CmpVpnPrefixHeader.h;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = "";
+				MACH_O_TYPE = staticlib;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.seeyon.m3.CMPVpn;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "arm64 arm64e armv7 armv7s";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2871599527FEE65F008DB051 /* Build configuration list for PBXProject "CMPVpn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				287159A027FEE65F008DB051 /* Debug */,
+				287159A127FEE65F008DB051 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		287159A227FEE65F008DB051 /* Build configuration list for PBXNativeTarget "CMPVpn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				287159A327FEE65F008DB051 /* Debug */,
+				287159A427FEE65F008DB051 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2871599227FEE65F008DB051 /* Project object */;
+}
